@@ -40,34 +40,39 @@
   <div id="games">加载中...</div>
 
   <script>
-    async function loadDeals() {
-      const res = await fetch('./data/deals.json');
-      const data = await res.json();
+  async function loadDeals() {
+    const res = await fetch('./data/deals.json?time=' + Date.now());
+    const data = await res.json();
 
-      document.getElementById('updated').innerText = `更新时间：${data.updated_at}`;
+    document.getElementById('updated').innerText = `更新时间：${data.updated_at}`;
 
-      const games = data.deals;
+    const games = data.deals;
 
-      const container = document.getElementById('games');
-      container.innerHTML = '';
+    const container = document.getElementById('games');
+    container.innerHTML = '';
 
-      games.forEach(game => {
-        const div = document.createElement('div');
-        div.className = 'game';
-
-        div.innerHTML = `
-          <h2>${game.name}</h2>
-          <p>折扣：<span class="discount">-${game.discount}%</span></p>
-          <p>原价：${game.original_price}</p>
-          <p>现价：${game.final_price}</p>
-          <a href="${game.url}" target="_blank">查看 Steam 页面</a>
-        `;
-
-        container.appendChild(div);
-      });
+    if (!games || games.length === 0) {
+      container.innerHTML = '<p>当前没有获取到打折游戏数据。</p>';
+      return;
     }
 
-    loadDeals();
-  </script>
+    games.forEach(game => {
+      const div = document.createElement('div');
+      div.className = 'game';
+
+      div.innerHTML = `
+        <h2>${game.name}</h2>
+        <p>折扣：<span class="discount">-${game.discount}%</span></p>
+        <p>原价：${game.original_price}</p>
+        <p>现价：${game.final_price}</p>
+        <a href="${game.url}" target="_blank">查看 Steam 页面</a>
+      `;
+
+      container.appendChild(div);
+    });
+  }
+
+  loadDeals();
+</script>
 </body>
 </html>
