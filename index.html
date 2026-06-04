@@ -161,6 +161,39 @@
       border-color: rgba(102, 192, 244, 0.55);
     }
 
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 28px 0 10px;
+    }
+
+    .page-button {
+      min-width: 92px;
+      background: linear-gradient(135deg, #66c0f4, #a4d007);
+      color: #07111e;
+      border: none;
+      padding: 10px 14px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .page-button:disabled {
+      cursor: not-allowed;
+      opacity: 0.45;
+      transform: none;
+    }
+
+    .page-info {
+      min-width: 150px;
+      text-align: center;
+      color: #c8d2e0;
+      font-weight: bold;
+    }
+
     canvas {
       background: #111820;
       border-radius: 8px;
@@ -467,9 +500,9 @@
   <p id="updated">更新时间：加载中...</p>
 
   <div class="toolbar">
-    <input id="searchInput" type="text" placeholder="搜索游戏名..." oninput="renderDeals()">
+    <input id="searchInput" type="text" placeholder="搜索游戏名..." oninput="handleListCriteriaChange()">
 
-    <select id="sortSelect" onchange="renderDeals()">
+    <select id="sortSelect" onchange="handleListCriteriaChange()">
       <option value="popularity_desc">按热度排序：高到低</option>
       <option value="name_asc">按名称排序：A-Z</option>
       <option value="name_desc">按名称排序：Z-A</option>
@@ -565,9 +598,16 @@
     </div>
   </div>
   <div id="games">加载中...</div>
+  <div id="pagination" class="pagination" style="display: none;">
+    <button id="prevPageButton" class="page-button" onclick="changePage(-1)">上一页</button>
+    <span id="pageInfo" class="page-info">第 1 / 1 页</span>
+    <button id="nextPageButton" class="page-button" onclick="changePage(1)">下一页</button>
+  </div>
 
 <script>
   let allDeals = [];
+  const PAGE_SIZE = 50;
+  let currentPage = 1;
   let activeFilters = {
     discount: 'all',
     price: 'all',
@@ -688,6 +728,38 @@
     return true;
   }
 
+  function handleListCriteriaChange() {
+    currentPage = 1;
+    renderDeals();
+  }
+
+  function updatePaginationControls(totalItems) {
+    const pagination = document.getElementById('pagination');
+    const pageInfo = document.getElementById('pageInfo');
+    const prevButton = document.getElementById('prevPageButton');
+    const nextButton = document.getElementById('nextPageButton');
+    const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
+
+    if (!pagination || !pageInfo || !prevButton || !nextButton) return;
+
+    pagination.style.display = totalItems > PAGE_SIZE ? 'flex' : 'none';
+    pageInfo.innerText = `第 ${currentPage} / ${totalPages} 页`;
+    prevButton.disabled = currentPage <= 1;
+    nextButton.disabled = currentPage >= totalPages;
+  }
+
+  function changePage(direction) {
+    const keyword = document.getElementById('searchInput')?.value.trim().toLowerCase() || '';
+    const totalItems = allDeals.filter(game => {
+      return game.name.toLowerCase().includes(keyword) && gameMatchesFilters(game);
+    }).length;
+    const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
+
+    currentPage = Math.min(Math.max(currentPage + direction, 1), totalPages);
+    renderDeals();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
   async function loadDeals() {
     try {
       const res = await fetch('./data/deals.json?time=' + Date.now());
@@ -747,15 +819,26 @@
 
     const hasFilters = Object.values(activeFilters).some(value => value !== 'all');
     const filterText = hasFilters ? '（已筛选）' : '';
+    const totalPages = Math.max(1, Math.ceil(games.length / PAGE_SIZE));
 
-    document.getElementById('gameCount').innerText = `当前显示 ${games.length} / ${allDeals.length} 个打折游戏${filterText}`;
+    currentPage = Math.min(Math.max(currentPage, 1), totalPages);
+
+    updatePaginationControls(games.length);
 
     if (games.length === 0) {
+      document.getElementById('gameCount').innerText = `当前显示 0 / ${allDeals.length} 个打折游戏${filterText}`;
       container.innerHTML = '<p>没有找到符合条件的游戏。</p>';
       return;
     }
 
-    games.forEach(game => {
+    const startIndex = (currentPage - 1) * PAGE_SIZE;
+    const pageGames = games.slice(startIndex, startIndex + PAGE_SIZE);
+    const pageStart = startIndex + 1;
+    const pageEnd = startIndex + pageGames.length;
+
+    document.getElementById('gameCount').innerText = `当前显示 ${pageStart}-${pageEnd} / ${games.length} 个打折游戏${filterText}`;
+
+    pageGames.forEach(game => {
       const review = game.top_review || {};
       const reviewType = review.voted_up === true
         ? '好评'
@@ -1030,6 +1113,7 @@
       genre: document.getElementById('genreFilter')?.value || 'all'
     };
 
+    currentPage = 1;
     updateFilterSummary();
     renderDeals();
     closeFilterModal();
@@ -1046,6 +1130,7 @@
     document.getElementById('priceFilter').value = 'all';
     document.getElementById('genreFilter').value = 'all';
 
+    currentPage = 1;
     updateFilterSummary();
     renderDeals();
   }
