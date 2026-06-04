@@ -36,12 +36,17 @@
 <body>
   <h1>Steam 当前打折游戏</h1>
 
+  <p id="updated">更新时间：加载中...</p>
   <div id="games">加载中...</div>
 
   <script>
     async function loadDeals() {
       const res = await fetch('./data/deals.json');
-      const games = await res.json();
+      const data = await res.json();
+
+      document.getElementById('updated').innerText = `更新时间：${data.updated_at}`;
+
+      const games = data.deals;
 
       const container = document.getElementById('games');
       container.innerHTML = '';

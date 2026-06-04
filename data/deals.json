@@ -1,18 +1,86 @@
-[
-  {
-    "appid": 1245620,
-    "name": "ELDEN RING",
-    "discount": 30,
-    "original_price": "¥398",
-    "final_price": "¥278",
-    "url": "https://store.steampowered.com/app/1245620"
-  },
-  {
-    "appid": 1091500,
-    "name": "Cyberpunk 2077",
-    "discount": 50,
-    "original_price": "¥298",
-    "final_price": "¥149",
-    "url": "https://store.steampowered.com/app/1091500"
-  }
-]
+{
+  "updated_at": "2026-06-04 03:52:39 UTC",
+  "count": 10,
+  "deals": [
+    {
+      "appid": 275850,
+      "name": "No Man's Sky 无人深空",
+      "discount": 60,
+      "original_price": "¥175.00",
+      "final_price": "¥70.00",
+      "url": "https://store.steampowered.com/app/275850"
+    },
+    {
+      "appid": 3240220,
+      "name": "Grand Theft Auto V 增强版",
+      "discount": 50,
+      "original_price": "¥149.00",
+      "final_price": "¥74.50",
+      "url": "https://store.steampowered.com/app/3240220"
+    },
+    {
+      "appid": 1771300,
+      "name": "天国：拯救2",
+      "discount": 50,
+      "original_price": "¥228.00",
+      "final_price": "¥114.00",
+      "url": "https://store.steampowered.com/app/1771300"
+    },
+    {
+      "appid": 1144200,
+      "name": "Ready or Not",
+      "discount": 50,
+      "original_price": "¥159.00",
+      "final_price": "¥79.50",
+      "url": "https://store.steampowered.com/app/1144200"
+    },
+    {
+      "appid": 753640,
+      "name": "Outer Wilds",
+      "discount": 50,
+      "original_price": "¥95.00",
+      "final_price": "¥47.50",
+      "url": "https://store.steampowered.com/app/753640"
+    },
+    {
+      "appid": 2070270,
+      "name": "云之国",
+      "discount": 34,
+      "original_price": "¥108.00",
+      "final_price": "¥71.28",
+      "url": "https://store.steampowered.com/app/2070270"
+    },
+    {
+      "appid": 1371980,
+      "name": "《恶意不息》",
+      "discount": 30,
+      "original_price": "¥139.00",
+      "final_price": "¥97.30",
+      "url": "https://store.steampowered.com/app/1371980"
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld / 幻兽帕鲁",
+      "discount": 25,
+      "original_price": "¥108.00",
+      "final_price": "¥81.00",
+      "url": "https://store.steampowered.com/app/1623730"
+    },
+    {
+      "appid": 1943950,
+      "name": "Escape the Backrooms",
+      "discount": 20,
+      "original_price": "¥37.00",
+      "final_price": "¥29.60",
+      "url": "https://store.steampowered.com/app/1943950"
+    },
+    {
+      "appid": 1805320,
+      "name": "罗马拓荒录",
+      "discount": 10,
+      "original_price": "¥48.00",
+      "final_price": "¥43.20",
+      "url": "https://store.steampowered.com/app/1805320"
+    }
+  ]
+}
