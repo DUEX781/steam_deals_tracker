@@ -18,7 +18,7 @@ OUTPUT_PATH = Path("data/deals.json")
 MAX_APPS = 200
 PAGE_SIZE = 50
 REQUEST_DELAY = 0.10
-TOP_REVIEW_LIMIT = 50
+TOP_REVIEW_LIMIT = 200
 
 session = requests.Session()
 session.headers.update({
@@ -146,7 +146,7 @@ def fetch_app_details(appid):
         "appids": appid,
         "cc": CC,
         "l": LANG,
-        "filters": "basic,price_overview,recommendations,genres,categories,metacritic,release_date,platforms,developers,publishers"
+        "filters": "basic,price_overview,recommendations,genres,categories,metacritic,release_date,platforms"
     }
 
     data = request_json(DETAILS_URL, params)

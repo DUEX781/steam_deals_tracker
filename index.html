@@ -574,6 +574,10 @@
         ? game.developers.join(' / ')
         : '未知开发商';
 
+      const publisherText = Array.isArray(game.publishers) && game.publishers.length > 0
+        ? game.publishers.join(' / ')
+        : '未知发行商';
+
       div.innerHTML = `
         <div class="game-card">
           <div class="game-left">
@@ -601,6 +605,7 @@
               <div class="side-line" style="margin-top: 10px;">平台：${escapeHTML(platformText)}</div>
               <div class="side-line">发行日期：${escapeHTML(game.release_date || '未知')}</div>
               <div class="side-line">开发商：${escapeHTML(developerText)}</div>
+              <div class="side-line">发行商：${escapeHTML(publisherText)}</div>
             </div>
           </div>
 
