@@ -15,7 +15,7 @@ REVIEWS_URL = "https://store.steampowered.com/appreviews/{appid}"
 
 OUTPUT_PATH = Path("data/deals.json")
 
-MAX_APPS = 1000
+MAX_APPS = 300
 PAGE_SIZE = 50
 REQUEST_DELAY = 0.10
 TOP_REVIEW_LIMIT = 50
@@ -69,7 +69,7 @@ def fetch_discount_appids():
             "start": start,
             "count": PAGE_SIZE,
             "dynamic_data": "",
-            "sort_by": "_ASC",
+            "sort_by": "Reviews_DESC",
             "specials": 1,
             "category1": 998,
             "infinite": 1,
