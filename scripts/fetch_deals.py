@@ -15,6 +15,7 @@ REVIEWS_URL = "https://store.steampowered.com/appreviews/{appid}"
 
 OUTPUT_PATH = Path("data/deals.json")
 
+MAX_APPS = 1000
 PAGE_SIZE = 50
 REQUEST_DELAY = 0.10
 TOP_REVIEW_LIMIT = 50
@@ -99,6 +100,10 @@ def fetch_discount_appids():
             if appid not in seen:
                 seen.add(appid)
                 all_appids.append(appid)
+
+                if len(all_appids) >= MAX_APPS:
+                    print(f"Reached MAX_APPS limit: {MAX_APPS}")
+                    return all_appids
 
         print(f"Fetched appids: {len(all_appids)} / {total_count}")
 
