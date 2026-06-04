@@ -31,48 +31,317 @@
     a {
       color: #66c0f4;
     }
+
+    .stats-button {
+      background: #66c0f4;
+      color: #111;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .stats-button:hover {
+      background: #8ecbf7;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 999;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.75);
+    }
+
+    .modal-content {
+      background: #1b2838;
+      margin: 6% auto;
+      padding: 24px;
+      width: 80%;
+      max-width: 850px;
+      border-radius: 10px;
+      color: #eee;
+    }
+
+    .close {
+      float: right;
+      font-size: 28px;
+      cursor: pointer;
+      color: #aaa;
+    }
+
+    .close:hover {
+      color: #fff;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin: 20px 0;
+    }
+
+    .stat-card {
+      background: #111820;
+      padding: 14px;
+      border-radius: 8px;
+    }
+
+    .stat-number {
+      color: #a4d007;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    canvas {
+      background: #111820;
+      border-radius: 8px;
+      padding: 10px;
+    }
   </style>
 </head>
 <body>
   <h1>Steam 当前打折游戏</h1>
-
   <p id="updated">更新时间：加载中...</p>
+
+  <button class="stats-button" onclick="openStatsModal()">查看流量监测</button>
+
+  <div id="statsModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeStatsModal()">&times;</span>
+
+      <h2>网站流量监测</h2>
+      <p>这里统计的是当前浏览器加载本网站时产生的请求量，不代表全站所有用户访问量。</p>
+
+      <div class="stats-grid">
+        <div class="stat-card">
+          <p>本次资源请求数</p>
+          <div id="currentRequests" class="stat-number">计算中...</div>
+        </div>
+
+        <div class="stat-card">
+          <p>本次传输大小</p>
+          <div id="currentSize" class="stat-number">计算中...</div>
+        </div>
+
+        <div class="stat-card">
+          <p>估算月访问上限</p>
+          <div id="estimatedMonthlyVisits" class="stat-number">计算中...</div>
+        </div>
+      </div>
+
+      <h3>最近访问流量趋势</h3>
+      <canvas id="trafficChart" width="800" height="320"></canvas>
+
+      <p style="margin-top: 16px; color: #aaa;">
+        说明：折线图数据保存在当前浏览器 localStorage 中，换设备或清缓存后会重置。
+      </p>
+    </div>
+  </div>
   <div id="games">加载中...</div>
 
-  <script>
+<script>
   async function loadDeals() {
-    const res = await fetch('./data/deals.json?time=' + Date.now());
-    const data = await res.json();
+    try {
+      const res = await fetch('./data/deals.json?time=' + Date.now());
+      const data = await res.json();
 
-    document.getElementById('updated').innerText = `更新时间：${data.updated_at}`;
+      if (!data.updated_at || !Array.isArray(data.deals)) {
+        throw new Error('deals.json 格式不是最新版');
+      }
 
-    const games = data.deals;
+      document.getElementById('updated').innerText = `更新时间：${data.updated_at}`;
 
-    const container = document.getElementById('games');
-    container.innerHTML = '';
+      const games = data.deals;
+      const container = document.getElementById('games');
+      container.innerHTML = '';
 
-    if (!games || games.length === 0) {
-      container.innerHTML = '<p>当前没有获取到打折游戏数据。</p>';
+      if (games.length === 0) {
+        container.innerHTML = '<p>当前没有获取到打折游戏数据。</p>';
+        return;
+      }
+
+      games.forEach(game => {
+        const div = document.createElement('div');
+        div.className = 'game';
+
+        div.innerHTML = `
+          <h2>${game.name}</h2>
+          <p>折扣：<span class="discount">-${game.discount}%</span></p>
+          <p>原价：${game.original_price}</p>
+          <p>现价：${game.final_price}</p>
+          <a href="${game.url}" target="_blank">查看 Steam 页面</a>
+        `;
+
+        container.appendChild(div);
+      });
+    } catch (error) {
+      console.error(error);
+      document.getElementById('updated').innerText = '更新时间：读取失败';
+      document.getElementById('games').innerHTML = '<p>加载数据失败，请检查 data/deals.json。</p>';
+    }
+  }
+
+  function formatBytes(bytes) {
+    if (!bytes || bytes <= 0) return '0 KB';
+
+    const units = ['B', 'KB', 'MB', 'GB'];
+    let size = bytes;
+    let unitIndex = 0;
+
+    while (size >= 1024 && unitIndex < units.length - 1) {
+      size /= 1024;
+      unitIndex++;
+    }
+
+    return `${size.toFixed(2)} ${units[unitIndex]}`;
+  }
+
+  function getTrafficStats() {
+    const resources = performance.getEntriesByType('resource');
+
+    let totalBytes = 0;
+
+    resources.forEach(resource => {
+      if (resource.transferSize && resource.transferSize > 0) {
+        totalBytes += resource.transferSize;
+      }
+    });
+
+    const htmlEstimate = 30 * 1024;
+    const estimatedVisitBytes = totalBytes + htmlEstimate;
+
+    return {
+      time: new Date().toLocaleString(),
+      requestCount: resources.length,
+      totalBytes: estimatedVisitBytes,
+      totalKB: Number((estimatedVisitBytes / 1024).toFixed(2))
+    };
+  }
+
+  function saveTrafficStats() {
+    const currentStats = getTrafficStats();
+
+    let history = JSON.parse(localStorage.getItem('trafficHistory') || '[]');
+    history.push(currentStats);
+
+    if (history.length > 20) {
+      history = history.slice(history.length - 20);
+    }
+
+    localStorage.setItem('trafficHistory', JSON.stringify(history));
+
+    return currentStats;
+  }
+
+  function updateStatsNumbers(stats) {
+    const monthlyLimitBytes = 100 * 1024 * 1024 * 1024;
+    const estimatedVisits = Math.floor(monthlyLimitBytes / stats.totalBytes);
+
+    document.getElementById('currentRequests').innerText = stats.requestCount;
+    document.getElementById('currentSize').innerText = formatBytes(stats.totalBytes);
+    document.getElementById('estimatedMonthlyVisits').innerText = estimatedVisits.toLocaleString();
+  }
+
+  function drawTrafficChart() {
+    const canvas = document.getElementById('trafficChart');
+    const ctx = canvas.getContext('2d');
+
+    const history = JSON.parse(localStorage.getItem('trafficHistory') || '[]');
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    if (history.length < 2) {
+      ctx.fillStyle = '#eee';
+      ctx.font = '18px Arial';
+      ctx.fillText('访问记录不足，多打开几次弹窗后会形成折线图。', 40, 160);
       return;
     }
 
-    games.forEach(game => {
-      const div = document.createElement('div');
-      div.className = 'game';
+    const padding = 50;
+    const chartWidth = canvas.width - padding * 2;
+    const chartHeight = canvas.height - padding * 2;
 
-      div.innerHTML = `
-        <h2>${game.name}</h2>
-        <p>折扣：<span class="discount">-${game.discount}%</span></p>
-        <p>原价：${game.original_price}</p>
-        <p>现价：${game.final_price}</p>
-        <a href="${game.url}" target="_blank">查看 Steam 页面</a>
-      `;
+    const values = history.map(item => item.totalKB);
+    const maxValue = Math.max(...values);
+    const minValue = Math.min(...values);
+    const range = maxValue - minValue || 1;
 
-      container.appendChild(div);
+    ctx.strokeStyle = '#555';
+    ctx.lineWidth = 1;
+
+    for (let i = 0; i <= 4; i++) {
+      const y = padding + (chartHeight / 4) * i;
+      ctx.beginPath();
+      ctx.moveTo(padding, y);
+      ctx.lineTo(canvas.width - padding, y);
+      ctx.stroke();
+    }
+
+    ctx.fillStyle = '#aaa';
+    ctx.font = '12px Arial';
+    ctx.fillText(`${maxValue.toFixed(2)} KB`, 8, padding + 5);
+    ctx.fillText(`${minValue.toFixed(2)} KB`, 8, canvas.height - padding);
+
+    ctx.strokeStyle = '#66c0f4';
+    ctx.lineWidth = 3;
+    ctx.beginPath();
+
+    values.forEach((value, index) => {
+      const x = padding + (chartWidth / (values.length - 1)) * index;
+      const y = padding + chartHeight - ((value - minValue) / range) * chartHeight;
+
+      if (index === 0) {
+        ctx.moveTo(x, y);
+      } else {
+        ctx.lineTo(x, y);
+      }
     });
+
+    ctx.stroke();
+
+    values.forEach((value, index) => {
+      const x = padding + (chartWidth / (values.length - 1)) * index;
+      const y = padding + chartHeight - ((value - minValue) / range) * chartHeight;
+
+      ctx.fillStyle = '#a4d007';
+      ctx.beginPath();
+      ctx.arc(x, y, 4, 0, Math.PI * 2);
+      ctx.fill();
+    });
+
+    ctx.fillStyle = '#eee';
+    ctx.font = '14px Arial';
+    ctx.fillText('单次访问估算流量 KB', padding, 24);
   }
 
+  function openStatsModal() {
+    const stats = saveTrafficStats();
+    updateStatsNumbers(stats);
+    drawTrafficChart();
+
+    document.getElementById('statsModal').style.display = 'block';
+  }
+
+  function closeStatsModal() {
+    document.getElementById('statsModal').style.display = 'none';
+  }
+
+  window.onclick = function(event) {
+    const modal = document.getElementById('statsModal');
+
+    if (event.target === modal) {
+      closeStatsModal();
+    }
+  };
+
   loadDeals();
+
 </script>
 </body>
 </html>
