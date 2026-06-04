@@ -69,7 +69,7 @@ def fetch_discount_appids():
             "start": start,
             "count": PAGE_SIZE,
             "dynamic_data": "",
-            "sort_by": "Reviews_DESC",
+            "sort_by": "_ASC",
             "specials": 1,
             "category1": 998,
             "infinite": 1,
