@@ -146,7 +146,7 @@ def fetch_app_details(appid):
         "appids": appid,
         "cc": CC,
         "l": LANG,
-        "filters": "basic,price_overview,recommendations"
+        "filters": "basic,price_overview,recommendations,genres,categories,metacritic,release_date,platforms"
     }
 
     data = request_json(DETAILS_URL, params)
@@ -173,6 +173,25 @@ def fetch_app_details(appid):
     recommendations = details.get("recommendations", {})
     popularity = recommendations.get("total", 0)
 
+    genres = [
+        item.get("description")
+        for item in details.get("genres", [])
+        if item.get("description")
+    ]
+
+    categories = [
+        item.get("description")
+        for item in details.get("categories", [])
+        if item.get("description")
+    ]
+
+    metacritic = details.get("metacritic") or {}
+    release_date = details.get("release_date") or {}
+    platforms = details.get("platforms") or {}
+
+    developers = details.get("developers") or []
+    publishers = details.get("publishers") or []
+
     return {
         "appid": appid,
         "name": details.get("name", "Unknown Game"),
@@ -183,6 +202,13 @@ def fetch_app_details(appid):
         "description": clean_text(details.get("short_description", "")),
         "popularity": popularity,
         "image_url": details.get("header_image") or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg",
+        "genres": genres[:5],
+        "categories": categories[:5],
+        "metacritic_score": metacritic.get("score"),
+        "release_date": release_date.get("date", "未知"),
+        "developers": developers[:2],
+        "publishers": publishers[:2],
+        "platforms": platforms,
         "url": f"https://store.steampowered.com/app/{appid}"
     }
 

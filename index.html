@@ -141,39 +141,255 @@
       font-size: 14px;
     }
 
+    :root {
+      --mouse-x: 50vw;
+      --mouse-y: 50vh;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px;
+      color: #e8f0ff;
+      background: #070b12;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -2;
+      background:
+        radial-gradient(circle at var(--mouse-x) var(--mouse-y), rgba(102, 192, 244, 0.22), transparent 28%),
+        radial-gradient(circle at 15% 20%, rgba(164, 208, 7, 0.12), transparent 28%),
+        radial-gradient(circle at 85% 70%, rgba(95, 80, 255, 0.16), transparent 32%),
+        linear-gradient(135deg, #070b12 0%, #0d1624 45%, #101827 100%);
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      background-image:
+        linear-gradient(rgba(102, 192, 244, 0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(102, 192, 244, 0.06) 1px, transparent 1px);
+      background-size: 42px 42px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent 80%);
+      animation: gridMove 18s linear infinite;
+    }
+
+    @keyframes gridMove {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 84px 84px;
+      }
+    }
+
+    h1 {
+      color: #8ecbf7;
+      font-size: 42px;
+      letter-spacing: 1px;
+      text-shadow: 0 0 18px rgba(102, 192, 244, 0.35);
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 14px;
+      margin: 24px 0;
+      flex-wrap: wrap;
+    }
+
+    .toolbar input,
+    .toolbar select {
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(102, 192, 244, 0.25);
+      background: rgba(255, 255, 255, 0.92);
+      font-size: 15px;
+      outline: none;
+    }
+
+    .toolbar input {
+      min-width: 260px;
+    }
+
+    .stats-button {
+      background: linear-gradient(135deg, #66c0f4, #a4d007);
+      color: #07111e;
+      border: none;
+      padding: 12px 18px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+      box-shadow: 0 0 20px rgba(102, 192, 244, 0.25);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .stats-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0 28px rgba(102, 192, 244, 0.45);
+    }
+
     .game {
-      background: #1b2838;
-      padding: 18px;
-      margin-bottom: 18px;
-      border-radius: 8px;
+      position: relative;
+      background: rgba(27, 40, 56, 0.72);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(102, 192, 244, 0.18);
+      padding: 20px;
+      margin-bottom: 22px;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .game::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(120deg, transparent, rgba(102, 192, 244, 0.08), transparent);
+      transform: translateX(-100%);
+      transition: transform 0.6s ease;
+    }
+
+    .game:hover {
+      transform: translateY(-5px) scale(1.01);
+      border-color: rgba(102, 192, 244, 0.5);
+      box-shadow: 0 22px 65px rgba(102, 192, 244, 0.16);
+    }
+
+    .game:hover::before {
+      transform: translateX(100%);
     }
 
     .game-card {
+      position: relative;
       display: flex;
-      gap: 20px;
+      gap: 24px;
       align-items: flex-start;
+      z-index: 1;
+    }
+
+    .game-left {
+      width: 300px;
+      flex-shrink: 0;
+    }
+
+    .game-cover-wrap {
+      overflow: hidden;
+      border-radius: 14px;
+      background: #111820;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
     }
 
     .game-cover {
-      width: 260px;
-      max-width: 35%;
-      border-radius: 8px;
+      width: 100%;
+      display: block;
       object-fit: cover;
-      background: #111;
+      transition: transform 0.35s ease;
+    }
+
+    .game:hover .game-cover {
+      transform: scale(1.06);
+    }
+
+    .cover-meta {
+      margin-top: 12px;
+      background: rgba(7, 11, 18, 0.65);
+      border: 1px solid rgba(102, 192, 244, 0.15);
+      border-radius: 14px;
+      padding: 12px;
+    }
+
+    .score-pill {
+      display: inline-block;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(164, 208, 7, 0.15);
+      color: #a4d007;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .side-line {
+      color: #c8d2e0;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .tag-list {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+    }
+
+    .tag {
+      padding: 5px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      color: #dbeafe;
+      background: rgba(102, 192, 244, 0.14);
+      border: 1px solid rgba(102, 192, 244, 0.18);
     }
 
     .game-info {
       flex: 1;
     }
 
-    @media (max-width: 700px) {
+    .game-info h2 {
+      font-size: 28px;
+      margin-top: 4px;
+      margin-bottom: 18px;
+    }
+
+    .discount {
+      color: #a4d007;
+      font-weight: bold;
+    }
+
+    .meta {
+      color: #aab6c5;
+      font-size: 14px;
+    }
+
+    .description {
+      color: #d6deeb;
+      line-height: 1.7;
+    }
+
+    .review {
+      background: rgba(7, 11, 18, 0.68);
+      padding: 15px;
+      border-radius: 12px;
+      margin-top: 14px;
+      color: #ddd;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    a {
+      color: #8ecbf7;
+    }
+
+    @media (max-width: 800px) {
+      body {
+        padding: 20px;
+      }
+
       .game-card {
         flex-direction: column;
       }
 
-      .game-cover {
+      .game-left {
         width: 100%;
-        max-width: 100%;
       }
     }
   </style>
@@ -322,15 +538,71 @@
 
       const imageUrl = game.image_url || `https://cdn.akamai.steamstatic.com/steam/apps/${game.appid}/header.jpg`;
 
+      const genres = Array.isArray(game.genres) && game.genres.length > 0
+        ? game.genres
+        : ['暂无类型'];
+
+      const categories = Array.isArray(game.categories) && game.categories.length > 0
+        ? game.categories
+        : [];
+
+      const genreHTML = genres
+        .slice(0, 4)
+        .map(item => `<span class="tag">${escapeHTML(item)}</span>`)
+        .join('');
+
+      const categoryHTML = categories
+        .slice(0, 3)
+        .map(item => `<span class="tag">${escapeHTML(item)}</span>`)
+        .join('');
+
+      const scoreText = game.metacritic_score
+        ? `${game.metacritic_score} / 100`
+        : '暂无评分';
+
+      const platformList = [];
+
+      if (game.platforms?.windows) platformList.push('Windows');
+      if (game.platforms?.mac) platformList.push('macOS');
+      if (game.platforms?.linux) platformList.push('Linux');
+
+      const platformText = platformList.length > 0
+        ? platformList.join(' / ')
+        : '未知平台';
+
+      const developerText = Array.isArray(game.developers) && game.developers.length > 0
+        ? game.developers.join(' / ')
+        : '未知开发商';
+
       div.innerHTML = `
         <div class="game-card">
-          <img 
-            class="game-cover"
-            src="${escapeHTML(imageUrl)}"
-            alt="${escapeHTML(game.name)}"
-            loading="lazy"
-            onerror="this.style.display='none'"
-          >
+          <div class="game-left">
+            <div class="game-cover-wrap">
+              <img
+                class="game-cover"
+                src="${escapeHTML(imageUrl)}"
+                alt="${escapeHTML(game.name)}"
+                loading="lazy"
+                onerror="this.style.display='none'"
+              >
+            </div>
+
+            <div class="cover-meta">
+              <div class="score-pill">评分：${escapeHTML(scoreText)}</div>
+
+              <div class="side-line">类型：</div>
+              <div class="tag-list">${genreHTML}</div>
+
+              ${categoryHTML ? `
+                <div class="side-line" style="margin-top: 10px;">特性：</div>
+                <div class="tag-list">${categoryHTML}</div>
+              ` : ''}
+
+              <div class="side-line" style="margin-top: 10px;">平台：${escapeHTML(platformText)}</div>
+              <div class="side-line">发行日期：${escapeHTML(game.release_date || '未知')}</div>
+              <div class="side-line">开发商：${escapeHTML(developerText)}</div>
+            </div>
+          </div>
 
           <div class="game-info">
             <h2>${escapeHTML(game.name)}</h2>
@@ -521,6 +793,11 @@
       closeStatsModal();
     }
   };
+
+  document.addEventListener('pointermove', (event) => {
+    document.documentElement.style.setProperty('--mouse-x', `${event.clientX}px`);
+    document.documentElement.style.setProperty('--mouse-y', `${event.clientY}px`);
+  });
 
   loadDeals();
 
