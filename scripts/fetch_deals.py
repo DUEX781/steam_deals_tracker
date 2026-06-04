@@ -13,6 +13,7 @@ LANG = "schinese"
 SEARCH_URL = "https://store.steampowered.com/search/results/"
 DETAILS_URL = "https://store.steampowered.com/api/appdetails"
 REVIEWS_URL = "https://store.steampowered.com/appreviews/{appid}"
+STORE_APP_URL = "https://store.steampowered.com/app/{appid}/"
 
 OUTPUT_PATH = Path("data/deals.json")
 
@@ -33,6 +34,19 @@ def request_json(url, params, retries=3):
             response = session.get(url, params=params, timeout=25)
             response.raise_for_status()
             return response.json()
+        except Exception as e:
+            print(f"Request failed: {url}, attempt={attempt + 1}, error={e}")
+            time.sleep(1.5)
+
+    return None
+
+
+def request_text(url, params, retries=3):
+    for attempt in range(retries):
+        try:
+            response = session.get(url, params=params, timeout=25)
+            response.raise_for_status()
+            return response.text
         except Exception as e:
             print(f"Request failed: {url}, attempt={attempt + 1}, error={e}")
             time.sleep(1.5)
@@ -152,6 +166,33 @@ def clean_text(text, max_len=450):
     return text
 
 
+def fetch_discount_deadline_text(appid):
+    html = request_text(
+        STORE_APP_URL.format(appid=appid),
+        {
+            "cc": CC,
+            "l": LANG,
+        },
+    )
+
+    if not html:
+        return None
+
+    match = re.search(
+        r'<p[^>]*class="[^"]*game_purchase_discount_countdown[^"]*"[^>]*>(.*?)</p>',
+        html,
+        re.S,
+    )
+
+    if not match:
+        return None
+
+    text = clean_text(match.group(1), max_len=80)
+    text = re.sub(r"^特价促销[!！]?", "", text).strip()
+
+    return text or None
+
+
 def fetch_app_details(appid):
     params = {
         "appids": appid,
@@ -201,6 +242,12 @@ def fetch_app_details(appid):
 
     developers = details.get("developers") or []
     publishers = details.get("publishers") or []
+    discount_expiration = price.get("discount_expiration")
+    discount_expires_at = format_discount_expiration(discount_expiration)
+    discount_deadline_text = None
+
+    if not discount_expires_at:
+        discount_deadline_text = fetch_discount_deadline_text(appid)
 
     return {
         "appid": appid,
@@ -209,8 +256,9 @@ def fetch_app_details(appid):
         "original_price": price.get("initial_formatted") or get_price_text(price, "initial"),
         "final_price": price.get("final_formatted") or get_price_text(price, "final"),
         "final_price_num": price.get("final", 0) / 100,
-        "discount_expiration": price.get("discount_expiration"),
-        "discount_expires_at": format_discount_expiration(price.get("discount_expiration")),
+        "discount_expiration": discount_expiration,
+        "discount_expires_at": discount_expires_at,
+        "discount_deadline_text": discount_deadline_text,
         "description": clean_text(details.get("short_description", "")),
         "popularity": popularity,
         "image_url": details.get("header_image") or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg",

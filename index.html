@@ -478,7 +478,7 @@
       }
     }
 
-    return game.discount_expires_at || '未知';
+    return game.discount_deadline_text || game.discount_expires_at || '未知';
   }
 
   async function loadDeals() {
