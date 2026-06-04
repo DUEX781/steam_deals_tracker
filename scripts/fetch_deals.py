@@ -15,7 +15,7 @@ REVIEWS_URL = "https://store.steampowered.com/appreviews/{appid}"
 
 OUTPUT_PATH = Path("data/deals.json")
 
-MAX_APPS = 300
+MAX_APPS = 200
 PAGE_SIZE = 50
 REQUEST_DELAY = 0.10
 TOP_REVIEW_LIMIT = 50
