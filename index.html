@@ -685,17 +685,17 @@
       : '当前未启用筛选';
   }
 
-  function gameMatchesFilters(game) {
-    if (activeFilters.discount !== 'all') {
-      const minDiscount = Number(activeFilters.discount);
+  function gameMatchesFilters(game, filters = activeFilters) {
+    if (filters.discount !== 'all') {
+      const minDiscount = Number(filters.discount);
 
       if ((game.discount || 0) < minDiscount) {
         return false;
       }
     }
 
-    if (activeFilters.price !== 'all') {
-      const [minPrice, maxPrice] = activeFilters.price.split('-').map(Number);
+    if (filters.price !== 'all') {
+      const [minPrice, maxPrice] = filters.price.split('-').map(Number);
       const price = Number(game.final_price_num || 0);
 
       if (price < minPrice || price > maxPrice) {
@@ -703,15 +703,66 @@
       }
     }
 
-    if (activeFilters.genre !== 'all') {
+    if (filters.genre !== 'all') {
       const genres = Array.isArray(game.genres) ? game.genres : [];
 
-      if (!genres.includes(activeFilters.genre)) {
+      if (!genres.includes(filters.genre)) {
         return false;
       }
     }
 
     return true;
+  }
+
+  function sortGames(games, sortType) {
+    const sortedGames = [...games];
+
+    sortedGames.sort((a, b) => {
+      if (sortType === 'name_asc') {
+        return a.name.localeCompare(b.name);
+      }
+
+      if (sortType === 'name_desc') {
+        return b.name.localeCompare(a.name);
+      }
+
+      if (sortType === 'price_asc') {
+        return (a.final_price_num || 0) - (b.final_price_num || 0);
+      }
+
+      if (sortType === 'price_desc') {
+        return (b.final_price_num || 0) - (a.final_price_num || 0);
+      }
+
+      if (sortType === 'discount_desc') {
+        return (b.discount || 0) - (a.discount || 0);
+      }
+
+      return (b.popularity || 0) - (a.popularity || 0);
+    });
+
+    return sortedGames;
+  }
+
+  function getFilteredGames(games, keyword, filters) {
+    const normalizedKeyword = keyword.trim().toLowerCase();
+
+    return games.filter(game => {
+      return game.name.toLowerCase().includes(normalizedKeyword) && gameMatchesFilters(game, filters);
+    });
+  }
+
+  function getFilteredSortedGames(games, keyword, filters, sortType) {
+    return sortGames(getFilteredGames(games, keyword, filters), sortType);
+  }
+
+  function getPageItems(items, page, pageSize) {
+    const startIndex = (page - 1) * pageSize;
+
+    return {
+      items: items.slice(startIndex, startIndex + pageSize),
+      startIndex
+    };
   }
 
   function handleListCriteriaChange() {
@@ -736,9 +787,7 @@
 
   function changePage(direction) {
     const keyword = document.getElementById('searchInput')?.value.trim().toLowerCase() || '';
-    const totalItems = allDeals.filter(game => {
-      return game.name.toLowerCase().includes(keyword) && gameMatchesFilters(game);
-    }).length;
+    const totalItems = getFilteredGames(allDeals, keyword, activeFilters).length;
     const totalPages = Math.max(1, Math.ceil(totalItems / PAGE_SIZE));
 
     currentPage = Math.min(Math.max(currentPage + direction, 1), totalPages);
@@ -768,63 +817,8 @@
     }
   }
 
-  function renderDeals() {
-    const keyword = document.getElementById('searchInput')?.value.trim().toLowerCase() || '';
-    const sortType = document.getElementById('sortSelect')?.value || 'popularity_desc';
-
-    let games = allDeals.filter(game => {
-      return game.name.toLowerCase().includes(keyword) && gameMatchesFilters(game);
-    });
-
-    games.sort((a, b) => {
-      if (sortType === 'name_asc') {
-        return a.name.localeCompare(b.name);
-      }
-
-      if (sortType === 'name_desc') {
-        return b.name.localeCompare(a.name);
-      }
-
-      if (sortType === 'price_asc') {
-        return (a.final_price_num || 0) - (b.final_price_num || 0);
-      }
-
-      if (sortType === 'price_desc') {
-        return (b.final_price_num || 0) - (a.final_price_num || 0);
-      }
-
-      if (sortType === 'discount_desc') {
-        return (b.discount || 0) - (a.discount || 0);
-      }
-
-      return (b.popularity || 0) - (a.popularity || 0);
-    });
-
-    const container = document.getElementById('games');
-    container.innerHTML = '';
-
-    const hasFilters = Object.values(activeFilters).some(value => value !== 'all');
-    const filterText = hasFilters ? '（已筛选）' : '';
-    const totalPages = Math.max(1, Math.ceil(games.length / PAGE_SIZE));
-
-    currentPage = Math.min(Math.max(currentPage, 1), totalPages);
-
-    updatePaginationControls(games.length);
-
-    if (games.length === 0) {
-      document.getElementById('gameCount').innerText = `当前显示 0 / ${allDeals.length} 个打折游戏${filterText}`;
-      container.innerHTML = '<p>没有找到符合条件的游戏。</p>';
-      return;
-    }
-
-    const startIndex = (currentPage - 1) * PAGE_SIZE;
-    const pageGames = games.slice(startIndex, startIndex + PAGE_SIZE);
-    const pageStart = startIndex + 1;
-    const pageEnd = startIndex + pageGames.length;
-
-    document.getElementById('gameCount').innerText = `当前显示 ${pageStart}-${pageEnd} / ${games.length} 个打折游戏${filterText}`;
-
-    pageGames.forEach(game => {
+  function renderGameCards(container, games) {
+    games.forEach(game => {
       const review = game.top_review || {};
       const reviewType = review.voted_up === true
         ? '好评'
@@ -944,6 +938,38 @@
 
       container.appendChild(div);
     });
+  }
+
+  function renderDeals() {
+    const keyword = document.getElementById('searchInput')?.value.trim().toLowerCase() || '';
+    const sortType = document.getElementById('sortSelect')?.value || 'popularity_desc';
+
+    const games = getFilteredSortedGames(allDeals, keyword, activeFilters, sortType);
+
+    const container = document.getElementById('games');
+    container.innerHTML = '';
+
+    const hasFilters = Object.values(activeFilters).some(value => value !== 'all');
+    const filterText = hasFilters ? '（已筛选）' : '';
+    const totalPages = Math.max(1, Math.ceil(games.length / PAGE_SIZE));
+
+    currentPage = Math.min(Math.max(currentPage, 1), totalPages);
+
+    updatePaginationControls(games.length);
+
+    if (games.length === 0) {
+      document.getElementById('gameCount').innerText = `当前显示 0 / ${allDeals.length} 个打折游戏${filterText}`;
+      container.innerHTML = '<p>没有找到符合条件的游戏。</p>';
+      return;
+    }
+
+    const { items: pageGames, startIndex } = getPageItems(games, currentPage, PAGE_SIZE);
+    const pageStart = startIndex + 1;
+    const pageEnd = startIndex + pageGames.length;
+
+    document.getElementById('gameCount').innerText = `当前显示 ${pageStart}-${pageEnd} / ${games.length} 个打折游戏${filterText}`;
+
+    renderGameCards(container, pageGames);
   }
 
   function formatBytes(bytes) {
