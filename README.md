@@ -183,6 +183,8 @@ https://duex781.github.io/steam_deals_tracker/
   "original_price": "¥ 25.00",
   "final_price": "¥ 15.00",
   "final_price_num": 15.0,
+  "discount_expiration": 1780372800,
+  "discount_expires_at": "2026-06-01 16:00:00 UTC",
   "description": "游戏简介",
   "popularity": 643711,
   "image_url": "https://shared.akamai.steamstatic.com/...",
@@ -217,6 +219,8 @@ https://duex781.github.io/steam_deals_tracker/
 | `original_price` | string | 原价文本 |
 | `final_price` | string | 现价文本 |
 | `final_price_num` | number | 现价数值，便于前端排序 |
+| `discount_expiration` | number/null | Steam 返回的折扣截止时间戳 |
+| `discount_expires_at` | string/null | 折扣截止时间的 UTC 文本 |
 | `description` | string | 游戏简介 |
 | `popularity` | number | Steam 推荐评论总数，用于估算热度 |
 | `image_url` | string | 游戏头图地址 |

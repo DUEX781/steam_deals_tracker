@@ -463,6 +463,24 @@
       .replaceAll("'", '&#039;');
   }
 
+  function formatDiscountDeadline(game) {
+    if (game.discount_expiration) {
+      const date = new Date(Number(game.discount_expiration) * 1000);
+
+      if (!Number.isNaN(date.getTime())) {
+        return date.toLocaleString('zh-CN', {
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit',
+          hour: '2-digit',
+          minute: '2-digit'
+        });
+      }
+    }
+
+    return game.discount_expires_at || '未知';
+  }
+
   async function loadDeals() {
     try {
       const res = await fetch('./data/deals.json?time=' + Date.now());
@@ -616,6 +634,7 @@
               折扣：<span class="discount">-${game.discount}%</span>
               ｜ 现价：${escapeHTML(game.final_price)}
               ｜ 原价：${escapeHTML(game.original_price)}
+              ｜ 截止：${escapeHTML(formatDiscountDeadline(game))}
             </p>
 
             <p class="meta">

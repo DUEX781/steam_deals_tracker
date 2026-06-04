@@ -1,6 +1,7 @@
 import json
 import re
 import time
+from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
 
@@ -126,6 +127,16 @@ def get_price_text(price_overview, key):
     return f"¥{value / 100:.2f}"
 
 
+def format_discount_expiration(timestamp):
+    if not timestamp:
+        return None
+
+    try:
+        return datetime.fromtimestamp(int(timestamp), tz=timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    except (TypeError, ValueError, OSError):
+        return None
+
+
 def clean_text(text, max_len=450):
     if not text:
         return "暂无"
@@ -198,6 +209,8 @@ def fetch_app_details(appid):
         "original_price": price.get("initial_formatted") or get_price_text(price, "initial"),
         "final_price": price.get("final_formatted") or get_price_text(price, "final"),
         "final_price_num": price.get("final", 0) / 100,
+        "discount_expiration": price.get("discount_expiration"),
+        "discount_expires_at": format_discount_expiration(price.get("discount_expiration")),
         "description": clean_text(details.get("short_description", "")),
         "popularity": popularity,
         "image_url": details.get("header_image") or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg",
