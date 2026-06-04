@@ -98,6 +98,69 @@
       font-weight: bold;
     }
 
+    .button-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .filter-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin: 20px 0;
+    }
+
+    .filter-field {
+      background: #111820;
+      padding: 14px;
+      border-radius: 8px;
+    }
+
+    .filter-field label {
+      display: block;
+      margin-bottom: 8px;
+      color: #c8d2e0;
+      font-weight: bold;
+    }
+
+    .filter-field select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid rgba(102, 192, 244, 0.25);
+      background: rgba(255, 255, 255, 0.92);
+      font-size: 14px;
+    }
+
+    .filter-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 18px;
+    }
+
+    .filter-summary {
+      color: #aab6c5;
+      margin: 0;
+    }
+
+    .secondary-button {
+      background: #111820;
+      color: #e8f0ff;
+      border: 1px solid rgba(102, 192, 244, 0.28);
+      padding: 12px 18px;
+      border-radius: 12px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .secondary-button:hover {
+      border-color: rgba(102, 192, 244, 0.55);
+    }
+
     canvas {
       background: #111820;
       border-radius: 8px;
@@ -384,6 +447,11 @@
         padding: 20px;
       }
 
+      .filter-grid,
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+
       .game-card {
         flex-direction: column;
       }
@@ -413,7 +481,56 @@
 
   <p id="gameCount"></p>
 
-  <button class="stats-button" onclick="openStatsModal()">查看流量监测</button>
+  <div class="button-row">
+    <button class="stats-button" onclick="openFilterModal()">分类筛选</button>
+    <button class="stats-button" onclick="openStatsModal()">查看流量监测</button>
+  </div>
+
+  <div id="filterModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeFilterModal()">&times;</span>
+
+      <h2>分类筛选</h2>
+      <p>按照折扣力度、价格区间和游戏类型筛选当前折扣游戏。</p>
+
+      <div class="filter-grid">
+        <div class="filter-field">
+          <label for="discountFilter">折扣力度</label>
+          <select id="discountFilter">
+            <option value="all">全部折扣</option>
+            <option value="80">80% 及以上</option>
+            <option value="70">70% 及以上</option>
+            <option value="50">50% 及以上</option>
+            <option value="30">30% 及以上</option>
+          </select>
+        </div>
+
+        <div class="filter-field">
+          <label for="priceFilter">价格区间</label>
+          <select id="priceFilter">
+            <option value="all">全部价格</option>
+            <option value="0-20">¥20 以内</option>
+            <option value="20-50">¥20 - ¥50</option>
+            <option value="50-100">¥50 - ¥100</option>
+            <option value="100-999999">¥100 以上</option>
+          </select>
+        </div>
+
+        <div class="filter-field">
+          <label for="genreFilter">游戏类型</label>
+          <select id="genreFilter">
+            <option value="all">全部类型</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="filter-actions">
+        <button class="stats-button" onclick="applyFilters()">应用筛选</button>
+        <button class="secondary-button" onclick="clearFilters()">清空筛选</button>
+        <p id="filterSummary" class="filter-summary">当前未启用筛选</p>
+      </div>
+    </div>
+  </div>
 
   <div id="statsModal" class="modal">
     <div class="modal-content">
@@ -451,6 +568,11 @@
 
 <script>
   let allDeals = [];
+  let activeFilters = {
+    discount: 'all',
+    price: 'all',
+    genre: 'all'
+  };
 
   function escapeHTML(text) {
     if (!text) return '';
@@ -481,6 +603,91 @@
     return game.discount_deadline_text || game.discount_expires_at || '未知';
   }
 
+  function getFilterLabel(selectId) {
+    const select = document.getElementById(selectId);
+    return select?.options[select.selectedIndex]?.text || '';
+  }
+
+  function populateGenreFilter() {
+    const genreSelect = document.getElementById('genreFilter');
+
+    if (!genreSelect) return;
+
+    const genres = new Set();
+
+    allDeals.forEach(game => {
+      if (!Array.isArray(game.genres)) return;
+
+      game.genres.forEach(genre => {
+        if (genre) genres.add(genre);
+      });
+    });
+
+    genreSelect.innerHTML = '<option value="all">全部类型</option>';
+
+    [...genres]
+      .sort((a, b) => a.localeCompare(b, 'zh-CN'))
+      .forEach(genre => {
+        const option = document.createElement('option');
+        option.value = genre;
+        option.textContent = genre;
+        genreSelect.appendChild(option);
+      });
+  }
+
+  function updateFilterSummary() {
+    const summary = document.getElementById('filterSummary');
+
+    if (!summary) return;
+
+    const labels = [];
+
+    if (activeFilters.discount !== 'all') {
+      labels.push(getFilterLabel('discountFilter'));
+    }
+
+    if (activeFilters.price !== 'all') {
+      labels.push(getFilterLabel('priceFilter'));
+    }
+
+    if (activeFilters.genre !== 'all') {
+      labels.push(getFilterLabel('genreFilter'));
+    }
+
+    summary.innerText = labels.length > 0
+      ? `当前筛选：${labels.join(' / ')}`
+      : '当前未启用筛选';
+  }
+
+  function gameMatchesFilters(game) {
+    if (activeFilters.discount !== 'all') {
+      const minDiscount = Number(activeFilters.discount);
+
+      if ((game.discount || 0) < minDiscount) {
+        return false;
+      }
+    }
+
+    if (activeFilters.price !== 'all') {
+      const [minPrice, maxPrice] = activeFilters.price.split('-').map(Number);
+      const price = Number(game.final_price_num || 0);
+
+      if (price < minPrice || price > maxPrice) {
+        return false;
+      }
+    }
+
+    if (activeFilters.genre !== 'all') {
+      const genres = Array.isArray(game.genres) ? game.genres : [];
+
+      if (!genres.includes(activeFilters.genre)) {
+        return false;
+      }
+    }
+
+    return true;
+  }
+
   async function loadDeals() {
     try {
       const res = await fetch('./data/deals.json?time=' + Date.now());
@@ -492,6 +699,8 @@
 
       document.getElementById('updated').innerText = `更新时间：${data.updated_at}`;
       allDeals = data.deals;
+      populateGenreFilter();
+      updateFilterSummary();
 
       renderDeals();
     } catch (error) {
@@ -506,7 +715,7 @@
     const sortType = document.getElementById('sortSelect')?.value || 'popularity_desc';
 
     let games = allDeals.filter(game => {
-      return game.name.toLowerCase().includes(keyword);
+      return game.name.toLowerCase().includes(keyword) && gameMatchesFilters(game);
     });
 
     games.sort((a, b) => {
@@ -536,7 +745,10 @@
     const container = document.getElementById('games');
     container.innerHTML = '';
 
-    document.getElementById('gameCount').innerText = `当前显示 ${games.length} / ${allDeals.length} 个打折游戏`;
+    const hasFilters = Object.values(activeFilters).some(value => value !== 'all');
+    const filterText = hasFilters ? '（已筛选）' : '';
+
+    document.getElementById('gameCount').innerText = `当前显示 ${games.length} / ${allDeals.length} 个打折游戏${filterText}`;
 
     if (games.length === 0) {
       container.innerHTML = '<p>没有找到符合条件的游戏。</p>';
@@ -798,6 +1010,46 @@
     ctx.fillText('单次访问估算流量 KB', padding, 24);
   }
 
+  function openFilterModal() {
+    document.getElementById('discountFilter').value = activeFilters.discount;
+    document.getElementById('priceFilter').value = activeFilters.price;
+    document.getElementById('genreFilter').value = activeFilters.genre;
+    updateFilterSummary();
+
+    document.getElementById('filterModal').style.display = 'block';
+  }
+
+  function closeFilterModal() {
+    document.getElementById('filterModal').style.display = 'none';
+  }
+
+  function applyFilters() {
+    activeFilters = {
+      discount: document.getElementById('discountFilter')?.value || 'all',
+      price: document.getElementById('priceFilter')?.value || 'all',
+      genre: document.getElementById('genreFilter')?.value || 'all'
+    };
+
+    updateFilterSummary();
+    renderDeals();
+    closeFilterModal();
+  }
+
+  function clearFilters() {
+    activeFilters = {
+      discount: 'all',
+      price: 'all',
+      genre: 'all'
+    };
+
+    document.getElementById('discountFilter').value = 'all';
+    document.getElementById('priceFilter').value = 'all';
+    document.getElementById('genreFilter').value = 'all';
+
+    updateFilterSummary();
+    renderDeals();
+  }
+
   function openStatsModal() {
     const stats = saveTrafficStats();
     updateStatsNumbers(stats);
@@ -811,10 +1063,15 @@
   }
 
   window.onclick = function(event) {
-    const modal = document.getElementById('statsModal');
+    const statsModal = document.getElementById('statsModal');
+    const filterModal = document.getElementById('filterModal');
 
-    if (event.target === modal) {
+    if (event.target === statsModal) {
       closeStatsModal();
+    }
+
+    if (event.target === filterModal) {
+      closeFilterModal();
     }
   };
 
