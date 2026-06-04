@@ -103,11 +103,63 @@
       border-radius: 8px;
       padding: 10px;
     }
+
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      margin: 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .toolbar input,
+    .toolbar select {
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      font-size: 14px;
+    }
+
+    .toolbar input {
+      min-width: 240px;
+    }
+
+    .description {
+      color: #ccc;
+      line-height: 1.5;
+    }
+
+    .review {
+      background: #111820;
+      padding: 12px;
+      border-radius: 6px;
+      margin-top: 10px;
+      color: #ddd;
+    }
+
+    .meta {
+      color: #aaa;
+      font-size: 14px;
+    }
   </style>
 </head>
 <body>
   <h1>Steam 当前打折游戏</h1>
   <p id="updated">更新时间：加载中...</p>
+
+  <div class="toolbar">
+    <input id="searchInput" type="text" placeholder="搜索游戏名..." oninput="renderDeals()">
+
+    <select id="sortSelect" onchange="renderDeals()">
+      <option value="popularity_desc">按热度排序：高到低</option>
+      <option value="name_asc">按名称排序：A-Z</option>
+      <option value="name_desc">按名称排序：Z-A</option>
+      <option value="price_asc">按价格排序：低到高</option>
+      <option value="price_desc">按价格排序：高到低</option>
+      <option value="discount_desc">按折扣排序：高到低</option>
+    </select>
+  </div>
+
+  <p id="gameCount"></p>
 
   <button class="stats-button" onclick="openStatsModal()">查看流量监测</button>
 
@@ -146,6 +198,19 @@
   <div id="games">加载中...</div>
 
 <script>
+  let allDeals = [];
+
+  function escapeHTML(text) {
+    if (!text) return '';
+
+    return String(text)
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;')
+      .replaceAll('"', '&quot;')
+      .replaceAll("'", '&#039;');
+  }
+
   async function loadDeals() {
     try {
       const res = await fetch('./data/deals.json?time=' + Date.now());
@@ -156,35 +221,102 @@
       }
 
       document.getElementById('updated').innerText = `更新时间：${data.updated_at}`;
+      allDeals = data.deals;
 
-      const games = data.deals;
-      const container = document.getElementById('games');
-      container.innerHTML = '';
-
-      if (games.length === 0) {
-        container.innerHTML = '<p>当前没有获取到打折游戏数据。</p>';
-        return;
-      }
-
-      games.forEach(game => {
-        const div = document.createElement('div');
-        div.className = 'game';
-
-        div.innerHTML = `
-          <h2>${game.name}</h2>
-          <p>折扣：<span class="discount">-${game.discount}%</span></p>
-          <p>原价：${game.original_price}</p>
-          <p>现价：${game.final_price}</p>
-          <a href="${game.url}" target="_blank">查看 Steam 页面</a>
-        `;
-
-        container.appendChild(div);
-      });
+      renderDeals();
     } catch (error) {
       console.error(error);
       document.getElementById('updated').innerText = '更新时间：读取失败';
       document.getElementById('games').innerHTML = '<p>加载数据失败，请检查 data/deals.json。</p>';
     }
+  }
+
+  function renderDeals() {
+    const keyword = document.getElementById('searchInput')?.value.trim().toLowerCase() || '';
+    const sortType = document.getElementById('sortSelect')?.value || 'popularity_desc';
+
+    let games = allDeals.filter(game => {
+      return game.name.toLowerCase().includes(keyword);
+    });
+
+    games.sort((a, b) => {
+      if (sortType === 'name_asc') {
+        return a.name.localeCompare(b.name);
+      }
+
+      if (sortType === 'name_desc') {
+        return b.name.localeCompare(a.name);
+      }
+
+      if (sortType === 'price_asc') {
+        return (a.final_price_num || 0) - (b.final_price_num || 0);
+      }
+
+      if (sortType === 'price_desc') {
+        return (b.final_price_num || 0) - (a.final_price_num || 0);
+      }
+
+      if (sortType === 'discount_desc') {
+        return (b.discount || 0) - (a.discount || 0);
+      }
+
+      return (b.popularity || 0) - (a.popularity || 0);
+    });
+
+    const container = document.getElementById('games');
+    container.innerHTML = '';
+
+    document.getElementById('gameCount').innerText = `当前显示 ${games.length} / ${allDeals.length} 个打折游戏`;
+
+    if (games.length === 0) {
+      container.innerHTML = '<p>没有找到符合条件的游戏。</p>';
+      return;
+    }
+
+    games.forEach(game => {
+      const review = game.top_review || {};
+      const reviewType = review.voted_up === true
+        ? '好评'
+        : review.voted_up === false
+          ? '差评'
+          : '未知';
+
+      const div = document.createElement('div');
+      div.className = 'game';
+
+      div.innerHTML = `
+        <h2>${escapeHTML(game.name)}</h2>
+
+        <p>
+          折扣：<span class="discount">-${game.discount}%</span>
+          ｜ 现价：${escapeHTML(game.final_price)}
+          ｜ 原价：${escapeHTML(game.original_price)}
+        </p>
+
+        <p class="meta">
+          热度：${Number(game.popularity || 0).toLocaleString()} 条推荐/评论
+        </p>
+
+        <p class="description">
+          ${escapeHTML(game.description || '暂无简介')}
+        </p>
+
+        <div class="review">
+          <strong>热门评论：</strong>
+          <p>${escapeHTML(review.text || '暂无热门评论')}</p>
+          <p class="meta">
+            类型：${reviewType}
+            ｜ 有用票数：${Number(review.votes_up || 0).toLocaleString()}
+          </p>
+        </div>
+
+        <p>
+          <a href="${game.url}" target="_blank">查看 Steam 页面</a>
+        </p>
+      `;
+
+      container.appendChild(div);
+    });
   }
 
   function formatBytes(bytes) {
