@@ -140,6 +140,42 @@
       color: #aaa;
       font-size: 14px;
     }
+
+    .game {
+      background: #1b2838;
+      padding: 18px;
+      margin-bottom: 18px;
+      border-radius: 8px;
+    }
+
+    .game-card {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .game-cover {
+      width: 260px;
+      max-width: 35%;
+      border-radius: 8px;
+      object-fit: cover;
+      background: #111;
+    }
+
+    .game-info {
+      flex: 1;
+    }
+
+    @media (max-width: 700px) {
+      .game-card {
+        flex-direction: column;
+      }
+
+      .game-cover {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -284,35 +320,49 @@
       const div = document.createElement('div');
       div.className = 'game';
 
+      const imageUrl = game.image_url || `https://cdn.akamai.steamstatic.com/steam/apps/${game.appid}/header.jpg`;
+
       div.innerHTML = `
-        <h2>${escapeHTML(game.name)}</h2>
+        <div class="game-card">
+          <img 
+            class="game-cover"
+            src="${escapeHTML(imageUrl)}"
+            alt="${escapeHTML(game.name)}"
+            loading="lazy"
+            onerror="this.style.display='none'"
+          >
 
-        <p>
-          折扣：<span class="discount">-${game.discount}%</span>
-          ｜ 现价：${escapeHTML(game.final_price)}
-          ｜ 原价：${escapeHTML(game.original_price)}
-        </p>
+          <div class="game-info">
+            <h2>${escapeHTML(game.name)}</h2>
 
-        <p class="meta">
-          热度：${Number(game.popularity || 0).toLocaleString()} 条推荐/评论
-        </p>
+            <p>
+              折扣：<span class="discount">-${game.discount}%</span>
+              ｜ 现价：${escapeHTML(game.final_price)}
+              ｜ 原价：${escapeHTML(game.original_price)}
+            </p>
 
-        <p class="description">
-          ${escapeHTML(game.description || '暂无简介')}
-        </p>
+            <p class="meta">
+              热度：${Number(game.popularity || 0).toLocaleString()} 条推荐/评论
+            </p>
 
-        <div class="review">
-          <strong>热门评论：</strong>
-          <p>${escapeHTML(review.text || '暂无热门评论')}</p>
-          <p class="meta">
-            类型：${reviewType}
-            ｜ 有用票数：${Number(review.votes_up || 0).toLocaleString()}
-          </p>
+            <p class="description">
+              ${escapeHTML(game.description || '暂无简介')}
+            </p>
+
+            <div class="review">
+              <strong>热门评论：</strong>
+              <p>${escapeHTML(review.text || '暂无热门评论')}</p>
+              <p class="meta">
+                类型：${reviewType}
+                ｜ 有用票数：${Number(review.votes_up || 0).toLocaleString()}
+              </p>
+            </div>
+
+            <p>
+              <a href="${escapeHTML(game.url)}" target="_blank">查看 Steam 页面</a>
+            </p>
+          </div>
         </div>
-
-        <p>
-          <a href="${game.url}" target="_blank">查看 Steam 页面</a>
-        </p>
       `;
 
       container.appendChild(div);

@@ -182,6 +182,7 @@ def fetch_app_details(appid):
         "final_price_num": price.get("final", 0) / 100,
         "description": clean_text(details.get("short_description", "")),
         "popularity": popularity,
+        "image_url": details.get("header_image") or f"https://cdn.akamai.steamstatic.com/steam/apps/{appid}/header.jpg",
         "url": f"https://store.steampowered.com/app/{appid}"
     }
 
