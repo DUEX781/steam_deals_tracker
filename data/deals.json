@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-04 06:31:39 UTC",
+  "updated_at": "2026-06-04 06:43:32 UTC",
   "count": 199,
   "source": "Steam Store specials search",
   "deals": [
@@ -11,7 +11,7 @@
       "final_price": "¥ 15.00",
       "final_price_num": 15.0,
       "description": "这是一款可以连线或本地游玩的派对游戏，4 到 15 名玩家相互合作与背叛... 一切都发生在太空之中！",
-      "popularity": 643711,
+      "popularity": 643713,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1757444903",
       "genres": [
         "休闲"
@@ -25,8 +25,12 @@
       ],
       "metacritic_score": 85,
       "release_date": "2018 年 11 月 16 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Innersloth"
+      ],
+      "publishers": [
+        "Innersloth"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -66,8 +70,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 1 月 18 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Pocketpair"
+      ],
+      "publishers": [
+        "Pocketpair"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -104,8 +112,12 @@
       ],
       "metacritic_score": 61,
       "release_date": "2016 年 8 月 12 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Hello Games"
+      ],
+      "publishers": [
+        "Hello Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -143,8 +155,12 @@
       ],
       "metacritic_score": 83,
       "release_date": "2023 年 2 月 10 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Avalanche Software"
+      ],
+      "publishers": [
+        "Warner Bros. Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -166,7 +182,7 @@
       "final_price": "¥ 79.50",
       "final_price_num": 79.5,
       "description": "洛斯苏埃诺斯市——LSPD报告称，泛洛斯苏埃诺斯地区的暴力犯罪事件急剧增加。警局已派遣SWAT小队应对包括人质危机、炸弹威胁、嫌犯固守在内的各类高危情形。建议广大市民非必要不外出。",
-      "popularity": 254392,
+      "popularity": 254389,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg?t=1779907126",
       "genres": [
         "动作",
@@ -182,8 +198,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2023 年 12 月 13 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "VOID Interactive"
+      ],
+      "publishers": [
+        "VOID Interactive"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -220,8 +240,12 @@
       ],
       "metacritic_score": 85,
       "release_date": "2020 年 8 月 11 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Hopoo Games"
+      ],
+      "publishers": [
+        "Gearbox Publishing"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -260,8 +284,12 @@
       ],
       "metacritic_score": 91,
       "release_date": "2024 年 9 月 10 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Coffee Stain Studios"
+      ],
+      "publishers": [
+        "Coffee Stain Publishing"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -283,7 +311,7 @@
       "final_price": "¥ 41.25",
       "final_price_num": 41.25,
       "description": "荣获超过200项年度游戏大奖的《The Elder Scrolls V: Skyrim》推出特别版，以令人惊叹的细致画面带来史诗奇幻巨作。特别版内含大获好评的主游戏、附加内容，还有全新功能。",
-      "popularity": 211650,
+      "popularity": 211654,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg?t=1753715778",
       "genres": [
         "角色扮演"
@@ -297,8 +325,12 @@
       ],
       "metacritic_score": 74,
       "release_date": "2016 年 10 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Bethesda Game Studios"
+      ],
+      "publishers": [
+        "Bethesda Softworks"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -336,8 +368,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 3 月 4 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Rockstar North"
+      ],
+      "publishers": [
+        "Rockstar Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -374,8 +410,13 @@
       ],
       "metacritic_score": 90,
       "release_date": "2020 年 3 月 24 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Rockstar North",
+        "Rockstar Toronto"
+      ],
+      "publishers": [
+        "Rockstar Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -397,7 +438,7 @@
       "final_price": "¥ 14.70",
       "final_price_num": 14.7,
       "description": "《古墓丽影》探索了劳拉·克劳馥紧张的起源故事，以及她从年轻女人变为坚强生存者的成长过程。",
-      "popularity": 169575,
+      "popularity": 169576,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203160/9e67774e97cdd155f287146e62611eb445514ac6/header.jpg?t=1765220424",
       "genres": [
         "动作",
@@ -412,8 +453,14 @@
       ],
       "metacritic_score": 86,
       "release_date": "2013 年 3 月 4 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Crystal Dynamics",
+        "Eidos-Montréal"
+      ],
+      "publishers": [
+        "Crystal Dynamics",
+        "Feral Interactive (Mac)"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -451,8 +498,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2021 年 4 月 1 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Landfall"
+      ],
+      "publishers": [
+        "Landfall"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -490,8 +541,13 @@
       ],
       "metacritic_score": 76,
       "release_date": "2018 年 2 月 13 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Warhorse Studios"
+      ],
+      "publishers": [
+        "Warhorse Studios",
+        "Deep Silver"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -513,7 +569,7 @@
       "final_price": "¥ 17.50",
       "final_price_num": 17.5,
       "description": "Slime Rancher是一部关于碧翠丝·乐步的传奇故事。这个年轻又有闯劲的牧场主，在离开地球1000光年的”致远牧星”上开始了身为史莱姆牧场主的新生活。怀揣着勇往直前的信念，还有可靠的真空抢，她踏上了新的征途。在这里，她将重建牧场、积累财富，还要突破隐藏在Q弹史莱姆后的重重冒险。",
-      "popularity": 136256,
+      "popularity": 136258,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433340/header.jpg?t=1758651509",
       "genres": [
         "动作",
@@ -530,8 +586,12 @@
       ],
       "metacritic_score": 81,
       "release_date": "2017 年 8 月 1 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Monomi Park"
+      ],
+      "publishers": [
+        "Monomi Park"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -569,8 +629,12 @@
       ],
       "metacritic_score": 89,
       "release_date": "2025 年 2 月 4 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Warhorse Studios"
+      ],
+      "publishers": [
+        "Deep Silver"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -592,7 +656,7 @@
       "final_price": "¥ 20.75",
       "final_price_num": 20.75,
       "description": "每段传说都有它的起点，而在《上古卷轴OL》中， 你将从头开始谱写属于自己的传说。加入数百万玩家的行列， 投身于广阔而生动的《上古卷轴》世界，体验这款在线奇幻角色扮演游戏。",
-      "popularity": 133138,
+      "popularity": 133136,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306130/ec07d0bdeb484c72a88f6c4427871736d091c3fc/header.jpg?t=1779374516",
       "genres": [
         "动作",
@@ -609,8 +673,12 @@
       ],
       "metacritic_score": 80,
       "release_date": "2017 年 5 月 22 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "ZeniMax Online Studios"
+      ],
+      "publishers": [
+        "Bethesda Softworks"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -632,7 +700,7 @@
       "final_price": "¥ 17.00",
       "final_price_num": 17.0,
       "description": "《Celeste》是《TowerFall》的制作者推出的又一力作。这款平台游戏节奏极为紧凑，玩家需要在 Madeline 攀登塞莱斯特山 (Celeste Mountain) 的旅程中，帮助她克服内心深处的恐惧。勇敢面对数百个手工打造的挑战场景，揭开诡异的秘密，解开神秘山峰的谜团吧。",
-      "popularity": 126807,
+      "popularity": 126808,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
       "genres": [
         "动作",
@@ -648,8 +716,13 @@
       ],
       "metacritic_score": 88,
       "release_date": "2018 年 1 月 25 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Maddy Makes Games Inc.",
+        "Extremely OK Games, Ltd."
+      ],
+      "publishers": [
+        "Maddy Makes Games Inc."
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -686,8 +759,14 @@
       ],
       "metacritic_score": 86,
       "release_date": "2016 年 2 月 9 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Crystal Dynamics",
+        "Eidos-Montréal"
+      ],
+      "publishers": [
+        "Crystal Dynamics",
+        "Feral Interactive (Mac)"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -724,8 +803,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 10 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Fancy Games",
+        "Blackbird Interactive"
+      ],
+      "publishers": [
+        "Secret Mode"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -747,7 +831,7 @@
       "final_price": "¥ 34.00",
       "final_price_num": 34.0,
       "description": "《极乐迪斯科 - 最终剪辑版（Disco Elysium - The Final Cut）》是一款极具创新性的开放世界RPG。扮演身怀绝技的警探，穿梭在城市街区间，谱写属于自己的篇章。讯问那些让你无法忘却的角色，勘破凶案，或是受贿沉沦。当英雄，还是做败类，由你来定。",
-      "popularity": 114790,
+      "popularity": 114792,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632470/header.jpg?t=1779877985",
       "genres": [
         "角色扮演"
@@ -761,8 +845,12 @@
       ],
       "metacritic_score": 97,
       "release_date": "2019 年 10 月 15 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "ZA/UM"
+      ],
+      "publishers": [
+        "ZA/UM"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -798,8 +886,12 @@
       ],
       "metacritic_score": 85,
       "release_date": "2020 年 2 月 14 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "4A Games"
+      ],
+      "publishers": [
+        "Deep Silver"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -821,7 +913,7 @@
       "final_price": "¥ 10.80",
       "final_price_num": 10.8,
       "description": "《冰汽时代》是首款以社会生存为题材的游戏。作为世上最后一座城市的管理者，你必须对人民及里面的基础设施进行管理。你将会采取哪种决定来确保你的社会生存下去？当你被推到极限时，会采取什么策略？在此过程中，你将扮演什么角色？",
-      "popularity": 112298,
+      "popularity": 112297,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1775495730",
       "genres": [
         "模拟",
@@ -836,8 +928,12 @@
       ],
       "metacritic_score": 84,
       "release_date": "2018 年 4 月 24 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "11 bit studios"
+      ],
+      "publishers": [
+        "11 bit studios"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -873,8 +969,13 @@
       ],
       "metacritic_score": 76,
       "release_date": "2017 年 2 月 13 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Ubisoft Montreal",
+        "Ubisoft Quebec"
+      ],
+      "publishers": [
+        "Ubisoft"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -912,8 +1013,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 11 月 30 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Fatshark"
+      ],
+      "publishers": [
+        "Fatshark"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -950,8 +1055,12 @@
       ],
       "metacritic_score": 74,
       "release_date": "2015 年 11 月 30 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Avalanche Studios"
+      ],
+      "publishers": [
+        "Square Enix"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -989,8 +1098,12 @@
       ],
       "metacritic_score": 80,
       "release_date": "2013 年 9 月 4 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Red Barrels"
+      ],
+      "publishers": [
+        "Red Barrels"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -1030,8 +1143,12 @@
       ],
       "metacritic_score": 79,
       "release_date": "2021 年 7 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Expression Games"
+      ],
+      "publishers": [
+        "Team17"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1070,8 +1187,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 6 月 17 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Gamepires"
+      ],
+      "publishers": [
+        "Gamepires"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1111,8 +1232,13 @@
       ],
       "metacritic_score": 67,
       "release_date": "2018 年 5 月 17 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Empyrean"
+      ],
+      "publishers": [
+        "Frozen District",
+        "PlayWay S.A."
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -1148,8 +1274,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2014 年 8 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "4A Games"
+      ],
+      "publishers": [
+        "Deep Silver"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -1187,8 +1317,12 @@
       ],
       "metacritic_score": 82,
       "release_date": "2018 年 3 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Fatshark"
+      ],
+      "publishers": [
+        "Fatshark"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1226,8 +1360,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2017 年 10 月 9 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Monolith Productions"
+      ],
+      "publishers": [
+        "WB Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1264,8 +1402,12 @@
       ],
       "metacritic_score": 85,
       "release_date": "2020 年 6 月 18 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Mobius Digital"
+      ],
+      "publishers": [
+        "Annapurna Interactive"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1303,8 +1445,12 @@
       ],
       "metacritic_score": 81,
       "release_date": "2019 年 11 月 5 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Frontier Developments"
+      ],
+      "publishers": [
+        "Frontier Developments"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1343,8 +1489,12 @@
       ],
       "metacritic_score": 78,
       "release_date": "2019 年 9 月 5 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Creepy Jar"
+      ],
+      "publishers": [
+        "Creepy Jar"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1382,8 +1532,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 4 月 26 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Slavic Magic"
+      ],
+      "publishers": [
+        "Hooded Horse"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1420,8 +1574,14 @@
       ],
       "metacritic_score": 77,
       "release_date": "2018 年 9 月 14 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Eidos-Montréal",
+        "Crystal Dynamics"
+      ],
+      "publishers": [
+        "Crystal Dynamics",
+        "Feral Interactive (Mac)"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -1459,8 +1619,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 4 月 1 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Zorro",
+        "Wilnyl"
+      ],
+      "publishers": [
+        "Evil Landfall?"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1496,8 +1661,12 @@
       ],
       "metacritic_score": 76,
       "release_date": "2014 年 8 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "4A Games"
+      ],
+      "publishers": [
+        "Deep Silver"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -1535,8 +1704,12 @@
       ],
       "metacritic_score": 87,
       "release_date": "2016 年 7 月 7 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Playdead"
+      ],
+      "publishers": [
+        "Playdead"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1574,8 +1747,14 @@
       ],
       "metacritic_score": null,
       "release_date": "2014 年 10 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "United Front Games",
+        "Feral Interactive (Mac)"
+      ],
+      "publishers": [
+        "Square Enix",
+        "Feral Interactive (Mac)"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -1597,7 +1776,7 @@
       "final_price": "¥ 97.30",
       "final_price_num": 97.3,
       "description": "由曾打造《精灵与森林》与《精灵与萤火意志》的获奖工作室 Moon Studios 倾力呈现，《恶意不息》是一款风格独特、直击感官的动作角色扮演游戏。游戏设定于一个精心构建的世界中，带来硬核的类魂战斗体验。支持最多四人合作游玩。",
-      "popularity": 62218,
+      "popularity": 62220,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1371980/331de7e745f43867f0a220339153ac6019822ea4/header.jpg?t=1780442295",
       "genres": [
         "动作",
@@ -1614,8 +1793,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 4 月 18 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Moon Studios GmbH"
+      ],
+      "publishers": [
+        "Moon Studios GmbH"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1655,8 +1838,14 @@
       ],
       "metacritic_score": 84,
       "release_date": "2016 年 11 月 17 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Frontier Developments",
+        "Aspyr (Mac)"
+      ],
+      "publishers": [
+        "Frontier Developments",
+        "Aspyr (Mac)"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -1692,8 +1881,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 4 月 22 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Bethesda Game Studios",
+        "Virtuos"
+      ],
+      "publishers": [
+        "Bethesda Softworks"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1731,8 +1925,12 @@
       ],
       "metacritic_score": 75,
       "release_date": "2017 年 4 月 24 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Red Barrels"
+      ],
+      "publishers": [
+        "Red Barrels"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1772,8 +1970,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2017 年 12 月 12 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Boneloaf",
+        "Rocket Science"
+      ],
+      "publishers": [
+        "Boneloaf"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -1812,8 +2015,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 6 月 19 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Anegar Games"
+      ],
+      "publishers": [
+        "Secret Mode"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1851,8 +2058,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 7 月 14 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "FuturLab"
+      ],
+      "publishers": [
+        "FuturLab"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1874,7 +2085,7 @@
       "final_price": "¥ 45.60",
       "final_price_num": 45.6,
       "description": "这是一款可供 1 至 8 名玩家畅玩的挖矿类沙盒冒险游戏，你将探索一座充满各种生物、遗物与资源的无穷无尽的洞窟。不断挖掘、建造、战斗、打造、耕作，最终揭晓古代核心的奥秘。",
-      "popularity": 48705,
+      "popularity": 48706,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1621690/header_schinese.jpg?t=1780488019",
       "genres": [
         "动作",
@@ -1892,8 +2103,13 @@
       ],
       "metacritic_score": 86,
       "release_date": "2024 年 8 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Pugstorm"
+      ],
+      "publishers": [
+        "Fireshine Games",
+        "bilibili"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1931,8 +2147,12 @@
       ],
       "metacritic_score": 66,
       "release_date": "2023 年 9 月 21 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Starbreeze Studios"
+      ],
+      "publishers": [
+        "Starbreeze Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -1954,7 +2174,7 @@
       "final_price": "¥ 13.80",
       "final_price_num": 13.8,
       "description": "《CONTROL》赢得超过80项大奖，游戏画面如同精彩的视觉盛宴，踏上节奏紧张刺激的第三人称动作冒险旅程，让你每一秒都无法松懈。",
-      "popularity": 47523,
+      "popularity": 47525,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/870780/ec621653454cdad232187af4eb79f23c05aceca5/header.jpg?t=1775822834",
       "genres": [
         "动作",
@@ -1969,8 +2189,12 @@
       ],
       "metacritic_score": 85,
       "release_date": "2020 年 8 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Remedy Entertainment"
+      ],
+      "publishers": [
+        "Remedy Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -1992,7 +2216,7 @@
       "final_price": "¥ 100.80",
       "final_price_num": 100.8,
       "description": "3D对战格斗游戏的最高峰「铁拳」系列最新作「铁拳8」 总共32名角色激战。「铁拳」传奇揭开新幕。 系列作史上最强爽快感的战斗。",
-      "popularity": 45850,
+      "popularity": 45851,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1778820/8518523e6bea615ba8127c6fc215fd1eac966501/header.jpg?t=1779923026",
       "genres": [
         "动作"
@@ -2006,8 +2230,12 @@
       ],
       "metacritic_score": 91,
       "release_date": "2024 年 1 月 25 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Bandai Namco Studios Inc."
+      ],
+      "publishers": [
+        "Bandai Namco Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2043,8 +2271,12 @@
       ],
       "metacritic_score": 78,
       "release_date": "2021 年 12 月 9 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "10 Chambers"
+      ],
+      "publishers": [
+        "10 Chambers"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2066,7 +2298,7 @@
       "final_price": "¥ 42.88",
       "final_price_num": 42.88,
       "description": "ACE COMBAT系列，是能让玩家能化身为王牌驾驶员，驾驶爱机在追求拟真天空的美丽空间内，享受360度自由飞行的爽快感、让玩家亲自判断状况并选择敌人来破坏的痛快感、享受克服难关达成感的飞行射击游戏。",
-      "popularity": 44806,
+      "popularity": 44807,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/502500/header.jpg?t=1777545285",
       "genres": [
         "动作",
@@ -2081,8 +2313,12 @@
       ],
       "metacritic_score": 78,
       "release_date": "2019 年 1 月 31 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Bandai Namco Studios Inc."
+      ],
+      "publishers": [
+        "Bandai Namco Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2119,8 +2355,12 @@
       ],
       "metacritic_score": 82,
       "release_date": "2022 年 6 月 12 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Torn Banner Studios"
+      ],
+      "publishers": [
+        "Tripwire Presents"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2142,7 +2382,7 @@
       "final_price": "¥ 51.60",
       "final_price_num": 51.6,
       "description": "做好准备，迎接下一代越野体验吧！ 驾驶强力载具，克服各种极端户外环境，完成诸多挑战任务。您可以独力驰骋，也可以叫上最多三位好友一起欢乐！",
-      "popularity": 44272,
+      "popularity": 44270,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465360/header.jpg?t=1773915366",
       "genres": [
         "冒险",
@@ -2157,8 +2397,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2021 年 5 月 17 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Saber Interactive"
+      ],
+      "publishers": [
+        "Focus Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -2195,8 +2439,12 @@
       ],
       "metacritic_score": 83,
       "release_date": "2012 年 2 月 16 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Remedy Entertainment"
+      ],
+      "publishers": [
+        "Remedy Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2234,8 +2482,12 @@
       ],
       "metacritic_score": 66,
       "release_date": "2017 年 3 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Videocult"
+      ],
+      "publishers": [
+        "Akupara Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2257,7 +2509,7 @@
       "final_price": "¥ 54.00",
       "final_price_num": 54.0,
       "description": "碧翠丝·乐步的冒险并未停歇，她穿越史莱姆海来到彩虹岛。这座岛屿充满了古老的谜团，到处遍布着弹嘟嘟的新型史莱姆。人气游戏Slime Rancher的新篇章，由你尽兴徜徉",
-      "popularity": 42137,
+      "popularity": 42136,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1657630/e0ebd5982e69895132d4ffdf80a1a6048ab53d25/header.jpg?t=1776359011",
       "genres": [
         "动作",
@@ -2275,8 +2527,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 9 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Monomi Park"
+      ],
+      "publishers": [
+        "Monomi Park"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2298,7 +2554,7 @@
       "final_price": "¥ 117.60",
       "final_price_num": 117.6,
       "description": "《光环》和《命运》创作者推出PvPvE第一人称生存撤离射击游戏，玩家将成为穿着生物控制外壳的疾行者，在失落的天仓五IV殖民地中搜寻物资。",
-      "popularity": 40670,
+      "popularity": 40664,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3065800/4b7961273ef37ef82119c804ae6087fbbed69dfd/header_schinese.jpg?t=1780544731",
       "genres": [
         "动作"
@@ -2312,8 +2568,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 3 月 5 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Bungie"
+      ],
+      "publishers": [
+        "Bungie"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2335,7 +2595,7 @@
       "final_price": "¥ 48.90",
       "final_price_num": 48.9,
       "description": "《侏罗纪世界：进化 2》是 Frontier 成就非凡的游戏《侏罗纪世界：进化》的续作，备受玩家期待。作为《侏罗纪世界：进化》游戏系列的全新的冒险纪元，本作以 2018 年极富开创性且充满沉浸感的管理模拟架构为基础进行开发。",
-      "popularity": 38781,
+      "popularity": 38782,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1244460/header_schinese.jpg?t=1750957701",
       "genres": [
         "模拟",
@@ -2350,8 +2610,12 @@
       ],
       "metacritic_score": 76,
       "release_date": "2021 年 11 月 9 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Frontier Developments"
+      ],
+      "publishers": [
+        "Frontier Developments"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2390,8 +2654,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2018 年 11 月 9 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Noble Muffins"
+      ],
+      "publishers": [
+        "PlayWay S.A."
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -2429,8 +2697,13 @@
       ],
       "metacritic_score": 76,
       "release_date": "2023 年 2 月 20 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Mundfish"
+      ],
+      "publishers": [
+        "Focus Entertainment",
+        "4Divinity"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2467,8 +2740,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2021 年 8 月 11 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Red Dot Games"
+      ],
+      "publishers": [
+        "PlayWay S.A."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2490,7 +2767,7 @@
       "final_price": "¥ 48.84",
       "final_price_num": 48.84,
       "description": "本作是以法庭为舞台的冒险游戏。玩家将扮演律师「成步堂龙一」，为证明委託人的清白而踏上法庭。此精选集收录了作为系列原点的《逆转裁判 復甦的逆转》、《逆转裁判2》和《逆转裁判3》共14话。 ※简繁中文字幕将于发售后以更新包形式追加。",
-      "popularity": 34482,
+      "popularity": 34483,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/787480/header.jpg?t=1768866317",
       "genres": [
         "冒险"
@@ -2504,8 +2781,12 @@
       ],
       "metacritic_score": 80,
       "release_date": "2019 年 4 月 9 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publishers": [
+        "CAPCOM Co., Ltd."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2543,8 +2824,12 @@
       ],
       "metacritic_score": 83,
       "release_date": "2021 年 11 月 1 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Witch Beam"
+      ],
+      "publishers": [
+        "Balor Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -2566,7 +2851,7 @@
       "final_price": "¥ 10.34",
       "final_price_num": 10.34,
       "description": "一款在线合作恐怖游戏，玩家需为“PAH Inc.”平息、削弱并捕获超自然生物。每个关卡都有不同的剧情、独特的怪物以及多种结局。支持单人游玩，也可与最多6位好友组队。游戏包含带有趣味音效的近距离语音聊天功能。",
-      "popularity": 32661,
+      "popularity": 32662,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/967050/24d904ac2a44db150c4155b5a04901c5b01750d8/header.jpg?t=1777775410",
       "genres": [
         "动作",
@@ -2584,8 +2869,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2019 年 2 月 22 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Shawn Hitchcock"
+      ],
+      "publishers": [
+        "Hitchcock Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -2625,8 +2914,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 10 月 18 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Triiodide Studios"
+      ],
+      "publishers": [
+        "Triiodide Studios"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2636,8 +2929,8 @@
       "top_review": {
         "text": "游戏好玩归好玩，不过这更新速度也太慢了啊，图都不知道通过好几遍了，别的后室图超级多，难道让玩家每天守在电脑旁边等你更新吗？作者是不是鹿昏死过去了",
         "voted_up": false,
-        "votes_up": 99,
-        "weighted_vote_score": "0.829230308532714844"
+        "votes_up": 100,
+        "weighted_vote_score": "0.830623149871826172"
       }
     },
     {
@@ -2664,8 +2957,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 3 月 19 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Ubisoft Quebec",
+        "Ubisoft Belgrade"
+      ],
+      "publishers": [
+        "Ubisoft"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2702,8 +3000,12 @@
       ],
       "metacritic_score": 91,
       "release_date": "2023 年 12 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Eremite Games"
+      ],
+      "publishers": [
+        "Hooded Horse"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2742,8 +3044,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2023 年 4 月 12 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Shiro Games"
+      ],
+      "publishers": [
+        "Shiro Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2765,7 +3071,7 @@
       "final_price": "¥ 45.60",
       "final_price_num": 45.6,
       "description": "真善之舟奥伯拉丁号 ~ 于1803年在海上失踪。",
-      "popularity": 31253,
+      "popularity": 31255,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/653530/header.jpg?t=1686697594",
       "genres": [
         "冒险",
@@ -2780,8 +3086,12 @@
       ],
       "metacritic_score": 89,
       "release_date": "2018 年 10 月 18 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Lucas Pope"
+      ],
+      "publishers": [
+        "3909"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -2818,8 +3128,12 @@
       ],
       "metacritic_score": 74,
       "release_date": "2015 年 11 月 18 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Ubisoft Quebec, in collaboration with Ubisoft Annecy, Bucharest, Kiev, Montreal, Montpellier, Shanghai, Singapore, Sofia, Toronto studios"
+      ],
+      "publishers": [
+        "Ubisoft"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2858,8 +3172,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2018 年 12 月 11 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Stumpy🐙Squid",
+        "Fury Studios"
+      ],
+      "publishers": [
+        "Raw Fury"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -2896,8 +3215,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2020 年 11 月 5 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Pillow Castle"
+      ],
+      "publishers": [
+        "Pillow Castle"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -2935,8 +3258,13 @@
       ],
       "metacritic_score": 80,
       "release_date": "2017 年 3 月 24 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Overhype Studios"
+      ],
+      "publishers": [
+        "Hooded Horse",
+        "Overhype Studios"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -2958,7 +3286,7 @@
       "final_price": "¥ 37.25",
       "final_price_num": 37.25,
       "description": "这款城市建造游戏具有复杂的产业链和完全仿真的全球经济体系，您可以沉浸式体验如何把一贫如洗的国家打造为富裕的超级工业强国：苏维埃共和国。还能管理公民生活的方方面面，包括教育、工作、党派忠诚度和犯罪活动。",
-      "popularity": 24081,
+      "popularity": 24082,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/784150/header_schinese.jpg?t=1779785928",
       "genres": [
         "模拟",
@@ -2973,8 +3301,12 @@
       ],
       "metacritic_score": 81,
       "release_date": "2024 年 6 月 20 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "3Division"
+      ],
+      "publishers": [
+        "Hooded Horse"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3012,8 +3344,12 @@
       ],
       "metacritic_score": 77,
       "release_date": "2023 年 3 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Crazy Rocks"
+      ],
+      "publishers": [
+        "PlayWay S.A."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3052,8 +3388,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 10 月 16 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Fair Games ApS"
+      ],
+      "publishers": [
+        "Fair Games ApS"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3093,8 +3433,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 9 月 26 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Panik Arcade"
+      ],
+      "publishers": [
+        "Future Friends Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3130,8 +3474,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 4 月 18 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Ubisoft Ivory Tower"
+      ],
+      "publishers": [
+        "Ubisoft"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3169,8 +3517,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 10 月 11 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "GrizzlyGames",
+        "Mythwright"
+      ],
+      "publishers": [
+        "Mythwright"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3192,7 +3545,7 @@
       "final_price": "¥ 28.00",
       "final_price_num": 28.0,
       "description": "今天村里天气真不错，而你是一只可怕的鹅。",
-      "popularity": 22040,
+      "popularity": 22041,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/837470/header.jpg?t=1699052664",
       "genres": [
         "动作",
@@ -3207,8 +3560,12 @@
       ],
       "metacritic_score": 79,
       "release_date": "2020 年 9 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "House House"
+      ],
+      "publishers": [
+        "Panic"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3244,8 +3601,12 @@
       ],
       "metacritic_score": 87,
       "release_date": "2019 年 3 月 13 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Hempuli Oy"
+      ],
+      "publishers": [
+        "Hempuli Oy"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3282,8 +3643,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 4 月 22 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Dambuster Studios"
+      ],
+      "publishers": [
+        "Deep Silver"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3305,7 +3670,7 @@
       "final_price": "¥ 74.00",
       "final_price_num": 74.0,
       "description": "Gears 脱胎于游戏史上最受欢迎的传奇之一，与前作相比更为宏大。全面战争即将爆发，凯特·迪亚兹脱离小队，调查她与敌人之间的关系，却发现锡拉星的真正威胁竟正是她自己。",
-      "popularity": 20108,
+      "popularity": 20109,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1097840/header.jpg?t=1780003997",
       "genres": [
         "动作",
@@ -3320,8 +3685,12 @@
       ],
       "metacritic_score": 82,
       "release_date": "2019 年 9 月 9 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "The Coalition"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3343,7 +3712,7 @@
       "final_price": "¥ 26.55",
       "final_price_num": 26.55,
       "description": "一款快节奏的王国建造类Roguelike游戏，数百张独特卡牌，数千种疯狂构筑，突破游戏规则……与九王史诗对决、赢得战斗、扩展帝国，成就众王之王！",
-      "popularity": 20011,
+      "popularity": 20012,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2784470/e8b2765e3226fbfd48407e62fbf9cadb7731c303/header_schinese.jpg?t=1779786088",
       "genres": [
         "角色扮演",
@@ -3359,8 +3728,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 5 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Sad Socket"
+      ],
+      "publishers": [
+        "Hooded Horse",
+        "Sidekick Publishing"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3397,8 +3771,13 @@
       ],
       "metacritic_score": 78,
       "release_date": "2019 年 3 月 29 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Limbic Entertainment",
+        "Realmforge Studios"
+      ],
+      "publishers": [
+        "Kalypso Media"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3435,8 +3814,12 @@
       ],
       "metacritic_score": 82,
       "release_date": "2022 年 10 月 17 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Asobo Studio"
+      ],
+      "publishers": [
+        "Focus Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3474,8 +3857,12 @@
       ],
       "metacritic_score": 84,
       "release_date": "2017 年 12 月 14 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Buried Signal"
+      ],
+      "publishers": [
+        "Annapurna Interactive"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3514,8 +3901,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2016 年 8 月 31 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Hunter Studio"
+      ],
+      "publishers": [
+        "Neon Doctrine"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3553,8 +3944,13 @@
       ],
       "metacritic_score": 75,
       "release_date": "2020 年 12 月 1 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Sector D2"
+      ],
+      "publishers": [
+        "Sector D2",
+        "Balor Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3593,8 +3989,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 9 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Bippinbits"
+      ],
+      "publishers": [
+        "Raw Fury"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3630,8 +4030,12 @@
       ],
       "metacritic_score": 75,
       "release_date": "2023 年 9 月 14 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Koei Tecmo"
+      ],
+      "publishers": [
+        "BANDAI NAMCO Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3668,8 +4072,12 @@
       ],
       "metacritic_score": 85,
       "release_date": "2009 年 10 月 16 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Amanita Design"
+      ],
+      "publishers": [
+        "Amanita Design"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3706,8 +4114,12 @@
       ],
       "metacritic_score": 87,
       "release_date": "2016 年 1 月 26 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Thekla, Inc."
+      ],
+      "publishers": [
+        "Thekla, Inc."
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3744,8 +4156,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 6 月 7 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Slug Disco"
+      ],
+      "publishers": [
+        "Hooded Horse",
+        "Slug Disco"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3782,8 +4199,12 @@
       ],
       "metacritic_score": 80,
       "release_date": "2021 年 10 月 7 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Hello Games"
+      ],
+      "publishers": [
+        "Hello Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3805,7 +4226,7 @@
       "final_price": "¥ 39.00",
       "final_price_num": 39.0,
       "description": "密室逃脱模拟器是一款第一人称解谜游戏。你可以单人游玩，或是线上多人合作（最好是2～3人，但是多一些人也无妨）。探索一个接着一个的交互式密室。你可以移动家具、打碎各种瓶子、解开各种锁、把你所能看到的东西全部捡起来仔细查看！也支持社区利用关卡编辑器制作的各种密室。",
-      "popularity": 16253,
+      "popularity": 16254,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/383052ce85dd2b8690e56d8df3364ff5adf65beb/header_alt_assets_21.jpg?t=1779831582",
       "genres": [
         "冒险",
@@ -3822,8 +4243,12 @@
       ],
       "metacritic_score": 82,
       "release_date": "2021 年 10 月 19 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Pine Studio"
+      ],
+      "publishers": [
+        "Pine Studio"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3863,8 +4288,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 1 月 29 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "The Game Bakers"
+      ],
+      "publishers": [
+        "The Game Bakers"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -3886,7 +4315,7 @@
       "final_price": "¥ 64.80",
       "final_price_num": 64.8,
       "description": "欢迎来到霍利山庄，每逢破晓时分，此处便有奥秘浮出水面。穿梭于变幻莫测的走廊与房间，体验独树一帜的策略解密冒险之旅。一路摸索，能否抵达传言中的46号房？",
-      "popularity": 16070,
+      "popularity": 16071,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1569580/879ac248a3b548a6bbc32771b950756378e7e922/header.jpg?t=1776265019",
       "genres": [
         "冒险",
@@ -3902,8 +4331,12 @@
       ],
       "metacritic_score": 92,
       "release_date": "2025 年 4 月 10 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Dogubomb"
+      ],
+      "publishers": [
+        "Raw Fury"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3940,8 +4373,12 @@
       ],
       "metacritic_score": 75,
       "release_date": "2022 年 11 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Max Inferno"
+      ],
+      "publishers": [
+        "Secret Mode"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -3978,8 +4415,12 @@
       ],
       "metacritic_score": 84,
       "release_date": "2024 年 9 月 26 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Passtech Games"
+      ],
+      "publishers": [
+        "Nacon"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4018,8 +4459,13 @@
       ],
       "metacritic_score": 86,
       "release_date": "2018 年 9 月 20 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Radical Fish Games"
+      ],
+      "publishers": [
+        "Deck13",
+        "WhisperGames"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -4057,8 +4503,12 @@
       ],
       "metacritic_score": 80,
       "release_date": "2024 年 4 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Mooncube Games"
+      ],
+      "publishers": [
+        "Mooncube Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -4095,8 +4545,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 11 月 2 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Rusty Lake"
+      ],
+      "publishers": [
+        "Rusty Lake"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -4135,8 +4589,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 5 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Eugen Systems"
+      ],
+      "publishers": [
+        "Eugen Systems"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4158,7 +4616,7 @@
       "final_price": "¥ 92.07",
       "final_price_num": 92.07,
       "description": "Grand Theft Auto: San Andreas：现在是 90 年代初期。在一群贪污腐败的警察诬陷他犯下了谋杀罪后，“CJ”卡尔·约翰逊被迫踏上横跨整个圣安地列斯州的旅程，试图挽救他的家庭并掌控街头。",
-      "popularity": 13680,
+      "popularity": 13682,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1547000/header.jpg?t=1741117455",
       "genres": [
         "动作",
@@ -4170,8 +4628,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2023 年 1 月 19 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Rockstar Games"
+      ],
+      "publishers": [
+        "Rockstar Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4209,8 +4671,12 @@
       ],
       "metacritic_score": 77,
       "release_date": "2020 年 9 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Indoor Astronaut"
+      ],
+      "publishers": [
+        "Daedalic Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -4246,8 +4712,12 @@
       ],
       "metacritic_score": 85,
       "release_date": "2025 年 6 月 13 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "11 bit studios"
+      ],
+      "publishers": [
+        "11 bit studios"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4269,7 +4739,7 @@
       "final_price": "¥ 49.60",
       "final_price_num": 49.6,
       "description": "重现了荒木飞吕彦老师所描绘的独特画风的格斗游戏！ 总共集结了50位历代角色，替身、波纹、流法等，在各部中活跃的能力互相对抗！ 只有在本作才能看到的梦幻舞台，在原作中从没相遇的角色间的互动都是此生必看！",
-      "popularity": 13398,
+      "popularity": 13399,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1372110/header.jpg?t=1720409046",
       "genres": [
         "动作"
@@ -4283,8 +4753,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 9 月 1 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "CyberConnect2 Co. Ltd."
+      ],
+      "publishers": [
+        "Bandai Namco Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4321,8 +4795,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 8 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "KONAMI"
+      ],
+      "publishers": [
+        "KONAMI"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4359,8 +4837,12 @@
       ],
       "metacritic_score": 76,
       "release_date": "2024 年 11 月 6 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Frontier Developments"
+      ],
+      "publishers": [
+        "Frontier Developments"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4397,8 +4879,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2019 年 10 月 24 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Softstar Technology (Beijing) Co.,Ltd"
+      ],
+      "publishers": [
+        "SOFTSTAR ENTERTAINMENT"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -4436,8 +4922,12 @@
       ],
       "metacritic_score": 81,
       "release_date": "2019 年 10 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Frozenbyte"
+      ],
+      "publishers": [
+        "Frozenbyte"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4473,8 +4963,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 8 月 14 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Relic Entertainment"
+      ],
+      "publishers": [
+        "Relic Entertainment "
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4489,44 +4983,6 @@
       }
     },
     {
-      "appid": 1611910,
-      "name": "《Warhammer 40,000：混沌之门 - 恶魔猎人》",
-      "discount": 90,
-      "original_price": "¥ 126.00",
-      "final_price": "¥ 12.60",
-      "final_price_num": 12.6,
-      "description": "在这款步调紧凑的回合制战略角色扮演游戏中，率领人类最强大的兵器“灰骑士”。运用你专属恶魔猎人小队的战略和天赋，在电影般的剧情导向战役中根除遍及诸多星球的银河级瘟疫。",
-      "popularity": 11092,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1611910/header.jpg?t=1764856974",
-      "genres": [
-        "角色扮演",
-        "策略"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "完全支持控制器",
-        "Steam 集换式卡牌",
-        "Steam 云"
-      ],
-      "metacritic_score": 81,
-      "release_date": "2022 年 5 月 5 日",
-      "developers": [],
-      "publishers": [],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/1611910",
-      "top_review": {
-        "text": "如果你是战棋游戏爱好者，那么我推荐你出门左拐去玩别的游戏 如果你是战锤粉丝，那我建议你离这款游戏远点 作为一个玩家的看法 游戏的缺点是那种你一进游戏，玩个1，2给小时就能感觉出来的，相当奇怪的数值设计，没什么大幅提升的局外成长，失败的装备系统，而且引导也比较拉，有的时候会迷失目标，这些还是游戏内的缺点。 游戏本身还有很差的优化以及各种大大小小的bug这些问题 作为一个战锤粉丝的看法 美术倒是还过得去，不过也就只有这点了。 与其他战锤游戏不同的是，这作的音乐并不是很让人印象深刻，原声轨里有27首音乐，但是然我能回忆起游戏场景的只有个位数，多数曲子趋于同质化。 剧情方面，确实是和其他评论大致一样，剧情的存在就是证明这部游戏有剧情这个东西，没什么跌宕起伏，从头到尾都比较白开水，没有作为战锤的那种史...",
-        "voted_up": false,
-        "votes_up": 21,
-        "weighted_vote_score": "0.735979139804840088"
-      }
-    },
-    {
       "appid": 3548580,
       "name": "放松时光：与你共享Lo-Fi故事",
       "discount": 25,
@@ -4534,7 +4990,7 @@
       "final_price": "¥ 29.25",
       "final_price_num": 29.25,
       "description": "「放松时光：与你共享Lo-Fi故事」是一个与喜欢写故事的女孩聪音一起工作的有声小说游戏。您可以自定义艺术家的原创乐曲、环境音和风景，以营造一个专注于工作的环境。在与聪音的关系加深的过程中，您可能会发现与她之间的特别联系。",
-      "popularity": 10502,
+      "popularity": 10503,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3548580/a575150d2f6a0de1dfa40835a68225c7d5f1e2eb/header_schinese.jpg?t=1780254996",
       "genres": [
         "冒险",
@@ -4550,8 +5006,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 11 月 16 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Nestopi Inc."
+      ],
+      "publishers": [
+        "Nestopi Inc."
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -4563,6 +5023,50 @@
         "voted_up": true,
         "votes_up": 1850,
         "weighted_vote_score": "0.990582704544067383"
+      }
+    },
+    {
+      "appid": 1594320,
+      "name": "工业巨头 (Captain of Industry)",
+      "discount": 30,
+      "original_price": "¥ 128.00",
+      "final_price": "¥ 89.60",
+      "final_price_num": 89.6,
+      "description": "在偏远的孤岛上建立你的工业帝国。开采资源、利用挖掘机重塑地形、种植粮食、建造工厂、铺设铁轨，并与外界进行贸易。研发 100 项以上先进技术，实现从基础金属冶炼到核能开发与航天飞行的跨越。",
+      "popularity": 10392,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1594320/2ab6e9a5ec9aedca02b0347bb017c92caff0580b/header.jpg?t=1776465561",
+      "genres": [
+        "独立",
+        "模拟",
+        "策略",
+        "抢先体验"
+      ],
+      "categories": [
+        "单人",
+        "可调整文字大小",
+        "视角舒适度",
+        "自定义音量控制",
+        "可调整难度"
+      ],
+      "metacritic_score": null,
+      "release_date": "2022 年 5 月 31 日",
+      "developers": [
+        "MaFi Games"
+      ],
+      "publishers": [
+        "MaFi Games"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/1594320",
+      "top_review": {
+        "text": "好玩是好玩，但是有个很大的问题，重新规划成本太高了、太需要耐心了 作为新手你前期不可能知道怎么样的规划更完美 当你玩到新的一个阶段的时候，你会发现前面的建造布局就是一坨狗屎，于是想重新规划一下，结果你发现你的各种建筑设施像积木搭上去的，牵一发而动全身，一不小心就集体炸缸。 于是你重新开启了新的游戏，这个阶段你在前期布置的很完美，但是玩到后期你会发现，你这次规划的生产区域范围太小了，根本跟不上后期的产能，你又需要大改重新规划了，然后又炸缸了。 再有就是迫切需要隧道和桥梁，这游戏在一些地方都比较贴近现实，那你为什么不把隧道和桥梁给我？",
+        "voted_up": true,
+        "votes_up": 54,
+        "weighted_vote_score": "0.845787107944488525"
       }
     },
     {
@@ -4591,8 +5095,12 @@
       ],
       "metacritic_score": 80,
       "release_date": "2024 年 10 月 4 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Door 407"
+      ],
+      "publishers": [
+        "Door 407"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4630,8 +5138,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 10 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "FuturLab"
+      ],
+      "publishers": [
+        "FuturLab"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4668,8 +5180,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 9 月 20 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "weltenbauer. Software Entwicklung GmbH"
+      ],
+      "publishers": [
+        "astragon Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4706,8 +5222,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 7 月 15 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Firefly Studios"
+      ],
+      "publishers": [
+        "Firefly Studios"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4744,8 +5264,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 10 月 13 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Color Gray Games"
+      ],
+      "publishers": [
+        "Playstack"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -4785,8 +5309,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 1 月 30 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Sunblink"
+      ],
+      "publishers": [
+        "Sunblink"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4825,8 +5353,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 10 月 10 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Timon Herzog"
+      ],
+      "publishers": [
+        "Metaroot",
+        "Timon Herzog"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -4861,8 +5394,12 @@
       ],
       "metacritic_score": 86,
       "release_date": "2025 年 1 月 15 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Evil Trout Inc."
+      ],
+      "publishers": [
+        "Evil Trout Inc."
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -4884,7 +5421,7 @@
       "final_price": "¥ 21.60",
       "final_price_num": 21.6,
       "description": "你将体验到各种令人惊叹的游戏类型：开放世界第一人称合作幻想酒馆模拟器、动作、钓鱼、打猎、探索，有趣且多样的任务。当然，还有做饭！单人冒险或是和朋友一起踏上世界旅途！",
-      "popularity": 8154,
+      "popularity": 8155,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2683150/30875443b68f2b18eef2f1e839d30b941194038e/header_alt_assets_1.jpg?t=1780496107",
       "genres": [
         "动作",
@@ -4902,8 +5439,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 9 月 5 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Scienart Games"
+      ],
+      "publishers": [
+        "GrabTheGames",
+        "UpgradePoint"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4943,8 +5485,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 10 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Perfect Random"
+      ],
+      "publishers": [
+        "Perfect Random"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -4981,8 +5527,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 2 月 1 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Deck Nine"
+      ],
+      "publishers": [
+        "Square Enix"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5004,7 +5554,7 @@
       "final_price": "¥ 29.40",
       "final_price_num": 29.4,
       "description": "《这个座位有人坐吗？》是一款逻辑益智游戏，你要给一群特别有趣的角色牵线。每个角色都有自己计较的小事情，给他们安排位置既有难度，又很有趣。体验游戏的温馨、诙谐和真实，为所有角色找到最合适的位置，就能解锁新的关卡。",
-      "popularity": 7978,
+      "popularity": 7979,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3035120/header.jpg?t=1779986297",
       "genres": [
         "休闲",
@@ -5019,8 +5569,12 @@
       ],
       "metacritic_score": 79,
       "release_date": "2025 年 8 月 7 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Poti Poti Studio"
+      ],
+      "publishers": [
+        "Wholesome Games Presents"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -5057,8 +5611,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 4 月 9 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "PikPok"
+      ],
+      "publishers": [
+        "Boltray Games (China)",
+        "PikPok (worldwide)"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -5095,8 +5654,13 @@
       ],
       "metacritic_score": 91,
       "release_date": "2022 年 12 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Umami Tiger (Matthias Linda)"
+      ],
+      "publishers": [
+        "Deck13",
+        "WhisperGames"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -5118,7 +5682,7 @@
       "final_price": "¥ 40.60",
       "final_price_num": 40.6,
       "description": "《Cast n Chill》是一款轻松放松的钓鱼游戏，你可以探索宁静的湖泊、河流和海洋。垂钓稀有鱼类，升级你的装备，收获传奇渔获，还有你忠诚的小狗陪伴左右。",
-      "popularity": 7368,
+      "popularity": 7369,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483740/b3861b297ccb9284cd066c91f57b8b97b8e9fa91/header.jpg?t=1779967332",
       "genres": [
         "休闲",
@@ -5136,8 +5700,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 6 月 16 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Wombat Brawler"
+      ],
+      "publishers": [
+        "Wombat Brawler"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -5175,8 +5743,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 10 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "WanadevStudio"
+      ],
+      "publishers": [
+        "WanadevStudio"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5216,8 +5788,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 10 月 5 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "MetalStar Studio"
+      ],
+      "publishers": [
+        "MetalStar Studio"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5239,7 +5815,7 @@
       "final_price": "¥ 73.60",
       "final_price_num": 73.6,
       "description": "《奥秘消退 (Esoteric Ebb) 》是一款等距视角单人RPG游戏。与你的哥布林伙伴一起揭开一场政治阴谋。掷骰子，做出紧张刺激的选择，并探索一个即将迎来首次选举的城市。成为传说中的神职人员，或彻底破坏这场战役。",
-      "popularity": 6340,
+      "popularity": 6342,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2057760/853a82bc3f3ad992dcbbb22ce7215c75ee94ac25/header_schinese.jpg?t=1776091835",
       "genres": [
         "独立",
@@ -5254,8 +5830,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 3 月 3 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Christoffer Bodegård"
+      ],
+      "publishers": [
+        "Raw Fury"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5293,8 +5873,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2023 年 10 月 4 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "CookieDev",
+        "Ultimate Games S.A."
+      ],
+      "publishers": [
+        "PlayWay S.A."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5331,8 +5916,12 @@
       ],
       "metacritic_score": 90,
       "release_date": "2023 年 6 月 29 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publishers": [
+        "CAPCOM Co., Ltd."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5344,45 +5933,6 @@
         "voted_up": true,
         "votes_up": 22,
         "weighted_vote_score": "0.750403106212615967"
-      }
-    },
-    {
-      "appid": 2721890,
-      "name": "Öoo",
-      "discount": 25,
-      "original_price": "¥ 42.00",
-      "final_price": "¥ 31.50",
-      "final_price_num": 31.5,
-      "description": "炸弹毛毛虫的大冒险！ 《Öoo》是一款探索解谜平台游戏，在这个可爱又略显奇妙的世界中，探索炸弹的各种使用方式吧！",
-      "popularity": 5813,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2721890/67d5ccd1a6081e0291dc73cf1c2c9ebdaf6eed34/header.jpg?t=1779966082",
-      "genres": [
-        "动作",
-        "冒险",
-        "独立"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "完全支持控制器",
-        "视角舒适度",
-        "自定义音量控制"
-      ],
-      "metacritic_score": null,
-      "release_date": "2025 年 8 月 7 日",
-      "developers": [],
-      "publishers": [],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/2721890",
-      "top_review": {
-        "text": "孩子们，游戏一定要好玩啊。一款游戏只需要通过图形来理解并且配合几个键位操作，在Steam上103种语言的界面都支持。某些流水线大厂是不是应该反思一下，不去卷体量、美术、音乐，而是把重心放在游戏本身是否好玩以及给人带来快乐的初心上呢？",
-        "voted_up": true,
-        "votes_up": 50,
-        "weighted_vote_score": "0.832739472389221191"
       }
     },
     {
@@ -5409,8 +5959,13 @@
       ],
       "metacritic_score": 80,
       "release_date": "2023 年 12 月 5 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Hyperstrange"
+      ],
+      "publishers": [
+        "New Blood Interactive",
+        "Hyperstrange"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5447,8 +6002,13 @@
       ],
       "metacritic_score": 85,
       "release_date": "2023 年 8 月 17 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Mimimi Games"
+      ],
+      "publishers": [
+        "Hooded Horse",
+        "Mimimi Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5486,8 +6046,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 8 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "元气弹工作室(GD Studio)"
+      ],
+      "publishers": [
+        "元气弹工作室(GD Studio)"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -5525,8 +6089,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 3 月 29 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Patrick Traynor"
+      ],
+      "publishers": [
+        "Patrick Traynor"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -5563,8 +6131,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 5 月 29 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Demon Max"
+      ],
+      "publishers": [
+        "Demon Max"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -5601,8 +6173,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 1 月 29 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Bandai Namco Studios Inc."
+      ],
+      "publishers": [
+        "Bandai Namco Entertainment Inc."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5639,8 +6215,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2020 年 10 月 30 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Lose"
+      ],
+      "publishers": [
+        "HIKARI FIELD"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5679,8 +6259,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 26 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Leap Studio"
+      ],
+      "publishers": [
+        "4Divinity"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5719,8 +6303,12 @@
       ],
       "metacritic_score": 80,
       "release_date": "2025 年 10 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Pine Studio"
+      ],
+      "publishers": [
+        "Pine Studio"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -5757,8 +6345,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2023 年 2 月 20 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Nankidai"
+      ],
+      "publishers": [
+        "0UP GAMES"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5795,8 +6387,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 11 月 12 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Color Gray Games"
+      ],
+      "publishers": [
+        "Playstack"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -5831,8 +6427,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 3 月 3 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Qruppo"
+      ],
+      "publishers": [
+        "Shiravune"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5869,8 +6469,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2023 年 11 月 16 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "CyberConnect2 Co., Ltd."
+      ],
+      "publishers": [
+        "Bandai Namco Entertainment"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5906,8 +6510,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 10 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Armchair Interactive"
+      ],
+      "publishers": [
+        "Armchair Interactive"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5929,7 +6537,7 @@
       "final_price": "¥ 27.60",
       "final_price_num": 27.6,
       "description": "萌系游戏大赏2018剧本赏金赏！由Qruppo社所推出的一款逃亡？冒险类型的游戏！ 故事藉由架空的世界阐述了现代的社会议题，搭配无厘头的搞笑桥段以及王道的热血战斗，结合燃、泣、剧情三种元素。 游玩过的玩家好评不断，逐渐建立起口碑。 普通的冒险游戏？不不，它可是个脑洞大开的杰出作品。",
-      "popularity": 3236,
+      "popularity": 3235,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399220/c2c0ce4c518cdb4de1e3e06fec01013a05a14fe4/header.jpg?t=1778669692",
       "genres": [
         "冒险"
@@ -5941,8 +6549,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2023 年 6 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Qruppo"
+      ],
+      "publishers": [
+        "Shiravune"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -5978,8 +6590,12 @@
       ],
       "metacritic_score": 82,
       "release_date": "2024 年 9 月 5 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publishers": [
+        "CAPCOM Co., Ltd."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6017,8 +6633,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 3 月 30 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Come On Studio"
+      ],
+      "publishers": [
+        "tinyBuild"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -6030,43 +6650,6 @@
         "voted_up": true,
         "votes_up": 56,
         "weighted_vote_score": "0.85801541805267334"
-      }
-    },
-    {
-      "appid": 2187220,
-      "name": "逆轉裁判456　王泥喜精選集",
-      "discount": 50,
-      "original_price": "¥ 248.00",
-      "final_price": "¥ 124.00",
-      "final_price_num": 124.0,
-      "description": "律师 王泥喜法介的成长故事堂堂复苏！ 以新人律师\"王泥喜法介\"与传奇律师\"成步堂龙一\"为主角的3部人气作品将集合为一全新登场！ 收录《逆转裁判4》、《逆转裁判5》及《逆转裁判6》本篇故事14章及下载内容的特别编2章，共有16章！ 本作除了是\"逆转裁判\"粉丝们期待已久的精选集之余，亦是同系列中收录了最多丰富内容的作品！ 除了日语和英语外，本作更支持法语、德语、中文（繁体／简体）及韩语，令玩家能以多种语言来游玩《逆转裁判456》！ 来体验更精致，更为真实的法庭战斗吧！",
-      "popularity": 3114,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2187220/header_schinese.jpg?t=1768866052",
-      "genres": [
-        "冒险"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "完全支持控制器",
-        "Steam 云",
-        "家庭共享"
-      ],
-      "metacritic_score": 75,
-      "release_date": "2024 年 1 月 24 日",
-      "developers": [],
-      "publishers": [],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/2187220",
-      "top_review": {
-        "text": "不如123，但不失为佳作 这个时长下的文字游戏大多让人舒适。尽管逆转456在很多方面都不如前作，包括愈发薄弱的推理逻辑、新增却鸡肋的看破心理系统；包括5里闹麻的黑暗时代、4和56的割裂主线；包括昙花一现的梅森系统、越来越夸张胡闹的法庭表演和随口证言；甚至5的主角心音和6的检察官那由他都很难称得上讨喜，但456其实也只是没有满足过高的期待，达不到六边形战士般的前作本就无可厚非，说是狗尾续貂也大可不必。 我很喜欢好友的一句评论：“逆转要玩的开心，首先要和自己和解。”毕竟归根结底，刑事案件能翻案的可能性就已经微乎其微，再别说两天结案、证言说谎、大闹法庭、等等等等，本质上是充满夸张行为与戏剧效果的法庭舞台剧、而非法庭模拟，所以游玩过程时不要细究一些逻辑与真实性、顺其自然即可。 [u][b]逆转4：[...",
-        "voted_up": true,
-        "votes_up": 55,
-        "weighted_vote_score": "0.834985613822937012"
       }
     },
     {
@@ -6091,8 +6674,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 8 月 26 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "The Coalition"
+      ],
+      "publishers": [
+        "Xbox Game Studios"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6129,8 +6716,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 11 月 3 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "KT Racing"
+      ],
+      "publishers": [
+        "Nacon"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6168,8 +6759,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 8 月 24 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "SOFTSTAR ENTERTAINMENT"
+      ],
+      "publishers": [
+        "SOFTSTAR ENTERTAINMENT",
+        "Gamera Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6191,7 +6787,7 @@
       "final_price": "¥ 46.40",
       "final_price_num": 46.4,
       "description": "踏入一个精心打造的世界，这里的残垣断壁低语诉说着昔日的剧变。精通剑术与魔法技艺，利用各种神器和咒语，并通过一系列的抉择，来开创你的道路，在这款第一人称角色扮演游戏中塑造属于你的传奇。",
-      "popularity": 2835,
+      "popularity": 2803,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2186990/4a98bac064656da89ddf8dedee1acd39405cac14/header_alt_assets_0.jpg?t=1780424266",
       "genres": [
         "动作",
@@ -6205,8 +6801,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 6 月 2 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Paraglacial"
+      ],
+      "publishers": [
+        "THQ Nordic"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6214,10 +6814,10 @@
       },
       "url": "https://store.steampowered.com/app/2186990",
       "top_review": {
-        "text": "玩这个游戏， 就好像去嫖娼找了个外国妞儿。 除了不会说中国话， 没什么太大得缺点了。",
+        "text": "完成度太低了 而且缺乏打磨 不过底子确实不错 是值得期待的作品😋",
         "voted_up": true,
-        "votes_up": 17,
-        "weighted_vote_score": "0.640994906425476074"
+        "votes_up": 8,
+        "weighted_vote_score": "0.616506099700927734"
       }
     },
     {
@@ -6244,8 +6844,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2023 年 10 月 4 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Michele Pirovano"
+      ],
+      "publishers": [
+        "Michele Pirovano"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -6280,8 +6884,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 2 月 15 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Qruppo"
+      ],
+      "publishers": [
+        "Shiravune"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6303,7 +6911,7 @@
       "final_price": "¥ 32.34",
       "final_price_num": 32.34,
       "description": "一场寒潮将整个世界冰封，三位性格迥异的女孩闯入了你的生活。你将带领她们踏上这片极寒死地的冒险之路！当丧尸低吟化作呢喃挽歌，当暴风雪模糊了善恶边界。前方等待你们的究竟是希望还是阴谋？而此刻，那枚决定命运的骰子，正在你的指间发烫...",
-      "popularity": 2428,
+      "popularity": 2446,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3711170/b00c0cccf1579d1ee1267296e7ad02d9654afb0b/header.jpg?t=1780131267",
       "genres": [
         "冒险",
@@ -6317,8 +6925,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 29 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Joy Media Limited"
+      ],
+      "publishers": [
+        "凤麟工作室",
+        "一相逢互动娱乐"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6356,8 +6969,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 9 月 21 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "LazyFish Studio"
+      ],
+      "publishers": [
+        "LazyFish Studio",
+        "Gamersky Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -6395,7 +7013,10 @@
       ],
       "metacritic_score": null,
       "release_date": "2022 年 2 月 15 日",
-      "developers": [],
+      "developers": [
+        "Claudio Norori",
+        "Antonio Vargas"
+      ],
       "publishers": [],
       "platforms": {
         "windows": true,
@@ -6436,8 +7057,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 25 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Beartwigs"
+      ],
+      "publishers": [
+        "Three Friends"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6459,7 +7084,7 @@
       "final_price": "¥ 16.50",
       "final_price_num": 16.5,
       "description": "《DON'T SCREAM TOGETHER》是一款在线合作的突发惊吓恐怖模拟游戏。你和朋友们将回到 1993 年，带着摄像机穿越漆黑的森林。使用距离语音功能，相互沟通，一起逃离森林。但如果有人尖叫或者大声说话，游戏就会重新开始，或者尖叫者会以猎人的身份回归！",
-      "popularity": 1971,
+      "popularity": 1972,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2692990/af1cd4647409efd4c9cd3afe70e0444ebd8fde2c/header.jpg?t=1772444922",
       "genres": [
         "休闲",
@@ -6474,8 +7099,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 12 月 3 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Digital Cybercherries"
+      ],
+      "publishers": [
+        "Digital Cybercherries"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6487,6 +7116,48 @@
         "voted_up": false,
         "votes_up": 36,
         "weighted_vote_score": "0.777716636657714844"
+      }
+    },
+    {
+      "appid": 3717070,
+      "name": "WWE 2K26",
+      "discount": 25,
+      "original_price": "¥ 298.00",
+      "final_price": "¥ 223.50",
+      "final_price_num": 223.5,
+      "description": "The show never stops in WWE 2K26! Step into CM Punk’s 2K Showcase, dominate with 400+ Superstars and Legends, and unleash chaos with all-new match types.",
+      "popularity": 1799,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3717070/6e590c37107f7306ab9e42cc07d2aa92327625d1/header.jpg?t=1780506055",
+      "genres": [
+        "模拟",
+        "体育"
+      ],
+      "categories": [
+        "单人",
+        "多人",
+        "玩家对战",
+        "线上玩家对战",
+        "同屏/分屏玩家对战"
+      ],
+      "metacritic_score": null,
+      "release_date": "2026 年 3 月 12 日",
+      "developers": [
+        "Visual Concepts"
+      ],
+      "publishers": [
+        "2K"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/3717070",
+      "top_review": {
+        "text": "你一个年年换皮的摔跤游戏，价钱比一般的3A游戏定价都要高，哪来的自信 还真是没有竞争者，就没有压力",
+        "voted_up": false,
+        "votes_up": 44,
+        "weighted_vote_score": "0.825846612453460693"
       }
     },
     {
@@ -6512,8 +7183,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 4 月 23 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Secret Door"
+      ],
+      "publishers": [
+        "Dreamhaven"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6535,7 +7210,7 @@
       "final_price": "¥ 78.40",
       "final_price_num": 78.4,
       "description": "投入《DrainSim》，掌控洪水！使用从耙子到潜水泵的多种工具，清理被淹没的城市街道。体验恢复水流畅通的满足感。一步一步清理排水口，成为这座城市的英雄。",
-      "popularity": 1748,
+      "popularity": 1750,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2963800/4ecb50838abaa25d603b28a5340121fa1d7a0697/header_alt_assets_1.jpg?t=1780528172",
       "genres": [
         "休闲",
@@ -6552,8 +7227,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 3 月 3 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "CodePeas"
+      ],
+      "publishers": [
+        "CodePeas"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6575,7 +7254,7 @@
       "final_price": "¥ 69.50",
       "final_price_num": 69.5,
       "description": "《战锤40000：格雷迪厄斯》开发者带来的全新作品，《ZEPHON》是一款基于Proxy工作室的独创战术战斗系统之上的后末日4X策略游戏。在一个命途多舛的阴郁未来中引导残存的人类面对一系列意想不到的灾难、超自然恐怖与赛博朋克怪物。为了生存，你会选择怎么做？",
-      "popularity": 1691,
+      "popularity": 1692,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1481170/header.jpg?t=1779954102",
       "genres": [
         "角色扮演",
@@ -6590,8 +7269,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 11 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Proxy Studios"
+      ],
+      "publishers": [
+        "Proxy Studios"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6629,8 +7312,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 4 月 7 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Gambir Studio"
+      ],
+      "publishers": [
+        "Raw Fury"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -6668,8 +7355,12 @@
       ],
       "metacritic_score": 87,
       "release_date": "2025 年 5 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Pocket Trap"
+      ],
+      "publishers": [
+        "PM Studios, Inc."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6708,8 +7399,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 4 月 7 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Puppyroar Games"
+      ],
+      "publishers": [
+        "Forklift Interactive",
+        "Gamersky Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6747,8 +7443,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 2 月 3 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Introversion Software"
+      ],
+      "publishers": [
+        "Introversion Software"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -6770,7 +7470,7 @@
       "final_price": "¥ 71.28",
       "final_price_num": 71.28,
       "description": "欢迎来到《云之国》，体验受启发于塞尔达和鬼泣系列的战斗设计，在多个风格迥异的大世界中探索，深入变幻莫测的地下城，以揭开往昔的秘密和独特战利品，打败成群的敌人并收集素材，制造各类装备、物品，建造完善你的家园、工坊和商店，让世界再次繁荣！【支持1-4人游玩】",
-      "popularity": 1434,
+      "popularity": 1437,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2070270/58c920414d9d900d2b50558fc623b2c409d75afa/header_alt_assets_6_schinese.jpg?t=1780550678",
       "genres": [
         "动作",
@@ -6787,8 +7487,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 12 月 4 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Noodle Cat Games"
+      ],
+      "publishers": [
+        "Noodle Cat Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6827,8 +7531,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Little Dog Games"
+      ],
+      "publishers": [
+        "Simplicity Games",
+        "PlayWay S.A."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6867,8 +7576,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2023 年 10 月 5 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Estoty"
+      ],
+      "publishers": [
+        "SayGames"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -6906,8 +7619,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 4 月 20 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Quad Head"
+      ],
+      "publishers": [
+        "Quad Head"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6946,8 +7663,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "CoolAndGoodGames"
+      ],
+      "publishers": [
+        "CoolAndGoodGames"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -6985,8 +7706,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 10 月 8 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "TT Games",
+        "Double Eleven"
+      ],
+      "publishers": [
+        "Warner Bros. Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7026,8 +7752,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2020 年 3 月 19 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "KT Racing"
+      ],
+      "publishers": [
+        "Nacon"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7062,8 +7792,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2024 年 9 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "pekoge-sutagio"
+      ],
+      "publishers": [
+        "Kagura Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7101,8 +7835,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 26 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Beehive Studios"
+      ],
+      "publishers": [
+        "Team17"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7124,7 +7862,7 @@
       "final_price": "¥ 24.75",
       "final_price_num": 24.75,
       "description": "在这款增量游戏中，你必须在每个房间赚到$1,000,000才能逃出该房间。投掷飞镖、玩刮刮乐彩票、解锁自动化，并谨慎选择升级，因为每个房间都会影响所有其他房间。你能逃出财富磨坊吗？",
-      "popularity": 628,
+      "popularity": 622,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4731620/98980e1f706a6ba8ffefd2a372160d6a73173443/header_schinese.jpg?t=1780516685",
       "genres": [
         "休闲",
@@ -7139,8 +7877,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 6 月 2 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Lavaflame2"
+      ],
+      "publishers": [
+        "Lavaflame2"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7177,8 +7919,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Aggro Crab"
+      ],
+      "publishers": [
+        "Aggro Crab"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7214,8 +7960,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2025 年 5 月 22 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publishers": [
+        "CAPCOM Co., Ltd."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7252,8 +8002,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 21 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Toxic Studio"
+      ],
+      "publishers": [
+        "Toxic Studio",
+        "Polden Publishing"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7291,8 +8046,13 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Glass Gecko Games"
+      ],
+      "publishers": [
+        "Pretty Soon",
+        "Phoenix Games"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -7329,8 +8089,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 27 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Acrobatic Chirimenjako"
+      ],
+      "publishers": [
+        "SHUEISHA GAMES"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7368,8 +8132,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Kniv Studio Co., Ltd."
+      ],
+      "publishers": [
+        "Kniv Studio Co., Ltd."
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7381,6 +8149,49 @@
         "voted_up": false,
         "votes_up": 32,
         "weighted_vote_score": "0.73088538646697998"
+      }
+    },
+    {
+      "appid": 1546090,
+      "name": "RAIDBORN",
+      "discount": 24,
+      "original_price": "¥ 90.00",
+      "final_price": "¥ 68.40",
+      "final_price_num": 68.4,
+      "description": "RAIDBORN是一款具有高重玩性的第一人称奇幻动作角色扮演游戏。探索源源不绝的地下城与任务，投身于酣畅淋漓的战斗之中，掠夺传奇宝藏。打造强力装备，升级前哨基地，并随心定制你的游戏体验——无论是休闲冒险，还是硬核roguelike挑战，一切由你定义。",
+      "popularity": 328,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1546090/17cfdc21b7565286e8061cdf5544b756c77c6c38/header_alt_assets_13.jpg?t=1780509835",
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演"
+      ],
+      "categories": [
+        "单人",
+        "Steam 成就",
+        "完全支持控制器",
+        "可调整文字大小",
+        "视角舒适度"
+      ],
+      "metacritic_score": null,
+      "release_date": "2026 年 6 月 3 日",
+      "developers": [
+        "Phodex Games"
+      ],
+      "publishers": [
+        "Phodex Games"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/1546090",
+      "top_review": {
+        "text": "本来想拿来替代Dark and darker的劈瘾，只能说不止这个价，玩几轮就不想玩了，照着DnD抄不就完了嘛。。。。希望后面能有更多元素会有好评的",
+        "voted_up": false,
+        "votes_up": 2,
+        "weighted_vote_score": "0.470690131187438965"
       }
     },
     {
@@ -7407,8 +8218,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "万词破学游组"
+      ],
+      "publishers": [
+        "万词破学游组"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7444,8 +8259,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 25 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "wastudio"
+      ],
+      "publishers": [
+        "wastudio"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7467,8 +8286,8 @@
       "final_price": "¥ 23.40",
       "final_price_num": 23.4,
       "description": "在这款温馨的奇幻风格增量成长游戏中，你需要通过猎杀获取烹饪原料。斩杀怪物，将它们变成美味佳肴，打造你自己的地下城美食帝国！",
-      "popularity": 268,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/ef9c3c89192e4413d6af84deb45289fc887f003f/header.jpg?t=1780334140",
+      "popularity": 271,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4304930/ef9c3c89192e4413d6af84deb45289fc887f003f/header.jpg?t=1780554873",
       "genres": [
         "动作",
         "休闲",
@@ -7485,8 +8304,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 6 月 1 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Clover Bite"
+      ],
+      "publishers": [
+        "Clover Bite"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7508,7 +8331,7 @@
       "final_price": "¥ 21.58",
       "final_price_num": 21.58,
       "description": "Create delicious coffee drinks and cannoli in Papa's Mocharia Deluxe! Create stylish layered lattes in the coffeehouse for Papa Louie's loyal customers while earning tips, points, and Special Recipes. Take a trip in the Food Truck to design and serve your own eye-catching creations!",
-      "popularity": 176,
+      "popularity": 181,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4656700/29854e12929af37f2ebbfda71f030ddab257228b/header.jpg?t=1780412413",
       "genres": [
         "动作",
@@ -7525,8 +8348,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 6 月 2 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Flipline Studios"
+      ],
+      "publishers": [
+        "Flipline Studios"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7548,7 +8375,7 @@
       "final_price": "¥ 68.40",
       "final_price_num": 68.4,
       "description": "一款没有能量限制的卡组构筑类肉鸽游戏—利用物理空间来出牌！拼接卡牌，改变卡牌形状，打出超模连招，突破游戏极限！",
-      "popularity": 158,
+      "popularity": 159,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3284290/eed5029e0d5fbaddefde87f8d23644ed0fe6f156/header_schinese.jpg?t=1780343838",
       "genres": [
         "策略"
@@ -7562,8 +8389,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 5 月 28 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Snake Tower Games"
+      ],
+      "publishers": [
+        "Twin Sails Interactive"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7600,8 +8431,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 9 月 17 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "KING Art"
+      ],
+      "publishers": [
+        "Deep Silver"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7640,8 +8475,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 6 月 3 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "Parodie Games"
+      ],
+      "publishers": [
+        "Lazy Otter"
+      ],
       "platforms": {
         "windows": true,
         "mac": true,
@@ -7674,8 +8513,12 @@
       ],
       "metacritic_score": null,
       "release_date": "2026 年 6 月 3 日",
-      "developers": [],
-      "publishers": [],
+      "developers": [
+        "SUPER AC"
+      ],
+      "publishers": [
+        "SUPER AC"
+      ],
       "platforms": {
         "windows": true,
         "mac": false,
@@ -7683,10 +8526,10 @@
       },
       "url": "https://store.steampowered.com/app/3503790",
       "top_review": {
-        "text": "一坨彻头彻尾的垃圾 根本没做完就端出来卖 敌人右键看不见视野 太空步倒着走 我大摇大摆的走他面前毫无反应 这种垃圾是怎么好意思拿出来卖的？？",
+        "text": "不显示鼠标 无法进行游戏 配音不能正常匹配 移动迟滞 敌人无正常AI 2025年10月的DEMO尽管质量堪忧 好歹还能玩 8个月时间一次测试都没有进行 把0.9版本的残次品端上来骗钱 制作组可以说是毫无任何责任感",
         "voted_up": false,
-        "votes_up": 5,
-        "weighted_vote_score": "0.558337509632110596"
+        "votes_up": 3,
+        "weighted_vote_score": "0.57055211067199707"
       }
     }
   ]
