@@ -1,86 +1,3407 @@
 {
-  "updated_at": "2026-06-04 04:30:21 UTC",
-  "count": 10,
+  "updated_at": "2026-06-04 05:35:37 UTC",
+  "count": 200,
+  "source": "Steam Store specials search",
   "deals": [
     {
-      "appid": 275850,
-      "name": "No Man's Sky 无人深空",
-      "discount": 60,
-      "original_price": "¥175.00",
-      "final_price": "¥70.00",
-      "url": "https://store.steampowered.com/app/275850"
+      "appid": 526870,
+      "name": "幸福工厂",
+      "discount": 30,
+      "original_price": "¥ 136.00",
+      "final_price": "¥ 95.20",
+      "final_price_num": 95.2,
+      "description": "是一款第一人称开放世界工厂建造游戏，融入探索和战斗等特色元素。玩家可以独自在游戏中展开异星冒险，也可以与好友共同探索外星星球，建造多层工厂，进入传送带天堂！",
+      "popularity": 228318,
+      "url": "https://store.steampowered.com/app/526870",
+      "top_review": {
+        "text": "切记，玩到铁轨不要做十字交叉口设计，老实走立交桥设计，他这信号灯有bug，不过当你看到这条评论大概率已经晚了",
+        "voted_up": true,
+        "votes_up": 93,
+        "weighted_vote_score": "0.896295428276062012"
+      }
     },
     {
-      "appid": 3240220,
-      "name": "Grand Theft Auto V 增强版",
-      "discount": 50,
-      "original_price": "¥149.00",
-      "final_price": "¥74.50",
-      "url": "https://store.steampowered.com/app/3240220"
+      "appid": 203160,
+      "name": "Tomb Raider Game of the Year",
+      "discount": 85,
+      "original_price": "¥ 98.00",
+      "final_price": "¥ 14.70",
+      "final_price_num": 14.7,
+      "description": "《古墓丽影》探索了劳拉·克劳馥紧张的起源故事，以及她从年轻女人变为坚强生存者的成长过程。",
+      "popularity": 169574,
+      "url": "https://store.steampowered.com/app/203160",
+      "top_review": {
+        "text": "劳拉姐要是说我娘炮，我他妈立马去穿胸罩，一点儿都不敢反驳的 她像是一个战神",
+        "voted_up": true,
+        "votes_up": 62,
+        "weighted_vote_score": "0.859404861927032471"
+      }
     },
     {
-      "appid": 1771300,
-      "name": "天国：拯救2",
-      "discount": 50,
-      "original_price": "¥228.00",
-      "final_price": "¥114.00",
-      "url": "https://store.steampowered.com/app/1771300"
+      "appid": 508440,
+      "name": "Totally Accurate Battle Simulator",
+      "discount": 66,
+      "original_price": "¥ 70.00",
+      "final_price": "¥ 23.80",
+      "final_price_num": 23.8,
+      "description": "率领来自古代、亡灵、幻想世界的红蓝搞怪兵种，在这款基于史上最无厘头物理系统创建的游戏中展开激战。",
+      "popularity": 140472,
+      "url": "https://store.steampowered.com/app/508440",
+      "top_review": {
+        "text": "圆小时的自己的梦，春促刷到才7快钱。想起了初中时经常看一下博主的视频，当时立马喜欢上了这个游戏，初一时候不知道这个不能在安卓手机上玩，一个劲的在应用商店和浏览器上面找，结果失望了。那时候就在想以后有了电脑一点要下载下玩，结果当我有了电脑但是缺遗忘了童年的自己，现在想起来立马入手替小时候的自己玩。",
+        "voted_up": true,
+        "votes_up": 101,
+        "weighted_vote_score": "0.891983211040496826"
+      }
     },
     {
-      "appid": 1144200,
-      "name": "Ready or Not",
-      "discount": 50,
-      "original_price": "¥159.00",
-      "final_price": "¥79.50",
-      "url": "https://store.steampowered.com/app/1144200"
+      "appid": 433340,
+      "name": "Slime Rancher",
+      "discount": 75,
+      "original_price": "¥ 70.00",
+      "final_price": "¥ 17.50",
+      "final_price_num": 17.5,
+      "description": "Slime Rancher是一部关于碧翠丝·乐步的传奇故事。这个年轻又有闯劲的牧场主，在离开地球1000光年的”致远牧星”上开始了身为史莱姆牧场主的新生活。怀揣着勇往直前的信念，还有可靠的真空抢，她踏上了新的征途。在这里，她将重建牧场、积累财富，还要突破隐藏在Q弹史莱姆后的重重冒险。",
+      "popularity": 136256,
+      "url": "https://store.steampowered.com/app/433340",
+      "top_review": {
+        "text": "小时候看电视刷到，就答应过妹妹，以后我有钱了，一定把全套都买给她玩，我不希望因为父母和家庭的过度拮据让我的妹妹的童年不能像别人的一样美好。今年我16了，考上了重点高中，自学画画，赚的钱足以供给我妹妹的所有兴趣爱好，也包括这个。现在她很开朗，朋友很多，永远自信，永远乐观，没有再像我一样变得自卑且沉默寡言，她不会再被家庭还是金钱束缚住翅膀了，不希望步自己的老路从来不是“你要努力”，而是“我要努力”。",
+        "voted_up": true,
+        "votes_up": 137,
+        "weighted_vote_score": "0.929548561573028564"
+      }
+    },
+    {
+      "appid": 504230,
+      "name": "Celeste",
+      "discount": 75,
+      "original_price": "¥ 68.00",
+      "final_price": "¥ 17.00",
+      "final_price_num": 17.0,
+      "description": "《Celeste》是《TowerFall》的制作者推出的又一力作。这款平台游戏节奏极为紧凑，玩家需要在 Madeline 攀登塞莱斯特山 (Celeste Mountain) 的旅程中，帮助她克服内心深处的恐惧。勇敢面对数百个手工打造的挑战场景，揭开诡异的秘密，解开神秘山峰的谜团吧。",
+      "popularity": 126807,
+      "url": "https://store.steampowered.com/app/504230",
+      "top_review": {
+        "text": "妈妈，人生要是是celeste山就好了 失败可以一遍又一遍的重来 难度曲线也是缓缓上升，打不过的关多练习看看攻略最终也能过 不用太压迫自己，每天打一章就够了 就算不打开，山也还是那座山，草莓也不会消失 爬山的时候，脑袋里只有“向上爬”的想法 只要爬到山顶就可以了，不用去考虑升学、租房、还有加班到10点还要改的方案 只要往上爬就可以了，在路上还可以遇到Theo和老奶奶这样的好朋友 恐慌发作的时候不是倒在办公室发抖，而是和Theo一起深呼吸 badline也只是爬了一座山就和我和好了，负面情绪甚至具象化地帮我爬上了山顶 妈妈，人生也可以失败几千次吗？ 妈妈，人生要是不小心掉到了山底，那我还能爬上山顶吗？",
+        "voted_up": true,
+        "votes_up": 172,
+        "weighted_vote_score": "0.937025666236877441"
+      }
+    },
+    {
+      "appid": 238320,
+      "name": "Outlast",
+      "discount": 75,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 14.50",
+      "final_price_num": 14.5,
+      "description": "Hell is an experiment you can't survive in Outlast, a first-person survival horror game developed by veterans of some of the biggest game franchises in history. As investigative journalist Miles Upshur, explore Mount Massive Asylum and try to survive long enough to discover its terrible secret... if you dare.",
+      "popularity": 101486,
+      "url": "https://store.steampowered.com/app/238320",
+      "top_review": {
+        "text": "汉化补丁在最后 下面是我总结的几个小技巧 1.有同学不知道但凡是场景不用夜视可以正常纪录，不耗电，而且按TAB查看主角的心理纪录非常丰富，你以为就你玩家会吐槽么，主角虽然不善说话 估计被吓坏了，但用笔作记录了（主角是左撇子，因为右手食指被剪了以后还能正常书写……） 2.不要跟着主角一惊一乍的，场景没什么，被他喘气声吓倒了有木有?！ 3.人吓人会吓死人，自己不要吓自己，更不要暗示自己，最重要的，不要臆测，比如说：怎么“它”还没跟过来，在哪里呢（游戏设定，追你呢，管他在哪）;我会不会被怪暴菊啊? （必须的，不然导演怎么吓你）在哪里会被暴啊（随时随地，这才衬托恐怖气氛）这是为什么啊?（因为隐蔽出口都是怪的正常巡逻路线，你一定会被发现的） 4.主角比你想象得更耐揍，15秒内可以挨两下，不管什么攻击，...",
+        "voted_up": true,
+        "votes_up": 65,
+        "weighted_vote_score": "0.872775852680206299"
+      }
     },
     {
       "appid": 753640,
       "name": "Outer Wilds",
       "discount": 50,
-      "original_price": "¥95.00",
-      "final_price": "¥47.50",
-      "url": "https://store.steampowered.com/app/753640"
+      "original_price": "¥ 95.00",
+      "final_price": "¥ 47.50",
+      "final_price_num": 47.5,
+      "description": "Outer Wilds再添一项大奖，被Giant Bomb、Polygon、Eurogamer和The Guardian评为“2019年度游戏”！备受赞誉、屡获大奖的Outer Wilds是一款开放世界冒险类游戏，游戏背景是一个困在无尽的时间循环之中的太阳系。",
+      "popularity": 85241,
+      "url": "https://store.steampowered.com/app/753640",
+      "top_review": {
+        "text": "生的太晚，没能探索大海 生的太早，没能探索宇宙 生的刚好，玩到星际拓荒",
+        "voted_up": true,
+        "votes_up": 283,
+        "weighted_vote_score": "0.95002293586730957"
+      }
     },
     {
-      "appid": 2070270,
-      "name": "云之国",
-      "discount": 34,
-      "original_price": "¥108.00",
-      "final_price": "¥71.28",
-      "url": "https://store.steampowered.com/app/2070270"
+      "appid": 304430,
+      "name": "INSIDE",
+      "discount": 90,
+      "original_price": "¥ 90.00",
+      "final_price": "¥ 9.00",
+      "final_price_num": 9.0,
+      "description": "孤身一人并遭到追击，一个男孩发现自己深深陷入了一个黑暗计划。",
+      "popularity": 68231,
+      "url": "https://store.steampowered.com/app/304430",
+      "top_review": {
+        "text": "[h2] 《死了10086次后 让水鬼爱上我》 [/h2] 4小时全成就撒花！标题开个玩笑，游戏整体氛围还是偏压抑的，游戏引导偏弱，可以操作的按键就方向+互动+跳跃，但丝毫不影响玩家的探索。解密难度刚刚好，懵逼不伤脑，除了全成就看了攻略其他基本能自己过，每一个大场景都会出现新的元素，能一直保持探索的新鲜感和连贯性。 难得可贵的是作为独立游戏，制作组对人物动作流畅度的打磨到了极致，基本看不出有滞涩生硬的情况。存档点也非常多，虽然因为试错一直死但能原地复活，不用来来回回绕远路，这点好评，全成就也能直接传送到对应的小关卡，不用重新打一遍，基本半个小时就能解决。 本作虽然流程较短，但内容紧凑丰富，即使没有文字，剧情也不难理解，正常结局和隐藏结局都同样引人深思，是一款值得一玩的佳作。",
+        "voted_up": true,
+        "votes_up": 28,
+        "weighted_vote_score": "0.781974554061889648"
+      }
     },
     {
-      "appid": 1371980,
-      "name": "《恶意不息》",
-      "discount": 30,
-      "original_price": "¥139.00",
-      "final_price": "¥97.30",
-      "url": "https://store.steampowered.com/app/1371980"
+      "appid": 213670,
+      "name": "South Park™: The Stick of Truth™",
+      "discount": 75,
+      "original_price": "¥ 148.00",
+      "final_price": "¥ 37.00",
+      "final_price_num": 37.0,
+      "description": "From the perilous battlefields of the fourth-grade playground, a young hero will rise, destined to be South Park’s savior. From the creators of South Park, Trey Parker and Matt Stone, comes an epic quest to become… cool. Introducing South Park™: The Stick of Truth™.For a thousand years, the battle has been waged.",
+      "popularity": 60007,
+      "url": "https://store.steampowered.com/app/213670",
+      "top_review": {
+        "text": "如果33能拿年度最佳那么多大满贯，还美其名曰革新了jrpg， 十年前的这款真理之杖就是他野爹中的野爹。 ♥♥♥♥ TGA, it is much more worse than Oscar now.",
+        "voted_up": true,
+        "votes_up": 21,
+        "weighted_vote_score": "0.727762341499328613"
+      }
     },
     {
-      "appid": 1623730,
-      "name": "Palworld / 幻兽帕鲁",
-      "discount": 25,
-      "original_price": "¥108.00",
-      "final_price": "¥81.00",
-      "url": "https://store.steampowered.com/app/1623730"
+      "appid": 1089980,
+      "name": "The Henry Stickmin Collection",
+      "discount": 60,
+      "original_price": "¥ 55.00",
+      "final_price": "¥ 22.00",
+      "final_price_num": 22.0,
+      "description": "A choose-your-own-path where failing is more fun than succeeding.",
+      "popularity": 53604,
+      "url": "https://store.steampowered.com/app/1089980",
+      "top_review": {
+        "text": "童年！童年的味道！！！ 有些bug和兼容问题，游玩途中可能会素材丢失或者卡死/闪退。兼容模式下打开会好点，但是不能完全杜绝。 附上汉化包链接希望被看到：火柴人亨利合集正版汉化补丁PLUS 3.0.zip 链接: https://pan.baidu.com/s/1mSSyPz2qJf5JH8zptUxeEQ?pwd=5ums 提取码: 5ums",
+        "voted_up": true,
+        "votes_up": 48,
+        "weighted_vote_score": "0.846183061599731445"
+      }
     },
     {
-      "appid": 1943950,
-      "name": "Escape the Backrooms",
-      "discount": 20,
-      "original_price": "¥37.00",
-      "final_price": "¥29.60",
-      "url": "https://store.steampowered.com/app/1943950"
+      "appid": 1290000,
+      "name": "冲就完事模拟器",
+      "discount": 50,
+      "original_price": "¥ 88.00",
+      "final_price": "¥ 44.00",
+      "final_price_num": 44.0,
+      "description": "用《PowerWash Simulator》冲走压力！在高压水枪那令人宽慰的水声冲走你的烦恼！起动高能清洗器，用高压水流除净每一寸顽固污垢。看着强力冲洗后一切都亮闪闪的，心理满足就是这么简单。",
+      "popularity": 50283,
+      "url": "https://store.steampowered.com/app/1290000",
+      "top_review": {
+        "text": "一句话概括游戏核心玩法：冲就完事儿了！ 游戏会给出很多稀奇古怪的地图让身为寻污大师的玩家拿着高压冲水枪冲就完事儿了。 如果在生活中感到心烦意乱，冲就完事儿了！ 如果经常感到注意力不集中，冲就完事儿了！ 如果在夜深人静感觉睡不着，冲就完事儿了！ 是的，只要冲就完事儿了，来给自己的大脑放松一下，感受那冲上云端的快感，你会发现快乐其实来的很简单，只要简单的动动手就完事儿了，越是纯粹的行为就约容易沉浸进去，也希望看到这篇评测的你不要想太多，也不要太压抑自己，冲！就完事儿了！我想，没有人能够拒绝那种想怎么冲就怎么冲的快感。 如果觉得自己一个人冲太寂寞了，游戏支持多人联机一起冲，大家一起冲独乐乐不如众乐乐，一起冲，一緒に！~~ 不过，我必须给这个游戏一个差评，冲的时候爽是很爽，但是游戏的机制总是在最紧要...",
+        "voted_up": false,
+        "votes_up": 17,
+        "weighted_vote_score": "0.704846441745758057"
+      }
     },
     {
-      "appid": 1805320,
-      "name": "罗马拓荒录",
+      "appid": 1190000,
+      "name": "Car Mechanic Simulator 2021",
+      "discount": 85,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 13.80",
+      "final_price_num": 13.8,
+      "description": "用你的方式来建立一个为客户服务的帝国。在这个高度沉浸式的模拟游戏中，用油渍渍的双手去关注和做好每个细节。参与到新的拍卖行的活动中，购买各种不同车况和条件的汽车。通过投资新的车间和设备，使你的服务范围得以不断扩大。",
+      "popularity": 35232,
+      "url": "https://store.steampowered.com/app/1190000",
+      "top_review": {
+        "text": "玩了上百小时，沉迷其中，乐此不疲，五星好评。简单介绍评价一下。 1.游戏类型 名为【修车】，实为【组车】。 本质是一款模型组装类游戏，游戏性的内核更接近于乐高或拼图，但不仅仅于此，组装的对象是车，且较为硬核，可满足汽车爱好者的需求。 游戏内有驾驶系统，但实为鸡肋，手感一塌糊涂，唯一的作用是，让你测试自己亲手组装调教后的车，它的最大速度和加速度，以及变速箱调教是否合理。 2.游戏特点 既然赛车和驾驶系统都不尽人意，那我干嘛不去玩地平线或GTA，它的优势和正反馈在哪呢？ ①优势：琳琅满目的汽车零件模块化 四千多种汽车零部件，涵盖I4、I6、V8、V10、V12等类型的数十款不同种类的发动机（全dlc有上百款），和现实中的车辆复杂度肯定没法比，但在汽车游戏中，丰富程度应该是独一档的。 ②正反馈：化...",
+        "voted_up": true,
+        "votes_up": 21,
+        "weighted_vote_score": "0.733686923980712891"
+      }
+    },
+    {
+      "appid": 1557740,
+      "name": "ROUNDS",
+      "discount": 50,
+      "original_price": "¥ 25.00",
+      "final_price": "¥ 12.50",
+      "final_price_num": 12.5,
+      "description": "《Rounds/回合决斗》是一款1v1的肉鸽射击游戏，每过一个回合都会越发激烈。每回合落败的玩家都会解锁创意无限的升级，便于打造更好的构筑反败为胜。",
+      "popularity": 34533,
+      "url": "https://store.steampowered.com/app/1557740",
+      "top_review": {
+        "text": "全成就达成，这是一款双人对战游戏，主要玩法是弹幕射击，其中还包含了轻量的rogue要素和卡牌构建。（说是卡牌其实就是纯技能搭配也没有出牌什么的）整体玩下来除了联机有些不稳定和在线有人有点少匹配时间过长以外的体验感还是很不错的。 游戏的玩法就是在各种可能含有陷阱的平台地图进行双人对战，两局定一胜，十场胜利才算完成一场比赛，每输一胜的玩家可以选择技能卡来增强自己，技能卡的设计我觉得非常好，也是这游戏最大的亮点，很多效果看起来莫名其妙的技能卡搭配起来却有意想不到的结果。玩起来也是非常欢乐，格挡的射击也很不错，利用格挡反弹地图边缘碰撞伤害达成快速位移的设计真的很好。各种物理引擎的设计也很有意思。 操作的手感也是没什么可诟病的，子弹的打击感很棒，画面和特效处理得也很好。还可以给操作的小人换脸，可以自己...",
+        "voted_up": true,
+        "votes_up": 4,
+        "weighted_vote_score": "0.547092139720916748"
+      }
+    },
+    {
+      "appid": 787480,
+      "name": "Phoenix Wright: Ace Attorney Trilogy",
+      "discount": 67,
+      "original_price": "¥ 148.00",
+      "final_price": "¥ 48.84",
+      "final_price_num": 48.84,
+      "description": "本作是以法庭为舞台的冒险游戏。玩家将扮演律师「成步堂龙一」，为证明委託人的清白而踏上法庭。此精选集收录了作为系列原点的《逆转裁判 復甦的逆转》、《逆转裁判2》和《逆转裁判3》共14话。 ※简繁中文字幕将于发售后以更新包形式追加。",
+      "popularity": 34481,
+      "url": "https://store.steampowered.com/app/787480",
+      "top_review": {
+        "text": "挺好的，完美适用办公室的垃圾电脑的顶级游戏。",
+        "voted_up": true,
+        "votes_up": 77,
+        "weighted_vote_score": "0.878383874893188477"
+      }
+    },
+    {
+      "appid": 383980,
+      "name": "Rivals of Aether",
+      "discount": 50,
+      "original_price": "¥ 108.00",
+      "final_price": "¥ 54.00",
+      "final_price_num": 54.0,
+      "description": "RIVALS OF AETHER is an indie fighting game where warring civilizations summon the power of Fire, Water, Air, and Earth. Play with up to four players either locally or online.",
+      "popularity": 32917,
+      "url": "https://store.steampowered.com/app/383980",
+      "top_review": {
+        "text": "mod推动游戏的典范作品，创意工坊内容简直不可思议",
+        "voted_up": true,
+        "votes_up": 8,
+        "weighted_vote_score": "0.623287677764892578"
+      }
+    },
+    {
+      "appid": 250320,
+      "name": "The Wolf Among Us",
+      "discount": 50,
+      "original_price": "¥ 50.00",
+      "final_price": "¥ 25.00",
+      "final_price_num": 25.0,
+      "description": "From the makers of the 2012 Game of the Year: The Walking Dead, comes a thriller based on the award-winning Fables comic books. As Bigby Wolf you will discover that a brutal, bloody murder is just a taste of things to come in a game series where your every decision can have enormous consequences.",
+      "popularity": 31612,
+      "url": "https://store.steampowered.com/app/250320",
+      "top_review": {
+        "text": "这个游戏涉及到许多议题，阶级、剥削、权威、腐败，当熟知的故事被陌生化，童话以另一副面孔呈现它自己，柳林风声里富有的蛤蟆支付不起魔药的费用，Faith 也无法身披驴皮再次逃脱悲剧命运。但这些都是他人的命运，作为主角扮演者，这些演出里给人印象最深的是关于执法者的暴力额度的。 主角常常面临着困境，游戏往往把它们简化成两种选择，当你被攻击时，是对等的以牙还牙，还是超额暴力？作为个人这个问题的答案很简单，我并不期待这种痛苦，而你让我感受到，所以你一定要付出更多代价；但作为被围观的执法者呢？社区需要保护者的蛮力来解决一些问题，但又谴责驾驭这种力量的人，正义需要达到某种程度的力量，而这种力量不可避免地使英雄与他们试图拯救的社会产生隔阂。游戏非常天真（也非常现实）地暗示主角必须克制个人的愤怒来满足社区对于这...",
+        "voted_up": true,
+        "votes_up": 9,
+        "weighted_vote_score": "0.654074132442474365"
+      }
+    },
+    {
+      "appid": 653530,
+      "name": "Return of the Obra Dinn",
+      "discount": 40,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 45.60",
+      "final_price_num": 45.6,
+      "description": "真善之舟奥伯拉丁号 ~ 于1803年在海上失踪。",
+      "popularity": 31252,
+      "url": "https://store.steampowered.com/app/653530",
+      "top_review": {
+        "text": "纯粹的推理游戏。直击每一个死亡现场，所有线索都以视觉和听觉的方式给你，不需要点来点去和作者对电波。没有机械降神，没有谜语人，没有愉快犯，没有神经病。有的只是一艘充满秘密的船。随着推理进行行为逻辑不断清晰的人物，和你手里不断填满的调查笔记。奥博拉丁真是充满乐趣的玩具箱，真希望还能有类似的游戏啊",
+        "voted_up": true,
+        "votes_up": 85,
+        "weighted_vote_score": "0.885925590991973877"
+      }
+    },
+    {
+      "appid": 1392820,
+      "name": "Milk inside a bag of milk inside a bag of milk",
+      "discount": 50,
+      "original_price": "¥ 8.24",
+      "final_price": "¥ 4.12",
+      "final_price_num": 4.12,
+      "description": "A short story about what sort of challenges everyday little things can be. Help the girl buy milk, be the first not to disappoint her.",
+      "popularity": 30946,
+      "url": "https://store.steampowered.com/app/1392820",
+      "top_review": {
+        "text": "[h2][b]帮我买牛奶吧！[/b][/h2] 我有过一次留学经历 初中时，我的成绩很差，老妈那边刚好有认识的同学在国外定居，后面不知道是谁牵的线，想把我也送出去，初三临近中考的时候，我得知了这个消息，爸妈询问我的意见，那时也没有考虑很多，这对我也是相当有吸引力的，就答应了下来 中考过后在家准备了一段时间，因为爸妈都很担心，我爸辞了当时的工作作为陪读跟我一起去，选择了我妈的这位同学当寄宿家庭，8月底左右到了地方，一开始真的很开心，所有事物都是那么新鲜，然而，在开学后一切美好也随之消散 我是属于较为内向的性格，那时更甚，不同的语言，陌生的环境，学业的压力，经济的考虑，看不见的未来这些烦恼在那段时间几乎是一股脑地向我袭来，有过想回国的念头，不过后面想了父母费这么大劲供自己出来，压在身上的期望也让...",
+        "voted_up": true,
+        "votes_up": 86,
+        "weighted_vote_score": "0.831096827983856201"
+      }
+    },
+    {
+      "appid": 418240,
+      "name": "Shadow Tactics: Blades of the Shogun",
+      "discount": 90,
+      "original_price": "¥ 160.00",
+      "final_price": "¥ 16.00",
+      "final_price_num": 16.0,
+      "description": "1615年，日本处在幕府时代。一个新的幕府将军获得了统治日本的权力，而且极力地维护和平。为了与阴谋和叛变势力作斗争，他招募了五位专门从事暗杀、蓄意破坏和间谍活动的人才，他们在其擅长领域上均身怀绝技。但他们愿意以和平的名义来做出多少牺牲呢？",
+      "popularity": 30673,
+      "url": "https://store.steampowered.com/app/418240",
+      "top_review": {
+        "text": "玩的第一款 RTT（real-time tactics），第一次这么清晰地感受到游戏里的难度曲线。手柄用起来还蛮丝滑的，不同的击杀方式做了震动区分。但是想要成为忍者冠军[strike]（这是个啥）[/strike]最好还是使用键鼠。 对我来说，本作的爽感是无数试错之后、最后一次行动的严丝合缝：影子模式下，五人同时运作，像咬合的齿轮一样瞬间拆解、击溃敌人；卡在敌人视线边缘，完成一次几乎不可能的暗杀；无限不在时，找准最优角度射中武士，再从藏身处现身补刀… 很多进阶操作没有专门教学，而是藏在加载界面的提示里。当你进行到游戏中段，发现只靠那些基础技巧已经开始吃力，这时才会想起那些提示语，于是再回头去尝试——然后突然意识到，原来还能这样！ 相似的感悟还有我自己摸索出的连招：故意让爱子去谈话吸引敌人注意...",
+        "voted_up": true,
+        "votes_up": 22,
+        "weighted_vote_score": "0.720617055892944336"
+      }
+    },
+    {
+      "appid": 288160,
+      "name": "The Room",
+      "discount": 70,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 6.60",
+      "final_price_num": 6.6,
+      "description": "A mysterious invitation leads to the attic of an abandoned house. In the room is a cast-iron safe laced with strange carvings and on top, a note from your distant companion. It promises something ancient and astonishing concealed in the iron chamber - you need only find a way in.",
+      "popularity": 29880,
+      "url": "https://store.steampowered.com/app/288160",
+      "top_review": {
+        "text": "经典系列，流程清晰，提示明了，唯一的遗憾是没有官方中文👍",
+        "voted_up": true,
+        "votes_up": 8,
+        "weighted_vote_score": "0.614332437515258789"
+      }
+    },
+    {
+      "appid": 1455840,
+      "name": "Dorfromantik",
+      "discount": 40,
+      "original_price": "¥ 47.00",
+      "final_price": "¥ 28.20",
+      "final_price_num": 28.2,
+      "description": "《筑梦颂》是一款让你享受身心宁静的策略型益智游戏，透过拼凑组合各式各样的地景板块，不断延伸探索多采多姿的村落风景，创造出属于自己的小世界!",
+      "popularity": 27081,
+      "url": "https://store.steampowered.com/app/1455840",
+      "top_review": {
+        "text": "《鹧鸪天·筑梦田园赋》 六色拼图巧手裁，青溪麦浪自徘徊。 铁轨穿林惊鹭起，风车转影送霞来。 任务卡，积分牌，窟窿未补鬓先衰。 城中谁解拼图趣？且把乡愁砌作材。",
+        "voted_up": true,
+        "votes_up": 46,
+        "weighted_vote_score": "0.830779850482940674"
+      }
+    },
+    {
+      "appid": 531510,
+      "name": "Just Shapes & Beats",
+      "discount": 40,
+      "original_price": "¥ 70.00",
+      "final_price": "¥ 42.00",
+      "final_price_num": 42.0,
+      "description": "Just Shapes & Beats 是一款可多人合作的音乐类子弹地狱游戏，它具有混乱而炫目的场景。它的一切仅仅基于三个简单的事情：避开几何图形，随着节奏移动，不断地死亡重生。",
+      "popularity": 23377,
+      "url": "https://store.steampowered.com/app/531510",
+      "top_review": {
+        "text": "首先这不是一款音乐游戏，是弹幕游戏，不要因为音乐好听就买，如果你对弹幕游戏不感冒，那么游玩体验会很一般，对于你来说这种游戏就是典型的看别人玩开心，自己玩受罪。 而且我说实话在游玩过程我感觉不到音乐除了辅助画面之外的作用，明明音乐做的很好听，偏偏采用弹幕游戏的形式让人根本没法好好享受，游玩体验一般 但是如果从画面角度来说的确是一款好游戏 还有，呼吁广大群众写评论就好好写，看了半天评论全是整活的无脑评论，对买游戏没有一点帮助，害我亏了40，写无脑评论的都退钱给我",
+        "voted_up": true,
+        "votes_up": 12,
+        "weighted_vote_score": "0.684813737869262695"
+      }
+    },
+    {
+      "appid": 2239150,
+      "name": "Thronefall",
+      "discount": 35,
+      "original_price": "¥ 52.00",
+      "final_price": "¥ 33.80",
+      "final_price_num": 33.8,
+      "description": "一款关于建立和保卫小王国的极简主义游戏。",
+      "popularity": 22370,
+      "url": "https://store.steampowered.com/app/2239150",
+      "top_review": {
+        "text": "一部侧重经营要素为主的塔防游戏 值得一试 全部关卡过一遍 7.5小时 不做成就 ===== 本作定位： 本作作为塔防游戏，具备了塔防游戏的全要素，即怪物固定路线进场，基地（炮塔）建造，经济系统，机制BOSS，还可以造兵营握有一部分机动兵力。 但与常规塔防不同的是所有建筑包括基地、炮塔和各类经济建筑的位置和数量是作者固定好的，不能多造，这就造成了以下后果： ①作为塔防游戏略显僵化，任何塔防游戏后期都会以数值膨胀，怪物和玩家互相堆数值作结， ②事实上设定了一个数值上限，当然也不会觉得无尽模式有任何的意义，当然游戏优化是好做很多了。 ③弱化了常规塔防游戏，炮塔位置摆放、高性价比单位类型的铺场这些都是不存在的，反正好位置作者都帮你摆好了，单位无论性价比，反正都得升满，强行不买，钱多出来也没法他用。 ...",
+        "voted_up": true,
+        "votes_up": 34,
+        "weighted_vote_score": "0.786118626594543457"
+      }
+    },
+    {
+      "appid": 837470,
+      "name": "Untitled Goose Game",
+      "discount": 60,
+      "original_price": "¥ 70.00",
+      "final_price": "¥ 28.00",
+      "final_price_num": 28.0,
+      "description": "今天村里天气真不错，而你是一只可怕的鹅。",
+      "popularity": 22040,
+      "url": "https://store.steampowered.com/app/837470",
+      "top_review": {
+        "text": "此游可玩 玩法尚可 购之不可不玩否 在下闲暇时玩上一玩 爽之 玩而不腻之",
+        "voted_up": true,
+        "votes_up": 45,
+        "weighted_vote_score": "0.834442794322967529"
+      }
+    },
+    {
+      "appid": 2198150,
+      "name": "Tiny Glade",
       "discount": 10,
-      "original_price": "¥48.00",
-      "final_price": "¥43.20",
-      "url": "https://store.steampowered.com/app/1805320"
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 52.20",
+      "final_price_num": 52.2,
+      "description": "《林间小世界》这款立体搭建游戏小巧玲珑、休闲治愈。涂画之间，奇异城堡、温馨小屋、浪漫废墟等等等等都能化作现实。本作没有网格限制，程序自会妙笔生花，在林地间缀上细节。不用管理，不用战斗，没有目标。悠哉游哉，就能把被人遗忘的草地变成可爱的微缩景观。",
+      "popularity": 21887,
+      "url": "https://store.steampowered.com/app/2198150",
+      "top_review": {
+        "text": "这个游戏我关注很久了 真的强烈建议做一个人物dlc！！！！花钱买都行 让他们偶尔进房子里 偶尔在椅子上看书 或者聊天 约会 突然有一天带着一个小宝宝 那这游戏就有灵魂了 看着也不那么孤独了 如果后期可以打开创意工坊 上传或下载作品 增加景物 这游戏就得封神 真心希望制作组能采纳这两个建议 这么好的游戏没有人物我会心痛的555",
+        "voted_up": true,
+        "votes_up": 307,
+        "weighted_vote_score": "0.96285170316696167"
+      }
+    },
+    {
+      "appid": 22320,
+      "name": "The Elder Scrolls III: Morrowind® Game of the Year Edition",
+      "discount": 60,
+      "original_price": "¥ 62.00",
+      "final_price": "¥ 24.80",
+      "final_price_num": 24.8,
+      "description": "The Elder Scrolls III: Morrowind® Game of the Year Edition includes Morrowind plus all of the content from the Bloodmoon and Tribunal expansions. The original Mod Construction Set is not included in this package. An epic, open-ended single-player RPG, Morrowind allows you to create and play any kind of character imaginable.",
+      "popularity": 21868,
+      "url": "https://store.steampowered.com/app/22320",
+      "top_review": {
+        "text": "1.前期查攻略去拿盲速鞋，一个护送支线给的，很简单，盲速鞋是有200的速度buff但是穿上会黑屏，再用100%魔抗法术卡出盲速鞋200的速度buff，只要不换鞋子buff一直再，跑图必备。 2.练一下变换系手搓一个超长待机浮空术，类似于tcl的功效，可以在天上走无视所有地形，配合盲速鞋跑图飞起 3.维威克法师公会买个标记和召回法术，标记地点后可以用召回返回，每次做任务前在任务npc地方放一个标记，做完任务直接召唤回来。 以上减少一半的跑图痛苦，另一半就是穿梭各种交通工具 说实话晨风的美术我很喜欢，独树一帜，跟后面老滚的风格都不太一样，音乐也很好听，但是游戏体验上我不太喜欢，玩到后面就是属于天天玩得想哈气但是又不舍得放弃的力竭阶段，我滚3-5我个人是最喜欢滚4的。 任务量很大，非常大，几大公会...",
+        "voted_up": true,
+        "votes_up": 17,
+        "weighted_vote_score": "0.708737850189208984"
+      }
+    },
+    {
+      "appid": 274520,
+      "name": "阴暗森林 Darkwood",
+      "discount": 80,
+      "original_price": "¥ 49.00",
+      "final_price": "¥ 9.80",
+      "final_price_num": 9.8,
+      "description": "《阴暗森林》，为生存恐怖游戏带来全新的视角。白天在丰富奇妙、变化多端的开放世界中搜刮与探索，夜晚则蜷缩在你的藏身处，祈祷黎明的到来。",
+      "popularity": 21594,
+      "url": "https://store.steampowered.com/app/274520",
+      "top_review": {
+        "text": "在这个游戏的第一天草木皆兵，搜索物资时一点声响都会使我四处张望，生怕来个怪把我扇晕。第一晚在庇护所内瑟瑟发抖所幸并没看到怪。第二晚时门口有敲门声不敢去开门一直在角落缩着希望赶快到8点，然而我躲藏房间的门突然被打开了，为了防止怪进房间我鼓起勇气关闭了门。 随着游戏内的日子一天天过去我的胆子渐渐变大但心里还是害怕，直到。我搞出了碳基生物冷静器屯了若干弹匣搞到了一个铁锹造了个提灯，当晚我开始了猎杀。 手里有真理就是爽！什么野人、裂头怪、女妖、蜘蛛、蜈蚣、野狗。见面就来一发花生米使其打出战败CG（夜晚外面那个红色的玩意能杀吧？到结局还没打过呢），一发不够两发两发不够清空弹匣！你看把这些孩子饿的都瘦成什么样了这不得让它们花生米顿顿饱、烈酒喝到撑、身上没点油水怎么行呢（笑）。每当它们撑倒时都会发出愉悦的...",
+        "voted_up": true,
+        "votes_up": 50,
+        "weighted_vote_score": "0.839405238628387451"
+      }
+    },
+    {
+      "appid": 425580,
+      "name": "The Room Two",
+      "discount": 70,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 6.60",
+      "final_price_num": 6.6,
+      "description": "Unique events transport you to the halls of a long-forgotten crypt. The only means of escape lies locked within a stone pedestal, along with a note from your mysterious ally. His words promise assistance, but only serve to entice you into a compelling world of mystery and exploration.",
+      "popularity": 20681,
+      "url": "https://store.steampowered.com/app/425580",
+      "top_review": {
+        "text": "依然精美。氛圍絕佳。 喜歡恐怖片的解謎愛好者必玩。",
+        "voted_up": true,
+        "votes_up": 4,
+        "weighted_vote_score": "0.571428537368774414"
+      }
+    },
+    {
+      "appid": 736260,
+      "name": "Baba Is You",
+      "discount": 30,
+      "original_price": "¥ 50.00",
+      "final_price": "¥ 35.00",
+      "final_price_num": 35.0,
+      "description": "Baba Is You is a puzzle game where the rules you have to follow are present as blocks you can interact with. By manipulating them, you can change how the game works, repurpose things you find in the levels and cause surprising interactions!",
+      "popularity": 20567,
+      "url": "https://store.steampowered.com/app/736260",
+      "top_review": {
+        "text": "久闻Baba大名，今日推完果然精彩。 推的不是一般的箱子，而是“规则”箱。替换单词的同时也是在变换机制，改变 “主-谓-宾” 结构的句子语义就能创造出丰富可能。虽然在玩之前就已经对这种玩法有所耳闻，但自己开始真上手后也能感受到变换带来的新奇乐趣。 另外，谜题的解法不止于变换语义，还会经常考验玩家的一些“骚操作\"。比如：特定情况下可以让操作的物品与文字重叠，有几关就需要利用这个技巧来破坏限制语句。还有譬如“文字叠叠乐”、“shift脚踩脚驱动”、“我是你 你是我 鬼畜循环”等...... 如果靠自己探索发现出这些神秘机制能带来很大惊喜，不过这也可能导致试错成本升高，不太容易能想到。 虽然有需要一些跳跃性思维，但大部分关卡的解法都能逻辑推理，有迹可循，不至于完全无从下手。baba的附加的变体关质...",
+        "voted_up": true,
+        "votes_up": 30,
+        "weighted_vote_score": "0.772884786128997803"
+      }
+    },
+    {
+      "appid": 1291340,
+      "name": "城镇叠叠乐",
+      "discount": 60,
+      "original_price": "¥ 26.00",
+      "final_price": "¥ 10.40",
+      "final_price_num": 10.4,
+      "description": "即时见效的城镇建造玩乐体验。放置房屋方块，静静欣赏它们一块块蜕变，化为海边小镇、田园花园，或是壮丽的海上城市。",
+      "popularity": 19961,
+      "url": "https://store.steampowered.com/app/1291340",
+      "top_review": {
+        "text": "好好玩prprpr，希望开发者加点小人，建筑物消失的时候，小人就直接掉到海里（会溅起一朵小水花），然后等会就狗刨式游泳，从建筑物下面游回来~~~~",
+        "voted_up": true,
+        "votes_up": 29,
+        "weighted_vote_score": "0.790410935878753662"
+      }
+    },
+    {
+      "appid": 2990,
+      "name": "FlatOut 2",
+      "discount": 80,
+      "original_price": "¥ 36.00",
+      "final_price": "¥ 7.20",
+      "final_price_num": 7.2,
+      "description": "Experience the drive of your life as you throw yourself around on and off the track causing fences to shatter, tyre walls explode, water tanks and barrels fly across the track into other cars.",
+      "popularity": 18918,
+      "url": "https://store.steampowered.com/app/2990",
+      "top_review": {
+        "text": "游戏目前有bug，比赛中选择重启比赛，直接卡死",
+        "voted_up": false,
+        "votes_up": 4,
+        "weighted_vote_score": "0.572072088718414307"
+      }
+    },
+    {
+      "appid": 557600,
+      "name": "Gorogoa",
+      "discount": 75,
+      "original_price": "¥ 60.00",
+      "final_price": "¥ 15.00",
+      "final_price_num": 15.0,
+      "description": "Gorogoa 是一款独具特色的解谜游戏，其故事情节采用由 Jason Roberts 设计和作画的精美手绘插画展开。",
+      "popularity": 18596,
+      "url": "https://store.steampowered.com/app/557600",
+      "top_review": {
+        "text": "大概2018年，我读高三，当时通过手机下载了这个游戏，和喜欢的同桌一起课间偷偷玩这个游戏。一起惊叹每一个谜题，每一个机关设计。后来毕业了，我读了大专，再也没有联系过， 三年前在steam发现了这个游戏，下载回来陪当时的女朋友重新玩这个游戏，当自己没有玩过一样，一起惊叹每一个谜题，每一个机关设计。后来我们分开了，半年后她结婚了。又一年后我谈了新女友，带着她重新玩这个游戏，教他怎么通过，给他讲这是个什么故事。 三个月前我和女友因为家庭问题分开了，无所事事的今天我挨个儿评价游戏，看到这个我7年前玩过，三年前买下来，三个月前最后一次玩的游戏。对这个游戏的感触不一样了。 人一生都在追寻着什么，我早就已经迷失了。",
+        "voted_up": true,
+        "votes_up": 40,
+        "weighted_vote_score": "0.827570259571075439"
+      }
+    },
+    {
+      "appid": 1361320,
+      "name": "The Room 4: Old Sins",
+      "discount": 70,
+      "original_price": "¥ 35.00",
+      "final_price": "¥ 10.50",
+      "final_price_num": 10.5,
+      "description": "The disappearance of an ambitious engineer and his high-society wife provokes a hunt for a precious artefact. The trail leads you to the attic of their home, and the discovery of an old, peculiar dollhouse. What secrets lie within these walls?",
+      "popularity": 17429,
+      "url": "https://store.steampowered.com/app/1361320",
+      "top_review": {
+        "text": "先说优点，4的建模和成就比前三部要好，剧情相对来说更丰富，但是Japnese Gallery的布局明显是中国风，这种错误不仅体现了工作室的无知和傲慢，更是对中国玩家文化情感的不尊重。 Objectively speaking, the modeling quality and achievement system of The Room 4 are better than the previous three installments, and the storyline is also relatively richer. However, the design of the \"Japanese Gallery\" is clearly in traditional Chinese styl...",
+        "voted_up": false,
+        "votes_up": 6,
+        "weighted_vote_score": "0.608695685863494873"
+      }
+    },
+    {
+      "appid": 40970,
+      "name": "Stronghold Crusader HD (2012)",
+      "discount": 80,
+      "original_price": "¥ 32.00",
+      "final_price": "¥ 6.40",
+      "final_price_num": 6.4,
+      "description": "《要塞十字军高清版》是原始“城堡模拟”游戏的续作，带你踏上因勇敢战士和恐怖攻城武器而闻名的遥远阿拉伯世界。",
+      "popularity": 17382,
+      "url": "https://store.steampowered.com/app/40970",
+      "top_review": {
+        "text": "看我的游玩时长，what can i say,一部近乎完美的作品，二十多年前的游戏直到现在我仍然在玩，神作",
+        "voted_up": true,
+        "votes_up": 13,
+        "weighted_vote_score": "0.652788221836090088"
+      }
+    },
+    {
+      "appid": 40700,
+      "name": "机械迷城 (Machinarium)",
+      "discount": 85,
+      "original_price": "¥ 86.00",
+      "final_price": "¥ 12.90",
+      "final_price_num": 12.9,
+      "description": "机械迷城(Machinarium)中每个角色都是机器人,包括我们的小英雄,他将为了对付坏人并解救自己的女朋友展开了一系列的解谜，没有多余的对白，游戏情节和线索皆靠细腻的动画来表现。",
+      "popularity": 16834,
+      "url": "https://store.steampowered.com/app/40700",
+      "top_review": {
+        "text": "十岁初见，十六岁的夏天通关，如今二十八岁仍常重温，过关流程早已烂熟于心。于我而言，《机械迷城》不止是游戏，更是艺术品，是未曾醒的梦境，是刻在代码中的人生。",
+        "voted_up": true,
+        "votes_up": 44,
+        "weighted_vote_score": "0.836662113666534424"
+      }
+    },
+    {
+      "appid": 990630,
+      "name": "The Last Campfire",
+      "discount": 90,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 5.80",
+      "final_price_num": 5.8,
+      "description": "《最后的篝火》（Last Campfire）是一个以冒险为主题的游戏，游戏主线描述的是一个迷失的余烬角色被困在一个谜题世界，为了寻找家园的定义和曲折返乡之旅的故事",
+      "popularity": 16530,
+      "url": "https://store.steampowered.com/app/990630",
+      "top_review": {
+        "text": "比较适合小朋友玩哈哈，剧情更似童话故事。唯一要吐槽的是地图制作，时不时就会被地上的石头、花草等等杂物——看着很不起眼没有任何影响的东西——给挡住路，卡在那里走不过去。 翻攻略视频的时候看到这么条评论，很有意思。 “我只知道是解谜救小朋友的游戏，但我儿子玩了1个小时晚上睡觉的时候哭得稀里哗啦。他说，他救不到小朋友了。我说，能救到啊，大家只是被石化了，你每个角落都转一遍，肯定能救到所有人。但他还是伤心地哭，第一个救不到了，第一个死了变成骷髅的那个救不到了。”",
+        "voted_up": true,
+        "votes_up": 52,
+        "weighted_vote_score": "0.833984255790710449"
+      }
+    },
+    {
+      "appid": 35720,
+      "name": "Trine 2: Complete Story",
+      "discount": 80,
+      "original_price": "¥ 68.00",
+      "final_price": "¥ 13.60",
+      "final_price_num": 13.6,
+      "description": "Three Heroes make their way through dangers untold in a fairytale world, featuring physics-based puzzles, beautiful sights and online co-op.",
+      "popularity": 15211,
+      "url": "https://store.steampowered.com/app/35720",
+      "top_review": {
+        "text": "7/10 二代整体也还算不错，第一次接触这个系列会很惊艳，但是后面创新性没有很多，剧情也很白开水，让人没有玩下去的动力。",
+        "voted_up": true,
+        "votes_up": 2,
+        "weighted_vote_score": "0.525139689445495605"
+      }
+    },
+    {
+      "appid": 2113850,
+      "name": "Spirit City: Lofi Sessions",
+      "discount": 45,
+      "original_price": "¥ 40.00",
+      "final_price": "¥ 22.00",
+      "final_price_num": 22.0,
+      "description": "Spirit City: Lofi Sessions 是一款游戏化的专注工具，配以舒缓的 Lofi 音乐。在这里，你可以发现和收集各种幻灵，自定义虚拟的休闲空间，并通过一系列简单好用的功能来提高注意力和缓解压力，为完成现实生活中的任务提供帮助。",
+      "popularity": 14623,
+      "url": "https://store.steampowered.com/app/2113850",
+      "top_review": {
+        "text": "游戏本体十分优秀，绝对物超所值。但是还有以下几个问题希望制作组能采纳一下。 一，游戏中角色捏脸选项可以丰富一下，原有的几个脸型实在说不上太好看。而且各个器官不能独立调节位置和大小，这就导致有些脸和五官明显不适配。 二，希望制作组能关注一下中国玩家的不易，网页浏览器仅支持油管实在是对中国玩家太不友好了，希望以后能加入中国通用的网页播放器，适配中国的几个主要的音乐平台。 三，习惯，日记，待办有些太过简单。具体可以参考一些较为成熟的待办应用，如指尖时光，青蛙todo等。使得用户能够更高效的借助软件完成工作 The game itself is excellent and absolutely worth the price. However, there are a few suggestions...",
+        "voted_up": true,
+        "votes_up": 50,
+        "weighted_vote_score": "0.844785869121551514"
+      }
+    },
+    {
+      "appid": 2666510,
+      "name": "Rusty's Retirement",
+      "discount": 40,
+      "original_price": "¥ 29.00",
+      "final_price": "¥ 17.40",
+      "final_price_num": 17.4,
+      "description": "位于屏幕底部的休闲农场模拟游戏，不会影响您的正常工作。",
+      "popularity": 13659,
+      "url": "https://store.steampowered.com/app/2666510",
+      "top_review": {
+        "text": "这个不行不能拿来写论文，可玩性有点高了，看着看着会玩起来。我是论文的狗😭",
+        "voted_up": true,
+        "votes_up": 15,
+        "weighted_vote_score": "0.69205772876739502"
+      }
+    },
+    {
+      "appid": 1239690,
+      "name": "Retrowave",
+      "discount": 30,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 10.50",
+      "final_price_num": 10.5,
+      "description": "霓虹灯，棕榈树，合成波，80年代的超级跑车在漫长的高速公路上行驶……欢迎来到Retrowave的世界！",
+      "popularity": 13654,
+      "url": "https://store.steampowered.com/app/1239690",
+      "top_review": {
+        "text": "作为一款synthwave复古未来主义风格的游戏，她与其说是游戏，不如说是高质量沉浸式合成波音乐播放器。 大海，沙滩，棕榈树，晶体管，蒸汽太阳，闪烁的霓虹灯，笔直的不见尽头的高速公路，飞奔的概念跑车，循环播放的合成器音乐，组成了synthwave的灵魂与这款游戏的乐趣 在1980年的迈阿密海滩驾驶德罗宁DMC12跑车，现实与虚拟之间的界限逐渐模糊，那个我们没能成为的未来近在咫尺，笔直公路的地平线远在天边。追逐着永不落幕的蒸汽太阳，填补对复古未来的最后一丝遐想 来吧朋友，拿起酒，坐上德罗宁，我们回到未来Back to the future!",
+        "voted_up": true,
+        "votes_up": 8,
+        "weighted_vote_score": "0.629541695117950439"
+      }
+    },
+    {
+      "appid": 35700,
+      "name": "Trine Enchanted Edition",
+      "discount": 80,
+      "original_price": "¥ 48.00",
+      "final_price": "¥ 9.60",
+      "final_price_num": 9.6,
+      "description": "Three Heroes make their way through dangers untold in a fairytale world of great castles and strange machinery, featuring physics-based puzzles, beautiful sights and online co-op.",
+      "popularity": 12752,
+      "url": "https://store.steampowered.com/app/35700",
+      "top_review": {
+        "text": "历时大约四年终于第一次通关游戏，为手残的我撒花鼓励~ 不追求全成就而是游戏体验的我来说说这款游戏的迷人之处。横向卷轴平台游戏对我来说本身自带一种怀旧，最初接触游戏的时候玩过一些，比如马里奥、超级食肉男孩、蜡笔小新等，这种熟悉感会让害怕动作类的我稍微得到些安抚吧。 游戏最核心的玩法就是三位可操作角色的切换，每一位使用不同技能，这种玩法在今天已经十分熟悉，但不得不说法师的技能让我对游戏的自由度一题在四年前有了新的认识，当然那个时候我还没有玩过塞尔达，后者是向我定义了什么是开放世界的游戏，再次刷新了我对自由度的理解。有了法师的加入，[spoiler] 或者说捣乱，我在初玩这个游戏的时候基本都不是在好好打怪过关，[/spoiler]收获了有趣过瘾的游戏体验，后期几个角色配合更多，[spoiler] ...",
+        "voted_up": true,
+        "votes_up": 7,
+        "weighted_vote_score": "0.613446533679962158"
+      }
+    },
+    {
+      "appid": 456750,
+      "name": "The Room Three",
+      "discount": 70,
+      "original_price": "¥ 26.00",
+      "final_price": "¥ 7.80",
+      "final_price_num": 7.8,
+      "description": "Lured to a remote island, you find yourself confined within the rooms of an ominous mansion. You must draw upon all your puzzle-solving ability to navigate a series of trials devised by a mysterious figure known only as “The Craftsman”. Do you have what it takes to escape?",
+      "popularity": 12725,
+      "url": "https://store.steampowered.com/app/456750",
+      "top_review": {
+        "text": "最后收集全结局的回溯功能很友好！！还以为要重复打四遍呢 好玩！这么多年了，还是解谜扛把子！",
+        "voted_up": true,
+        "votes_up": 5,
+        "weighted_vote_score": "0.57450336217880249"
+      }
+    },
+    {
+      "appid": 813630,
+      "name": "Supraland",
+      "discount": 80,
+      "original_price": "¥ 70.00",
+      "final_price": "¥ 14.00",
+      "final_price_num": 14.0,
+      "description": "先玩看看试玩版吧! 混合了传送门、萨尔达和银河战士。探索、寻找隐藏的升级道具，解开谜题、击败怪兽或是寻找新的能力帮助你到达新的地区。",
+      "popularity": 11966,
+      "url": "https://store.steampowered.com/app/813630",
+      "top_review": {
+        "text": "解密做的还行，但是你这b战斗是认真的吗？不如直接删除战斗元素直接当纯解密",
+        "voted_up": true,
+        "votes_up": 7,
+        "weighted_vote_score": "0.597882986068725586"
+      }
+    },
+    {
+      "appid": 1043810,
+      "name": "Tactical Breach Wizards",
+      "discount": 40,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 45.60",
+      "final_price_num": 45.6,
+      "description": "In Tactical Breach Wizards, you lead a team of renegade wizards in kevlar through turn-based battles to unravel a modern conspiracy plot. Combine their unique spells in clever ways, or rewind time to try every crazy plan you can think of to punch a Traffic Warlock through a 4th story window.",
+      "popularity": 11096,
+      "url": "https://store.steampowered.com/app/1043810",
+      "top_review": {
+        "text": "Great game, and we need chinese :D 战旗玩家不容错过的一款游戏。它比较创新的一点是，许多攻击手段都不会造成直接伤害，而是会击退，只有当敌人被击退到障碍物上时才会受到伤害，所以地图设计会对战术产生很大影响，玩起来每关体验都不一样，一直有新鲜感。而且剧情和对话风格超幽默，经常把我逗笑（尤其是珍，我可太喜欢她的性格啦）。 顺便附上汉化补丁https://tieba.baidu.com/p/9653162683?pn=1",
+        "voted_up": true,
+        "votes_up": 24,
+        "weighted_vote_score": "0.749625027179718018"
+      }
+    },
+    {
+      "appid": 874260,
+      "name": "遗忘之城",
+      "discount": 75,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 23.00",
+      "final_price_num": 23.0,
+      "description": "穿越回 2000 年前，重温被诅咒罗马城最后的时光。在那里，如果一个人犯了罪，所有人都会死。通过利用致命的时间循环、询问当地人、探索和解决谜题，揭开城市中心的神秘面纱。这座城市的命运完全掌握在你的手中！",
+      "popularity": 10767,
+      "url": "https://store.steampowered.com/app/874260",
+      "top_review": {
+        "text": "时长参考：通关5小时，真结局8小时。 作为城镇探索游戏，遗忘之城是不合格的：城市文脉、利益关系相当幼稚；建筑功能、人物行程相当敷衍。可能作者自己也不爱这座城市，只是爱他的战斗、哲学与诡计。承认遗忘之城就是一个微摆烂的兴趣小品，但还是为作者的文学功底和不露怯的气质点个推荐——不过有这样的气质，为何不再做完整呢？",
+        "voted_up": true,
+        "votes_up": 14,
+        "weighted_vote_score": "0.68326115608215332"
+      }
+    },
+    {
+      "appid": 3548580,
+      "name": "放松时光：与你共享Lo-Fi故事",
+      "discount": 25,
+      "original_price": "¥ 39.00",
+      "final_price": "¥ 29.25",
+      "final_price_num": 29.25,
+      "description": "「放松时光：与你共享Lo-Fi故事」是一个与喜欢写故事的女孩聪音一起工作的有声小说游戏。您可以自定义艺术家的原创乐曲、环境音和风景，以营造一个专注于工作的环境。在与聪音的关系加深的过程中，您可能会发现与她之间的特别联系。",
+      "popularity": 10500,
+      "url": "https://store.steampowered.com/app/3548580",
+      "top_review": {
+        "text": "建议更新：创意工坊！！！、开机自动运行（像wallpaper一样脱离steam也能运行而不是一退出steam就关了）、根据IP的真实时间地点更新时间天气变化",
+        "voted_up": true,
+        "votes_up": 1850,
+        "weighted_vote_score": "0.990582704544067383"
+      }
+    },
+    {
+      "appid": 206190,
+      "name": "Gunpoint",
+      "discount": 75,
+      "original_price": "¥ 36.00",
+      "final_price": "¥ 9.00",
+      "final_price_num": 9.0,
+      "description": "Gunpoint is a stealth puzzle game that lets you rewire its levels to trick people. You play a freelance spy who takes jobs from his clients to break into high security buildings and steal sensitive data.",
+      "popularity": 10231,
+      "url": "https://store.steampowered.com/app/206190",
+      "top_review": {
+        "text": "小体量2D潜行游戏，有剧情，流程基本线性，玩法实在挑不出什么优点，勉强能用来打发几个小时时间。",
+        "voted_up": true,
+        "votes_up": 0,
+        "weighted_vote_score": 0.5
+      }
+    },
+    {
+      "appid": 2676840,
+      "name": "尘埃终须落定",
+      "discount": 30,
+      "original_price": "¥ 29.00",
+      "final_price": "¥ 20.30",
+      "final_price_num": 20.3,
+      "description": "在全璟警官退休12年后的某一天，一位年轻的警察找到她，请求她协助自己了结这件尚未侦破的‘犀源失踪案’。全璟回想着过去，试图将散落的记忆碎片重新拼凑起来，然而，浮出的真相却只有一个——那就是犀源身边的每一个人都在说谎。",
+      "popularity": 9726,
+      "url": "https://store.steampowered.com/app/2676840",
+      "top_review": {
+        "text": "whoever thought of a way to deliver a mystery like this, is genius!!!!!!! 剧本是天才！！！！！！！！ 上面两行是我打游戏进程中就忍不住往笔记本上敲的字。总的来说，后劲很大，非常大。 还想玩，还想解谜，还想再来一百套相同的推理逻辑进行计算，但可惜，制作组的炫技，戛然而止。 穿针引线般的勾连起一个个线索，选择人物画像的时候还反复确认，却最后输给了叙述诡计，这种刺激精彩的感觉，真的太棒啦！结局简单的一个身份互换，就更是让看到ending的我连续落泪两次。 请打到这个游戏看到这篇评测的玩家，都务必，不要看剧透打到结局，不然会损失掉一大半的游戏体验的！（认真脸） 值得一买！非常值得一买！更值得一玩！！！ [code]\"做忠于自己...",
+        "voted_up": true,
+        "votes_up": 59,
+        "weighted_vote_score": "0.824987590312957764"
+      }
+    },
+    {
+      "appid": 1677770,
+      "name": "The Case of the Golden Idol",
+      "discount": 50,
+      "original_price": "¥ 62.00",
+      "final_price": "¥ 31.00",
+      "final_price_num": 31.0,
+      "description": "A new kind of detective game that allows you to think and investigate freely. Discover clues surrounding 12 strange and gruesome deaths and build your own theory. Pick your suspect, deduce the motive, unmask the awful truth.",
+      "popularity": 9272,
+      "url": "https://store.steampowered.com/app/1677770",
+      "top_review": {
+        "text": "[i][b]阅读下面评测，从评测前的选项中选出可以填入黑条处的最佳选项。选项中有两项为多余选项。[/b][/i] [table][td]稼轩，推理，推荐，麦高芬，词语填空，贝多芬，枚举与猜测，《428》，非常，《486》[/td][/table] [h1]9/10 拼好句破案[/h1] [b]+++少见的词语填空推理 +++严丝合缝的逻辑齿轮 +++完美适配的复古画风 ---姓、名分不清，姓名记不住（分不清，我真的分不清啊😭） 建议使用指南中的民汉版本，个人体验很不错，重制版的官汉据说质量堪忧。[/b] [h2]碎片化填空推理[/h2] 本作的推理玩法很有特色，是截取案件发生时/后的一句话时间左右的小片段，通过调查那一刻场景中的人和物来提取关键词，最后用[spoiler] 词语填空 [/sp...",
+        "voted_up": true,
+        "votes_up": 36,
+        "weighted_vote_score": "0.792284250259399414"
+      }
+    },
+    {
+      "appid": 1359980,
+      "name": "POSTAL: Brain Damaged",
+      "discount": 75,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 19.00",
+      "final_price_num": 19.0,
+      "description": "POSTAL: Brain Damaged is a new, action-oriented take on the Running With Scissors’ cult game series with throwback graphics, and fast-paced, modern gameplay. Take a wild roller coaster ride through the twisted wonderland encased in the POSTAL DUDE’S messed-up mind.",
+      "popularity": 9228,
+      "url": "https://store.steampowered.com/app/1359980",
+      "top_review": {
+        "text": "官方中文已经由我开始筹备了，感兴趣的朋友可以先加入愿望单！ 我本人对这种复古街机爽游没有太大的兴趣，但即使如此也能感觉到，喜爱这一类型的玩家一定会喜欢本作。因为地图、武器、敌人种类的丰富程度绝对超过许多许多FPS同行。除此之外，整个游戏简直是用烂梗、建政、怪谈传说、阴谋论等等流行文化堆砌而成，游戏氛围轻松愉快、老少咸宜[strike]（别让你爹妈和孩子看见游戏画面）[/strike]。 同时这也是第一款爱猫人士不应该在游戏中对哈基米按E键的游戏，具有划时代的里程碑式意义，能玩到这样一款神作并且为它提供官中是我的荣幸，哈门。",
+        "voted_up": true,
+        "votes_up": 60,
+        "weighted_vote_score": "0.826534509658813477"
+      }
+    },
+    {
+      "appid": 221260,
+      "name": "小小炼狱",
+      "discount": 33,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 38.86",
+      "final_price_num": 38.86,
+      "description": "把你的玩具扔进火里，在熊熊燃烧的火焰中摆弄它们。这是一场几乎完全发生在壁炉前的冒险，带着你的思绪往上飘啊飘啊飘出烟囱，眺望墙壁另一端的冰冷世界。 由《粘粘世界》、《程序员升职记》和《70亿人类》的主创人员精心制作。",
+      "popularity": 8989,
+      "url": "https://store.steampowered.com/app/221260",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3339420,
+      "name": "你的老婆",
+      "discount": 20,
+      "original_price": "¥ 6.00",
+      "final_price": "¥ 4.80",
+      "final_price_num": 4.8,
+      "description": "感觉电脑桌面太平淡？想要找个可爱的妹子来陪自己吗？那就来试试这款桌宠老婆吧。",
+      "popularity": 8892,
+      "url": "https://store.steampowered.com/app/3339420",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 4570,
+      "name": "《Warhammer 40,000: Dawn of War》——周年纪念版 ",
+      "discount": 34,
+      "original_price": "¥ 53.00",
+      "final_price": "¥ 34.98",
+      "final_price_num": 34.98,
+      "description": "全部《Warhammer 40,000: Dawn of War》内容尽收其中的荣耀捆绑包。尽情体验这款开山立派的经典即时战略游戏，感受血腥残酷的荣耀，包括四个完整战役与九个成熟派系。",
+      "popularity": 8724,
+      "url": "https://store.steampowered.com/app/4570",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1227690,
+      "name": "Severed Steel",
+      "discount": 80,
+      "original_price": "¥ 80.00",
+      "final_price": "¥ 16.00",
+      "final_price_num": 16.0,
+      "description": "这是一款时尚而接地气的单人FPS游戏，具有流畅的特技系统、可摧毁的立体像素环境、大量的子弹时间、独特的独臂主人公，以及暗黑系电子原声音乐。",
+      "popularity": 8619,
+      "url": "https://store.steampowered.com/app/1227690",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 40950,
+      "name": "Stronghold HD (2012)",
+      "discount": 80,
+      "original_price": "¥ 20.00",
+      "final_price": "¥ 4.00",
+      "final_price_num": 4.0,
+      "description": "最初的“城堡模拟”游戏《要塞高清版》允许您设计、搭建和摧毁历史城堡。在单人军事和经济战役中对抗 AI 或加入最多 8 人的在线战役，在中世纪战争中奋战。",
+      "popularity": 8545,
+      "url": "https://store.steampowered.com/app/40950",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2786680,
+      "name": "美女，请别影响我学习",
+      "discount": 20,
+      "original_price": "¥ 36.00",
+      "final_price": "¥ 28.80",
+      "final_price_num": 28.8,
+      "description": "阴差阳错之下成为“女子大学唯一男生”的你，即将以第一视角开启一段甜蜜与欢笑交织的校园恋爱之旅！元气少女、温柔甜妹、俏皮洋妞、知性校医、傲娇学姐、酷飒太妹，各类美女的轮番攻势下，你将如何喊出“美女！请别影响我学习！”书写下属于你的女校传说！",
+      "popularity": 8372,
+      "url": "https://store.steampowered.com/app/2786680",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2060160,
+      "name": "编程矿场",
+      "discount": 20,
+      "original_price": "¥ 42.00",
+      "final_price": "¥ 33.60",
+      "final_price_num": 33.6,
+      "description": "编程并不断优化你的无人机，实现农场自动化。安坐一旁，看它为你打理一切；收集资源，解锁更尖端的科技，成为全世界效率第一的农场主。畅享游戏快乐，同时不断提高解决问题和编写代码的能力。",
+      "popularity": 8220,
+      "url": "https://store.steampowered.com/app/2060160",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2754380,
+      "name": "鲁特里一家死了（The Roottrees are Dead）",
+      "discount": 20,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 60.80",
+      "final_price_num": 60.8,
+      "description": "这是一桩来自1998年的家谱谜案。你需要深入早期互联网搜寻线索，发掘隐秘关联，拼凑出神秘的鲁特里公司背后的完整家谱树。",
+      "popularity": 8216,
+      "url": "https://store.steampowered.com/app/2754380",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3035120,
+      "name": "这个座位有人坐吗?",
+      "discount": 30,
+      "original_price": "¥ 42.00",
+      "final_price": "¥ 29.40",
+      "final_price_num": 29.4,
+      "description": "《这个座位有人坐吗？》是一款逻辑益智游戏，你要给一群特别有趣的角色牵线。每个角色都有自己计较的小事情，给他们安排位置既有难度，又很有趣。体验游戏的温馨、诙谐和真实，为所有角色找到最合适的位置，就能解锁新的关卡。",
+      "popularity": 7978,
+      "url": "https://store.steampowered.com/app/3035120",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2366980,
+      "name": "Thank Goodness You're Here!",
+      "discount": 50,
+      "original_price": "¥ 79.00",
+      "final_price": "¥ 39.50",
+      "final_price_num": 39.5,
+      "description": "《Thank Goodness You're Here!》是一款荒诞喜剧跳台游戏，故事发生在英格兰北部一座充满奇人怪事的小镇——巴恩斯沃斯。你不远万里来到镇上推销产品，顺便见识一下这里的风土人情。没想到镇民们纷纷上赶着欠你人情，塞给你的杂活儿一件赛一件奇葩……",
+      "popularity": 7310,
+      "url": "https://store.steampowered.com/app/2366980",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1292940,
+      "name": "Cube Escape Collection",
+      "discount": 50,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 11.00",
+      "final_price_num": 11.0,
+      "description": "在这个点击式冒险游戏中，你会跟随着Dale, Laura以及其他锈湖角色例如Mr. Crow和Mr. Owl的脚步探寻奥秘。Cube Escape系列中的所有游戏经过更新，重组和打包一起在Steam上架并以低价发行，希望可以在Flash游戏最后的时代得以生存。",
+      "popularity": 7288,
+      "url": "https://store.steampowered.com/app/1292940",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1150760,
+      "name": "Gloomwood",
+      "discount": 20,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 60.80",
+      "final_price_num": 60.8,
+      "description": "《Gloomwood》是一款第一人称冒险游戏，其灵感源自90年代末至21世纪初那些经典的沉浸式模拟游戏和生存恐怖游戏。",
+      "popularity": 7222,
+      "url": "https://store.steampowered.com/app/1150760",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1836730,
+      "name": "Echo Point Nova",
+      "discount": 40,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 55.20",
+      "final_price_num": 55.2,
+      "description": "《Echo Point Nova》是一款开放世界第一人称射击游戏，提供无与伦比的自由度和惊险刺激的速度感。专为单人和合作模式设计。由《Severed Steel》的创作团队倾力打造。",
+      "popularity": 7204,
+      "url": "https://store.steampowered.com/app/1836730",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1927720,
+      "name": "Monument Valley",
+      "discount": 65,
+      "original_price": "¥ 33.00",
+      "final_price": "¥ 11.55",
+      "final_price_num": 11.55,
+      "description": "与沉默公主艾达一起踏上宽恕之旅，穿越不可能的幻境，解开虚幻的谜题。操纵纪念碑，创造不断延展的路径来探索新的、超现实神秘世界，体验这款发人沉思，让人平静的益智游戏。",
+      "popularity": 7202,
+      "url": "https://store.steampowered.com/app/1927720",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 266010,
+      "name": "LYNE",
+      "discount": 50,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 7.50",
+      "final_price_num": 7.5,
+      "description": "看似简单，实则复杂。《LYNE》是一款充满了简单主义的益智游戏，它能让你的灵魂和大脑都平静下来。 连接形状，填满棋盘。在《LYNE》交汇的通路上迷失自我。",
+      "popularity": 7172,
+      "url": "https://store.steampowered.com/app/266010",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1172450,
+      "name": "Carto",
+      "discount": 70,
+      "original_price": "¥ 38.00",
+      "final_price": "¥ 11.40",
+      "final_price_num": 11.4,
+      "description": "《Carto》源于英文\"Cartographer\"（制图师），卡朵不慎坠入未知世界。这里蜿蜒曲折，地形丰富。作为制图师卡朵，你将用你自己的神秘力量，操纵地图颠覆世界，将其翻转、拼合。当世界随着你地图的组合而变化的同时，新的道路也展现在你面前。这一路上人均谜语人，你将运用智慧帮助他们的同时完成属于你的最终冒险。",
+      "popularity": 7170,
+      "url": "https://store.steampowered.com/app/1172450",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1202540,
+      "name": "丸子与银河龙",
+      "discount": 80,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 15.20",
+      "final_price_num": 15.2,
+      "description": "结合了视觉小说与动画的创新文字冒险游戏。荣获萌系游戏大赏2020的创新奖金奖。本作用近千张静态CG实现了让人目不暇接的场景切换，剧情节奏紧凑刺激。作品中包含多个美式卡通风格动画。相信这段欢笑与泪水交织的动人故事，一定能给您带来前所未有的感动体验。",
+      "popularity": 7021,
+      "url": "https://store.steampowered.com/app/1202540",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1996010,
+      "name": "Crow Country",
+      "discount": 50,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 38.00",
+      "final_price_num": 38.0,
+      "description": "这一年是1990年。爱德华·鸦神秘失踪已经两年了，他的主题公园“乌鸦之国”突然关闭已经过去两年了。但你——玛拉·森——的到来打破了此处的沉寂。如果你想要答案，你必须冒险深入到黑暗的乌鸦之国去探寻……",
+      "popularity": 6943,
+      "url": "https://store.steampowered.com/app/1996010",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 102600,
+      "name": "Orcs Must Die!",
+      "discount": 75,
+      "original_price": "¥ 37.00",
+      "final_price": "¥ 9.25",
+      "final_price_num": 9.25,
+      "description": "Slice them, burn them, skewer them, and launch them - no matter how you get it done, orcs must die in this fantasy action-strategy game from Robot Entertainment.",
+      "popularity": 6601,
+      "url": "https://store.steampowered.com/app/102600",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1337010,
+      "name": "Alba: A Wildlife Adventure",
+      "discount": 80,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 11.60",
+      "final_price_num": 11.6,
+      "description": "即使是最渺小的人也能造出巨大的改变。与阿尔芭一起拯救她美丽的岛屿以及野生动物，或许还会引发一场革命。",
+      "popularity": 6528,
+      "url": "https://store.steampowered.com/app/1337010",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2291850,
+      "name": "Underground Blossom",
+      "discount": 39,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 13.42",
+      "final_price_num": 13.42,
+      "description": "Underground Blossom是一款由Rusty Lake即将推出的冒险游戏。解开萦绕在每个车站的谜题，并找出那辆可以带你穿梭于Laura Vanderboom人生中重要时刻的列车吧。",
+      "popularity": 6518,
+      "url": "https://store.steampowered.com/app/2291850",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2057760,
+      "name": "奥秘 消退",
+      "discount": 20,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 73.60",
+      "final_price_num": 73.6,
+      "description": "《奥秘消退 (Esoteric Ebb) 》是一款等距视角单人RPG游戏。与你的哥布林伙伴一起揭开一场政治阴谋。掷骰子，做出紧张刺激的选择，并探索一个即将迎来首次选举的城市。成为传说中的神职人员，或彻底破坏这场战役。",
+      "popularity": 6337,
+      "url": "https://store.steampowered.com/app/2057760",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1411910,
+      "name": "Fallen Aces",
+      "discount": 20,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 46.40",
+      "final_price_num": 46.4,
+      "description": "The A.C.E.S. Once the watchful guardians of Switchblade City - are being taken down, one by one. Now it's up to one man, with two fists, to get to the bottom of it all. Fallen Aces is a crime noir FPS that plays right out of the '90s and looks like it's right outta the comics.",
+      "popularity": 6284,
+      "url": "https://store.steampowered.com/app/1411910",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1967430,
+      "name": "Ghost Trick: Phantom Detective",
+      "discount": 67,
+      "original_price": "¥ 148.00",
+      "final_price": "¥ 48.84",
+      "final_price_num": 48.84,
+      "description": "经典的解谜神秘冒险名作回来了！ 《逆转裁判》系列作者巧 舟所制作的《Ghost Trick: Phantom Detective》，将推出期待已久的高清重制版。 由负责《大逆转裁判》BGM的人气作曲家北川保昌对原版乐曲进行的同期编曲外，还有插画集和BGM集等新追加内容！",
+      "popularity": 6118,
+      "url": "https://store.steampowered.com/app/1967430",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2663530,
+      "name": "POOLS",
+      "discount": 25,
+      "original_price": "¥ 42.00",
+      "final_price": "¥ 31.50",
+      "final_price_num": 31.5,
+      "description": "步行模拟。探索、欣赏并聆听。奇异。放松。令人不安。诡异。沉浸感强。没有怪物追赶你或跳到你面前，但有时氛围会令人压抑，唤起迷路、黑暗和狭窄空间的恐惧。灵感来自Backrooms。",
+      "popularity": 6034,
+      "url": "https://store.steampowered.com/app/2663530",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2084000,
+      "name": "将军 对决",
+      "discount": 50,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 29.00",
+      "final_price_num": 29.0,
+      "description": "《将军 对决》是一款带有肉鸽和卡组构筑元素的回合制战斗游戏，在正确的时间进行移动和攻击，升级你的行动和卡组，准备好迎击将军吧！",
+      "popularity": 5990,
+      "url": "https://store.steampowered.com/app/2084000",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2678990,
+      "name": "南之町",
+      "discount": 35,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 14.30",
+      "final_price_num": 14.3,
+      "description": "欢迎来到《南之町》！这款惬意自在的小品级模拟经营游戏将让你有机会打造属于自己的街巷！解锁、调整建筑，经营、完善店铺，尽你所能提升村民的幸福指数，完成任务，让整条街的气氛和谐、温馨！",
+      "popularity": 5882,
+      "url": "https://store.steampowered.com/app/2678990",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2303350,
+      "name": "小小贴纸铺",
+      "discount": 50,
+      "original_price": "¥ 38.00",
+      "final_price": "¥ 19.00",
+      "final_price_num": 19.0,
+      "description": "体验经营属于自己的舒适小店的乐趣：创建贴纸，打包订单，聆听顾客们的故事。是时候打造世上最可爱的网店了！",
+      "popularity": 5838,
+      "url": "https://store.steampowered.com/app/2303350",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2721890,
+      "name": "Öoo",
+      "discount": 25,
+      "original_price": "¥ 42.00",
+      "final_price": "¥ 31.50",
+      "final_price_num": 31.5,
+      "description": "炸弹毛毛虫的大冒险！ 《Öoo》是一款探索解谜平台游戏，在这个可爱又略显奇妙的世界中，探索炸弹的各种使用方式吧！",
+      "popularity": 5813,
+      "url": "https://store.steampowered.com/app/2721890",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 801480,
+      "name": "Agent A - 伪装游戏",
+      "discount": 93,
+      "original_price": "¥ 70.00",
+      "final_price": "¥ 4.90",
+      "final_price_num": 4.9,
+      "description": "特工 A，总部给你下达一项新任务。一位名为露比·拉鲁格的敌方间谍一直想要消灭想要消灭掉我方特工。你的任务就是找到并抓住她。",
+      "popularity": 5740,
+      "url": "https://store.steampowered.com/app/801480",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 558990,
+      "name": "Opus Magnum",
+      "discount": 50,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 38.00",
+      "final_price_num": 38.0,
+      "description": "《Opus Magnum》是由曾经开发《SpaceChem》、《Infinifactory》和《SHENZHEN I/O》的Zachtronics制作的最新开放式解谜游戏。玩家需要设计和建造配置药水和毒药的机器，并且使用炼金术工程中最为先进的工具——嬗变引擎！",
+      "popularity": 5681,
+      "url": "https://store.steampowered.com/app/558990",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 571310,
+      "name": "SteamWorld Dig 2",
+      "discount": 80,
+      "original_price": "¥ 70.00",
+      "final_price": "¥ 14.00",
+      "final_price_num": 14.0,
+      "description": "拿起你的鹤嘴锄，探索屡获殊荣的《蒸汽世界：掘进》的续集！这是一个横版动作与沙盘混搭玩法的采矿冒险平台。",
+      "popularity": 5601,
+      "url": "https://store.steampowered.com/app/571310",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3115220,
+      "name": "自在城镇",
+      "discount": 10,
+      "original_price": "¥ 99.00",
+      "final_price": "¥ 89.10",
+      "final_price_num": 89.1,
+      "description": "建造一座诗情画意的 19 世纪地中海小镇，并帮助它发展成为一座繁荣的城市吧。在这款由《Station to Station》开发者打造的、温馨的城市建设游戏中，自由地放置和自定义每一项元素，为不断增长的人口创造一个完美家园吧。",
+      "popularity": 5527,
+      "url": "https://store.steampowered.com/app/3115220",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1049280,
+      "name": "朝圣者 (Pilgrims)",
+      "discount": 80,
+      "original_price": "¥ 30.00",
+      "final_price": "¥ 6.00",
+      "final_price_num": 6.0,
+      "description": "《Pilgrims》是一款有趣的冒险游戏，由《Machinarium》和《Samorost》背后的制作团队所创造的新作品。游历各地并广交朋友、与你的旅行伙伴们一起欢笑，并以你自己的方式帮助他们完成他们自己的小故事。你究竟能够找到几种不同的解决方案？",
+      "popularity": 5448,
+      "url": "https://store.steampowered.com/app/1049280",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 265890,
+      "name": "Hexcells",
+      "discount": 70,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 4.50",
+      "final_price_num": 4.5,
+      "description": "Hexcells是一款适用于PC、Mac和Linux的，氛围轻松的逻辑益智游戏。",
+      "popularity": 5037,
+      "url": "https://store.steampowered.com/app/265890",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 466630,
+      "name": "The Pedestrian",
+      "discount": 75,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 19.00",
+      "final_price_num": 19.0,
+      "description": "I can see the signs in my sleep now, always guiding me closer. Will this really work? Have we almost achieved the impossible?",
+      "popularity": 5031,
+      "url": "https://store.steampowered.com/app/466630",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 956030,
+      "name": "Creaks",
+      "discount": 80,
+      "original_price": "¥ 86.00",
+      "final_price": "¥ 17.20",
+      "final_price_num": 17.2,
+      "description": "地面开始晃动，灯泡一个接一个地碎掉－－你房间墙壁的另一端发生了奇怪的事。凭借机智与勇气，你将逐步深入这个充满有翼族与致命家具怪兽的世界中。",
+      "popularity": 5018,
+      "url": "https://store.steampowered.com/app/956030",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1876590,
+      "name": "I Am Your Beast",
+      "discount": 35,
+      "original_price": "¥ 68.00",
+      "final_price": "¥ 44.20",
+      "final_price_num": 44.2,
+      "description": "在风格鲜明的漫画微缩沙盒世界中猎杀军工复合体，一切尽在这款由《El Paso, Elsewhere》开发者打造的快节奏秘密复仇惊悚FPS游戏中。",
+      "popularity": 4970,
+      "url": "https://store.steampowered.com/app/1876590",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 207690,
+      "name": "植物精灵 (Botanicula)",
+      "discount": 80,
+      "original_price": "¥ 62.00",
+      "final_price": "¥ 12.40",
+      "final_price_num": 12.4,
+      "description": "《植物精灵（Botanicula）》是一款充满幽默的冒险游戏，由屡获殊荣的《机械迷城（Machinarium）》和《银河历险记（Samorost）》的创作者 Amanita 设计室和捷克乐队 DVA 携手打造。",
+      "popularity": 4860,
+      "url": "https://store.steampowered.com/app/207690",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2589500,
+      "name": "呓语小镇",
+      "discount": 20,
+      "original_price": "¥ 54.00",
+      "final_price": "¥ 43.20",
+      "final_price_num": 43.2,
+      "description": "《呓语小镇》是一款轻松治愈的装修收纳游戏。你将接受小镇居民的各种委托——搬家、整理、打扫卫生，在不经意间影响他们的生活轨迹，或许还会发现一些小秘密……",
+      "popularity": 4718,
+      "url": "https://store.steampowered.com/app/2589500",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1260520,
+      "name": "Patrick's Parabox",
+      "discount": 50,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 38.00",
+      "final_price_num": 38.0,
+      "description": "这款循环解谜游戏在箱子套着箱子套着箱子套着箱子，让人不禁绞尽脑汁。学会利用无穷性来探索这个深邃奇妙的系统吧。",
+      "popularity": 4692,
+      "url": "https://store.steampowered.com/app/1260520",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1434480,
+      "name": "爱上火车-Last Run!!-",
+      "discount": 59,
+      "original_price": "¥ 118.00",
+      "final_price": "¥ 48.38",
+      "final_price_num": 48.38,
+      "description": "《爱上火车-Last Run!!-》是日本美少女游戏知名品牌Lose所制作的E-mote视觉小说。本作为本篇故事的二次强化版与各路线后日谈及续集的合集，拥有相当于两部作品的内容，字数高达200万字。本作由Cura担当原画与人物设计，进行豹负责剧本，并由tO(と)主导演出效果。中日文版同步在日本与海外进行发售。",
+      "popularity": 4339,
+      "url": "https://store.steampowered.com/app/1434480",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1369340,
+      "name": "Cats Organized Neatly",
+      "discount": 67,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 4.95",
+      "final_price_num": 4.95,
+      "description": "把你的猫友们整齐的放入方格中。“整猫宫”有80个精致的关卡和一大堆不同形状的猫咪们。",
+      "popularity": 4339,
+      "url": "https://store.steampowered.com/app/1369340",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1848450,
+      "name": "Nightmare of Decay",
+      "discount": 50,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 11.00",
+      "final_price_num": 11.0,
+      "description": "第一人称动作恐怖游戏，背景设定在一个充满怪物的噩梦庄园。当你试图逃离腐烂的梦魇时，使用各种武器进行残酷的生存斗争。",
+      "popularity": 4117,
+      "url": "https://store.steampowered.com/app/1848450",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 304410,
+      "name": "Hexcells Infinite",
+      "discount": 70,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 6.60",
+      "final_price_num": 6.6,
+      "description": "Hexcells Infinite是一款适用于PC、Mac和Linux的，氛围轻松的逻辑益智游戏。",
+      "popularity": 4083,
+      "url": "https://store.steampowered.com/app/304410",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 315810,
+      "name": "eden*",
+      "discount": 50,
+      "original_price": "¥ 68.00",
+      "final_price": "¥ 34.00",
+      "final_price_num": 34.0,
+      "description": "这是在一个即将毁灭的星球上发生的最后爱情故事。 在不久前，天空中突然出现了一颗红色灾星。它的存在即将导致地球上所有生命的灭绝。统一政府提出了将全人类带入太空的逃离计划。为了使看似不可能的计划成为现实，“菲利克斯”被带到了这个世界。基因改造后的菲利克斯拥有超人的能力，不老不死，智慧超群，是人类生存的唯一希望。 诗音，最强的菲利克斯，在过去的一百年里一直被关在一个孤岛上建成的研究设施中。她的唯一目的就是拯救全人类。来自地球统一政府的士兵榛名亮被派去守护诗音。诗音便开始在囚禁她的军队中寻求自由。地球最后的爱情故事从此拉开序幕。",
+      "popularity": 3970,
+      "url": "https://store.steampowered.com/app/315810",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3376990,
+      "name": "兜虫公园 (Kabuto Park)",
+      "discount": 30,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 15.40",
+      "final_price_num": 15.4,
+      "description": "来兜虫公园尽享夏日乐趣！捕捉萌到没边的虫子，悉心培养，在这款捉虫游戏拿下“夏日斗虫大赛”的冠军吧！升级装备，寻找更稀有、强大、闪亮的小虫子伙伴吧！",
+      "popularity": 3895,
+      "url": "https://store.steampowered.com/app/3376990",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2608270,
+      "name": "静脉注射2",
+      "discount": 45,
+      "original_price": "¥ 80.00",
+      "final_price": "¥ 44.00",
+      "final_price_num": 44.0,
+      "description": "静脉注射 2 是战术游戏和沉浸式叙事的终极融合。你会拥抱黑暗还是直面敌人？结局由你选择。体验战术潜行行动的新时代。拯救生命。揭示秘密。复仇。",
+      "popularity": 3884,
+      "url": "https://store.steampowered.com/app/2608270",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1164050,
+      "name": "往事 - When the Past Was Around",
+      "discount": 40,
+      "original_price": "¥ 33.00",
+      "final_price": "¥ 19.80",
+      "final_price_num": 19.8,
+      "description": "《往室》是一款点击互动式解谜冒险游戏，讲述了一段关于热恋，放手再到释怀的故事，以及其中苦乐参半的点点滴滴。",
+      "popularity": 3877,
+      "url": "https://store.steampowered.com/app/1164050",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1522870,
+      "name": "Supraland Six Inches Under",
+      "discount": 65,
+      "original_price": "¥ 70.00",
+      "final_price": "¥ 24.50",
+      "final_price_num": 24.5,
+      "description": "一款混合了传送门、萨尔达以及密特罗德的游戏，结合探索、解谜以及战斗！在Supraland世界地底6英寸冒险的第一人称类银河战士恶魔城游戏",
+      "popularity": 3840,
+      "url": "https://store.steampowered.com/app/1522870",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2702170,
+      "name": "Strange Jigsaws",
+      "discount": 20,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 17.60",
+      "final_price_num": 17.6,
+      "description": "A game of strange jigsaws.",
+      "popularity": 3817,
+      "url": "https://store.steampowered.com/app/2702170",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2067780,
+      "name": "你去死吧——多数表决死亡游戏",
+      "discount": 20,
+      "original_price": "¥ 66.00",
+      "final_price": "¥ 52.80",
+      "final_price_num": 52.8,
+      "description": "多数表决，选中者死。聚集到一起的11位参加者以命相搏、唇枪舌战的复古恐怖冒险游戏。你将化身为女高中生主人公，和其他参加者共同尝试逃脱凄惨的死亡游戏。故事采用随玩家的选择而变化的多结局系统。结局由你来决定。",
+      "popularity": 3780,
+      "url": "https://store.steampowered.com/app/2067780",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1293180,
+      "name": "SuchArt: 艺术家模拟器",
+      "discount": 65,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 32.20",
+      "final_price_num": 32.2,
+      "description": "一款独特的艺术家模拟游戏，拥有逼真的颜料调色、物理效果和众多的绘画工具。升级和定制你的工作室、完成任务、出售和展览画作、购买画具并一举成名！",
+      "popularity": 3760,
+      "url": "https://store.steampowered.com/app/1293180",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 504210,
+      "name": "SHENZHEN I/O",
+      "discount": 50,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 29.00",
+      "final_price_num": 29.0,
+      "description": "BUILD CIRCUITS. WRITE CODE. RTFM.",
+      "popularity": 3689,
+      "url": "https://store.steampowered.com/app/504210",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1304680,
+      "name": "Voidigo",
+      "discount": 50,
+      "original_price": "¥ 21.00",
+      "final_price": "¥ 10.50",
+      "final_price_num": 10.5,
+      "description": "A vividly animated action roguelite focused on boss hunting. Unleash an array of diverse weapons and powerups to combat the corruption of the Void.",
+      "popularity": 3661,
+      "url": "https://store.steampowered.com/app/1304680",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1578860,
+      "name": "亿万恋人",
+      "discount": 30,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 10.50",
+      "final_price_num": 10.5,
+      "description": "作为一个刚毕业的贫穷大学生，你得知你神秘的富豪叔叔忽然给你的银行账户转了一个亿现金（￥100,000,000.000）。你瞬间变成了超级有钱人，住进了繁华都市的豪华别墅中。 与此同时，你的身边出现了四个风格各异的英俊男性！ 这一切，莫非是恋爱的预感？！ 而参与了“恋爱盲盒”游戏的你，需要将随机抽到的礼物送给合适的对象——结果究竟会如何呢？",
+      "popularity": 3611,
+      "url": "https://store.steampowered.com/app/1578860",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3094010,
+      "name": "HENPRI",
+      "discount": 40,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 55.20",
+      "final_price_num": 55.2,
+      "description": "主角柊一郎因为表达自我而被逮捕入狱，在由暴力主宰的制度下，他会选择抵抗还是服从？或者，尝试寻找内心的安宁与幸福。答案将在这部NUKITASHI制作团队出品的视觉小说中揭晓。",
+      "popularity": 3596,
+      "url": "https://store.steampowered.com/app/3094010",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 4035270,
+      "name": "Space Rock Breaker",
+      "discount": 20,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 12.00",
+      "final_price_num": 12.0,
+      "description": "太空碎石者 是一款关于太空中开采小行星的短篇增量游戏。使用武器开采小行星，解锁新材料，将矿石投入弹珠机中进行处理，并在庞大的技能树中花费积分进行升级。",
+      "popularity": 3517,
+      "url": "https://store.steampowered.com/app/4035270",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 370360,
+      "name": "TIS-100",
+      "discount": 50,
+      "original_price": "¥ 29.00",
+      "final_price": "¥ 14.50",
+      "final_price_num": 14.5,
+      "description": "TIS-100 is an open-ended programming game by Zachtronics, the creators of SpaceChem and Infinifactory, in which you rewrite corrupted code segments to repair the TIS-100 and unlock its secrets. It’s the assembly language programming game you never asked for!",
+      "popularity": 3351,
+      "url": "https://store.steampowered.com/app/370360",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 802890,
+      "name": "Muv-Luv Alternative",
+      "discount": 55,
+      "original_price": "¥ 121.00",
+      "final_price": "¥ 54.45",
+      "final_price_num": 54.45,
+      "description": "──那是沒被說出的另類結束。非常渺小的、非常壯大的、非常重要的、愛與勇氣的童話故事──",
+      "popularity": 3324,
+      "url": "https://store.steampowered.com/app/802890",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2399220,
+      "name": "NUKITASHI",
+      "discount": 70,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 27.60",
+      "final_price_num": 27.6,
+      "description": "萌系游戏大赏2018剧本赏金赏！由Qruppo社所推出的一款逃亡？冒险类型的游戏！ 故事藉由架空的世界阐述了现代的社会议题，搭配无厘头的搞笑桥段以及王道的热血战斗，结合燃、泣、剧情三种元素。 游玩过的玩家好评不断，逐渐建立起口碑。 普通的冒险游戏？不不，它可是个脑洞大开的杰出作品。",
+      "popularity": 3235,
+      "url": "https://store.steampowered.com/app/2399220",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2379910,
+      "name": "Dystopika: 未来城市沙盒",
+      "discount": 35,
+      "original_price": "¥ 29.00",
+      "final_price": "¥ 18.85",
+      "final_price_num": 18.85,
+      "description": "一款打造未来都市的建造类沙盒游戏。不设目标，无需经营，只要发挥创意，感受沉浸于黑暗的舒适氛围。",
+      "popularity": 3228,
+      "url": "https://store.steampowered.com/app/2379910",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2401970,
+      "name": "逆转检察官1&2 御剑精选集",
+      "discount": 40,
+      "original_price": "¥ 198.00",
+      "final_price": "¥ 118.80",
+      "final_price_num": 118.8,
+      "description": "天才检察官——御剑怜侍的逆转剧，在此揭开帷幕！ 2大人气作品合二为一，重生为更易于游玩和更为华丽的合集！ 舞台从法庭转为案发现场。 在现场，由玩家自己操作角色，搜集线索。 根据与相关人士交谈得到的情报，以及找到的证物， 运用原创系统“逻辑”来应对疑难案件吧。 御剑怜侍的过去和现在互相交织，连接未来的故事就此展开！",
+      "popularity": 3181,
+      "url": "https://store.steampowered.com/app/2401970",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1808680,
+      "name": "《史力奇奇遇记：姆明山谷之歌》",
+      "discount": 45,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 41.80",
+      "final_price_num": 41.8,
+      "description": "跟随史力奇探索神奇的姆明山谷，在动人音乐中体验丰富多彩的冒险之旅。 与姆明山谷中的人物结为好友的同时，别忘了巧妙对付公园管理员，让这里早日恢复往日的和谐与平衡。",
+      "popularity": 3176,
+      "url": "https://store.steampowered.com/app/1808680",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2581950,
+      "name": "全球鱼友俱乐部：放置好时光",
+      "discount": 30,
+      "original_price": "¥ 30.94",
+      "final_price": "¥ 21.65",
+      "final_price_num": 21.65,
+      "description": "养鱼同好交流会！献给钓鱼佬的专属挂机养鱼模拟器，即使你下线了鱼也在不断成长。在游戏中你可以养鱼、钓鱼、卖鱼、装饰鱼缸，还可以参观朋友的水族箱，与朋友进行友好互动，还可以与朋友一起出海捕鱼！呼唤所有鱼友，一起来这梦幻的桌面鱼缸世界【全球好评如潮2400+】",
+      "popularity": 3157,
+      "url": "https://store.steampowered.com/app/2581950",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 880950,
+      "name": "爱上火车-Pure Station-",
+      "discount": 70,
+      "original_price": "¥ 78.00",
+      "final_price": "¥ 23.40",
+      "final_price_num": 23.4,
+      "description": "美少女游戏品牌Lose在2016年推出的《爱上火车》获得萌系游戏大赏2016的准大奖和剧本奖金奖。另外在Getchu举办的“美少女游戏大赏2016”中获得综合部门第2名、剧本部门第4名、系统部门第2名、绘图部门第6名、音乐部门第8名、影片部门第7名、角色部门（八六）第3名。",
+      "popularity": 3136,
+      "url": "https://store.steampowered.com/app/880950",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1395520,
+      "name": "The Séance of Blake Manor",
+      "discount": 30,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 53.20",
+      "final_price_num": 53.2,
+      "description": "《The Séance of Blake Manor》的故事发生在 1897 年的爱尔兰，一场超自然悬疑案件骤然开幕。偏远酒店中谜团重重、异事频发，名叫伊芙琳·迪恩的女子更是不知所踪，来龙去脉需要你着手调查。",
+      "popularity": 3040,
+      "url": "https://store.steampowered.com/app/1395520",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1507580,
+      "name": "Enigma of Fear",
+      "discount": 30,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 64.40",
+      "final_price_num": 64.4,
+      "description": "成为Mia，一名寻找失踪父亲的超自然侦探，在不存在的“边界”内探索线索。像真正的侦探一样调查，揭开恐惧之谜的秘密，并击败试图阻止你的恐怖怪物。",
+      "popularity": 2952,
+      "url": "https://store.steampowered.com/app/1507580",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2951770,
+      "name": "闰跃之年 Leap Year",
+      "discount": 20,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 17.60",
+      "final_price_num": 17.6,
+      "description": "《Leap Year》是一款笨拙的平台游戏，它的要点在于知识与发现。在遍布隐藏道路的紧凑手绘画风世界中探索。通过领悟游戏中的各种秘密来到达新的区域，试图集齐日历上的每一页。",
+      "popularity": 2914,
+      "url": "https://store.steampowered.com/app/2951770",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1269640,
+      "name": "Beacon Pines",
+      "discount": 70,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 22.80",
+      "final_price_num": 22.8,
+      "description": "Beacon Pines is a cute and creepy adventure set within a mysterious book. Sneak out late, make new friends, uncover hidden truths, and collect words that will change the course of fate!",
+      "popularity": 2913,
+      "url": "https://store.steampowered.com/app/1269640",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 251470,
+      "name": "TowerFall Ascension",
+      "discount": 80,
+      "original_price": "¥ 53.00",
+      "final_price": "¥ 10.60",
+      "final_price_num": 10.6,
+      "description": "TowerFall Ascension is the definitive version of the hit archery combat game. Inspired by classics from the golden age of couch multiplayer, it's a 4-player local party game centering around hilarious, intense versus matches. The core mechanics are simple and accessible, but hard to master and combat is fierce.",
+      "popularity": 2903,
+      "url": "https://store.steampowered.com/app/251470",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 858710,
+      "name": "重力回路",
+      "discount": 100,
+      "original_price": "¥ 66.00",
+      "final_price": "免费",
+      "final_price_num": 66.0,
+      "description": "《重力回路》是一款极具经典街机精神的酷炫动作2D平台游戏。 凯是一位孤胆战斗英雄，运用重力回路的神秘力量进行战斗，扮演他，在这个居住着灵智机器人的后启示录世界进行冒险。踏上从神秘的病毒大军手中拯救地球的征程。",
+      "popularity": 2898,
+      "url": "https://store.steampowered.com/app/858710",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 251130,
+      "name": "Chroma Squad",
+      "discount": 75,
+      "original_price": "¥ 53.00",
+      "final_price": "¥ 13.25",
+      "final_price_num": 13.25,
+      "description": "Tactical RPG about 5 stunt actors who decide to quit their jobs and start their own Power Rangers-inspired TV show! Cast actors, upgrade your studio, craft Mechas of cardboard and duct tape. Once the cameras are rolling, control your cast of 5 colored-jumpsuit-clad warriors in turn-based battles.",
+      "popularity": 2883,
+      "url": "https://store.steampowered.com/app/251130",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2885870,
+      "name": "Strange Antiquities",
+      "discount": 33,
+      "original_price": "¥ 68.00",
+      "final_price": "¥ 45.56",
+      "final_price_num": 45.56,
+      "description": "成为神秘古物店铺的守护者。漫步于阴郁而迷人的昂德米尔镇，调查怪诞事件与深藏的秘密。发掘并鉴定奥秘古物、运用收藏品帮助镇民解决离奇事件，另外…别忘了轻抚您的猫咪！",
+      "popularity": 2876,
+      "url": "https://store.steampowered.com/app/2885870",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2394650,
+      "name": "冥界清道夫(Crypt Custodian)",
+      "discount": 40,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 45.60",
+      "final_price_num": 45.6,
+      "description": "《Crypt Custodian》是一款以净化冥界为背景、引人入胜的类银河恶魔城游戏。玩家将扮演布鲁托——这只淘气的猫咪已经死去，并被判处担任冥界的清洁工...永远如此！与其他遭受诅咒的幽灵一起玩耍，与猛兽战斗，并探索广袤无垠的世界",
+      "popularity": 2720,
+      "url": "https://store.steampowered.com/app/2394650",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1567440,
+      "name": "内饭盒 - inbento",
+      "discount": 80,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 4.40",
+      "final_price_num": 4.4,
+      "description": "一款准备美丽便当盒的烹饪益智游戏！在这款厨艺挑战中破解120+种食谱、摆弄食物、仔细思量盒中料理，并享受一个温馨的故事！",
+      "popularity": 2638,
+      "url": "https://store.steampowered.com/app/1567440",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1999520,
+      "name": "CATO 黄油猫",
+      "discount": 30,
+      "original_price": "¥ 42.00",
+      "final_price": "¥ 29.40",
+      "final_price_num": 29.4,
+      "description": "可以同时控制猫咪和吐司的解谜平台游戏，基于名梗的「黄油猫永动机」。游戏共 200+ 关卡，70+ 皮肤，还有 BOSS 战和小游戏！",
+      "popularity": 2607,
+      "url": "https://store.steampowered.com/app/1999520",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 92800,
+      "name": "SpaceChem",
+      "discount": 50,
+      "original_price": "¥ 42.00",
+      "final_price": "¥ 21.00",
+      "final_price_num": 21.0,
+      "description": "Zachtronics Industries 最新推出的全新设计益智游戏。游戏中，玩家将担任太空化学（SpaceChem）的反应堆工程师，为拓荒先锋们提供化学合成品。您可以建造精细复杂的工厂，将原料转化为高价的化学产品！您需要通过合理化设计实现生产配额，并应对各种困扰太空化学的邪恶威胁。游戏特色： 超过 50 个费解的难题！来自 Evan Le Ny 的原创音乐！他的音乐曾在炼金术的法则（The Codex of Alchemical Engineering）这款游戏中起了重要作用。20 项具有挑战性的成就！",
+      "popularity": 2607,
+      "url": "https://store.steampowered.com/app/92800",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 638510,
+      "name": "点老救世记 - dotAGE",
+      "discount": 40,
+      "original_price": "¥ 68.00",
+      "final_price": "¥ 40.80",
+      "final_price_num": 40.8,
+      "description": "点阵长老，救救我们！末日将至，我们需要你的指引才能度过难关。指派你的工人，建造一座繁荣的村庄，对抗即将到来的灾祸。DotAGE是一款无情、轻度Rogue、回合制的城镇建造游戏。你能否最终实现预言？",
+      "popularity": 2484,
+      "url": "https://store.steampowered.com/app/638510",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2614070,
+      "name": "NUKITASHI 2",
+      "discount": 60,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 36.80",
+      "final_price_num": 36.8,
+      "description": "主角橘淳之介拯救了青蓝岛，催生出新的条例。 在经历那场“战役”之后，他以“钢铁六人”其中一员的身分，成为了岛上的英雄。 他一边怀念着那场激烈的战斗，一边与NLNS的同伴们过着平稳的生活。 因为赢得了真正的共存，这样的日子将一直持续下去。 ──他本来是这么相信的。",
+      "popularity": 2447,
+      "url": "https://store.steampowered.com/app/2614070",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2585830,
+      "name": "达愿福神社",
+      "discount": 35,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 59.80",
+      "final_price_num": 59.8,
+      "description": "探索被诅咒的小镇过疏町！招募并训练福神好友！在任务出现纰漏时伸出援手！揭开自己被迫流亡他地的秘密！帮助小指头管管自己的暴脾气！经营达愿福神社，使之发展成为全日本最强会社！阿道、小指头，冲冲冲！",
+      "popularity": 2416,
+      "url": "https://store.steampowered.com/app/2585830",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2714620,
+      "name": "鸭鸭侦探：闹鬼露营地",
+      "discount": 35,
+      "original_price": "¥ 42.00",
+      "final_price": "¥ 27.30",
+      "final_price_num": 27.3,
+      "description": "当恐怖事件发生在豪华露营地时，独一无二的鸭鸭侦探被召唤来调查此案。搜索证据，展开侦探行动，解开这桩并非谋杀的谜案！",
+      "popularity": 2396,
+      "url": "https://store.steampowered.com/app/2714620",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 634160,
+      "name": "Cattails | Become a Cat!",
+      "discount": 75,
+      "original_price": "¥ 50.00",
+      "final_price": "¥ 12.50",
+      "final_price_num": 12.5,
+      "description": "Become a cat! Cattails is a unique animal simulation RPG. Hunt for food, fight invading cats, explore to gather herbs, and socialize with other cats in an expansive open world. Get married and raise a family of kittens, befriend your neighbors, and learn to live in the dangerous wilderness!",
+      "popularity": 2301,
+      "url": "https://store.steampowered.com/app/634160",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 271900,
+      "name": "Hexcells Plus",
+      "discount": 70,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 4.50",
+      "final_price_num": 4.5,
+      "description": "Hexcells Plus是一款适用于PC、Mac和Linux的，氛围轻松的逻辑益智游戏。",
+      "popularity": 2240,
+      "url": "https://store.steampowered.com/app/271900",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 587430,
+      "name": "I Expect You To Die",
+      "discount": 50,
+      "original_price": "¥ 85.00",
+      "final_price": "¥ 42.50",
+      "final_price_num": 42.5,
+      "description": "在这款虚拟现实的密室逃脱解谜游戏中测试你的问题解决能力。你将扮演一名拥有念力移物能力的秘密特工执行任务，阻止邪恶的佐尔轴心公司统治世界的计划。",
+      "popularity": 2149,
+      "url": "https://store.steampowered.com/app/587430",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1920430,
+      "name": "FUMES",
+      "discount": 30,
+      "original_price": "¥ 55.00",
+      "final_price": "¥ 38.50",
+      "final_price_num": 38.5,
+      "description": "在这款快节奏的汽车格斗游戏中，用致命武器装备你的汽车，在无尽的荒原上漫游。在这个奇异的世界中，收集汽车的升级装备，熔化敌人和老板。复古风格。复古汽车。复古玩法！",
+      "popularity": 2126,
+      "url": "https://store.steampowered.com/app/1920430",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2366970,
+      "name": "Arco",
+      "discount": 50,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 38.00",
+      "final_price_num": 38.0,
+      "description": "鲜血写就的三段逸闻，佐以怪力乱神，归于快意恩仇。",
+      "popularity": 2057,
+      "url": "https://store.steampowered.com/app/2366970",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 457210,
+      "name": "SEUM: Speedrunners from Hell",
+      "discount": 60,
+      "original_price": "¥ 55.00",
+      "final_price": "¥ 22.00",
+      "final_price_num": 22.0,
+      "description": "SEUM：来自地狱的奔跑者是世界上第一款竞技型重金属第一人称平台游戏。 玩家在每个关卡中都需要用到最后一毫秒，在惨烈的竞技台上爆出一条血路。需要进行上百次残酷的瞬移、跳跃、飞翔、弹跳和跳下，快速完成地图，才可以获得终极奖励：你的灵魂！（…和啤酒）。",
+      "popularity": 2044,
+      "url": "https://store.steampowered.com/app/457210",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1710100,
+      "name": "黄老饼梦游惊奇",
+      "discount": 50,
+      "original_price": "¥ 38.00",
+      "final_price": "¥ 19.00",
+      "final_price_num": 19.0,
+      "description": "“黄游”是丸霸无双的新作，是一款无探索只刷怪的Roguelite平台动作游戏。这里有多种奇怪的敌人和场景，丰富有深度的武器和装备，独特的快节奏“大坐”能力，另外还充满了各种没有用的细节。高端大气，沁人心脾。(已完全支持手柄) QQ群: 812627126(满了) 13305571(没满)",
+      "popularity": 2015,
+      "url": "https://store.steampowered.com/app/1710100",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1740300,
+      "name": "Smushi Come Home",
+      "discount": 50,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 38.00",
+      "final_price_num": 38.0,
+      "description": "扮演在森林中迷路、找不到家的小蘑菇，以你自己的节奏随心探索独特区域，与友好的居民交流，体验各种冒险并最终回到家中！",
+      "popularity": 2001,
+      "url": "https://store.steampowered.com/app/1740300",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1232180,
+      "name": "咲谈人生",
+      "discount": 40,
+      "original_price": "¥ 6.00",
+      "final_price": "¥ 3.60",
+      "final_price_num": 3.6,
+      "description": "放下心中的担子，在一个安全而隐秘的沙滩上和来自东方Project的十六夜咲夜小姐谈谈心吧，她会给你带来一些处理负面情绪的好办法！",
+      "popularity": 1922,
+      "url": "https://store.steampowered.com/app/1232180",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2871440,
+      "name": "鼠织小家",
+      "discount": 20,
+      "original_price": "¥ 54.00",
+      "final_price": "¥ 43.20",
+      "final_price_num": 43.2,
+      "description": "在《鼠织小家》的版中，你可以解答谜题，将它们转化为家具，为你的小小啮齿朋友打造温馨理想的家。收集琳琅满目的装饰品与配件，在这个充满魅力的世界里尽情发挥你的创意吧！",
+      "popularity": 1851,
+      "url": "https://store.steampowered.com/app/2871440",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1725640,
+      "name": "Sudocats",
+      "discount": 50,
+      "original_price": "¥ 11.00",
+      "final_price": "¥ 5.50",
+      "final_price_num": 5.5,
+      "description": "Sudoku for cat people. Cats are wonderful creatures but you better not put them together without proper introduction. So, plan ahead to display them in the right order so they get along!",
+      "popularity": 1632,
+      "url": "https://store.steampowered.com/app/1725640",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3357960,
+      "name": "肉丸烹饪：盛满快乐",
+      "discount": 20,
+      "original_price": "¥ 48.00",
+      "final_price": "¥ 38.40",
+      "final_price_num": 38.4,
+      "description": "准备万全，在酷炫的模拟经营管理游戏中大展厨艺！运用征服无数味蕾的秘方，为古怪镇民烹制独一无二的美味佳肴。不断升级布置店铺，在紧张又刺激的料理对决中披荆斩棘，争夺顶级大厨宝座，守护家族代代相传的老店！",
+      "popularity": 1573,
+      "url": "https://store.steampowered.com/app/3357960",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2870350,
+      "name": "Pipistrello and the Cursed Yoyo",
+      "discount": 50,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 38.00",
+      "final_price_num": 38.0,
+      "description": "Are you ready for the first Yoyovania?! In this 2D top-down adventure you'll explore a sprawling urban landscape, reinterpreting your surroundings through your mastery of yoyo tricks. Navigate the city's many districts, fight rival crime bosses, and regain the influence of the Pipistrello family!",
+      "popularity": 1569,
+      "url": "https://store.steampowered.com/app/2870350",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1796580,
+      "name": "Sorry We're Closed",
+      "discount": 25,
+      "original_price": "¥ 86.00",
+      "final_price": "¥ 64.50",
+      "final_price_num": 64.5,
+      "description": "《Sorry We're Closed》是一款古怪离奇的剧情向生存恐怖游戏，将经典固定视角探索与街机风格射击相结合，讲述恶魔、天使以及二者碰撞后的故事。主角米歇尔必须使用她的第三只眼来看破不同世界，揭晓其中秘密并破解各种谜题。",
+      "popularity": 1564,
+      "url": "https://store.steampowered.com/app/1796580",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2011780,
+      "name": "的士快跑",
+      "discount": 60,
+      "original_price": "¥ 66.00",
+      "final_price": "¥ 26.40",
+      "final_price_num": 26.4,
+      "description": "本作是一封写给N64时代收集马拉松游戏的美妙情书。你需要充分利用自己那极为精湛的移动技巧，在纯手工打造的复古世界中穿梭翱翔——对了，这里没有跳跃按钮哟！",
+      "popularity": 1544,
+      "url": "https://store.steampowered.com/app/2011780",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 353540,
+      "name": "Stephen's Sausage Roll",
+      "discount": 50,
+      "original_price": "¥ 108.00",
+      "final_price": "¥ 54.00",
+      "final_price_num": 54.0,
+      "description": "A simple 3d puzzle game.",
+      "popularity": 1543,
+      "url": "https://store.steampowered.com/app/353540",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1865060,
+      "name": "14种扫雷变体",
+      "discount": 30,
+      "original_price": "¥ 29.00",
+      "final_price": "¥ 20.30",
+      "final_price_num": 20.3,
+      "description": "你没有玩过的全新扫雷变体。",
+      "popularity": 1520,
+      "url": "https://store.steampowered.com/app/1865060",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2883280,
+      "name": "Dog Brew",
+      "discount": 80,
+      "original_price": "¥ 15.79",
+      "final_price": "¥ 3.15",
+      "final_price_num": 3.15,
+      "description": "Dog Brew一 款轻松的独立冒险游戏，主角背负债务，决定通过精湛的酿酒技艺来偿还",
+      "popularity": 1502,
+      "url": "https://store.steampowered.com/app/2883280",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 852110,
+      "name": "RetroMaze",
+      "discount": 40,
+      "original_price": "¥ 7.00",
+      "final_price": "¥ 4.20",
+      "final_price_num": 4.2,
+      "description": "A relaxing Retrowave stylized maze game that increases the difficulty as you progress through the levels. RetroMaze has 30 levels and a beautiful visual concept, as well as an exciting soundtrack.",
+      "popularity": 1459,
+      "url": "https://store.steampowered.com/app/852110",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1151440,
+      "name": "Utawarerumono: Mask of Truth",
+      "discount": 60,
+      "original_price": "¥ 380.00",
+      "final_price": "¥ 152.00",
+      "final_price_num": 152.0,
+      "description": "由日本知名游戏品牌AQUAPLUS打造的日式奇幻RPG。 优秀的剧本、动听的配乐，精美的CG和3D角色丰富且魄力十足的动作——相信这些要素定能让您沉浸在作品之中。 “传颂之物”系列在日本广受赞誉，曾被改编为动画。",
+      "popularity": 1427,
+      "url": "https://store.steampowered.com/app/1151440",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3218630,
+      "name": "Super Woden: Rally Edge",
+      "discount": 25,
+      "original_price": "¥ 51.95",
+      "final_price": "¥ 38.96",
+      "final_price_num": 38.96,
+      "description": "《Super Woden》备受赞誉的衍生作品，将经典的街机精髓与深度玩法相结合，并充满了对汽车文化的真挚热爱。凭借独特的个性，Rally Edge 带你回到一个娱乐至上的时代，超越现实的极限。",
+      "popularity": 1420,
+      "url": "https://store.steampowered.com/app/3218630",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1882500,
+      "name": "Cattails: Wildwood Story",
+      "discount": 75,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 19.00",
+      "final_price_num": 19.0,
+      "description": "Become a cat! In this cozy life sim RPG, you'll lead your colony into the mysterious Wildwood. Hunt prey, harvest herbs, collect magical treasures, & defend your new home from intruders. Build a thriving town to recruit new cats. Get to know the residents, fall in love, & raise a litter of kittens!",
+      "popularity": 1407,
+      "url": "https://store.steampowered.com/app/1882500",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 709920,
+      "name": "Tametsi",
+      "discount": 67,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 4.95",
+      "final_price_num": 4.95,
+      "description": "Tametsi is a difficult logic game played on a set of tiles, in which you must use the clues provided to discover and mark hidden mines.",
+      "popularity": 1389,
+      "url": "https://store.steampowered.com/app/709920",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 568320,
+      "name": "Pictopix",
+      "discount": 30,
+      "original_price": "¥ 28.00",
+      "final_price": "¥ 19.60",
+      "final_price_num": 19.6,
+      "description": "《Pictopix》是一款通过在方阵上填充方格来还原出图像的解谜游戏。",
+      "popularity": 1375,
+      "url": "https://store.steampowered.com/app/568320",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2840190,
+      "name": "Great God Grove",
+      "discount": 50,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 38.00",
+      "final_price_num": 38.0,
+      "description": "THE WORLD IS ENDING AND THE GODS ARE SQUABBLING! Suck up and launch dialogue in a world of puzzles, puppets, and weird gods… or THE RIFT WILL CONSUME US ALL!",
+      "popularity": 1323,
+      "url": "https://store.steampowered.com/app/2840190",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1456880,
+      "name": "ElecHead",
+      "discount": 55,
+      "original_price": "¥ 37.00",
+      "final_price": "¥ 16.65",
+      "final_price_num": 16.65,
+      "description": "⚡＋🤖＋🧩",
+      "popularity": 1306,
+      "url": "https://store.steampowered.com/app/1456880",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1500740,
+      "name": "Snail Simulator",
+      "discount": 30,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 15.40",
+      "final_price_num": 15.4,
+      "description": "Have you ever wanted to be a snail? Now you can be! Explore the vast Snearth with snail friends! Join monthly Snail Parties! MMOS (Massive Multiplayer Online Snails)! BECOME a snail (in a simulation)!",
+      "popularity": 1235,
+      "url": "https://store.steampowered.com/app/1500740",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1923790,
+      "name": "Linelith",
+      "discount": 40,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 9.00",
+      "final_price_num": 9.0,
+      "description": "Solve puzzles embedded in rocks and crystals as you explore a colorful, serene alien asteroid. Discover a few clever twists as you progress in this short and sweet puzzle experience.",
+      "popularity": 1227,
+      "url": "https://store.steampowered.com/app/1923790",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1817000,
+      "name": "Zodiacats",
+      "discount": 50,
+      "original_price": "¥ 11.00",
+      "final_price": "¥ 5.50",
+      "final_price_num": 5.5,
+      "description": "跟随一只名叫凯瑟琳的猫踏上寻找遗失的占星莎草纸的旅途。了解她作为女巫助手和给地球带来正能量的职责！让凯瑟琳引导你使用占星盘，向你展示每个星座的特质。你也可以探知你的小猫的星座！",
+      "popularity": 1222,
+      "url": "https://store.steampowered.com/app/1817000",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1071130,
+      "name": "The Procession to Calvary",
+      "discount": 60,
+      "original_price": "¥ 35.00",
+      "final_price": "¥ 14.00",
+      "final_price_num": 14.0,
+      "description": "从海盗那里顺手牵羊、与红衣主教勾结、和半吊子魔术师上演奇迹秀。《The Procession to Calvary》是一款以文艺复兴时期画作为骨血的派森式冒险游戏，也是高赞游戏《Four Last Things》的精神续作。",
+      "popularity": 1165,
+      "url": "https://store.steampowered.com/app/1071130",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2368930,
+      "name": "岛民: 新海岸",
+      "discount": 35,
+      "original_price": "¥ 42.00",
+      "final_price": "¥ 27.30",
+      "final_price_num": 27.3,
+      "description": "欢迎游玩《岛民: 新海岸》。使用令人兴奋的新功能，在宁静的极简风世界中建造你的岛屿度假村，在保留经典魅力的同时，激发全新的创造力。",
+      "popularity": 1162,
+      "url": "https://store.steampowered.com/app/2368930",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1499120,
+      "name": "I Expect You To Die 2: The Spy and the Liar",
+      "discount": 50,
+      "original_price": "¥ 85.00",
+      "final_price": "¥ 42.50",
+      "final_price_num": 42.5,
+      "description": "Become an elite super spy ready for espionage, explosives, and gadgets galore. This popular escape-the-room VR franchise is back with more ingenious puzzles, cunning villains, and dangerous locales.",
+      "popularity": 1162,
+      "url": "https://store.steampowered.com/app/1499120",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1430420,
+      "name": "CBT With Yuuka Kazami",
+      "discount": 25,
+      "original_price": "¥ 6.00",
+      "final_price": "¥ 4.50",
+      "final_price_num": 4.5,
+      "description": "Cognitive Behavioral Therapy, also known as CBT, is the use of evidence based strategies to help manage symptoms of poor mental health problems such as stress, anxiety and depression. Yuuka Kazami from the Touhou Project invites you to some mostly peaceful lessons where you grasp the basics of CBT!",
+      "popularity": 1142,
+      "url": "https://store.steampowered.com/app/1430420",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2144590,
+      "name": "Take me, Vitaly",
+      "discount": 50,
+      "original_price": "¥ 20.00",
+      "final_price": "¥ 10.00",
+      "final_price_num": 10.0,
+      "description": "在每个女人的一生中，总会有一个时刻，她走进了错误的门…… 我最后的记忆是夜总会的一个假面舞会派对，和一个带着白俄罗斯口音的高大健壮男人，他提出要为我买一杯鸡尾酒……",
+      "popularity": 1123,
+      "url": "https://store.steampowered.com/app/2144590",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2908050,
+      "name": "猫猫邮局",
+      "discount": 20,
+      "original_price": "¥ 22.00",
+      "final_price": "¥ 17.60",
+      "final_price_num": 17.6,
+      "description": "你名叫猫猫，在一座满是猫咪居民的小镇中担任邮递猫。在温馨舒适又生机盎然的小镇上，一边递送包裹，一边认识性格各异的朋友吧。",
+      "popularity": 1112,
+      "url": "https://store.steampowered.com/app/2908050",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3087650,
+      "name": "A Shelter Full of Cats",
+      "discount": 30,
+      "original_price": "¥ 21.00",
+      "final_price": "¥ 14.70",
+      "final_price_num": 14.7,
+      "description": "每个人都能成为英雄！帮助一位猫咪救助者照顾她救助的猫咪，并为它们寻找领养家庭助力！每只猫咪都值得被爱。❤️",
+      "popularity": 1092,
+      "url": "https://store.steampowered.com/app/3087650",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1628610,
+      "name": "Paquerette Down the Bunburrows",
+      "discount": 40,
+      "original_price": "¥ 48.00",
+      "final_price": "¥ 28.80",
+      "final_price_num": 28.8,
+      "description": "兔子……你必须抓住它们！！在这款可爱的寻路解谜游戏中，突破思维的局限，否则就会被小兔子们的智慧打败！",
+      "popularity": 1078,
+      "url": "https://store.steampowered.com/app/1628610",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2810730,
+      "name": "A Building Full of Cats 2",
+      "discount": 20,
+      "original_price": "¥ 29.00",
+      "final_price": "¥ 23.20",
+      "final_price_num": 23.2,
+      "description": "欢迎回到“A Building Full of Cats”的世界！ 在这款续作中，你不仅可以抚摸这栋楼中的每一只小猫咪，还将协助这里的住户完成各种任务。 你能撸遍所有猫猫并改变居民们的生活吗？",
+      "popularity": 1068,
+      "url": "https://store.steampowered.com/app/2810730",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1599880,
+      "name": "时间猫 (Cats in Time)",
+      "discount": 20,
+      "original_price": "¥ 19.00",
+      "final_price": "¥ 15.20",
+      "final_price_num": 15.2,
+      "description": "令人放松的触觉益智游戏，拯救失踪的猫。疯狂吧？",
+      "popularity": 1031,
+      "url": "https://store.steampowered.com/app/1599880",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 327400,
+      "name": "Sid Meier's Colonization (Classic)",
+      "discount": 70,
+      "original_price": "¥ 48.00",
+      "final_price": "¥ 14.40",
+      "final_price_num": 14.4,
+      "description": "The New World lies before you with all its peril, promise and infinite possibility. Your colonists anxiously follow you to shore. The treasures of an entire continent await you.",
+      "popularity": 1014,
+      "url": "https://store.steampowered.com/app/327400",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 858760,
+      "name": "Scalak",
+      "discount": 50,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 7.50",
+      "final_price_num": 7.5,
+      "description": "充实的益智游戏。",
+      "popularity": 1001,
+      "url": "https://store.steampowered.com/app/858760",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1092590,
+      "name": "沙雕之路",
+      "discount": 30,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 40.60",
+      "final_price_num": 40.6,
+      "description": "某一天，一个叫做丁德成的人看到邻居家晚饭吃凉拌海蜇，很馋，于是决定出门买海蜇。他与路上结识的同伴在沙雕大陆开始了一段充满想象的旅行，最终穿越多个次元，上演了一段波澜壮阔的买海蜇之旅。",
+      "popularity": 992,
+      "url": "https://store.steampowered.com/app/1092590",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1422650,
+      "name": "只因山的鸡脚",
+      "discount": 50,
+      "original_price": "¥ 12.50",
+      "final_price": "¥ 6.25",
+      "final_price_num": 6.25,
+      "description": "一款暗藏玄只因的游戏。寻找数百种隐藏玄只因、玩转铺天盖地的谐音梗、与真碍粉展开刺鸡的团战。在鲲流涌动的赛博空间，拯救因塌房而一蹶不振的鸽鸽们。黄昏的信徒们，准备好迎接挑战了吗？",
+      "popularity": 982,
+      "url": "https://store.steampowered.com/app/1422650",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1040550,
+      "name": "Spring Falls",
+      "discount": 40,
+      "original_price": "¥ 28.00",
+      "final_price": "¥ 16.80",
+      "final_price_num": 16.8,
+      "description": "Spring Falls是一款有关水流冲蚀，野花生长的益智游戏。巧妙地对地形进行布局操作，让野花在宁静的山腰上绽放。",
+      "popularity": 974,
+      "url": "https://store.steampowered.com/app/1040550",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 760640,
+      "name": "Tennis Elbow 4",
+      "discount": 20,
+      "original_price": "¥ 99.00",
+      "final_price": "¥ 79.20",
+      "final_price_num": 79.2,
+      "description": "Created by and for tennis fans, Tennis Elbow 4 is a true tennis simulation built around anticipation, positioning and risk management. Easy to start, demanding to master, it delivers exceptional gameplay depth and long-term progression.",
+      "popularity": 965,
+      "url": "https://store.steampowered.com/app/760640",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 469790,
+      "name": "Linelight",
+      "discount": 70,
+      "original_price": "¥ 36.00",
+      "final_price": "¥ 10.80",
+      "final_price_num": 10.8,
+      "description": "Linelight is an elegant puzzle game set in a world of lines.",
+      "popularity": 936,
+      "url": "https://store.steampowered.com/app/469790",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2355150,
+      "name": "Mudborne：育蛙模拟器",
+      "discount": 20,
+      "original_price": "¥ 33.00",
+      "final_price": "¥ 26.40",
+      "final_price_num": 26.4,
+      "description": "《Mudborne》是一款休闲的自然管理模拟游戏，主题是培育青蛙、繁育青蛙！ 冬眠的你苏醒之后，发现池塘空无一蛙。你必须利用新物种的遗传钥匙，解锁清醒世界与梦境世界之间的通路，踏上重新壮大族群的旅程。",
+      "popularity": 933,
+      "url": "https://store.steampowered.com/app/2355150",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2533600,
+      "name": "窃血之徒 Bloodthief",
+      "discount": 33,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 50.92",
+      "final_price_num": 50.92,
+      "description": "《窃血之徒》是一款超高速近战地牢冲刺游戏，你将利用高速运动的动量在危险的地牢中跑酷奔行、暴力斩杀无数敌人。在中世纪地牢与城堡中极速冲刺，了解潜伏在这个世界表面下的黑暗秘密。",
+      "popularity": 890,
+      "url": "https://store.steampowered.com/app/2533600",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1125510,
+      "name": "Snacko",
+      "discount": 25,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 69.00",
+      "final_price_num": 69.0,
+      "description": "来《Snacko》解除一个诅咒，令一座破败的小岛重获生机 – 而曾经居住在大城市里的猫咪“沫沫”和“蜜柑”正准备在此开展全新生活！在这款农场猫咪探险游戏中，种植作物、养育毛茸茸的奶牛、钓鱼、探索、随心进行定制与装饰，以及进行别的许多事情吧。",
+      "popularity": 859,
+      "url": "https://store.steampowered.com/app/1125510",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3119540,
+      "name": "缮写室 ：羊皮卷大师",
+      "discount": 20,
+      "original_price": "¥ 55.00",
+      "final_price": "¥ 44.00",
+      "final_price_num": 44.0,
+      "description": "经营你自己的手稿工坊，接收各种订单，帮客户绘制中世纪书籍插画，怎么布置全凭你喜欢。完成后寄回给客户即可赚取报酬，还能解锁新工作、新装饰和各种物品。欢迎来到专属于你的中世纪缮写室！",
+      "popularity": 847,
+      "url": "https://store.steampowered.com/app/3119540",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1639610,
+      "name": "Save Me, Sakuya-san!",
+      "discount": 40,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 9.00",
+      "final_price_num": 9.0,
+      "description": "她为您而来，伸出援手！让来自《东方Project》的十六夜咲夜，为您在这款旨在消弭困扰的、美丽的视觉小说中，为遭遇困境后的您带来慰藉！",
+      "popularity": 789,
+      "url": "https://store.steampowered.com/app/1639610",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1262040,
+      "name": "Super Mombo Quest",
+      "discount": 60,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 30.40",
+      "final_price_num": 30.4,
+      "description": "Bounce and stomp through an enormous interconnected world, doing some intense acrobatics and getting huge combos! A superfast precision platformer that mixes up a Metroidvania world with classic Arcade mechanics.",
+      "popularity": 780,
+      "url": "https://store.steampowered.com/app/1262040",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1755100,
+      "name": "The Last Clockwinder",
+      "discount": 70,
+      "original_price": "¥ 90.00",
+      "final_price": "¥ 27.00",
+      "final_price_num": 27.0,
+      "description": "A VR puzzle-automation game. Create intricate clockwork contraptions out of your own clones and restore life to an ancient tree using automation, a collection of rare plants from across the galaxy and a team of clockwork gardeners.",
+      "popularity": 754,
+      "url": "https://store.steampowered.com/app/1755100",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1213230,
+      "name": "整蛊白云",
+      "discount": 30,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 40.60",
+      "final_price_num": 40.6,
+      "description": "扮演可爱的纸板云环游世界，给所有人搞点小破坏！解锁全新的搞怪手法，体验 50 多个关卡各自不同的场景设置和过关目标。终极整蛊模拟游戏。",
+      "popularity": 718,
+      "url": "https://store.steampowered.com/app/1213230",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1589570,
+      "name": "护林猿神",
+      "discount": 25,
+      "original_price": "¥ 44.00",
+      "final_price": "¥ 33.00",
+      "final_price_num": 33.0,
+      "description": "《护林猿神》是一款动作要素十足的像素地牢冒险。腐化力量在不断侵蚀丛林家园，阿猿挺身而出，探索千变万化的丛林地牢，收集多样的武器、遗物、法术和附魔，消灭前来进犯的魔怪强敌，最终拯救世界，百战成神！",
+      "popularity": 677,
+      "url": "https://store.steampowered.com/app/1589570",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 316610,
+      "name": "A Good Snowman Is Hard To Build",
+      "discount": 75,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 14.50",
+      "final_price_num": 14.5,
+      "description": "作为一款走可爱风格的益智游戏，玩家可以在A Good Snowman Is Hard To Build中扮演怪物并搭造雪人。",
+      "popularity": 659,
+      "url": "https://store.steampowered.com/app/316610",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3187010,
+      "name": "Dinocop",
+      "discount": 20,
+      "original_price": "¥ 58.00",
+      "final_price": "¥ 46.40",
+      "final_price_num": 46.4,
+      "description": "When dinosaurs were brought back to life, none wanted to be a cop, so humans made you: Dinocop. Investigate the guests of the Cretaceous hotel to crack a meaty case that will confront you with your most profound existential dilemma. Who brought human meat to the dinosaur rights convention ?",
+      "popularity": 654,
+      "url": "https://store.steampowered.com/app/3187010",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3237920,
+      "name": "机甲浩劫",
+      "discount": 25,
+      "original_price": "¥ 32.00",
+      "final_price": "¥ 24.00",
+      "final_price_num": 24.0,
+      "description": "与无尽的机器人群体作战！控制装备多种武器的强大机甲，包括激光束、集束炸弹和火箭发射器。完成任务以推进科技树，拯救世界免受攻击自动机的威胁！",
+      "popularity": 640,
+      "url": "https://store.steampowered.com/app/3237920",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1739900,
+      "name": "Death of the Reprobate",
+      "discount": 25,
+      "original_price": "¥ 45.00",
+      "final_price": "¥ 33.75",
+      "final_price_num": 33.75,
+      "description": "探索由文艺复兴真迹构建的世界。这里既有绚丽的自然风光、喧嚣的城镇景象，也有荒诞可笑的人物肖像。《Death of the Reprobate》是一款拉伯雷式冒险游戏，由《Four Last Things》和《The Procession to Calvary》的制作者操刀打造。",
+      "popularity": 624,
+      "url": "https://store.steampowered.com/app/1739900",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1098770,
+      "name": "The Crimson Diamond",
+      "discount": 25,
+      "original_price": "¥ 50.00",
+      "final_price": "¥ 37.50",
+      "final_price_num": 37.5,
+      "description": "Follow amateur geologist and reluctant detective Nancy Maple to the ghost town of Crimson, Ontario to investigate the discovery of a massive diamond in this retro-inspired, EGA text parser mystery adventure!",
+      "popularity": 623,
+      "url": "https://store.steampowered.com/app/1098770",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 497780,
+      "name": "Recursed",
+      "discount": 75,
+      "original_price": "¥ 33.00",
+      "final_price": "¥ 8.25",
+      "final_price_num": 8.25,
+      "description": "A puzzle game where the rooms are items and the items are rooms. Get to the goal by moving, rearranging and duplicating rooms and altering the structure of the world.",
+      "popularity": 614,
+      "url": "https://store.steampowered.com/app/497780",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2393920,
+      "name": "天使时代",
+      "discount": 20,
+      "original_price": "¥ 89.00",
+      "final_price": "¥ 71.20",
+      "final_price_num": 71.2,
+      "description": "走进异种、人类与天使共存的奇妙世界，探索广袤原始的国度，邂逅刺激的战斗和神秘陌生的风景。每个关卡都藏在目之所及之处，每场遭遇战都诙谐幽默。接下来探索哪里？由你来决定！一切尽在这款非线性叙事的3D动作冒险游戏中！",
+      "popularity": 605,
+      "url": "https://store.steampowered.com/app/2393920",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3667230,
+      "name": "The Deadseat",
+      "discount": 34,
+      "original_price": "¥ 15.00",
+      "final_price": "¥ 9.90",
+      "final_price_num": 9.9,
+      "description": "A horror game where you play a hand-held console in the backseat during a long drive home.",
+      "popularity": 573,
+      "url": "https://store.steampowered.com/app/3667230",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 3296790,
+      "name": "天之少女",
+      "discount": 40,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 45.60",
+      "final_price_num": 45.6,
+      "description": "始于《壳之少女》的偏执锁链，如今在三部曲的最终篇章中，正逐渐勒紧侦探时坂玲人。旧友与宿敌纷纷现身，迎来最后的对决——谁能打破这宿命的循环？而时坂的内心，最终能否得到解脱？",
+      "popularity": 554,
+      "url": "https://store.steampowered.com/app/3296790",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1295320,
+      "name": "Can of Wormholes",
+      "discount": 60,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 30.40",
+      "final_price_num": 30.4,
+      "description": "在这个解谜游戏中扮演一个有意识的小铁罐，推动、切割、吞食、翻转和挤压虫虫们。",
+      "popularity": 534,
+      "url": "https://store.steampowered.com/app/1295320",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1281790,
+      "name": "SHEEPO",
+      "discount": 60,
+      "original_price": "¥ 37.00",
+      "final_price": "¥ 14.80",
+      "final_price_num": 14.8,
+      "description": "Explore a strange planet, collect the creatures you find, and then shape-shift into them to expand your world. Build your own path, chat with the locals, and discover the planets sprawling secrets in this quirky metroidvania platformer.",
+      "popularity": 521,
+      "url": "https://store.steampowered.com/app/1281790",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 1258310,
+      "name": "Mushroom Cats 2",
+      "discount": 40,
+      "original_price": "¥ 6.00",
+      "final_price": "¥ 3.60",
+      "final_price_num": 3.6,
+      "description": "Mushroom Cats 2 - is a cute point-and-click game about Mushroom Cats that live on magical islands. Any girl will melt from tenderness, and the kids will be delighted with the funny Mushroom Cats! This fairy tale will fill any heart with good!",
+      "popularity": 519,
+      "url": "https://store.steampowered.com/app/1258310",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
+    },
+    {
+      "appid": 2982610,
+      "name": "Stonemachia",
+      "discount": 10,
+      "original_price": "¥ 76.00",
+      "final_price": "¥ 68.40",
+      "final_price_num": 68.4,
+      "description": "Fight, Zefiro! Arm yourself with the power of chess and explore Medhelan, a land haunted by the Plague of Angels, in a dark action-adventure with soulslike elements. Will you be able to return to Heaven?",
+      "popularity": 502,
+      "url": "https://store.steampowered.com/app/2982610",
+      "top_review": {
+        "text": "暂未抓取热门评论",
+        "voted_up": null,
+        "votes_up": 0,
+        "weighted_vote_score": "0"
+      }
     }
   ]
 }
