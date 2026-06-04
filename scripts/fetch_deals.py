@@ -16,7 +16,8 @@ REVIEWS_URL = "https://store.steampowered.com/appreviews/{appid}"
 OUTPUT_PATH = Path("data/deals.json")
 
 PAGE_SIZE = 50
-REQUEST_DELAY = 0.15
+REQUEST_DELAY = 0.10
+TOP_REVIEW_LIMIT = 50
 
 session = requests.Session()
 session.headers.update({
@@ -236,10 +237,27 @@ def main():
         if not detail:
             continue
 
-        detail["top_review"] = fetch_top_review(appid)
+        detail["top_review"] = {
+            "text": "暂未抓取热门评论",
+            "voted_up": None,
+            "votes_up": 0,
+            "weighted_vote_score": "0"
+        }
+
         deals.append(detail)
 
         time.sleep(REQUEST_DELAY)
+
+    deals.sort(key=lambda x: x.get("popularity", 0), reverse=True)
+
+    for index, deal in enumerate(deals[:TOP_REVIEW_LIMIT], start=1):
+        print(f"[{index}/{TOP_REVIEW_LIMIT}] Fetching top review: {deal['appid']}")
+
+        deal["top_review"] = fetch_top_review(deal["appid"])
+
+        time.sleep(REQUEST_DELAY)
+
+        
 
     deals.sort(key=lambda x: x.get("popularity", 0), reverse=True)
 
