@@ -146,7 +146,6 @@ def fetch_app_details(appid):
         "appids": appid,
         "cc": CC,
         "l": LANG,
-        "filters": "basic,price_overview,recommendations,genres,categories,metacritic,release_date,platforms"
     }
 
     data = request_json(DETAILS_URL, params)
