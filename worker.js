@@ -9,17 +9,21 @@ const MAX_PAGE = 10;
 
 const corsHeaders = {
   'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, OPTIONS',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type',
 };
 
 export default {
-  async fetch(request) {
+  async fetch(request, env) {
     if (request.method === 'OPTIONS') {
       return new Response(null, { status: 204, headers: corsHeaders });
     }
 
     const url = new URL(request.url);
+
+    if (url.pathname === '/api/favorites') {
+      return handleFavoritesRequest(request, env, url);
+    }
 
     if (request.method !== 'GET') {
       return jsonResponse({ error: 'Method not allowed' }, 405);
@@ -30,7 +34,10 @@ export default {
     }
 
     if (url.pathname !== '/api/search') {
-      return jsonResponse({ error: 'Not found', usage: '/api/search?q=F1&page=1 or /api/apps?ids=730,945360' }, 404);
+      return jsonResponse({
+        error: 'Not found',
+        usage: '/api/search?q=F1&page=1, /api/apps?ids=730,945360, or /api/favorites?key=sync-code',
+      }, 404);
     }
 
     const query = (url.searchParams.get('q') || '').trim();
@@ -64,6 +71,76 @@ export default {
     }
   },
 };
+
+async function handleFavoritesRequest(request, env, url) {
+  const kv = env?.FAVORITES_KV;
+
+  if (!kv) {
+    return jsonResponse({ error: 'FAVORITES_KV binding is not configured' }, 500);
+  }
+
+  const key = (url.searchParams.get('key') || '').trim();
+
+  if (!isValidSyncKey(key)) {
+    return jsonResponse({ error: 'Invalid sync key' }, 400);
+  }
+
+  const kvKey = `favorites:${key}`;
+
+  if (request.method === 'GET') {
+    const stored = await kv.get(kvKey, 'json');
+
+    return jsonResponse({
+      key,
+      updated_at: stored?.updated_at || null,
+      games: stored?.games || {},
+    });
+  }
+
+  if (request.method === 'POST') {
+    let body;
+
+    try {
+      body = await request.json();
+    } catch {
+      return jsonResponse({ error: 'Invalid JSON body' }, 400);
+    }
+
+    const games = body?.games;
+
+    if (!games || typeof games !== 'object' || Array.isArray(games)) {
+      return jsonResponse({ error: 'Body must include a games object' }, 400);
+    }
+
+    const normalizedGames = {};
+
+    Object.entries(games).slice(0, 1000).forEach(([appid, game]) => {
+      const numericAppid = Number(appid || game?.appid);
+
+      if (Number.isInteger(numericAppid) && numericAppid > 0 && game && typeof game === 'object') {
+        normalizedGames[numericAppid] = {
+          ...game,
+          appid: numericAppid,
+        };
+      }
+    });
+
+    const payload = {
+      updated_at: new Date().toISOString(),
+      games: normalizedGames,
+    };
+
+    await kv.put(kvKey, JSON.stringify(payload));
+
+    return jsonResponse({
+      key,
+      updated_at: payload.updated_at,
+      count: Object.keys(normalizedGames).length,
+    });
+  }
+
+  return jsonResponse({ error: 'Method not allowed' }, 405);
+}
 
 async function handleAppsRequest(url) {
   const ids = (url.searchParams.get('ids') || '')
@@ -347,6 +424,10 @@ function clampNumber(value, min, max) {
 
 function sanitizeParam(value, fallback) {
   return /^[a-zA-Z0-9_-]+$/.test(value) ? value : fallback;
+}
+
+function isValidSyncKey(value) {
+  return /^[a-zA-Z0-9_-]{8,64}$/.test(value);
 }
 
 function jsonResponse(body, status = 200) {

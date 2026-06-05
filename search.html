@@ -311,7 +311,9 @@
 
 <script>
   const SEARCH_ENDPOINT = 'https://steam.nin508404.workers.dev/api/search';
+  const CLOUD_FAVORITES_ENDPOINT = 'https://steam.nin508404.workers.dev/api/favorites';
   const FAVORITES_KEY = 'steamDealFavorites';
+  const SYNC_KEY_STORAGE = 'steamFavoritesSyncKey';
   const PAGE_SIZE = 50;
 
   let searchResults = [];
@@ -357,6 +359,29 @@
 
   function saveFavorites(favorites) {
     localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+    syncFavoritesToCloud(favorites);
+  }
+
+  function getSyncKey() {
+    return localStorage.getItem(SYNC_KEY_STORAGE) || '';
+  }
+
+  async function syncFavoritesToCloud(favorites) {
+    const syncKey = getSyncKey();
+
+    if (!syncKey) return;
+
+    try {
+      await fetch(`${CLOUD_FAVORITES_ENDPOINT}?key=${encodeURIComponent(syncKey)}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ games: favorites }),
+      });
+    } catch (error) {
+      console.error('Cloud favorite sync failed', error);
+    }
   }
 
   function isFavorite(appid) {

@@ -148,6 +148,31 @@
       border-radius: 8px;
     }
 
+    .sync-panel {
+      background: rgba(17, 24, 32, 0.82);
+      border: 1px solid rgba(102, 192, 244, 0.18);
+      border-radius: 12px;
+      padding: 14px;
+      margin: 18px 0 24px;
+    }
+
+    .sync-panel input {
+      min-width: 280px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(102, 192, 244, 0.25);
+      background: rgba(255, 255, 255, 0.92);
+      font-size: 15px;
+      outline: none;
+    }
+
+    .sync-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
     .filter-field label {
       display: block;
       margin-bottom: 8px;
@@ -343,6 +368,16 @@
     </div>
   </div>
 
+  <div class="sync-panel">
+    <div class="sync-row">
+      <input id="syncKeyInput" type="text" placeholder="输入或创建收藏同步码">
+      <button class="stats-button" onclick="createSyncKey()">创建同步码</button>
+      <button class="stats-button" onclick="connectSyncKey()">连接同步码</button>
+      <button class="stats-button" onclick="saveCloudFavorites()">保存到云端</button>
+    </div>
+    <p id="syncStatus" class="meta">未连接云端收藏。</p>
+  </div>
+
   <div class="toolbar">
     <input id="searchInput" type="text" placeholder="搜索收藏游戏名..." oninput="handleListCriteriaChange()">
 
@@ -399,6 +434,8 @@
 <script>
   const FAVORITES_KEY = 'steamDealFavorites';
   const REFRESH_ENDPOINT = 'https://steam.nin508404.workers.dev/api/apps';
+  const CLOUD_FAVORITES_ENDPOINT = 'https://steam.nin508404.workers.dev/api/favorites';
+  const SYNC_KEY_STORAGE = 'steamFavoritesSyncKey';
   const PAGE_SIZE = 20;
 
   let favoriteGames = [];
@@ -421,6 +458,125 @@
 
   function saveFavorites(favorites) {
     localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+    syncFavoritesToCloud(favorites);
+  }
+
+  function getSyncKey() {
+    return localStorage.getItem(SYNC_KEY_STORAGE) || '';
+  }
+
+  function setSyncKey(syncKey) {
+    localStorage.setItem(SYNC_KEY_STORAGE, syncKey);
+    document.getElementById('syncKeyInput').value = syncKey;
+  }
+
+  function getSyncEndpoint(syncKey) {
+    return `${CLOUD_FAVORITES_ENDPOINT}?key=${encodeURIComponent(syncKey)}`;
+  }
+
+  function generateSyncKey() {
+    const bytes = new Uint8Array(18);
+    crypto.getRandomValues(bytes);
+
+    return [...bytes]
+      .map(value => value.toString(36).padStart(2, '0'))
+      .join('')
+      .slice(0, 32);
+  }
+
+  function isValidSyncKey(syncKey) {
+    return /^[a-zA-Z0-9_-]{8,64}$/.test(syncKey);
+  }
+
+  function updateSyncStatus(message) {
+    document.getElementById('syncStatus').innerText = message;
+  }
+
+  async function syncFavoritesToCloud(favorites = getFavorites()) {
+    const syncKey = getSyncKey();
+
+    if (!syncKey) return;
+
+    try {
+      const response = await fetch(getSyncEndpoint(syncKey), {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ games: favorites }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`云端保存返回 ${response.status}`);
+      }
+
+      const data = await response.json();
+      updateSyncStatus(`已连接云端收藏：${syncKey}，云端收藏 ${data.count || 0} 个。`);
+    } catch (error) {
+      console.error(error);
+      updateSyncStatus('云端保存失败，请确认 Worker KV 已绑定并部署。');
+    }
+  }
+
+  async function loadCloudFavorites(syncKey) {
+    const response = await fetch(getSyncEndpoint(syncKey));
+
+    if (!response.ok) {
+      throw new Error(`云端读取返回 ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    return data.games && typeof data.games === 'object' ? data.games : {};
+  }
+
+  async function createSyncKey() {
+    const syncKey = generateSyncKey();
+    setSyncKey(syncKey);
+    updateSyncStatus(`已创建同步码：${syncKey}。正在保存当前收藏...`);
+    await syncFavoritesToCloud(getFavorites());
+  }
+
+  async function connectSyncKey() {
+    const syncKey = document.getElementById('syncKeyInput').value.trim();
+
+    if (!isValidSyncKey(syncKey)) {
+      updateSyncStatus('同步码需为 8-64 位字母、数字、下划线或短横线。');
+      return;
+    }
+
+    try {
+      updateSyncStatus('正在连接云端收藏...');
+      const cloudFavorites = await loadCloudFavorites(syncKey);
+      const localFavorites = getFavorites();
+      const mergedFavorites = {
+        ...cloudFavorites,
+        ...localFavorites,
+      };
+
+      setSyncKey(syncKey);
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(mergedFavorites));
+      favoriteGames = Object.values(mergedFavorites);
+      populateGenreFilter();
+      renderFavorites();
+      await syncFavoritesToCloud(mergedFavorites);
+    } catch (error) {
+      console.error(error);
+      updateSyncStatus('连接失败，请确认同步码和 Cloudflare Worker 配置。');
+    }
+  }
+
+  async function saveCloudFavorites() {
+    const syncKey = document.getElementById('syncKeyInput').value.trim() || getSyncKey();
+
+    if (!isValidSyncKey(syncKey)) {
+      updateSyncStatus('请先创建或输入有效同步码。');
+      return;
+    }
+
+    setSyncKey(syncKey);
+    updateSyncStatus('正在保存到云端...');
+    await syncFavoritesToCloud(getFavorites());
   }
 
   function getCurrentPageFavoriteGames() {
@@ -684,6 +840,13 @@
   }
 
   function loadFavorites() {
+    const syncKey = getSyncKey();
+
+    if (syncKey) {
+      document.getElementById('syncKeyInput').value = syncKey;
+      updateSyncStatus(`已连接云端收藏：${syncKey}`);
+    }
+
     favoriteGames = Object.values(getFavorites());
     populateGenreFilter();
     renderFavorites();
