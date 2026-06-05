@@ -1,5 +1,6 @@
 const STEAM_SEARCH_URL = 'https://store.steampowered.com/search/results/';
 const STEAM_DETAILS_URL = 'https://store.steampowered.com/api/appdetails';
+const STEAM_REVIEWS_URL = 'https://store.steampowered.com/appreviews/';
 
 const DEFAULT_CC = 'cn';
 const DEFAULT_LANG = 'schinese';
@@ -24,6 +25,10 @@ export default {
       return jsonResponse({ error: 'Not found', usage: '/api/search?q=F1&page=1' }, 404);
     }
 
+    if (request.method !== 'GET') {
+      return jsonResponse({ error: 'Method not allowed' }, 405);
+    }
+
     const query = (url.searchParams.get('q') || '').trim();
     const page = clampNumber(Number(url.searchParams.get('page') || 1), 1, MAX_PAGE);
     const cc = sanitizeParam(url.searchParams.get('cc') || DEFAULT_CC, DEFAULT_CC);
@@ -35,7 +40,7 @@ export default {
 
     try {
       const appids = await searchSteamAppids(query, page, cc, lang);
-      const results = await fetchAppDetails(appids, cc, lang);
+      const results = await fetchAppDetailsWithReviews(appids, cc, lang);
 
       return jsonResponse({
         query,
@@ -113,8 +118,22 @@ function extractAppids(html) {
   return appids;
 }
 
-async function fetchAppDetails(appids, cc, lang) {
-  const details = await Promise.all(appids.map(appid => fetchSingleAppDetail(appid, cc, lang)));
+async function fetchAppDetailsWithReviews(appids, cc, lang) {
+  const details = await Promise.all(appids.map(async appid => {
+    const detail = await fetchSingleAppDetail(appid, cc, lang);
+
+    if (!detail) {
+      return null;
+    }
+
+    try {
+      detail.top_review = await fetchTopReview(appid, lang);
+    } catch {
+      detail.top_review = getEmptyReview();
+    }
+
+    return detail;
+  }));
 
   return details.filter(Boolean);
 }
@@ -149,6 +168,67 @@ async function fetchSingleAppDetail(appid, cc, lang) {
   return normalizeAppDetail(appid, appData.data);
 }
 
+async function fetchTopReview(appid, lang) {
+  const baseParams = {
+    json: '1',
+    filter: 'all',
+    day_range: '365',
+    cursor: '*',
+    review_type: 'all',
+    purchase_type: 'all',
+    num_per_page: '1',
+  };
+
+  for (const language of [lang, 'all']) {
+    const reviewUrl = new URL(`${STEAM_REVIEWS_URL}${appid}`);
+
+    reviewUrl.search = new URLSearchParams({
+      ...baseParams,
+      language,
+    }).toString();
+
+    let response;
+
+    try {
+      response = await fetch(reviewUrl.toString(), {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 Steam Search Worker',
+          'Accept': 'application/json,*/*;q=0.8',
+        },
+      });
+    } catch {
+      continue;
+    }
+
+    if (!response.ok) {
+      continue;
+    }
+
+    let data;
+
+    try {
+      data = await response.json();
+    } catch {
+      continue;
+    }
+    const reviews = Array.isArray(data.reviews) ? data.reviews : [];
+    const review = reviews[0];
+
+    if (!review) {
+      continue;
+    }
+
+    return {
+      text: cleanText(review.review || '', 350),
+      voted_up: typeof review.voted_up === 'boolean' ? review.voted_up : null,
+      votes_up: Number(review.votes_up || 0),
+      weighted_vote_score: String(review.weighted_vote_score || '0'),
+    };
+  }
+
+  return getEmptyReview();
+}
+
 function normalizeAppDetail(appid, details) {
   const price = details.price_overview || {};
   const metacritic = details.metacritic || {};
@@ -181,12 +261,16 @@ function normalizeAppDetail(appid, details) {
     publishers: Array.isArray(details.publishers) ? details.publishers.slice(0, 2) : [],
     platforms: details.platforms || {},
     url: `https://store.steampowered.com/app/${appid}`,
-    top_review: {
-      text: '搜索结果暂未抓取热门评论',
-      voted_up: null,
-      votes_up: 0,
-      weighted_vote_score: '0',
-    },
+    top_review: getEmptyReview(),
+  };
+}
+
+function getEmptyReview() {
+  return {
+    text: '暂无热门评论',
+    voted_up: null,
+    votes_up: 0,
+    weighted_vote_score: '0',
   };
 }
 
