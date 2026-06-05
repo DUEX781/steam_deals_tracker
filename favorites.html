@@ -370,8 +370,7 @@
 
   <div class="sync-panel">
     <div class="sync-row">
-      <input id="syncKeyInput" type="text" placeholder="输入或创建收藏同步码">
-      <button class="stats-button" onclick="createSyncKey()">创建同步码</button>
+      <input id="syncKeyInput" type="text" placeholder="输入收藏同步码">
       <button class="stats-button" onclick="connectSyncKey()">连接同步码</button>
       <button class="stats-button" onclick="saveCloudFavorites()">保存到云端</button>
     </div>
@@ -466,22 +465,17 @@
   }
 
   function setSyncKey(syncKey) {
-    localStorage.setItem(SYNC_KEY_STORAGE, syncKey);
+    if (syncKey) {
+      localStorage.setItem(SYNC_KEY_STORAGE, syncKey);
+    } else {
+      localStorage.removeItem(SYNC_KEY_STORAGE);
+    }
+
     document.getElementById('syncKeyInput').value = syncKey;
   }
 
   function getSyncEndpoint(syncKey) {
     return `${CLOUD_FAVORITES_ENDPOINT}?key=${encodeURIComponent(syncKey)}`;
-  }
-
-  function generateSyncKey() {
-    const bytes = new Uint8Array(18);
-    crypto.getRandomValues(bytes);
-
-    return [...bytes]
-      .map(value => value.toString(36).padStart(2, '0'))
-      .join('')
-      .slice(0, 32);
   }
 
   function isValidSyncKey(syncKey) {
@@ -530,15 +524,19 @@
     return data.games && typeof data.games === 'object' ? data.games : {};
   }
 
-  async function createSyncKey() {
-    const syncKey = generateSyncKey();
-    setSyncKey(syncKey);
-    updateSyncStatus(`已创建同步码：${syncKey}。正在保存当前收藏...`);
-    await syncFavoritesToCloud(getFavorites());
-  }
-
   async function connectSyncKey() {
     const syncKey = document.getElementById('syncKeyInput').value.trim();
+
+    if (!syncKey) {
+      setSyncKey('');
+      localStorage.removeItem(FAVORITES_KEY);
+      favoriteGames = [];
+      currentPage = 1;
+      populateGenreFilter();
+      renderFavorites();
+      updateSyncStatus('未连接云端收藏，收藏页已重置为空。');
+      return;
+    }
 
     if (!isValidSyncKey(syncKey)) {
       updateSyncStatus('同步码需为 8-64 位字母、数字、下划线或短横线。');
@@ -548,18 +546,14 @@
     try {
       updateSyncStatus('正在连接云端收藏...');
       const cloudFavorites = await loadCloudFavorites(syncKey);
-      const localFavorites = getFavorites();
-      const mergedFavorites = {
-        ...cloudFavorites,
-        ...localFavorites,
-      };
 
       setSyncKey(syncKey);
-      localStorage.setItem(FAVORITES_KEY, JSON.stringify(mergedFavorites));
-      favoriteGames = Object.values(mergedFavorites);
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(cloudFavorites));
+      favoriteGames = Object.values(cloudFavorites);
+      currentPage = 1;
       populateGenreFilter();
       renderFavorites();
-      await syncFavoritesToCloud(mergedFavorites);
+      updateSyncStatus(`已连接云端收藏：${syncKey}，当前收藏 ${favoriteGames.length} 个。`);
     } catch (error) {
       console.error(error);
       updateSyncStatus('连接失败，请确认同步码和 Cloudflare Worker 配置。');
@@ -842,11 +836,19 @@
   function loadFavorites() {
     const syncKey = getSyncKey();
 
-    if (syncKey) {
-      document.getElementById('syncKeyInput').value = syncKey;
-      updateSyncStatus(`已连接云端收藏：${syncKey}`);
+    if (!syncKey) {
+      localStorage.removeItem(FAVORITES_KEY);
+      favoriteGames = [];
+      currentPage = 1;
+      document.getElementById('syncKeyInput').value = '';
+      updateSyncStatus('未连接云端收藏，收藏页为空。');
+      populateGenreFilter();
+      renderFavorites();
+      return;
     }
 
+    document.getElementById('syncKeyInput').value = syncKey;
+    updateSyncStatus(`已连接云端收藏：${syncKey}`);
     favoriteGames = Object.values(getFavorites());
     populateGenreFilter();
     renderFavorites();
