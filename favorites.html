@@ -309,6 +309,7 @@
     <a class="stats-button" href="index.html">折扣列表</a>
     <a class="stats-button" href="search.html">Steam 搜索</a>
     <a class="stats-button" href="favorites.html">收藏</a>
+    <button class="stats-button" onclick="refreshCurrentPageFavorites()">更新本页</button>
   </div>
 
   <div class="toolbar">
@@ -356,6 +357,7 @@
   </div>
 
   <p id="gameCount"></p>
+  <p id="refreshStatus" class="meta"></p>
   <div id="games"></div>
   <div id="pagination" class="pagination" style="display: none;">
     <button id="prevPageButton" class="page-button" onclick="changePage(-1)">上一页</button>
@@ -365,7 +367,8 @@
 
 <script>
   const FAVORITES_KEY = 'steamDealFavorites';
-  const PAGE_SIZE = 50;
+  const REFRESH_ENDPOINT = 'https://steam.nin508404.workers.dev/api/apps';
+  const PAGE_SIZE = 20;
 
   let favoriteGames = [];
   let currentPage = 1;
@@ -387,6 +390,15 @@
 
   function saveFavorites(favorites) {
     localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+  }
+
+  function getCurrentPageFavoriteGames() {
+    const games = getFilteredSortedGames();
+    const totalPages = Math.max(1, Math.ceil(games.length / PAGE_SIZE));
+
+    currentPage = Math.min(Math.max(currentPage, 1), totalPages);
+
+    return getPageItems(games, currentPage, PAGE_SIZE).items;
   }
 
   function removeFavorite(appid) {
@@ -582,6 +594,49 @@
     const { items: pageGames, startIndex } = getPageItems(games, currentPage, PAGE_SIZE);
     document.getElementById('gameCount').innerText = `当前显示 ${startIndex + 1}-${startIndex + pageGames.length} / ${games.length} 个收藏游戏`;
     renderGameCards(container, pageGames);
+  }
+
+  async function refreshCurrentPageFavorites() {
+    const pageGames = getCurrentPageFavoriteGames();
+    const status = document.getElementById('refreshStatus');
+
+    if (pageGames.length === 0) {
+      status.innerText = '当前页没有可更新的收藏游戏。';
+      return;
+    }
+
+    const appids = pageGames.map(game => game.appid).filter(Boolean);
+    const uniqueAppids = [...new Set(appids)].slice(0, PAGE_SIZE);
+
+    status.innerText = `正在更新本页 ${uniqueAppids.length} 个收藏游戏...`;
+
+    try {
+      const response = await fetch(`${REFRESH_ENDPOINT}?ids=${uniqueAppids.join(',')}`);
+
+      if (!response.ok) {
+        throw new Error(`刷新接口返回 ${response.status}`);
+      }
+
+      const data = await response.json();
+      const refreshedGames = Array.isArray(data.results) ? data.results : [];
+      const favorites = getFavorites();
+
+      refreshedGames.forEach(game => {
+        if (game.appid) {
+          favorites[game.appid] = game;
+        }
+      });
+
+      saveFavorites(favorites);
+      favoriteGames = Object.values(favorites);
+      populateGenreFilter();
+      renderFavorites();
+
+      status.innerText = `已更新本页 ${refreshedGames.length} 个收藏游戏。`;
+    } catch (error) {
+      console.error(error);
+      status.innerText = '更新失败，请确认 Cloudflare Worker 的 /api/apps 已部署并可访问。';
+    }
   }
 
   function handleListCriteriaChange() {

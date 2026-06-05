@@ -21,12 +21,16 @@ export default {
 
     const url = new URL(request.url);
 
-    if (url.pathname !== '/api/search') {
-      return jsonResponse({ error: 'Not found', usage: '/api/search?q=F1&page=1' }, 404);
-    }
-
     if (request.method !== 'GET') {
       return jsonResponse({ error: 'Method not allowed' }, 405);
+    }
+
+    if (url.pathname === '/api/apps') {
+      return handleAppsRequest(url);
+    }
+
+    if (url.pathname !== '/api/search') {
+      return jsonResponse({ error: 'Not found', usage: '/api/search?q=F1&page=1 or /api/apps?ids=730,945360' }, 404);
     }
 
     const query = (url.searchParams.get('q') || '').trim();
@@ -60,6 +64,42 @@ export default {
     }
   },
 };
+
+async function handleAppsRequest(url) {
+  const ids = (url.searchParams.get('ids') || '')
+    .split(',')
+    .map(value => Number(value.trim()))
+    .filter(value => Number.isInteger(value) && value > 0)
+    .slice(0, PAGE_SIZE);
+  const cc = sanitizeParam(url.searchParams.get('cc') || DEFAULT_CC, DEFAULT_CC);
+  const lang = sanitizeParam(url.searchParams.get('l') || DEFAULT_LANG, DEFAULT_LANG);
+
+  if (ids.length === 0) {
+    return jsonResponse({
+      count: 0,
+      appids: [],
+      results: [],
+    });
+  }
+
+  try {
+    const results = await fetchAppDetailsWithReviews(ids, cc, lang);
+
+    return jsonResponse({
+      count: results.length,
+      appids: ids,
+      results,
+    });
+  } catch (error) {
+    return jsonResponse(
+      {
+        error: 'Steam apps refresh failed',
+        message: error instanceof Error ? error.message : String(error),
+      },
+      502,
+    );
+  }
+}
 
 async function searchSteamAppids(query, page, cc, lang) {
   const start = (page - 1) * PAGE_SIZE;
