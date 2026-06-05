@@ -72,6 +72,18 @@
       align-items: center;
     }
 
+    .nav-row {
+      justify-content: space-between;
+    }
+
+    .nav-links,
+    .nav-actions {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
     .toolbar input,
     .toolbar select {
       padding: 12px 14px;
@@ -96,6 +108,9 @@
       border-radius: 12px;
       cursor: pointer;
       font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
       box-shadow: 0 0 20px rgba(102, 192, 244, 0.25);
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       text-decoration: none;
@@ -106,6 +121,18 @@
     .page-button:hover {
       transform: translateY(-2px);
       box-shadow: 0 0 28px rgba(102, 192, 244, 0.45);
+    }
+
+    .nav-button {
+      box-sizing: border-box;
+      width: auto;
+      height: auto;
+      padding: 12px 18px;
+      margin: 0;
+      font: inherit;
+      font-weight: bold;
+      text-align: center;
+      white-space: nowrap;
     }
 
     .filter-grid {
@@ -305,11 +332,15 @@
 <body>
   <h1>Steam 收藏游戏</h1>
 
-  <div class="button-row">
-    <a class="stats-button" href="index.html">折扣列表</a>
-    <a class="stats-button" href="search.html">Steam 搜索</a>
-    <a class="stats-button" href="favorites.html">收藏</a>
-    <button class="stats-button" onclick="refreshCurrentPageFavorites()">更新本页</button>
+  <div class="button-row nav-row">
+    <div class="nav-links">
+      <a class="stats-button nav-button" href="index.html">折扣列表</a>
+      <a class="stats-button nav-button" href="search.html">Steam 搜索</a>
+      <a class="stats-button nav-button" href="favorites.html">收藏</a>
+    </div>
+    <div class="nav-actions">
+      <button class="stats-button nav-button" onclick="refreshCurrentPageFavorites()">更新本页</button>
+    </div>
   </div>
 
   <div class="toolbar">
