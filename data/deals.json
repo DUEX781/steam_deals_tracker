@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17 00:35:06 UTC",
+  "updated_at": "2026-09-17 07:42:04 UTC",
   "count": 200,
   "source": "Steam Store specials search",
   "deals": [
@@ -14,7 +14,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 26 日截止",
       "description": "在《Rust》的世界里，生存即是唯一目标。万事万物都想要置你于死地：岛上的野生动物、其他居民、环境以及其他幸存者。尽一切可能，再熬过一个晚上吧。",
-      "popularity": 1167885,
+      "popularity": 1167906,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1781536981",
       "genres": [
         "动作",
@@ -62,7 +62,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.",
-      "popularity": 1093162,
+      "popularity": 1093199,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg?t=1776868682",
       "genres": [
         "休闲",
@@ -108,7 +108,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "《博德之门3》是一款以“龙与地下城”世界为背景的、强调故事与队伍冒险体验的角色扮演游戏。你的每一个选择，都会编织出一段关于同伴与背叛、生存与牺牲，以及至上力量诱惑的故事。",
-      "popularity": 755013,
+      "popularity": 755048,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
       "genres": [
         "冒险",
@@ -154,7 +154,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "以丧尸横行的末世为背景的开放世界第一人称动作生存游戏。在一个被神秘病毒摧残过后的城市里漫游。收集物资，制作武器并迎战成群的感染者。",
-      "popularity": 378169,
+      "popularity": 378176,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/239140/header_schinese.jpg?t=1782913513",
       "genres": [
         "动作",
@@ -200,7 +200,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 20 日截止",
       "description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires.",
-      "popularity": 340972,
+      "popularity": 341005,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1778158882",
       "genres": [
         "动作",
@@ -245,7 +245,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周间特惠！9 月 27 日截止",
       "description": "《Sea of Thieves》是一款十分受欢迎的海盗冒险游戏，带你感受最正宗的海盗生活：寻找遗失的宝藏占为己有，和各方势力战个痛快，打败深海怪物等。深度体验改版之后的游戏，包括数字版奖励内容。",
-      "popularity": 322051,
+      "popularity": 322057,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/579c6d544424019a032f4add98e8f923925c1cef/header.jpg?t=1782135471",
       "genres": [
         "动作",
@@ -290,7 +290,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "新的生命之地。狩猎, 就是本能! 「Monster Hunter: World」中,玩家可以体验终极的狩猎生活,活用新建构的世界中各种各样的地形与生态环境享受狩猎的惊喜与兴奋。",
-      "popularity": 320954,
+      "popularity": 320969,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1773328926",
       "genres": [
         "动作"
@@ -334,7 +334,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！9 月 21 日截止",
       "description": "《无人深空》是一款打破边界的科幻游戏，通过创新的随机生成技术，打造了一个无尽宇宙供玩家自由探索，玩家可以穿越星际、挖掘未知星球、建立基地并与神秘外星生物共生，每个探险家都将书写属于自己的宇宙传奇。",
-      "popularity": 314981,
+      "popularity": 315031,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/2c6e38b43a5309dfcd3cc0f0134e222b0fa2d1b1/header_alt_assets_25.jpg?t=1789479023",
       "genres": [
         "动作",
@@ -365,7 +365,7 @@
         "text": "我很喜欢这款游戏，它让我意识到，自己的太空梦不是梦。 但与此同时，我也讨厌这款游戏，它让我意识到，我一直都是一个人。",
         "voted_up": true,
         "votes_up": 460,
-        "weighted_vote_score": "0.967656195163726807"
+        "weighted_vote_score": "0.967648863792419434"
       }
     },
     {
@@ -379,7 +379,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
-      "popularity": 307624,
+      "popularity": 307662,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1757349115",
       "genres": [
         "独立",
@@ -424,7 +424,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "《深岩银河》是一款多人合作类第一人称射击游戏，有着了不起的矮人、100% 可破坏的地形、由程序生成的洞穴以及无数的外星怪物。",
-      "popularity": 303132,
+      "popularity": 303136,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/548430/header_schinese.jpg?t=1786014445",
       "genres": [
         "动作"
@@ -468,7 +468,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "扩张疆域，发展文化，并与历史上最伟大的领袖正面交锋。你的文明是否能经得起时间的考验？",
-      "popularity": 276117,
+      "popularity": 276129,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1784651829",
       "genres": [
         "策略"
@@ -514,7 +514,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "洛斯苏埃诺斯市——LSPD报告称，泛洛斯苏埃诺斯地区的暴力犯罪事件急剧增加。警局已派遣SWAT小队应对包括人质危机、炸弹威胁、嫌犯固守在内的各类高危情形。建议广大市民非必要不外出。",
-      "popularity": 265184,
+      "popularity": 265210,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1144200/2b44644b033a996a9efb95051bb01809215d0d23/header.jpg?t=1789019569",
       "genres": [
         "动作",
@@ -560,7 +560,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "《战地风云™ 2042》是一款第一人称射击游戏，本作将带领玩家重返该系列标志性的全面战争。",
-      "popularity": 260308,
+      "popularity": 260310,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1517290/header_schinese.jpg?t=1777324359",
       "genres": [
         "动作",
@@ -606,7 +606,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "跃升起始包内含所有数字豪华版内容，让您快速升级和解锁物品，还有 R-201 卡宾枪的地下定制武器皮肤。",
-      "popularity": 255050,
+      "popularity": 255055,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg?t=1779987598",
       "genres": [
         "动作"
@@ -650,7 +650,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "这就是终极《战地风云 5》体验。用完整的武器、载具和配备武器库以及第 1 年和第 2 年最棒的自定义内容体验人类历史上规模最大的冲突。",
-      "popularity": 236709,
+      "popularity": 236716,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg?t=1772707365",
       "genres": [
         "动作"
@@ -694,7 +694,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "游玩《双人成行》，踏上生命中最疯狂的旅程。利用好友通行证*邀请一位好友免费游玩，共同体验多种多样的乐趣，享受颠覆性的玩法挑战。",
-      "popularity": 218492,
+      "popularity": 218502,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header_schinese.jpg?t=1777395376",
       "genres": [
         "动作",
@@ -739,7 +739,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "《猎杀：对决 1896》是一款硬核高回报的撤离式射击游戏。追踪畸变怪物，在残酷的PvP对抗中生还。深入被历史遗忘的腐化荒泽，夺取悬赏赏金。组队协作，才能求得生存。一无所有葬身荒野，或是满载物资全身而退，都在一念之间。",
-      "popularity": 213010,
+      "popularity": 213018,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/594650/2e2def207be0fd8aa77e1ef10f597aa28b482949/header_alt_assets_28.jpg?t=1789157485",
       "genres": [
         "动作"
@@ -783,7 +783,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "体验娱乐业轰动一时的 Grand Theft Auto V 和 Grand Theft Auto 在线模式：现已更新换代，拥有震撼的视觉效果、更快的加载速度、3D 音效及更多内容，另有为 GTA 在线模式玩家提供的独家内容。",
-      "popularity": 210748,
+      "popularity": 210797,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header_schinese.jpg?t=1781187782",
       "genres": [
         "动作",
@@ -829,7 +829,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！9 月 21 日截止",
       "description": "由聪明的人工智能故事讲述者驱动的科幻殖民地模拟电脑游戏。通过模拟心理学、生态学、枪战、近战、气候、生物群落、外交、人际关系、艺术、医学、贸易等来生成故事。",
-      "popularity": 208698,
+      "popularity": 208708,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/0bd1adfad18e931b14529ce177fbdea0f5072760/header_schinese.jpg?t=1782756789",
       "genres": [
         "独立",
@@ -875,7 +875,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "狂野凶猛的大自然，袭来。 时刻都在动态变化的原野。 这是个关于生活在具有两面性的世界中的怪物与人们的故事。 进化的狩猎动作，寻求连续不断的沉浸感，究极的狩猎体验正等待你的到来。",
-      "popularity": 200981,
+      "popularity": 201003,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2246340/header.jpg?t=1787549555",
       "genres": [
         "动作",
@@ -907,7 +907,7 @@
         "text": "游戏优化：卡 游戏剧情：普 游戏内容：空",
         "voted_up": false,
         "votes_up": 3119,
-        "weighted_vote_score": "0.988280773162841797"
+        "weighted_vote_score": "0.988280177116394043"
       }
     },
     {
@@ -921,7 +921,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "加入团结强大的 Battlefield 社区，在史诗规模的团队多人战斗中或通过战争故事构成的战役中体验全面战争的黎明。",
-      "popularity": 200663,
+      "popularity": 200674,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238840/header.jpg?t=1777324289",
       "genres": [
         "动作",
@@ -966,7 +966,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 20 日截止",
       "description": "我们将卡牌游戏与Roguelike游戏融为一体，制作出了这款最棒的单机组牌游戏。打造出独一无二的牌组、遇见无数离奇的生物、发现威力强大的遗物、去屠戮这座高塔吧！",
-      "popularity": 193381,
+      "popularity": 193385,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg?t=1774015376",
       "genres": [
         "独立",
@@ -1011,7 +1011,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 22 日截止",
       "description": "《鬼谷八荒》是一款开放世界的沙盒修仙游戏。结合了修仙体系与山海经文化背景，体验从凡人一步步修行成长为强者的过程，与山海经中各种妖、兽战斗。你是否能坚守本心，与困难做斗争；慎做抉择，把握自己的命运。",
-      "popularity": 190184,
+      "popularity": 190186,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1468810/header_schinese.jpg?t=1769479020",
       "genres": [
         "动作",
@@ -1060,7 +1060,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "成功逃脱并战胜死亡的快感。 前所未有的生化灾难“浣熊市事件”六年后...... 成为特务的里昂·斯科特·肯尼迪被派去营救被绑架的总统千金。 里昂踏进被“疯狂”支配之地，他的结局会是…… 一场生与死、恐怖与感情瞬间交错的严酷营救剧即将揭开帷幕。 透过直观的操作和最新的画面，以及再构成的故事重生为全新的生存恐怖体验。",
-      "popularity": 186692,
+      "popularity": 186732,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg?t=1772502922",
       "genres": [
         "动作",
@@ -1105,7 +1105,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "率领第33号远征队踏上消灭绘母的征途，竭尽全力夺下她绘就死亡的画刷。置身这款采用即时机制的回合制角色扮演游戏，探索奇妙世界，感受法兰西19世纪末“美好年代”时期的风采，对抗超乎想象的敌人。",
-      "popularity": 181649,
+      "popularity": 181664,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1903340/b3cb63bf5aa3ffd7790310e4361050c368569314/header_schinese.jpg?t=1782830877",
       "genres": [
         "动作",
@@ -1150,7 +1150,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "来自《博德之门3》的开发团队，倍受好评的本作提升了RPG业界标杆。召集你的队伍，驾驭富有深度和挑战性的战斗。以最多四人的队伍进行冒险 - 但是请记住，只有其中一人才能成神。",
-      "popularity": 180788,
+      "popularity": 180791,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/435150/3f6ee788cb01bd65097c52399d536eb424b4876f/header.jpg?t=1765811123",
       "genres": [
         "冒险",
@@ -1182,7 +1182,7 @@
         "text": "我能感觉到这是一款很好的游戏，但我不会玩。 我不知道该做什么，该去哪里。 我接了一个找人的任务，但没人告诉我哪个人在哪里？于是我和每一个NPC对话，开启每一个我能找到的箱子，阅读每一个我能找到的信件来寻找线索，但我只得到了更多的任务但没有线索。 我不知道怎么回事把项圈摘了，于是我走两步就会被警卫抓到牢里，我又没装备也打不过，于是只能躲着，但到处都是比我等级高的敌人和怪物，我哪里都去不了，我也打不过。 我去看一些入门的视频，但这些视频总是一开口就甩一大堆我听不懂的词。 唉...",
         "voted_up": true,
         "votes_up": 106,
-        "weighted_vote_score": "0.905539989471435547"
+        "weighted_vote_score": "0.905477583408355713"
       }
     },
     {
@@ -1196,7 +1196,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周间特惠！9 月 28 日截止",
       "description": "《人类一败涂地》是一款轻松搞笑的沙雕游戏，游戏的场景发生在飘渺的梦境之中。玩家既可以单机自闭，也可以最多八人联机一起欢畅。游戏支持的创意工坊，还可以让大家免费玩到不计其数的高质量玩家关卡和皮肤。游戏支持中文。",
-      "popularity": 174822,
+      "popularity": 174829,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/477160/72ebb13093999896293a91a0ad3f9ce2501f1818/header_alt_assets_27_schinese.jpg?t=1789479416",
       "genres": [
         "冒险",
@@ -1243,7 +1243,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "在这个风光旖旎又栩栩如生的开放世界中，体验与众不同、身临其境的狩猎游戏——我们与游戏社区携手合作，定期更新。可选择投身于单人狩猎模式，或与好友分享终极狩猎体验。",
-      "popularity": 170462,
+      "popularity": 170472,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/518790/12ba6bd116e3829c5a3fde7299596e2019e027b0/header_alt_assets_28_schinese.jpg?t=1789470014",
       "genres": [
         "冒险",
@@ -1289,7 +1289,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 26 日截止",
       "description": "人类正在与病毒进行一场注定失败的斗争。在这个末日后丧尸横行的开放世界中，你的跑酷和战斗技能将成为生存的关键。白天，你可以自由穿梭于城市之间，但夜幕降临后，怪物将接管城市的控制权。",
-      "popularity": 164907,
+      "popularity": 164910,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header_schinese.jpg?t=1788258144",
       "genres": [
         "动作",
@@ -1335,7 +1335,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "Call of Duty®: Black Ops III Zombies Chronicles Edition includes the full base game plus the Zombies Chronicles content expansion.",
-      "popularity": 157705,
+      "popularity": 157728,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311210/header.jpg?t=1780963650",
       "genres": [
         "动作",
@@ -1382,7 +1382,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "《死亡细胞》是一款融合了Roguelite和银河恶魔城元素的平台动作游戏。你将在游戏中探索一个庞大而不断变化的城堡……当然，前提是你能在这款2D轻度魂系游戏中战胜那些拦路的强敌们。别想着存档了——杀戮、死亡、反省，周而复始。",
-      "popularity": 156265,
+      "popularity": 156275,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/588650/header.jpg?t=1779086887",
       "genres": [
         "动作",
@@ -1428,7 +1428,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "一切都凌驾于玩家的想像之上。 一场生化灾难於1998年9月袭击了浣熊市，从残害幸存者的丧尸地狱中生还吧。 无尽的刺激、引人入胜的故事和无法想像的恐怖正在等候你。 见证系列首屈一指的杰作──《Resident Evil 2》的重生吧。 別被这场惨剧吞噬。",
-      "popularity": 156070,
+      "popularity": 156091,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/883710/header_schinese.jpg?t=1779433152",
       "genres": [
         "动作"
@@ -1472,7 +1472,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 19 日截止",
       "description": "Slime Rancher是一部关于碧翠丝·乐步的传奇故事。这个年轻又有闯劲的牧场主，在离开地球1000光年的”致远牧星”上开始了身为史莱姆牧场主的新生活。怀揣着勇往直前的信念，还有可靠的真空抢，她踏上了新的征途。在这里，她将重建牧场、积累财富，还要突破隐藏在Q弹史莱姆后的重重冒险。",
-      "popularity": 139511,
+      "popularity": 139519,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/433340/header.jpg?t=1758651509",
       "genres": [
         "动作",
@@ -1519,7 +1519,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 26 日截止",
       "description": "《逃离后室》是一款支持1至4名玩家联机的恐怖探索游戏。穿越30多个诡异的后室关卡，同时躲避各种异怪和其他危险。尝试逃离，但请谨记：生死难料。",
-      "popularity": 137301,
+      "popularity": 137316,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1943950/a17d3df3956f11af6e09d1ccfde5339cc96024d0/header_alt_assets_3.jpg?t=1789378450",
       "genres": [
         "动作",
@@ -1565,7 +1565,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！9 月 24 日截止",
       "description": "《神力科莎 Assetto Corsa》1.16版本推出了全新镭射扫描“Laguna Seca“赛道，7款全新车型，当中包括了备受期待的阿尔法·罗密欧Giulia Quadrifoglio！请查看更新日志，获取更多信息！",
-      "popularity": 136071,
+      "popularity": 136074,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1782208838",
       "genres": [
         "独立",
@@ -1612,7 +1612,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "白天的喧嚣，夜晚的狂欢，尽在《Need for Speed™ Heat》豪华版，这是一款惊险刺激的街头赛车游戏，随着太阳落山，法律的界限也将逐渐模糊。",
-      "popularity": 128934,
+      "popularity": 128937,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222680/header.jpg?t=1777414224",
       "genres": [
         "动作",
@@ -1659,7 +1659,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "射击夺宝游戏的鼻祖回归了，为您带来无穷无尽的枪械和一场躁动无限的全新冒险旅途！扮演四位全新的秘藏猎人之一，在新世界中横行霸道并击败敌人吧！每一位都拥有颇具深度的技能树、能力以及自订选项。您可以单人游玩或是和好友一同与疯狂的敌人作战夺取成堆的战利品，并从星系最为残忍的邪教领袖手中拯救家园。",
-      "popularity": 127848,
+      "popularity": 127849,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/397540/header.jpg?t=1750802377",
       "genres": [
         "动作",
@@ -1704,7 +1704,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "你一定在各种游戏里有喜欢的女孩，如果你真的和她在一起了呢？",
-      "popularity": 121996,
+      "popularity": 122002,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527500/header_schinese.jpg?t=1781766453",
       "genres": [
         "冒险",
@@ -1750,7 +1750,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "《冰汽时代》是首款以社会生存为题材的游戏。作为世上最后一座城市的管理者，你必须对人民及里面的基础设施进行管理。你将会采取哪种决定来确保你的社会生存下去？当你被推到极限时，会采取什么策略？在此过程中，你将扮演什么角色？",
-      "popularity": 114376,
+      "popularity": 114382,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/323190/abcd2bf3c275092d637d7dd98e0061dbdd2fd2da/header.jpg?t=1784897899",
       "genres": [
         "模拟",
@@ -1795,7 +1795,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "土豆兄弟(Brotato)是一款自上而下的竞技场射击轻度ROGUE游戏，玩家将在游戏中扮演一个同时使用6种武器以击退成群外星人的土豆。从各种特征和道具中进行选择，创造独特的建筑并生存下去，直到救援到来。",
-      "popularity": 111380,
+      "popularity": 111385,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1942280/4f3467b7993c5c86a0bf789a646b800a808347d2/header_schinese.jpg?t=1789029155",
       "genres": [
         "动作",
@@ -1842,7 +1842,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "予生者恐惧。给尸者安魂。 《Resident Evil Requiem》标志着“Resident Evil”系列和生存恐怖游戏步入新纪元。“安魂曲”将会撼动玩家的精神深处。",
-      "popularity": 106914,
+      "popularity": 106938,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3764200/ce5437442768e38eb575f205ab9397d0264017b0/header.jpg?t=1779840172",
       "genres": [
         "动作",
@@ -1887,7 +1887,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "在《Resident Evil》系列最新游戏中展开令人毛骨悚然的绝命拚搏。 伊森一家的平静生活因克里斯·雷德菲尔德而又陷入混乱之中，他再次身陷无法逃离的梦魇中。 这款系列第8部主要作品由日益成熟的游戏引擎“RE ENGINE”创造，将带来最新生存“动作”恐怖游戏体验。",
-      "popularity": 106447,
+      "popularity": 106453,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1196590/header.jpg?t=1776927117",
       "genres": [
         "动作"
@@ -1931,7 +1931,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "Valve 携 VR 大作《半衰期：爱莉克斯》重磅回归《半衰期》系列。 这个战斗故事发生在《半衰期》和《半衰期2》之间，是与邪恶的外星种族联合军之间看似毫无胜算的较量。 扮演爱莉克斯·凡斯，人类存活下去的唯一希望。",
-      "popularity": 92996,
+      "popularity": 93001,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/546560/header.jpg?t=1762986588",
       "genres": [
         "动作",
@@ -1976,7 +1976,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 22 日截止",
       "description": "《房产达人》让你实现单人装修房屋的梦想。 购买、装修和改造被毁坏的房屋，给那些房屋第二次生命并出售它们获得利润！",
-      "popularity": 92333,
+      "popularity": 92334,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/613100/header_schinese.jpg?t=1788885563",
       "genres": [
         "动作",
@@ -2025,7 +2025,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "不管逃到哪里也会被追至绝路。 浣熊市发生突如其来的生物灾害，更为危险的武器被投入到这个逐渐毁灭的城镇中…… 多重的危机，九死一生的惊险动作和重新构建的逃生剧情，一切超乎你的想象。 你能逃离这片绝望吗？ 同时收录另一款逃生游戏《Resident Evil Resistance》。",
-      "popularity": 90117,
+      "popularity": 90128,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/952060/header.jpg?t=1780362329",
       "genres": [
         "动作"
@@ -2069,7 +2069,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 23 日截止",
       "description": "《枪火重生》是一款融合了第一人称射击、Roguelite随机要素和RPG策略选择的冒险闯关游戏。玩家在游戏里可以操纵不同能力的英雄组建多种Build玩法，使用随机掉落的武器在随机性关卡中进行冒险挑战。可以单人畅玩，也可以最多四人组队挑战。",
-      "popularity": 88532,
+      "popularity": 88537,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1217060/9be35ee1cd9721d12c61a722862d0de02a5f2844/header_schinese.jpg?t=1789092024",
       "genres": [
         "动作",
@@ -2116,7 +2116,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "于美国南部的一间被废置的农舍，腐烂的墙身渗透着一股恐怖及孤独的氛围。 「7」标志着全新的恐怖求生体验，以及玩家视觉切换为更骇人的「隔离视觉」模式。有赖RE工程部的努力，恐怖的写实感提升至一个全新的境界。让你进入恐怖求生的新世界。",
-      "popularity": 87811,
+      "popularity": 87814,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/header.jpg?t=1778464947",
       "genres": [
         "动作",
@@ -2161,7 +2161,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "在《星球大战 绝地：幸存者™》，这款跨银河系第三人称动作冒险游戏中，卡尔·凯斯提斯的故事仍将继续。",
-      "popularity": 79990,
+      "popularity": 79992,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1774580/header.jpg?t=1788257050",
       "genres": [
         "动作",
@@ -2206,7 +2206,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "蓬勃跃动的狩猎本能！ 为狩猎掀起全新风潮、无拘无束尽情跃动的动作；可随心所欲四下驰骋的全新原野；以及能带来未知的兴奋与惊喜的全新怪物。 前所未有的狩猎体验正在《MONSTER HUNTER RISE》中等候各位猎人的到来！",
-      "popularity": 79847,
+      "popularity": 79856,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1446780/header.jpg?t=1768870444",
       "genres": [
         "动作"
@@ -2250,7 +2250,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 22 日截止",
       "description": "在未知亚马逊丛林的极端环境中，投身到开放世界的生存模拟游戏中。使用现实生活中的生存技能打造工具、狩猎、战斗、收集资源、搭建临时庇护所或建造堡垒。你可以独自生存，也可以跟朋友组队一同挑战丛林。",
-      "popularity": 79397,
+      "popularity": 79407,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/815370/header_schinese.jpg?t=1783077147",
       "genres": [
         "动作",
@@ -2297,7 +2297,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "深入《双影奇境》的多重世界，体验惊心动魄的时刻，完成突破边界的合作冒险。",
-      "popularity": 78376,
+      "popularity": 78378,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg?t=1763484567",
       "genres": [
         "动作",
@@ -2388,7 +2388,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 24 日截止",
       "description": "一次在线合作把房车开回家的冒险，简约而不简单",
-      "popularity": 72687,
+      "popularity": 72716,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3949040/df3b0e300632f3cd1caf0aa9dc6213ebe79dac43/header_alt_assets_0.jpg?t=1789134289",
       "genres": [
         "动作",
@@ -2434,7 +2434,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "DEVOUR是一款多人生存恐怖游戏,支持1-4名玩家.快去制止那些被附身的邪教徒,不然地狱将是最后的归宿.奔跑吧,尖叫吧,快快躲起来吧.不过可记住了,千万不要让我抓到你哦...",
-      "popularity": 68664,
+      "popularity": 68663,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1274570/bb90f9fa36e4c35a5f28cdc38cf75b3eb5c39032/header.jpg?t=1765533474",
       "genres": [
         "独立"
@@ -2478,7 +2478,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 22 日截止",
       "description": "通过有史以来最逼真的城市建造游戏，从头开始建设一座城市，并将其转变为繁荣的大都市。以前所未有的庞大规模进行建造，您的创意和问题解决能力都将面临全新层次的考验。利用深度模拟与生动运转的经济系统，您将能毫不设限地打造自己的世界。",
-      "popularity": 64195,
+      "popularity": 64205,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/949230/667de69bfeaf7aceafe83097fabad6a40d397f74/header_alt_assets_7_schinese.jpg?t=1789487974",
       "genres": [
         "模拟"
@@ -2509,7 +2509,7 @@
         "text": "终极拷打cpu的极品工具。 线程撕裂者的天然硬广。 AD64的有力竞争者。 冬天屋子里最热的一把火。 mod作者的魅力时刻。 屎山代码的完美展现。 AI算力急需拯救的难产婴儿。",
         "voted_up": true,
         "votes_up": 161,
-        "weighted_vote_score": "0.93779456615447998"
+        "weighted_vote_score": "0.937785923480987549"
       }
     },
     {
@@ -2523,7 +2523,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "科幻生存恐怖经典作品宣告回归，完全重建，旨在为玩家提供更身临其境的体验，包括视觉、音效和游戏性改进，同时尽力忠实地还原初版游戏惊险的视觉效果。",
-      "popularity": 62994,
+      "popularity": 62998,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1693980/header.jpg?t=1777396576",
       "genres": [
         "动作",
@@ -2558,51 +2558,6 @@
       }
     },
     {
-      "appid": 1328670,
-      "name": "《质量效应》传奇版",
-      "discount": 75,
-      "original_price": "¥ 248.00",
-      "final_price": "¥ 62.00",
-      "final_price_num": 62.0,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": null,
-      "description": "《质量效应》传奇版将包含单人基础内容及广受赞誉的《质量效应》《质量效应 2》及《质量效应 3》三部曲系列超过 40 款 DLC，更有多种促销武器、装甲，及各种组合包等你来拿——所有内容，全部重置优化新升级，4K Ultra HD，等你体验。",
-      "popularity": 62205,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328670/header.jpg?t=1777395134",
-      "genres": [
-        "动作",
-        "角色扮演"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "完全支持控制器",
-        "Steam 集换式卡牌",
-        "可调整难度"
-      ],
-      "metacritic_score": 86,
-      "release_date": "2021 年 5 月 14 日",
-      "developers": [
-        "BioWare"
-      ],
-      "publishers": [
-        "Electronic Arts"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/1328670",
-      "top_review": {
-        "text": "至今为止，唯一一个买了正版，却只能玩盗版的游戏。 明明是在steam上花钱的买的游戏，却强制要求登录ea平台，不然游戏都开不了。 全程联网也就算了，只要网络一波动，平台掉了，游戏直接给你强制关闭。 EA你自己服务器什么狗币质量你自己心里没数吗？ 搞的我一堆成就完不成，大价钱买的游戏只能扔在库里吃灰。 G胖也是个虎臂，这跟让别人进你家里干你老婆你只能看着有什么区别？ EA我炒你大坝，你个没妈的玩意。",
-        "voted_up": false,
-        "votes_up": 216,
-        "weighted_vote_score": "0.887791812419891357"
-      }
-    },
-    {
       "appid": 602960,
       "name": "Barotrauma 潜渊症",
       "discount": 50,
@@ -2613,7 +2568,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 25 日截止",
       "description": "Barotrauma是一款2D合作类潜艇模拟游戏，故事发生在太空中，带有生存恐怖和角色扮演元素。驾驶潜艇，发号施令，完成任务，对战怪物，修复漏洞，操作机器，武装待命以及制作物品；同时保持警惕：Barotrauma中的危险不会自行暴露！",
-      "popularity": 61904,
+      "popularity": 61909,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/602960/header_schinese.jpg?t=1789478081",
       "genres": [
         "动作",
@@ -2661,7 +2616,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！9 月 26 日截止",
       "description": "你是凯尔·克兰，遭受了多年的实验，被改造成了半人半野兽的怪物。在开放世界和动作生存恐怖相结合的独特游戏体验里，追杀把你变成这个样子的罪魁祸首。",
-      "popularity": 59299,
+      "popularity": 59308,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3008130/20c8f1c825637f971f762aa095bf47d95d38d094/header_schinese.jpg?t=1777373421",
       "genres": [
         "动作",
@@ -2707,7 +2662,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "进入《暗黑破坏神® IV》的世界，在捍卫庇护之地的战斗中，开启前所未有的动作 RPG 冒险。亲身体验备受赞誉的游戏剧情和全新赛季内容。",
-      "popularity": 58649,
+      "popularity": 58686,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/80f21a42e378b93e8fbb68ee43103be8ab84891b/header.jpg?t=1789491624",
       "genres": [
         "动作",
@@ -2755,7 +2710,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "《Lies of P》是一款精彩刺激的魂类游戏，灵感源于《匹诺曹》的故事，风格颠覆原作，游戏设定在“美好时代”的暗黑优雅背景之下。",
-      "popularity": 58409,
+      "popularity": 58417,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1627720/header.jpg?t=1764565054",
       "genres": [
         "动作",
@@ -2801,7 +2756,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "《无主之地4》是一款充满混乱的夺宝射击游戏，这里有数十亿种武器、致命敌人和激烈的合作战斗。化身四位全新秘藏猎人之一，从一个危险的隐秘星球中逃脱。",
-      "popularity": 57835,
+      "popularity": 57854,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1285190/b7617ae1f99bb325e0d2bb243df1b4affed0a17b/header_alt_assets_4_schinese.jpg?t=1789422727",
       "genres": [
         "动作",
@@ -2830,10 +2785,10 @@
       },
       "url": "https://store.steampowered.com/app/1285190",
       "top_review": {
-        "text": "《无主之地4》中有激烈的掉帧、脑残的寻回物品任务，以及摸不清头脑的间隔按Z任务指引功能，全都充斥在一个由残酷暴君GEARBOX CEO统治的全不新星球中。 化身半年即背刺的冤种勇士之一，享受跟前作一样的画质，但却需要次世代的顶级配置。购买强大的超级豪华版，执行2小时退款任务，并利用steam差评主宰2K的家人。 从高高在上、支配众生的GEARBOX宇宙中挣脱出来。如今，一场将改变世界的玩家觉醒正威胁着他完美的摆烂计划，在整个steam上引发了混乱。",
+        "text": "超级豪华版预购玩家，主线也基本打完。先说结论：无主之地的核心精华还在，射击手感优秀、刷宝体验好，中配用心，美漫风无厘头任务也挺有趣味，但无主之地4，已经不是一款好玩、优秀的游戏了，说他平庸都有点恭维的感觉。 但在任何其他方面上，都不是一款合格3A所应有的品质了：（想了好长时间，也只能勉强说出上面几个优点） 1.（先说个可能被优化压过风头、很多人没有注意到的缺点）：系列前作哪些优秀的配乐，在这作都去哪儿了？？？去哪儿了？？？除去刚进入游戏界面的开场音乐听起来还算大气，这代改为开放世界之后跑图、在各避难所闲逛、在不同区域做任务，实际战斗之前，没有任何的音乐，只有载具、枪械的音效，极大降低了代入感、史诗感（虽然4代这个烂故事也跟史诗没关系）。改为开放世界想尝试新东西，并不是坏事儿，但至少要保障此前...",
         "voted_up": false,
-        "votes_up": 352,
-        "weighted_vote_score": "0.944611310958862305"
+        "votes_up": 211,
+        "weighted_vote_score": "0.928927063941955566"
       }
     },
     {
@@ -2847,7 +2802,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！剩余时间",
       "description": "在史上最大也最先进的第二次世界大战射击游戏尽享无与伦比的自由狙击。在波澜壮阔的关卡中体验战术级别的第三人称战斗、游戏方式选择，以及史诗般的远程射击，从法西斯主义的魔掌中解放战争时期的意大利。",
-      "popularity": 54259,
+      "popularity": 54261,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312660/header.jpg?t=1681207252",
       "genres": [
         "动作",
@@ -2892,7 +2847,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 23 日截止",
       "description": "《主播女孩重度依赖/NEEDY GIRL OVERDOSE》是一款描绘网络天使（直播主）日常生活的多结局ADV。",
-      "popularity": 54053,
+      "popularity": 54062,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1451940/header_schinese.jpg?t=1762834234",
       "genres": [
         "冒险",
@@ -2937,7 +2892,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "混合了动作和生存恐怖 两大要素，Resident Evil 6 答应广大玩家，成为 2013 年的华丽惊栗体验。",
-      "popularity": 51422,
+      "popularity": 51424,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221040/header.jpg?t=1768960676",
       "genres": [
         "动作",
@@ -2982,7 +2937,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周间特惠！9 月 21 日截止",
       "description": "Skul：The Hero Slayer是2D Rogue Lite动作平台游戏。负责魔王城平安的小骷髅“Skul”，为了拯救被人类捉住的魔王，一个人独自对抗帝国军队开始冒险。",
-      "popularity": 50801,
+      "popularity": 50804,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1147560/header.jpg?t=1774420210",
       "genres": [
         "动作",
@@ -3027,7 +2982,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "在《小小梦魇2》的悬疑冒险旅途中，您将化身为小男孩摩诺，身处在电波笼罩之下，因此变得扭曲的世界里。 与新结交的朋友小六携手合作，揭发讯号塔暗藏的秘密。",
-      "popularity": 50282,
+      "popularity": 50284,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/860510/header.jpg?t=1730127763",
       "genres": [
         "冒险"
@@ -3071,7 +3026,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "根据你的策略，培育猫咪，组建终极喵喵大军，派他们踏上颇具深度和难度的回合制冒险之旅。抽选能力，获得物品，改变影响数代的遗传特性，享受这款类Rogue策略游戏，感受《以撒的结合》与《终结将至》作者的创意和设计。",
-      "popularity": 49995,
+      "popularity": 50015,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/686060/aa8075d11165fef4d4d0d09c156f0da0623b5da1/header.jpg?t=1788661023",
       "genres": [
         "冒险",
@@ -3111,51 +3066,6 @@
       }
     },
     {
-      "appid": 1846380,
-      "name": "《极品飞车™：不羁》",
-      "discount": 86,
-      "original_price": "¥ 248.00",
-      "final_price": "¥ 34.72",
-      "final_price_num": 34.72,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "特别促销！9 月 28 日截止",
-      "description": "争分夺秒，绝对不要失败。智胜警察，参加盛大赛事：Lakeshore 终极街头挑战大赛的每周排位赛。用精准调校的定制赛车装满您的车库，并用您的风格点亮街道。",
-      "popularity": 49862,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1846380/eacea0635efb7af9054f6b299060fee32404ace7/header.jpg?t=1777394467",
-      "genres": [
-        "动作",
-        "竞速"
-      ],
-      "categories": [
-        "单人",
-        "多人",
-        "玩家对战",
-        "跨平台多人",
-        "Steam 成就"
-      ],
-      "metacritic_score": null,
-      "release_date": "2022 年 12 月 1 日",
-      "developers": [
-        "Criterion Games"
-      ],
-      "publishers": [
-        "Electronic Arts"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/1846380",
-      "top_review": {
-        "text": "sb游戏，跑一次比赛才5分钟不到，打完比赛警车追了我快半小时。赛车游戏这么喜欢给玩家添堵？难怪几年没出续作了，死了挺好。 单机部分通关评价： 除了美漫风格和开车手感我挺喜欢，其他地方全是灾难。 首先是UI，道路红蓝标识真绝了，离远了看不清。尤其是氮气尾流也是红蓝配色、警察也是红蓝闪光，起码有十局被这样晃花眼。 然后是街车，讲个笑话，EA的赛车游戏比真实的开车更让人路怒。正在冲刺的时候前面冒出来一辆街车，真的是想手撕电脑了。 然后是日期系统，每次切换都感觉在浪费时间，为什么不直接搞成时间自动推移？ 最后是重来次数。nfs一周共享几次重来次数，反观地平线按Y无限时间倒流，我能允许你犯的错就和你的重来次数一样多。",
-        "voted_up": false,
-        "votes_up": 33,
-        "weighted_vote_score": "0.754070699214935303"
-      }
-    },
-    {
       "appid": 1850570,
       "name": "DEATH STRANDING DIRECTOR'S CUT",
       "discount": 75,
@@ -3166,7 +3076,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 24 日截止",
       "description": "知名游戏制作人小岛秀夫为大家带来了一种颠覆传统的体验，现在这种体验在此导演剪辑版的最终版本中加以扩展。玩家将扮演山姆·布里奇斯（Sam Bridges），你的任务就是将这残破的美国中最后的幸存者们联合起来，为人类带来希望。你能一步一步地将这破碎的世界重新连接起来吗？",
-      "popularity": 49835,
+      "popularity": 49854,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1773400635",
       "genres": [
         "动作",
@@ -3211,7 +3121,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 28 日截止",
       "description": "开设您自己的卡牌商店。摆放最新的补充包，也可以拆开收集卡牌。自行定价、雇佣员工、举办活动，并拓展您的卡牌商店。",
-      "popularity": 47341,
+      "popularity": 47355,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3070070/80b94bfe22c6cd7bd9f66d0af536ae947f9cce3a/header_alt_assets_0.jpg?t=1789528213",
       "genres": [
         "模拟"
@@ -3255,7 +3165,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "你是一只流浪的蛞蝓猫，在破碎的生态系统中你既是捕食者又是猎物。拿起你的长矛，勇敢地穿越工业废墟，猎取足够的食物来生存，但要小心——其他更大的生物也有同样的计划……而且蛞蝓猫看起来很美味。",
-      "popularity": 46877,
+      "popularity": 46882,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312520/header_schinese.jpg?t=1786047879",
       "genres": [
         "动作",
@@ -3301,7 +3211,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "Ghostrunner提供了独特的单玩家游戏体验：快节奏的暴力战斗，以及将科幻故事与世界末日主题相融合的原生环境。它讲述了一个已终结的世界，以及在其中为生存而战的居民的故事。",
-      "popularity": 46818,
+      "popularity": 46822,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139900/header.jpg?t=1786099137",
       "genres": [
         "动作"
@@ -3346,7 +3256,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "让豌豆射手严阵以待，准备迎接宇宙中最疯狂、最有趣的射击游戏：《Plants vs. Zombies Garden Warfare 2》。",
-      "popularity": 45479,
+      "popularity": 45482,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1922560/header.jpg?t=1772707471",
       "genres": [
         "动作",
@@ -3392,7 +3302,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "知名的DRAGON BALL XENOVERSE推出续作──DRAGON BALL XENOVERSE 2。 画面表现提升后的DRAGON BALL XENOVERSE 2，将带领你进入史上最庞大、最多彩的七龙珠世界。",
-      "popularity": 45147,
+      "popularity": 45154,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/454650/header.jpg?t=1788407827",
       "genres": [
         "动作",
@@ -3440,7 +3350,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！9 月 24 日截止",
       "description": "明末：渊虚之羽是一款类魂动作角色扮演游戏，故事发生在巴蜀之地，此时正值黑暗动荡的明末，战事四起，一场神秘的疫病催生了妖怪一般的生物……",
-      "popularity": 44864,
+      "popularity": 44867,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2277560/64660e8560e2b86e9c8977c318a23abe44badbd4/header_schinese.jpg?t=1784896573",
       "genres": [
         "动作",
@@ -3486,7 +3396,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "领导历经时代更迭而演进或延续的帝国。用《席德·梅尔的 Civilization® VII》打造你坚信的事业。",
-      "popularity": 44773,
+      "popularity": 44785,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1295660/header.jpg?t=1789481137",
       "genres": [
         "模拟",
@@ -3531,7 +3441,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 19 日截止",
       "description": "碧翠丝·乐步的冒险并未停歇，她穿越史莱姆海来到彩虹岛。这座岛屿充满了古老的谜团，到处遍布着弹嘟嘟的新型史莱姆。人气游戏Slime Rancher的新篇章，由你尽兴徜徉",
-      "popularity": 43581,
+      "popularity": 43586,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1657630/e0ebd5982e69895132d4ffdf80a1a6048ab53d25/header.jpg?t=1776359011",
       "genres": [
         "动作",
@@ -3579,7 +3489,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "体验激动人心的剧情战役，或组队踏入终极在线战场，其中包含多个特别行动、多人地图及模式。",
-      "popularity": 43229,
+      "popularity": 43232,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2000950/header.jpg?t=1778886798",
       "genres": [
         "动作"
@@ -3624,7 +3534,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "《守墓人》(Graveyard Keeper) 由《拳击俱乐部》(Punch Club) 创作团队的原班人马打造，是有史以来最不正经的中世纪墓地经营模拟游戏。",
-      "popularity": 39549,
+      "popularity": 39554,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/599140/07a4abf278d3029bec1bf7dcff9b2852bdde5250/header.jpg?t=1789490186",
       "genres": [
         "冒险",
@@ -3671,7 +3581,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！剩余时间",
       "description": "人类早已不复存在。在这个干旱和有毒废料肆虐的世界里，你的木造朋克海狸们的命运又将如何？这款沙盒城市建造游戏包含机智的动物、巧妙的垂直建筑、多样的水物理运用与地形改造。当然绝对少不了大量木材！",
-      "popularity": 38733,
+      "popularity": 38735,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1062090/212afd9fe1cad3b414b588a6d6d3429832481d7f/header_alt_assets_16_schinese.jpg?t=1788438437",
       "genres": [
         "独立",
@@ -3717,7 +3627,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "在《药剂工艺：炼金模拟器》中，你将扮演一个炼金术士，并使用各种工具和原料来调制药剂。你将掌控药剂商店的方方面面：发明新配方、吸引顾客、并尽情地做实验。不过请记住：整个小镇都指望着你。",
-      "popularity": 37870,
+      "popularity": 37872,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1210320/header_schinese.jpg?t=1786023837",
       "genres": [
         "独立",
@@ -3762,7 +3672,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 22 日截止",
       "description": "《逸剑风云决》是一款像素武侠RPG。玩家将扮演一名来自关外辽城的普通少年，因意外卷入江湖纷争而身中剧毒，幸得武当掌门清虚真人出手才得救。自此，你梦想成为一代大侠，正式踏入了中原武林。你的选择将改变整个武林故事，与江湖中各种侠客结交互动，甚至改变他们的命运！",
-      "popularity": 37034,
+      "popularity": 37039,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1876890/ef32ad7a3d7bca74bd2d2d6b42c389491fd30493/header_schinese.jpg?t=1774667199",
       "genres": [
         "冒险",
@@ -3809,7 +3719,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "Investigate murders, search for clues and talk to your classmates to prepare for trial. There, you'll engage in deadly wordplay, going back and forth with suspects. Dissect their statements and fire their words back at them to expose their lies! There's only one way to survive—pull the trigger.",
-      "popularity": 36195,
+      "popularity": 36205,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413410/header.jpg?t=1781085607",
       "genres": [
         "冒险"
@@ -3854,7 +3764,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "本作是以法庭为舞台的冒险游戏。玩家将扮演律师「成步堂龙一」，为证明委託人的清白而踏上法庭。此精选集收录了作为系列原点的《逆转裁判 復甦的逆转》、《逆转裁判2》和《逆转裁判3》共14话。 ※简繁中文字幕将于发售后以更新包形式追加。",
-      "popularity": 35628,
+      "popularity": 35629,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/787480/header.jpg?t=1768866317",
       "genres": [
         "冒险"
@@ -3888,6 +3798,53 @@
       }
     },
     {
+      "appid": 751780,
+      "name": "Forager",
+      "discount": 70,
+      "original_price": "¥ 70.00",
+      "final_price": "¥ 21.00",
+      "final_price_num": 21.0,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "每日特惠！9 月 23 日截止",
+      "description": "超受欢迎的古怪作品，“一款让你停不下来的放置型游戏”。探索，制作，收集并管理资源，寻找秘密并从零开始建造你的基地！买下土地进行探索和扩展吧！",
+      "popularity": 35386,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/751780/header_schinese.jpg?t=1773692958",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立",
+        "模拟"
+      ],
+      "categories": [
+        "单人",
+        "Steam 成就",
+        "Steam 集换式卡牌",
+        "Steam 创意工坊",
+        "部分支持控制器"
+      ],
+      "metacritic_score": 78,
+      "release_date": "2019 年 4 月 18 日",
+      "developers": [
+        "HopFrog"
+      ],
+      "publishers": [
+        "Balor Games"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/751780",
+      "top_review": {
+        "text": "挺多小瑕疵的游戏，但质量还算不错，画风讨喜，后期资源夸夸长、武器一键清屏，玩着跟爽游似的，主要还是开发者早早跑路导致游戏内的更新计划基本都没落地（比如多人联机功能，心动代理的国服买断制手游给加上了），玩着跟半成品似的，印象分扣很多 尽管游戏定位是“沙盒/开放世界建造”，但本作并非是无限扩展的地图，合起来共49个区块，大概可分割为五大板块：平原、雪地、沙漠、墓地、地狱，这些板块都有特别的掉落物、小怪、神庙、Boss以及银河谜题，除了熄灯谜题颇为折磨人以外没什么很难的部分 前期主打一个收集资源慢、生产建筑效率低，而在陆续解锁采集杆、机器人以及雷电法杖之后，游戏迅速走向了“资源收集全自动”的养老阶段，资源收集已经不再成为困扰，只需在原地挂机一阵子就能看到屏幕的右侧不断弹出资源收集的提示 可步入中后...",
+        "voted_up": true,
+        "votes_up": 17,
+        "weighted_vote_score": "0.674142777919769287"
+      }
+    },
+    {
       "appid": 1135690,
       "name": "Unpacking",
       "discount": 60,
@@ -3898,7 +3855,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "每日特惠！9 月 23 日截止",
       "description": "《Unpacking》是一款禅意益智游戏，内容主要围绕于大家都相当熟悉的一种经历：从箱子中拿出行李，并将其逐一放置在新家中。这款游戏结合了方块拼图和家居装饰：在打造舒适的生活空间的同时，你将逐步了解行李主人的人生。",
-      "popularity": 35073,
+      "popularity": 35075,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1135690/header.jpg?t=1789426289",
       "genres": [
         "休闲",
@@ -3993,7 +3950,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "本作是一款以恶贼嚣张跋扈、妖怪四处作乱的战国时代为舞台展开的黑暗战国动作角色扮演游戏。 加入全新的战斗方式“妖怪化”、外形邪恶丑陋的各路妖怪以及 由妖怪产生的“常暗”世界等众多新要素，使游玩的体验和成就感达到前所未有的高度。 敬请享受完全进化的“战国受死游戏”。",
-      "popularity": 33892,
+      "popularity": 33894,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1325200/header.jpg?t=1775540023",
       "genres": [
         "动作",
@@ -4038,7 +3995,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！9 月 24 日截止",
       "description": "Assetto Corsa Competizione是最新的宝珀GT系列赛官方授权游戏。该作优异的拟真水平能让玩家感受FIA GT3系列赛的独特氛围，游戏内有官方赛车手、车队、车辆与赛道，这些内容将以高水准的精确细节呈现。",
-      "popularity": 33811,
+      "popularity": 33812,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/805550/header.jpg?t=1766404577",
       "genres": [
         "竞速",
@@ -4084,7 +4041,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "使命召唤®：二战，一种重新定义二战的刺激体验。",
-      "popularity": 33577,
+      "popularity": 33581,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/476600/header.jpg?t=1780963893",
       "genres": [
         "动作"
@@ -4129,7 +4086,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "《Pragmata》是卡普空推出的一款独特的科幻动作冒险游戏。 玩家将跟随命运多舛的调查队队员“休”和机器人小女孩“戴安娜”，在被失控AI掌管的月球设施内寻找返回地球的方法。",
-      "popularity": 32876,
+      "popularity": 32889,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3357650/e32e168b25ed68a0cf6264c220c07e96c2abfb56/header.jpg?t=1789603448",
       "genres": [
         "动作",
@@ -4174,7 +4131,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "赢得编号。007 初露锋芒 是IO Interactive出品的惊险刺激的间谍动作冒险游戏。跟随年轻、机智但偶尔鲁莽的詹姆斯·邦德的脚步，他是军情六处训练项目中的新兵，一起探索这位世界最著名间谍的起源故事。",
-      "popularity": 32441,
+      "popularity": 32449,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3768760/9f0d16a4d9a826d62cddf7f5ea25d10b4b2f45b9/header_alt_assets_3.jpg?t=1789479538",
       "genres": [
         "动作",
@@ -4219,7 +4176,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "《Wartales》是一款开放世界 RPG 游戏，你将带领一群雇佣兵在浩大的中世纪宇宙中进行探索，寻觅财富。探索世界，招募同伴，领取赏金，揭开先民之墓的秘密！",
-      "popularity": 32113,
+      "popularity": 32116,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1527950/b7dcf9a0a03b2c39acae9882933f81443ac1b0ac/header_alt_assets_19_schinese.jpg?t=1788942263",
       "genres": [
         "冒险",
@@ -4253,51 +4210,6 @@
         "voted_up": false,
         "votes_up": 86,
         "weighted_vote_score": "0.835742175579071045"
-      }
-    },
-    {
-      "appid": 1483870,
-      "name": "Draw & Guess - 你画我猜",
-      "discount": 20,
-      "original_price": "¥ 25.00",
-      "final_price": "¥ 20.00",
-      "final_price_num": 20.0,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "整周特惠！ 9 月 21 日截止",
-      "description": "这是一款绘画和猜画的在线派对游戏，最多可以 16 人一起玩，有多种游戏模式。拿出您最棒（最差也行）的绘画和猜测本领！",
-      "popularity": 31627,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1483870/header.jpg?t=1778528486",
-      "genres": [
-        "休闲",
-        "独立"
-      ],
-      "categories": [
-        "单人",
-        "多人",
-        "玩家对战",
-        "线上玩家对战",
-        "合作"
-      ],
-      "metacritic_score": null,
-      "release_date": "2021 年 3 月 12 日",
-      "developers": [
-        "Acureus"
-      ],
-      "publishers": [
-        "Acureus"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": true,
-        "linux": true
-      },
-      "url": "https://store.steampowered.com/app/1483870",
-      "top_review": {
-        "text": "我只能说官方狗代理不愿接受玩家反馈，说我们玩家断章取义跟风开团，实则他自己的官方群聊管理也截取片段恶意误导双方走向，并且服务器问题一直在和稀泥以及自欺欺人，从15元游戏本体（有内购）到25元游戏本体（无内购）。我在官方qq群发的所有话，狗代理一律撤回禁言加删除一气呵成，就是这么对待消费者的，我只能说游戏烂完了，国区狗代理你就抱着你的垃圾服务器守着吧",
-        "voted_up": false,
-        "votes_up": 52,
-        "weighted_vote_score": "0.836417913436889648"
       }
     },
     {
@@ -4356,7 +4268,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "Jabberwock Island—You and your classmates were ready for fun in the sun until Monokuma returned to restart his murderous game! Trapped in a kill-or-be-killed situation, your only hope rests in solving the island’s mysteries.",
-      "popularity": 30963,
+      "popularity": 30964,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413420/header.jpg?t=1781085654",
       "genres": [
         "冒险"
@@ -4401,7 +4313,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "每日特惠！9 月 23 日截止",
       "description": "这款经典生存恐怖游戏设定在未来反乌托邦，带玩家探究人类文明发现的某个黑暗秘密。你将扮演鹊，一位寻求失落梦境的仿生人技工，解开宇宙谜团，逃脱可怖怪物追杀，在一处位于外星球的政府设施里搜刮物资，挣扎求生。",
-      "popularity": 30601,
+      "popularity": 30603,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262350/header.jpg?t=1773697315",
       "genres": [
         "动作",
@@ -4447,7 +4359,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "《神之天平》：与时间和命运对抗的ARPG。探索精雕细琢的世界，全方位强化角色，战胜魄力十足的强敌。唯有排除万难，才能续写你的传奇。",
-      "popularity": 30262,
+      "popularity": 30265,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1718570/header_schinese.jpg?t=1770740786",
       "genres": [
         "动作",
@@ -4483,6 +4395,50 @@
       }
     },
     {
+      "appid": 1388880,
+      "name": "Doki Doki Literature Club Plus!",
+      "discount": 33,
+      "original_price": "¥ 80.00",
+      "final_price": "¥ 53.60",
+      "final_price_num": 53.6,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "每日特惠！9 月 30 日截止",
+      "description": "欢迎加入文学部！在这个广受好评的心理恐怖故事之中，为暗恋对象写诗，尽情体验校园浪漫的恐怖之处吧。",
+      "popularity": 30149,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1388880/d1c9369f055acb07f8ec184fa663ddb67e8ef2bf/header_schinese.jpg?t=1769459840",
+      "genres": [
+        "休闲",
+        "独立"
+      ],
+      "categories": [
+        "单人",
+        "Steam 成就",
+        "Steam 云",
+        "家庭共享"
+      ],
+      "metacritic_score": 81,
+      "release_date": "2021 年 6 月 30 日",
+      "developers": [
+        "Team Salvato"
+      ],
+      "publishers": [
+        "Serenity Forge"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/1388880",
+      "top_review": {
+        "text": "希望纱世里每天开心，希望优里不用自责，希望夏树认可自己，最后，希望莫妮卡获得幸福",
+        "voted_up": true,
+        "votes_up": 84,
+        "weighted_vote_score": "0.895132243633270264"
+      }
+    },
+    {
       "appid": 2456740,
       "name": "inZOI (云族裔)",
       "discount": 20,
@@ -4493,7 +4449,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 22 日截止",
       "description": "「每段人生都是一則故事。」通过控制并观察'Zois'，你可以创造出一段属于你的，独一无二的人生。 利用 inZOI 易用的工具，可以自定义角色，建造房屋，在沉浸式的模拟体验中，过上梦想中的生活，体验生活中那些丰富而细腻的情感吧！",
-      "popularity": 30020,
+      "popularity": 30019,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2456740/89acee5c3d965af802002617d6c130e5e03bd240/header.jpg?t=1777449358",
       "genres": [
         "冒险",
@@ -4539,7 +4495,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周间特惠！9 月 21 日截止",
       "description": "最佳人气音游《DJMAX》终于上线STEAM了！ DJMAX系列的最新作品《DJMAX RESPECT》以进一步发展的内容推出在Steam。",
-      "popularity": 29806,
+      "popularity": 29808,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/960170/header.jpg?t=1772009068",
       "genres": [
         "动作",
@@ -4620,6 +4576,51 @@
       }
     },
     {
+      "appid": 740130,
+      "name": "破晓传奇",
+      "discount": 60,
+      "original_price": "¥ 168.00",
+      "final_price": "¥ 67.20",
+      "final_price_num": 67.2,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "特别促销！9 月 21 日截止",
+      "description": "３００年的暴政、不明面具、遗失的痛觉与记忆。化身为强大火焰之剑的唯一使用者，与不可碰触的少女及伙伴们一起挺身对抗压迫者吧。以新世代技术描绘出表情生动的角色，一个关于解放的战斗故事。",
+      "popularity": 27647,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/740130/9031a1f4e34e8031118594726762d7979e43f320/header.jpg?t=1783413316",
+      "genres": [
+        "动作",
+        "角色扮演"
+      ],
+      "categories": [
+        "单人",
+        "Steam 成就",
+        "完全支持控制器",
+        "Steam 集换式卡牌",
+        "DUALSHOCK 控制器支持"
+      ],
+      "metacritic_score": 84,
+      "release_date": "2023 年 11 月 8 日",
+      "developers": [
+        "Bandai Namco Studios Inc."
+      ],
+      "publishers": [
+        "Bandai Namco Entertainment"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/740130",
+      "top_review": {
+        "text": "其实我并非是一名JRPG爱好者，也不是一名二次元玩家。只是这一次万代的《破晓传奇》折扣太理想了，游戏画面也比传统JRPG好很多，非常想尝上一口如此的新型JRPG味道，即便已经发行4年之久。 因为尝的不多，也没有用最终幻想这种老牌子JRPG调教口味，抱着试一试的想法，没想到竟沉浸了其中，我个人是对这款游戏抱有好感，比较喜欢的，若是持反对意见的玩家还有怪莫怪。它也算是我玩过的首个非动漫二创粉丝向的万代作品，从没想过万代也能有如此的生产力！ [quote][table][tr][th][b] 评测出自： [u]网易 UU 鉴赏家培训计划[/u][/b][/th][/tr] [tr][th][b]感谢由 [u]网易 UU 鉴赏家培训计划[/u] 提供游戏[/b][/th][/tr] [tr][th]...",
+        "voted_up": true,
+        "votes_up": 52,
+        "weighted_vote_score": "0.756994426250457764"
+      }
+    },
+    {
       "appid": 373420,
       "name": "神界：原罪增强版",
       "discount": 90,
@@ -4630,7 +4631,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "召集你的队伍，准备迎接Gamespot2014年度PC游戏的全新版本。包含海量新内容、全新游戏模式、全角色台词配音、分屏双人合作、以及无数针对游戏体验的改进，现在是探索绿维珑辽阔世界的最好时机！",
-      "popularity": 27486,
+      "popularity": 27487,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/373420/header.jpg?t=1765505119",
       "genres": [
         "冒险",
@@ -4677,7 +4678,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "每日特惠！9 月 21 日截止",
       "description": "《狂热运输 2》为经典的交通模拟类型游戏打造了新的标杆。在指挥地面、水域和空中各类交通线路的过程中，一个全新的世界将在您的面前徐徐展开。长路漫漫，惟愿进步与繁荣相伴！",
-      "popularity": 26715,
+      "popularity": 26716,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066780/header.jpg?t=1727104059",
       "genres": [
         "休闲",
@@ -4724,7 +4725,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "《使命召唤®：现代战争® II 2022》将玩家带入了一场前所未有的全球冲突，141特遣队的标志性队员们即将回归。",
-      "popularity": 26538,
+      "popularity": 26544,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3595230/ce4d5e53b36cb9d3c4309d1df72bf8663bbbc7ef/header.jpg?t=1778886532",
       "genres": [
         "动作"
@@ -4769,7 +4770,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "利用竞速游戏终极进化之作《EA SPORTS™ F1® 25》：2026赛季版改写赛场格局。捆绑购买《F1® 25》及2026赛季组合包，享受最完整的一级方程式®体验。",
-      "popularity": 25377,
+      "popularity": 25386,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/76dc8ac45f1bd6dec26e04434ca1c8814e7bb330/header.jpg?t=1786646076",
       "genres": [
         "竞速",
@@ -4814,7 +4815,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "您通往浩瀚太空帝国的征程，将从驾驶第一艘飞船开始。在这片栩栩如生、全模拟的宇宙中，您将：探索星际、贸易货物、参与战斗、建造空间站、购置并改装飞船、指挥舰队——而整个宇宙都会对您的每一个决策做出实时的回应。",
-      "popularity": 25256,
+      "popularity": 25257,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/392160/header_schinese.jpg?t=1783002135",
       "genres": [
         "动作",
@@ -4860,7 +4861,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！剩余时间",
       "description": "屡获殊荣的《狙击精英》系列游戏再度回归，这一次故事发生在1944年的法国，卡尔·费尔伯恩正在努力揭露克拉肯计划。转战于多张沉浸感十足的地图，奋力阻遏纳粹战争机器，逼真的狙击场景和效果增强的击杀镜头独具一格，将让你体验到前所未有的出色观感。",
-      "popularity": 24816,
+      "popularity": 24821,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1029690/header_schinese.jpg?t=1770633150",
       "genres": [
         "动作",
@@ -4905,7 +4906,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 27 日截止",
       "description": "暑假到了，你回到了乡下，见到了好久不见的姑父，姑姑和两位表姐。在为期一个月的暑假生活中，究竟会发生怎样的奇遇呢？在《夏日狂想曲》中一探究竟吧！",
-      "popularity": 24113,
+      "popularity": 24114,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1227890/header_schinese.jpg?t=1766085059",
       "genres": [
         "冒险",
@@ -4949,7 +4950,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "荒漠小镇沙石镇诚挚欢迎新工坊主。你可以在这里使用工具收集资源，建造各种设备，并将你破旧的工坊扩建成美好的家园，在拯救这个濒临灭亡的小镇同时，收获亲情友情甚至是爱情。《沙石镇时光》正式版现已推出，欢迎工坊主造访沙石镇！",
-      "popularity": 24110,
+      "popularity": 24111,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1084600/header_schinese.jpg?t=1788516378",
       "genres": [
         "冒险",
@@ -4998,7 +4999,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 19 日截止",
       "description": "在文明濒临灭亡的遥远未来，人们追寻着【净地】的传说，聚集到最后的城市——海汶斯威尔。在这款后启示录废土科幻ARPG中，你将扮演拥有再生之躯的机兵【阿丽莎】，在怪物横行的城市遗迹中探寻末日的真相，寻找世界新生的希望。",
-      "popularity": 22832,
+      "popularity": 22834,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2407270/header.jpg?t=1775125430",
       "genres": [
         "动作",
@@ -5045,7 +5046,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "继去年推出的巨作《使命召唤®：现代战争 2》后，游戏史上最大规模的第一人称游戏系列作《使命召唤®：黑色行动》再次出击。",
-      "popularity": 22246,
+      "popularity": 22248,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/header.jpg?t=1780962720",
       "genres": [
         "动作"
@@ -5089,7 +5090,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "《枪弹辩驳》开启全新篇章！ 《新枪弹辩驳V3 大家自相残杀的新学期》简介",
-      "popularity": 21979,
+      "popularity": 21981,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567640/header.jpg?t=1750134757",
       "genres": [
         "冒险"
@@ -5133,7 +5134,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "《使命召唤®：黑色行动》的直接续作《黑色行动冷战》把时间倒回至上世纪80年代初，让粉丝们亲身体验冷战时期无比激烈的地缘政治对抗。",
-      "popularity": 21954,
+      "popularity": 21958,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985810/header.jpg?t=1780964053",
       "genres": [
         "动作"
@@ -5165,6 +5166,54 @@
         "voted_up": true,
         "votes_up": 26,
         "weighted_vote_score": "0.754434883594512939"
+      }
+    },
+    {
+      "appid": 1158160,
+      "name": "Coral Island",
+      "discount": 40,
+      "original_price": "¥ 148.00",
+      "final_price": "¥ 88.80",
+      "final_price_num": 88.8,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "每日特惠！9 月 23 日截止",
+      "description": "《Coral Island 珊瑚岛》是一款充满活力又悠闲的多人农场模拟游戏！你可以按自己的节奏享受迷人的海岛生活：与朋友一起耕种、照料动物、建立人际关系、结识各具特色的角色，还能潜入神秘的美人鱼王国探险。",
+      "popularity": 21828,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158160/header_schinese.jpg?t=1781768008",
+      "genres": [
+        "冒险",
+        "休闲",
+        "独立",
+        "角色扮演",
+        "模拟"
+      ],
+      "categories": [
+        "单人",
+        "多人",
+        "合作",
+        "在线合作",
+        "跨平台多人"
+      ],
+      "metacritic_score": null,
+      "release_date": "2023 年 11 月 14 日",
+      "developers": [
+        "Stairway Games"
+      ],
+      "publishers": [
+        "Balor Games"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/1158160",
+      "top_review": {
+        "text": "刚开始玩疯狂玩 玩到后面疯狂ue4崩溃 崩溃到让人没脾气 玩了70多小时崩溃15次左右 刚解锁海洋种地时捡了一堆贝壳 准备查查wiki哪些有用 结果直接崩了 我真的玩的想笑 哎 气得我不想玩了 游戏是好游戏 但是在意这点的一定要注意 你也不想在游戏里面经历捡了一天的贝壳 照顾和收集动物后 直接崩溃重来导致浪费你10多分钟的时间吧 如果后面优化了 我说不定会开个新档玩 毕竟真的很好玩",
+        "voted_up": false,
+        "votes_up": 11,
+        "weighted_vote_score": "0.661069869995117188"
       }
     },
     {
@@ -5225,7 +5274,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "《冰汽时代2》设定于末日暴风雪肆虐地球 30 年后的社会。你要在这款社会生存游戏中，发展、扩张并推进你的城市。在游戏中，你不仅要面对来自寒冬永无止境的威胁，还要与议会厅中的不同派系斗智斗勇，他们会时刻监视着你的每一步行动。",
-      "popularity": 20870,
+      "popularity": 20872,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601580/header.jpg?t=1788264833",
       "genres": [
         "模拟",
@@ -5270,7 +5319,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 24 日截止",
       "description": "广受好评的 Red Dead Redemption 2 的前作首次登陆 PC 平台，在这款游戏中体验前亡命之徒约翰·马斯顿追捕臭名昭著的范德林德帮最后残余成员的故事。",
-      "popularity": 20290,
+      "popularity": 20295,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2668510/header_schinese.jpg?t=1781132266",
       "genres": [
         "动作"
@@ -5304,50 +5353,49 @@
       }
     },
     {
-      "appid": 895870,
-      "name": "Project Wingman",
-      "discount": 50,
-      "original_price": "¥ 80.00",
-      "final_price": "¥ 40.00",
-      "final_price_num": 40.0,
+      "appid": 2384580,
+      "name": "真・三国无双 起源",
+      "discount": 30,
+      "original_price": "¥ 349.00",
+      "final_price": "¥ 244.30",
+      "final_price_num": 244.3,
       "discount_expiration": null,
       "discount_expires_at": null,
-      "discount_deadline_text": "特别促销！9 月 23 日截止",
-      "description": "Project Wingman是一款飞行动作游戏，让你坐在先进的战斗机中，成为真正的王牌。在架空的焦土环境中，从激烈的空中混战到大规模地面袭击，在各种任务和游戏模式中展开战斗。",
-      "popularity": 18408,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/895870/header.jpg?t=1773695705",
+      "discount_deadline_text": "特别促销！9 月 28 日截止",
+      "description": "如临真实战场，畅享爽快的一骑当千动作！无名英雄闯荡三国乱世的“真・三国无双”系列新作。",
+      "popularity": 19578,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2384580/header_schinese.jpg?t=1775536473",
       "genres": [
         "动作",
-        "独立",
-        "模拟"
+        "角色扮演",
+        "策略"
       ],
       "categories": [
         "单人",
         "Steam 成就",
         "完全支持控制器",
-        "已支持 VR",
-        "家庭共享"
+        "Steam 集换式卡牌",
+        "可选颜色"
       ],
-      "metacritic_score": 75,
-      "release_date": "2020 年 12 月 1 日",
+      "metacritic_score": 84,
+      "release_date": "2025 年 1 月 16 日",
       "developers": [
-        "Sector D2"
+        "KOEI TECMO GAMES CO., LTD."
       ],
       "publishers": [
-        "Sector D2",
-        "Balor Games"
+        "KOEI TECMO GAMES CO., LTD."
       ],
       "platforms": {
         "windows": true,
         "mac": false,
         "linux": false
       },
-      "url": "https://store.steampowered.com/app/895870",
+      "url": "https://store.steampowered.com/app/2384580",
       "top_review": {
-        "text": "如果一个游戏有皇牌空战一样顶级的配乐，顶级的场面，顶级的美术，顶级的手感，顶级的爽，顶级的BOSS战，顶级的颠佬，顶级的敌我王牌，顶级的剧情，那这他妈就是AC。别等傻逼万代南梦宫出AC8了，赶紧他妈玩这个",
+        "text": "年少时的我因为体弱多病经常在家养病，而我的父亲恰好是一名医生，他时常沉默寡言，似乎一名刚成为父亲的男人都不太会和自己的孩子交流，他一直眼睛红红我不知道那是为何，可他又总是对我挤出苦苦的笑荣，也因为我经常生病，所以我的童年时期基本都是在父亲身边度过，而蝉鸣的午后是是我们为数不多的亲子时光，那时候他有一款很爱玩的游戏是三国无双4，对于那个时候手机还停留在诺基亚和摩托罗拉的年代，无疑是对我造成了巨大的冲击那时候我就坐在我的父亲旁看他打三国无双4，打游戏时的他神采奕奕眉飞色舞，仿佛是换了个人，一边玩一边和我讲解，但是他好像不知道旁边的孩童根本听不懂他说的东西，孩子只知道父亲很开心，看着他在游戏里大杀四方，那是我觉得父亲是个超人无所不能，好似这个世界上没有他不懂的东西。 长大后我十分叛逆，时常顶撞他，...",
         "voted_up": true,
-        "votes_up": 29,
-        "weighted_vote_score": "0.756152927875518799"
+        "votes_up": 525,
+        "weighted_vote_score": "0.959072411060333252"
       }
     },
     {
@@ -5498,7 +5546,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周间特惠！9 月 21 日截止",
       "description": "在随机生成的城市中战斗、潜行，一路披荆斩棘。这款游戏就像是《废土之王》遇上《杀出重围》，再加上一点《侠盗猎车手》的无政府主义。Rogue-lite 风格结合模拟经营，然后彻底陷入疯狂。",
-      "popularity": 17215,
+      "popularity": 17217,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/512900/header_schinese.jpg?t=1758274145",
       "genres": [
         "动作",
@@ -5545,7 +5593,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 26 日截止",
       "description": "《往左一点》是一款惬意的益智游戏，玩家要按宜人的方式对家居物品进行分类、堆叠和排列，同时还要留意一只喜欢把东西弄乱的淘气猫喔！快来瞧瞧这款既好玩又直观的解谜游戏吧，里面有100多个混乱的场景等你来整理。",
-      "popularity": 16884,
+      "popularity": 16890,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1629520/header.jpg?t=1789552143",
       "genres": [
         "休闲",
@@ -5684,7 +5732,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "《数码宝贝物语》系列最新作品终于登场。本作是一款角色扮演游戏，您可以在追查世界毁灭谜团的过程中，一面享受横跨人类世界与异世界的冒险，以及搜集培育种类丰富的数码宝贝。",
-      "popularity": 15844,
+      "popularity": 15846,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1984270/7b6269705cba30391c332241dafe4d215b2bf2cd/header_schinese.jpg?t=1787032079",
       "genres": [
         "角色扮演"
@@ -5728,7 +5776,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "《梦之形》是一款结合了MOBA风格的动作Roguelike游戏。踏上梦境世界的冒险，编辑英雄的记忆，亲手打造你心仪的冠军。你可以独自面对所有挑战，或者与朋友们一起，在最多四人的合作游戏中共同作战。",
-      "popularity": 15765,
+      "popularity": 15766,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2444750/f733ebb677cb6e9ea0437890462296790a3fdbbe/header_alt_assets_4_schinese.jpg?t=1788925837",
       "genres": [
         "动作",
@@ -5775,7 +5823,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！剩余时间",
       "description": "有史以来最畅销的第一人称动作游戏，多项年度游戏大奖得主——《使命召唤®：现代战争® 2》的史诗续作回归",
-      "popularity": 15584,
+      "popularity": 15586,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42680/header.jpg?t=1788479870",
       "genres": [
         "动作"
@@ -5866,7 +5914,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！剩余时间",
       "description": "《使命召唤®：黑色行动 6》是标志性的《黑色行动》系列，史诗电影般的单人战役、一流的多人游戏体验以及波次制丧尸模式的强势回归。",
-      "popularity": 14061,
+      "popularity": 14064,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4384550/836828b783fc1208664d6c3f9fe88e9abf060813/header.jpg?t=1783699904",
       "genres": [
         "动作"
@@ -5911,7 +5959,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周间特惠！剩余时间",
       "description": "深入体验字如其名的“超·大”工厂建造世界！建设规模庞大的多层工厂，用稳健高效的自动化产线尽情兑现您的规划才智！各种升级自动化挑战层出不穷，不过您大可以顺着步子悠着来——反正没有敌人出来捣乱。",
-      "popularity": 13846,
+      "popularity": 13847,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2162800/a92ba55d12c3661a2334bccc6d4e349237091d87/header_schinese.jpg?t=1788787557",
       "genres": [
         "休闲",
@@ -5959,7 +6007,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！剩余时间",
       "description": "One of the most critically-acclaimed games in history, Call of Duty: Modern Warfare is back, remastered in true high-definition, featuring improved textures, physically based rendering, high-dynamic range lighting and much more.",
-      "popularity": 13064,
+      "popularity": 13063,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393080/header.jpg?t=1780963789",
       "genres": [
         "动作"
@@ -6004,7 +6052,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "Outnumbered and outgunned, but not outmatched.Call of Duty®: Ghosts is an extraordinary step forward for one of the largest entertainment franchises of all-time. This new chapter in the Call of Duty® franchise features a new dynamic where players are on the side of a crippled nation fighting not for freedom, or liberty, but simply to...",
-      "popularity": 12977,
+      "popularity": 12979,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209160/header.jpg?t=1780963043",
       "genres": [
         "动作"
@@ -6048,7 +6096,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "《为了吾王 II》是一款融合 Roguelike、回合制战棋和跑团桌游等元素的策略 RPG 游戏。作为获得超过 2 万条特别好评的前作续作，本作提供至多四人联机及单人模式。在探索和升级的过程中，你将揭开昔日受人爱戴的女王背后隐藏的可怕秘密。游戏支持中文。",
-      "popularity": 12705,
+      "popularity": 12707,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1676840/2b15fee53caa8bb47fbef5b3b4be46c91ac44faa/header_alt_assets_13_schinese.jpg?t=1786013028",
       "genres": [
         "冒险",
@@ -6095,7 +6143,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 24 日截止",
       "description": "「放松时光：与你共享Lo-Fi故事」是一个与喜欢写故事的女孩聪音一起工作的有声小说游戏。您可以自定义艺术家的原创乐曲、环境音和风景，以营造一个专注于工作的环境。在与聪音的关系加深的过程中，您可能会发现与她之间的特别联系。",
-      "popularity": 12213,
+      "popularity": 12216,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3548580/a575150d2f6a0de1dfa40835a68225c7d5f1e2eb/header_schinese.jpg?t=1788508267",
       "genres": [
         "冒险",
@@ -6186,7 +6234,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "Call of Duty®: Advanced Warfare envisions a powerful future, where both technology and tactics have evolved to usher in a new era of combat for the franchise.Power Changes Everything.",
-      "popularity": 11103,
+      "popularity": 11104,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/209650/header.jpg?t=1785427113",
       "genres": [
         "动作"
@@ -6231,7 +6279,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 27 日截止",
       "description": "光阴似箭，那次令人难忘的夏日回忆转眼间就已经是半年前的事情了。在这个寒假，我们的主人公又回到了乡下，与莉音姐姐，结衣姐姐和美雪姑姑再续前缘，为这个浪漫的故事写下了新的篇章。",
-      "popularity": 10364,
+      "popularity": 10365,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2495450/header_schinese.jpg?t=1755877347",
       "genres": [
         "冒险",
@@ -6266,20 +6314,19 @@
       }
     },
     {
-      "appid": 3528450,
-      "name": "纸房子",
+      "appid": 2194530,
+      "name": "犹格索托斯的庭院",
       "discount": 30,
-      "original_price": "¥ 26.00",
-      "final_price": "¥ 18.20",
-      "final_price_num": 18.2,
+      "original_price": "¥ 35.00",
+      "final_price": "¥ 24.50",
+      "final_price_num": 24.5,
       "discount_expiration": null,
       "discount_expires_at": null,
-      "discount_deadline_text": "特别促销！9 月 21 日截止",
-      "description": "这是一部以中式校园为背景的视觉小说。离开的好友、模糊的恋情、纷乱的人际关系，以及不那么美满的家庭，是青春期的忧郁还是令人难以承受的痛苦？您将以主角赵颖的视角去体验她的高中生活，帮她做出选择，看见所有可能。",
-      "popularity": 9909,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3528450/d93ac49d7bf82d6d95b6f16a3fc2872da91a1438/header_schinese.jpg?t=1788832631",
+      "discount_deadline_text": "特别促销！9 月 23 日截止",
+      "description": "在这款模拟经营+AVG游戏中，你继承一座荒废已久的别墅并欠下黑暗债务。你将招募死神、龙族、斩灵师、人造人等员工开展旅社经营。奇怪的客人将带着神秘事件到访。你会通过挖矿，冒险，炼金，经营餐厅等不同策略积攒资产，不断调整策略，带领旅社走向不同结局，另，员工可攻略。",
+      "popularity": 10208,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2194530/header.jpg?t=1785139410",
       "genres": [
-        "休闲",
         "独立",
         "角色扮演",
         "模拟"
@@ -6287,28 +6334,30 @@
       "categories": [
         "单人",
         "Steam 成就",
+        "Steam 集换式卡牌",
+        "Steam 云",
         "家庭共享"
       ],
       "metacritic_score": null,
-      "release_date": "2025 年 8 月 18 日",
+      "release_date": "2023 年 10 月 19 日",
       "developers": [
-        "开心茶房"
+        "Bone Nail"
       ],
       "publishers": [
-        "Tailtone Games",
-        "开心茶房"
+        "Bone Nail",
+        "Shochiku (Japan)"
       ],
       "platforms": {
         "windows": true,
-        "mac": true,
+        "mac": false,
         "linux": false
       },
-      "url": "https://store.steampowered.com/app/3528450",
+      "url": "https://store.steampowered.com/app/2194530",
       "top_review": {
-        "text": "[h2] 未来是一幢死后才能烧给我的纸房子。 [/h2] 有的人青春是一场绚丽的烟花，绽放后归于死寂；有的人的青春是一场淅淅沥沥的秋雨，终其一生心上都残存着被淋过的潮湿。 我不知道该如何去形容那些我早该忘却的往事，不是一边大骂着“这傻逼玩意是我发的？”一边删掉的qq说说；也不是跟老友聊天时疑惑的问一句“谁？”不是午夜惊醒梦中那张做不完的卷子；也不是围墙里面传出的朗朗书声。都不是，我记不起那一张张脸、一件件事，有的只是我的潜意识时刻提醒自己什么样的场景应该逃离。 《纸房子》就是这样一部唤醒ptsd的作品，它会在我最想忘记的地方割上一刀，那里不会流血、腐烂、结痂，那是一种只存在于幻肢之上的隐痛，扒开口子往里面看去，里面只有一个瑟瑟发抖的小孩子。 我不认为这是一部关于女同文学的作品，它更像是一个缺...",
-        "voted_up": true,
-        "votes_up": 184,
-        "weighted_vote_score": "0.938003182411193848"
+        "text": "作为一款存在众多选项的文字游戏竟然不能在关键选项存档 实在是无法接受",
+        "voted_up": false,
+        "votes_up": 79,
+        "weighted_vote_score": "0.856816530227661133"
       }
     },
     {
@@ -6322,7 +6371,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 25 日截止",
       "description": "你破产了，砸碎存钱罐，《账单必须支付》。一款短小精悍的主动式放置游戏。赚钱、升级，摆脱债务！",
-      "popularity": 9880,
+      "popularity": 9928,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4421010/19abfca5c44bcab9a23b62576dcf6a2eb206e19b/header_schinese.jpg?t=1789127109",
       "genres": [
         "动作",
@@ -6357,6 +6406,52 @@
         "voted_up": true,
         "votes_up": 25,
         "weighted_vote_score": "0.767110884189605713"
+      }
+    },
+    {
+      "appid": 3528450,
+      "name": "纸房子",
+      "discount": 30,
+      "original_price": "¥ 26.00",
+      "final_price": "¥ 18.20",
+      "final_price_num": 18.2,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "特别促销！9 月 21 日截止",
+      "description": "这是一部以中式校园为背景的视觉小说。离开的好友、模糊的恋情、纷乱的人际关系，以及不那么美满的家庭，是青春期的忧郁还是令人难以承受的痛苦？您将以主角赵颖的视角去体验她的高中生活，帮她做出选择，看见所有可能。",
+      "popularity": 9910,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3528450/d93ac49d7bf82d6d95b6f16a3fc2872da91a1438/header_schinese.jpg?t=1788832631",
+      "genres": [
+        "休闲",
+        "独立",
+        "角色扮演",
+        "模拟"
+      ],
+      "categories": [
+        "单人",
+        "Steam 成就",
+        "家庭共享"
+      ],
+      "metacritic_score": null,
+      "release_date": "2025 年 8 月 18 日",
+      "developers": [
+        "开心茶房"
+      ],
+      "publishers": [
+        "Tailtone Games",
+        "开心茶房"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": true,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/3528450",
+      "top_review": {
+        "text": "[h2] 未来是一幢死后才能烧给我的纸房子。 [/h2] 有的人青春是一场绚丽的烟花，绽放后归于死寂；有的人的青春是一场淅淅沥沥的秋雨，终其一生心上都残存着被淋过的潮湿。 我不知道该如何去形容那些我早该忘却的往事，不是一边大骂着“这傻逼玩意是我发的？”一边删掉的qq说说；也不是跟老友聊天时疑惑的问一句“谁？”不是午夜惊醒梦中那张做不完的卷子；也不是围墙里面传出的朗朗书声。都不是，我记不起那一张张脸、一件件事，有的只是我的潜意识时刻提醒自己什么样的场景应该逃离。 《纸房子》就是这样一部唤醒ptsd的作品，它会在我最想忘记的地方割上一刀，那里不会流血、腐烂、结痂，那是一种只存在于幻肢之上的隐痛，扒开口子往里面看去，里面只有一个瑟瑟发抖的小孩子。 我不认为这是一部关于女同文学的作品，它更像是一个缺...",
+        "voted_up": true,
+        "votes_up": 184,
+        "weighted_vote_score": "0.938003182411193848"
       }
     },
     {
@@ -6415,7 +6510,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 23 日截止",
       "description": "编程并不断优化你的无人机，实现农场自动化。安坐一旁，看它为你打理一切；收集资源，解锁更尖端的科技，成为全世界效率第一的农场主。畅享游戏快乐，同时不断提高解决问题和编写代码的能力。",
-      "popularity": 9113,
+      "popularity": 9118,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2060160/8611dfa7fa50151f3c0006b5d9d1e44be9c00306/header_schinese.jpg?t=1788960388",
       "genres": [
         "休闲",
@@ -6512,7 +6607,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 27 日截止",
       "description": "《王之凝视》是一款Roguelite风格的王国建造类游戏。您需要在资源、生产、训练军队之间兼顾平衡，在每场游戏中灵活应对独一无二的事件",
-      "popularity": 9004,
+      "popularity": 9006,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2753900/1e0e62445646fdc596b48d8cdadc4f7cee59d61d/header_alt_assets_4_schinese.jpg?t=1789463313",
       "genres": [
         "独立",
@@ -6556,7 +6651,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "每日特惠！9 月 29 日截止",
       "description": "在这款开放世界角色扮演游戏中，尽情收集各路新奇怪物，在回合制战斗中变身吧。现已推出多人模式，可以线上同乐哦！《磁带妖怪》特有的融合系统，可将任意怪物形态两两组合，从而创造出独一无二的强大新怪物！",
-      "popularity": 8976,
+      "popularity": 8977,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1321440/header_schinese.jpg?t=1789482081",
       "genres": [
         "独立",
@@ -6601,7 +6696,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 24 日截止",
       "description": "粉碎！突破想象 突破一切的新生『15』！",
-      "popularity": 8396,
+      "popularity": 8399,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1498570/header.jpg?t=1742873915",
       "genres": [
         "动作"
@@ -6635,52 +6730,6 @@
       }
     },
     {
-      "appid": 1406990,
-      "name": "NEKOPARA Vol. 4",
-      "discount": 60,
-      "original_price": "¥ 42.00",
-      "final_price": "¥ 16.80",
-      "final_price_num": 16.8,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "整周特惠！ 9 月 21 日截止",
-      "description": "水无月嘉祥经营的蛋糕店\"La Soleil\"尽管大受好评，他的父亲却仍然不认可他的努力。嘉祥跟所有猫娘情人一起来到温泉度假，期间他决定去法国跟师傅求教。意想不到的是时雨也跟他同行！？然后他们在法国遇到了一只猫娘…。",
-      "popularity": 8240,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1406990/header.jpg?t=1750969102",
-      "genres": [
-        "冒险",
-        "休闲",
-        "独立"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "Steam 集换式卡牌",
-        "在手机上远程畅玩",
-        "在平板上远程畅玩"
-      ],
-      "metacritic_score": null,
-      "release_date": "2020 年 11 月 26 日",
-      "developers": [
-        "NEKO WORKs"
-      ],
-      "publishers": [
-        "Sekai Project"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/1406990",
-      "top_review": {
-        "text": "[h1]啥也不说了！看时长，玩了3年了[/h1] 非常喜欢巧克力和香草！ 一来就是口交然后内射 这一代虽然画工没进步，但是已经彻底贯彻拔作的思想了",
-        "voted_up": true,
-        "votes_up": 16,
-        "weighted_vote_score": "0.715043485164642334"
-      }
-    },
-    {
       "appid": 2144740,
       "name": "幽灵行者 2（Ghostrunner 2）",
       "discount": 80,
@@ -6691,7 +6740,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "在赛博朋克末世中冒险，体验这款令人热血贲张的第一人称视角硬核砍杀游戏。成为终极赛博忍者，与BOSS进行史诗般的决战。改进的技能系统、互动性剧情、全新的游戏模式，以及令人着迷的合成波原声配乐。",
-      "popularity": 7981,
+      "popularity": 7983,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2144740/header_schinese.jpg?t=1741369902",
       "genres": [
         "动作",
@@ -6783,7 +6832,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "你将扮演一位父亲，引导女儿在魔法国度的学园中茁壮成长。养成方式多种多样：读书学习、打工挣钱……修习剑术也是不错的出路。根据你所作出的选择，海量的故事文本可导向超过50种分支结局。来亲手养育出世界第一可爱的小公主吧！",
-      "popularity": 7634,
+      "popularity": 7636,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3562120/9b3e62dfdea2fc4edbc640a50fd904a680e13a38/header_schinese.jpg?t=1785092195",
       "genres": [
         "冒险",
@@ -6821,51 +6870,6 @@
       }
     },
     {
-      "appid": 1225570,
-      "name": "《Unravel Two》",
-      "discount": 75,
-      "original_price": "¥ 118.00",
-      "final_price": "¥ 29.50",
-      "final_price_num": 29.5,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "特别促销！9 月 28 日截止",
-      "description": "当你剪断了与过去的联系，新的纽带就会形成。",
-      "popularity": 7480,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1225570/header.jpg?t=1777389655",
-      "genres": [
-        "动作",
-        "冒险"
-      ],
-      "categories": [
-        "单人",
-        "多人",
-        "合作",
-        "同屏/分屏合作",
-        "同屏/分屏"
-      ],
-      "metacritic_score": 76,
-      "release_date": "2020 年 6 月 4 日",
-      "developers": [
-        "Coldwood Interactive"
-      ],
-      "publishers": [
-        "Electronic Arts"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/1225570",
-      "top_review": {
-        "text": "1、网络批烂，必须走EA，联机烂的一批，启动等半天，sbEA。是的这玩意名义上是可以双人玩但只能本地双人，线上只能远程同乐但网烂的一批各种折腾加速器都飘红。哦，而且不能两个手柄，只能一个手柄一个键盘，除非再搞个模拟软件。（更新一下，受不了线上ppt趁假期找对象去打完了主线本地联机两个手柄ok但远程同乐只能键盘手柄不知道什么问题）[h1] 如果是想和朋友玩而且你们线下不在一起千万慎重购买！！！[/h1] 2、[u] [b]笔记本千万别买[/b][/u] ，这啥叉游戏没有分辨率适配，笔记本我正常桌面2k的分辨率给我干成1k6x800的还没法调你就顶着糊的一批的画面玩吧，太幽默了。 2.5[b][u] 哦也没有中文你还得自己装汉化补丁。[/u] [/b] 3、挑战关卡和主线tm是一个难度吗我觉得它...",
-        "voted_up": false,
-        "votes_up": 25,
-        "weighted_vote_score": "0.770790755748748779"
-      }
-    },
-    {
       "appid": 3654560,
       "name": "植物大战僵尸™：重植版",
       "discount": 35,
@@ -6876,7 +6880,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 28 日截止",
       "description": "经典游戏《植物大战僵尸》回归，高清重制后带来赏心悦目的画面体验！植物与僵尸之间的最初大战回归，比以往任何时候都更加激烈、欢乐、疯狂！体验该系列的开山之作，现已经过高清重制，丰富的全新秘密等你发现。",
-      "popularity": 6897,
+      "popularity": 6900,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3654560/2a3015b525e5d4da6d2c1a517d0a8c1504b1eee8/header.jpg?t=1763401327",
       "genres": [
         "策略"
@@ -7014,7 +7018,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周间特惠！9 月 24 日截止",
       "description": "节奏地牢系列全新节奏游戏续作，震撼归来！意外落入怪异新世界的凯登丝，不得不拿起乐器对抗神秘裂隙中涌出的怪物大军！伴随出自 Danny Baranowsky 等优秀作曲家之手的原创配乐，迎战令人热血沸腾的节奏裂隙，每个节拍都将是一场激烈交锋。",
-      "popularity": 5841,
+      "popularity": 5844,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073250/b8a2bcb07a199227dfac59421137d2220815ee4e/header_alt_assets_13_schinese.jpg?t=1789603642",
       "genres": [
         "动作",
@@ -7061,7 +7065,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "“Monster Hunter”系列RPG第3弹！ 双龙降世，命运于此刻交织。 “Monster Hunter Stories”是一个RPG游戏系列， 玩家将会成为与怪物建立羁绊，对其加以培育并与之共存的“怪物骑士”，尽情体验“Monster Hunter”的世界。",
-      "popularity": 5605,
+      "popularity": 5607,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2852190/427b69c83e34738f437eedb94607ed79847b294e/header_schinese.jpg?t=1782425255",
       "genres": [
         "冒险",
@@ -7106,7 +7110,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "剧情RPG“轨迹”系列在 2024 年迎来 20 周年。 具有纪念性意义的系列首部作品《英雄传说 空之轨迹FC》将在完全重制后再次登场！",
-      "popularity": 5203,
+      "popularity": 5205,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3447040/header_schinese.jpg?t=1762838814",
       "genres": [
         "角色扮演"
@@ -7150,7 +7154,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "与搭档一同探索末日后幻想世界，对上强大的吸血鬼展开死战，跨越时空等级的壮阔故事──交织而成的“戏剧性探索动作RPG”。",
-      "popularity": 5192,
+      "popularity": 5195,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2362060/3a5c0e387fe2494515e9f7534a8dcecdf5df8f00/header_alt_assets_0_schinese.jpg?t=1789004237",
       "genres": [
         "动作",
@@ -7195,7 +7199,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周末特惠！剩余时间",
       "description": "备受赞誉的 狙击精英 系列游戏携新的主角特工回归。潜入被占领的法国，与法国抵抗军并肩作战，阻止纳粹开发可能改变战争进程的阴险新型奇迹武器。",
-      "popularity": 4825,
+      "popularity": 4829,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2169200/header.jpg?t=1765448187",
       "genres": [
         "动作",
@@ -7240,7 +7244,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "Trails in the Sky 1st Chapter reimagines the first chapter of a beloved series, infusing it with enhanced visuals and refined gameplay. Join Estelle and Joshua, partners bound by fate, as they unravel dark conspiracies threatening the peace of the Liberl Kingdom.",
-      "popularity": 4643,
+      "popularity": 4651,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3375780/header.jpg?t=1777572632",
       "genres": [
         "动作",
@@ -7379,7 +7383,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 26 日截止",
       "description": "《机械狂欢》是一款主打暴力美学的派对游戏合集。本作中，失败不仅仅是输掉比赛，更意味着“命丧黄泉”。召集您的冤种朋友，并在这场以命搏命的较量中，证明自己“命不该绝”吧。危险与机会共存！",
-      "popularity": 4196,
+      "popularity": 4200,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4108000/bf97e80547a68eac1ad2c481c2f64b6e276d5801/header_schinese.jpg?t=1786561627",
       "genres": [
         "动作",
@@ -7425,7 +7429,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "《使命召唤®：先锋》包含引人入胜的单人战役、拥有超过20张地图的多人游戏（其中16张专为标准多人游戏而设计），以及由Treyarch游戏工作室开发的令人兴奋的全新丧尸模式。",
-      "popularity": 4171,
+      "popularity": 4173,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1985820/header.jpg?t=1780964151",
       "genres": [
         "动作"
@@ -7470,7 +7474,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "周间特惠！9 月 21 日截止",
       "description": "通过你最爱的消遣方式，让被遗忘的街区重获新生，从打造一个个舒适的房间开始。在 焕家物语 (Hozy) 中，用令人满足的机制和直观的操作，清洁、粉刷并装饰废弃房屋。当你与工具、物品和家具互动时，享受那些让每个空间重现生机的小细节。",
-      "popularity": 4123,
+      "popularity": 4128,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3326230/dc98f08083f270c0f4fb477edbc8bda86677d207/header_alt_assets_4_schinese.jpg?t=1789564845",
       "genres": [
         "休闲",
@@ -7506,6 +7510,49 @@
       }
     },
     {
+      "appid": 3094010,
+      "name": "HENPRI",
+      "discount": 40,
+      "original_price": "¥ 92.00",
+      "final_price": "¥ 55.20",
+      "final_price_num": 55.2,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "特别促销！9 月 23 日截止",
+      "description": "主角柊一郎因为表达自我而被逮捕入狱，在由暴力主宰的制度下，他会选择抵抗还是服从？或者，尝试寻找内心的安宁与幸福。答案将在这部NUKITASHI制作团队出品的视觉小说中揭晓。",
+      "popularity": 3903,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3094010/header.jpg?t=1782462900",
+      "genres": [
+        "冒险",
+        "休闲"
+      ],
+      "categories": [
+        "单人",
+        "Steam 云",
+        "家庭共享"
+      ],
+      "metacritic_score": null,
+      "release_date": "2025 年 3 月 3 日",
+      "developers": [
+        "Qruppo"
+      ],
+      "publishers": [
+        "Shiravune"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/3094010",
+      "top_review": {
+        "text": "你这家伙，难不成是把好评如潮看成好评高潮然后在脑子里偷偷自慰的那种人？！！！",
+        "voted_up": true,
+        "votes_up": 124,
+        "weighted_vote_score": "0.922283530235290527"
+      }
+    },
+    {
       "appid": 1020790,
       "name": "NARUTO X BORUTO 火影忍者 终极风暴羁绊",
       "discount": 67,
@@ -7516,7 +7563,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "剩余时间",
       "description": "本次新加入数个可游玩角色，收录角色为系列作最多，超过130位忍者在此集合！不但以超越动画水准重新编辑鸣人与佐助的故事，还有本作才玩得到原创故事！动画「火影忍者」20周年的「终极风暴」系列终极版登场！",
-      "popularity": 3881,
+      "popularity": 3885,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1020790/header_schinese.jpg?t=1727301927",
       "genres": [
         "动作",
@@ -7548,6 +7595,53 @@
         "voted_up": false,
         "votes_up": 21,
         "weighted_vote_score": "0.740364789962768555"
+      }
+    },
+    {
+      "appid": 466130,
+      "name": "白色情人节：恐怖学校",
+      "discount": 90,
+      "original_price": "¥ 109.00",
+      "final_price": "¥ 10.90",
+      "final_price_num": 10.9,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "特别促销！9 月 26 日截止",
+      "description": "Notorious cult-classic Korean horror. Sneak into school at midnight to return your sweetheart's diary and get caught in a terrifying game of cat and mouse. Explore haunted hallways, solve classic survival horror puzzles and escape the clutches of a killer Janitor who is out for your blood.",
+      "popularity": 3807,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466130/header.jpg?t=1741786299",
+      "genres": [
+        "动作",
+        "冒险",
+        "独立"
+      ],
+      "categories": [
+        "单人",
+        "Steam 成就",
+        "Steam 集换式卡牌",
+        "应用内购买",
+        "部分支持控制器"
+      ],
+      "metacritic_score": null,
+      "release_date": "2017 年 8 月 22 日",
+      "developers": [
+        "SONNORI Corp"
+      ],
+      "publishers": [
+        "PQube",
+        "SONNORI Corp"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/466130",
+      "top_review": {
+        "text": "读小学的时候很喜欢看炮芯大怪玩恐怖游戏 当时看他玩完这个游戏还做了全结局就喜欢上了这个游戏 非常非常想玩 然后我一直在网络上搜 只能玩到试玩版 连试玩版我都能玩十几遍 完整版要到谷歌商店花钱买 我只好一直在网络上搜各种视频看 后面电脑版出来了 出了个新角色柳智敏 一眼就喜欢上了这个角色 当时只能搜到一个up主玩 苍天蓝羽 我真的记得非常清楚 想到我就去搜了一下发现视频也还在 又想起我那时候拿着手机看他打柳智敏线 一边吃我姐姐给我做的饭 我姐姐听到了柳智敏说“小英姐姐”问我是不是在看百变小樱 初中的时候玩我妈的旧手机 浏览器能搜到盗版了就一直在玩盗版 后来我姐姐不用笔记本电脑了 笔记本电脑我当时拿到手第一时间就是去网上下载这个游戏 当然是玩的盗版 但我也很开心 一整个暑假我都泡在这个游戏里 我...",
+        "voted_up": true,
+        "votes_up": 15,
+        "weighted_vote_score": "0.702970266342163086"
       }
     },
     {
@@ -7597,6 +7691,50 @@
       }
     },
     {
+      "appid": 2401970,
+      "name": "逆转检察官1&2 御剑精选集",
+      "discount": 40,
+      "original_price": "¥ 198.00",
+      "final_price": "¥ 118.80",
+      "final_price_num": 118.8,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "特别促销！9 月 21 日截止",
+      "description": "天才检察官——御剑怜侍的逆转剧，在此揭开帷幕！ 2大人气作品合二为一，重生为更易于游玩和更为华丽的合集！ 舞台从法庭转为案发现场。 在现场，由玩家自己操作角色，搜集线索。 根据与相关人士交谈得到的情报，以及找到的证物， 运用原创系统“逻辑”来应对疑难案件吧。 御剑怜侍的过去和现在互相交织，连接未来的故事就此展开！",
+      "popularity": 3402,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2401970/header_schinese.jpg?t=1768864791",
+      "genres": [
+        "冒险"
+      ],
+      "categories": [
+        "单人",
+        "Steam 成就",
+        "DUALSHOCK 控制器支持",
+        "部分支持控制器",
+        "Steam 云"
+      ],
+      "metacritic_score": 82,
+      "release_date": "2024 年 9 月 5 日",
+      "developers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "publishers": [
+        "CAPCOM Co., Ltd."
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/2401970",
+      "top_review": {
+        "text": "个人感觉逆转检事在推理逻辑上比起逆转裁判系列要顺畅很多，在玩逆转裁判系列的时候经常有因为逻辑链造成的卡关，比如有些时候玩家明明想到了这个矛盾，就剧情来说提起这个矛盾也完全合理，但是在此时出示这个证物就是不行，一定要剧情进展到讨论这条矛盾的时候才能出示这个证物，这种情况经常会打乱我的思维进程导致我卡在这里无法推进，有种强制玩家必须按照编剧的思考方式来思考的感觉。 这种现象在逆转检事里要好很多，虽然还是存在但是数量明显减少了，大部分的推理环节对我来说都很顺畅，通过搜证的结果可以自然而然地想到某条之前的线索或某个人物，画面和互动也更丰富。就视角来说也是扩充了御剑这个人物的故事和经历，让这个角色更丰满立体，总之很推荐",
+        "voted_up": true,
+        "votes_up": 52,
+        "weighted_vote_score": "0.83192366361618042"
+      }
+    },
+    {
       "appid": 1786790,
       "name": "魔法少女天穹法妮雅",
       "discount": 50,
@@ -7607,7 +7745,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 27 日截止",
       "description": "天音一直为自己活着，专注于自己的学业和日常娱乐。但是当她面对一群可怕怪物时，得到了超出人类理解的魔法之力后，她又会如何选择？是时候变身为魔法少女天穹法妮雅了！",
-      "popularity": 3099,
+      "popularity": 3100,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1786790/header_schinese.jpg?t=1749284230",
       "genres": [
         "冒险",
@@ -7687,6 +7825,55 @@
       }
     },
     {
+      "appid": 2975950,
+      "name": "索拉斯塔2",
+      "discount": 20,
+      "original_price": "¥ 138.00",
+      "final_price": "¥ 110.40",
+      "final_price_num": 110.4,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "特别促销！9 月 22 日截止",
+      "description": "在这片被魔力浸染的土地上，一股由神秘人莎德温统领的黑暗势力正威胁着尼奥科斯。集结你的冒险小队，准备好在这款基于龙与地下城 SRD 5.2 版本规则的回合制战术角色扮演游戏中征服未知的险境。请记住，选择由你，命运由骰。",
+      "popularity": 2929,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2975950/f5cfecee7b0658612f6c6fbf70a57a85a9accdcd/header_alt_assets_4.jpg?t=1789129642",
+      "genres": [
+        "冒险",
+        "独立",
+        "角色扮演",
+        "策略",
+        "抢先体验"
+      ],
+      "categories": [
+        "单人",
+        "多人",
+        "合作",
+        "在线合作",
+        "完全支持控制器"
+      ],
+      "metacritic_score": null,
+      "release_date": "2026 年 3 月 12 日",
+      "developers": [
+        "Tactical Adventures"
+      ],
+      "publishers": [
+        "Tactical Adventures",
+        "Kepler Interactive"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/2975950",
+      "top_review": {
+        "text": "给没有玩过前作的玩家一个提醒：这不是一个和博得之门3同规模的作品。如果你想体验博得之门3那种规模的沉浸式的CRPG，可能还得等神界4。这只是个战斗爽的游戏。 再给前作玩家一个定心丸：这作真的是全方位提升，无脑入就完事儿了。如果说1是除了战斗其他都不行的话，2目前为止已经算作一个各方面合格且战斗设计优秀的作品了。而且不知道是不是我的错觉，这作的施法音效感觉精致很多？",
+        "voted_up": true,
+        "votes_up": 38,
+        "weighted_vote_score": "0.787714838981628418"
+      }
+    },
+    {
       "appid": 3985950,
       "name": "轮回保险公司 R.I.P.",
       "discount": 30,
@@ -7697,7 +7884,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 30 日截止",
       "description": "重生之我在末世超度丧尸?在这款融合了射击割草与暗黑刷宝的Roguelike游戏中，与神秘的主神系统签署\"轮回协议\"，成为轮回保险公司的精英员工。你将凭借无限复活的能力深入感染区，搜集传奇装备、汲取神明之力，在无尽的轮回中不断成长——直至成为真正的救世传奇。",
-      "popularity": 2722,
+      "popularity": 2732,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3985950/7144e734b4f65358a246c10552795d9bf83a3f73/header_alt_assets_5_schinese.jpg?t=1789518622",
       "genres": [
         "动作",
@@ -7743,7 +7930,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": null,
       "description": "这一次，绝不放手—— 凄美的恐怖，幽魅羽化。",
-      "popularity": 2661,
+      "popularity": 2663,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3920610/2fc13f2592bd619b2920e682d65dafb5eeeb3773/header_schinese.jpg?t=1782174544",
       "genres": [
         "动作",
@@ -7788,8 +7975,8 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 23 日截止",
       "description": "主角橘淳之介拯救了青蓝岛，催生出新的条例。 在经历那场“战役”之后，他以“钢铁六人”其中一员的身分，成为了岛上的英雄。 他一边怀念着那场激烈的战斗，一边与NLNS的同伴们过着平稳的生活。 因为赢得了真正的共存，这样的日子将一直持续下去。 ──他本来是这么相信的。",
-      "popularity": 2575,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2614070/dc2d728e877a2fdaeb0ef1a814b95ddda6d776ed/header.jpg?t=1782462297",
+      "popularity": 2576,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2614070/792cb442f2fd72497b27f7ea458ad8120b723cb9/header_alt_assets_4.jpg?t=1782462297",
       "genres": [
         "冒险",
         "休闲"
@@ -7877,7 +8064,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "特别促销！9 月 21 日截止",
       "description": "《朝露：境界旅程》是一款拥有箱庭式地图的2D回合制游戏。在游戏中，扮演少女「露」展开冒险。冒险途中，收集并自由选择你的战斗方式，击败机制各异的敌人。随着探索推进，逐渐了解境界的历史、阻遏黑兽潮的威胁，最终击败蛰伏的滔天恶意。",
-      "popularity": 2232,
+      "popularity": 2233,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2678640/c3affbc545027548747dc8024eb49146be28d686/header_schinese.jpg?t=1789037831",
       "genres": [
         "独立",
@@ -7913,51 +8100,6 @@
       }
     },
     {
-      "appid": 2842800,
-      "name": "尸姬之梦",
-      "discount": 20,
-      "original_price": "¥ 38.00",
-      "final_price": "¥ 30.40",
-      "final_price_num": 30.4,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "剩余时间",
-      "description": "卡牌，战斗！有人惊醒了沉睡的尸姬……也许，这个世界需要为尸姬大人的起床气付出一点代价……在《尸姬之梦》中，你将扮演被惊醒的尸姬大人，尝试各种奇奇妙妙的构筑组合，发现各种强力的，奇怪的对手，然后把他们全，都，打趴下！",
-      "popularity": 2114,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2842800/f40e0723ef447af535605f1f327a7241004481c8/header.jpg?t=1785554656",
-      "genres": [
-        "冒险",
-        "独立",
-        "策略"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "Steam 云",
-        "家庭共享"
-      ],
-      "metacritic_score": null,
-      "release_date": "2026 年 1 月 11 日",
-      "developers": [
-        "HT3 Studio"
-      ],
-      "publishers": [
-        "INDIECN"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/2842800",
-      "top_review": {
-        "text": "狐狸的眩晕简直是轮椅，配合爆毒简直是无脑过。整体不错，物美价廉。最后我想直接R18，无装甲清凉化，请问制作组有没有这个考虑？都上steam了，开个创意工坊呗？",
-        "voted_up": true,
-        "votes_up": 426,
-        "weighted_vote_score": "0.959625840187072754"
-      }
-    },
-    {
       "appid": 3624140,
       "name": "吞吞堡垒 Wanderburg",
       "discount": 35,
@@ -7968,7 +8110,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 22 日截止",
       "description": "在这款极简风格的中世纪 Roguelike《吞吞堡垒》中，驾驶你的移动城堡冲入战场！吞噬整座村庄，打造模块化武装系统，并在每一次碾碎敌方要塞后不断壮大自己。",
-      "popularity": 2088,
+      "popularity": 2106,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3624140/4f199ae2a75777aa7c56e7d55caefb54dfcb5e15/header_schinese.jpg?t=1789141114",
       "genres": [
         "动作",
@@ -8016,7 +8158,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 23 日截止",
       "description": "别具一格的下落式音游！个性鲜明的角色，灵感来自“数据库”！ 化身拥有特殊能力的“解码者”，加入“白金档案”的研究行动，揭开封锁的数据世界中隐藏的秘密吧！",
-      "popularity": 1774,
+      "popularity": 1775,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3430470/e284ef646d974a3fcca523c70eb86a337dc7eeeb/header_alt_assets_0_schinese.jpg?t=1789121700",
       "genres": [],
       "categories": [
@@ -8056,7 +8198,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 24 日截止",
       "description": "精美手绘艺术风格，搭配暗黑风格Lofi音乐，温馨又恐怖的古原镇等你来探索！在这款角色扮演游戏中种田畜牧，与小镇居民成为朋友或伴侣，调查各类秘诡，装饰自己的小窝，与恐怖的生物激战，钓鱼烹饪，寻找古神，每晚睡下都有可能再也无法醒来……古原镇的生活精彩纷呈，你绝不会感到无聊！",
-      "popularity": 1272,
+      "popularity": 1299,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3195440/0fa5fadb0054ed2bb0d74c3196194fa6661908ae/header_schinese.jpg?t=1789053771",
       "genres": [
         "冒险",
@@ -8090,7 +8232,7 @@
         "text": "是相当不错的恐怖游戏，但既然Steam 的评价体系是“是否推荐”，我想了一下如果遇到买之前的我，我大概率不会推荐。 游戏在包装方面不断暗示自己是一款农场模拟游戏，许多画面构成和音效设计也仿佛在致敬星露谷物语，但如果抱着种田的心态来玩“黑暗版星露谷物语”，大概率不会得到自己想要的东西。 农场模拟只是游戏的一部分，甚至不是主要部分，用实际游戏内容来举例的话，游戏内一天大约是几十分钟，而前期你在耕地数量有限的情况下，大概只需要3分钟就能处理完所有农场工作。剩下的几十分钟都在探索地图、回合制战斗、完成任务。 这款游戏的RPG战斗是一个相当重的系统，简单来说有大约20项战斗属性和10个不同的装备栏，战斗中还会额外产生3项临时属性，并不像其他农场游戏里那样战斗只是一个轻量调味品。 游戏中战斗难度也比较高...",
         "voted_up": false,
         "votes_up": 109,
-        "weighted_vote_score": "0.882292866706848145"
+        "weighted_vote_score": "0.881950676441192627"
       }
     },
     {
@@ -8104,7 +8246,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！剩余时间",
       "description": "这是一款基于殖民地模拟的地牢爬行游戏，您要管理自己的部族，在贫瘠的土地上建立定居点，为族人提供食物和住所，带领他们深入无情的地牢，通过自己的策略战胜各种挑战。",
-      "popularity": 1113,
+      "popularity": 1121,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2798330/3ed540fb4b77fe9b981e438cad0e4dbbda99dea7/header_schinese.jpg?t=1789111099",
       "genres": [
         "模拟",
@@ -8134,53 +8276,8 @@
       "top_review": {
         "text": "目前所有想买的都等一等，这游戏更新出了问题，说着很听劝，结果选择在没有新内容时做平衡，最关键是连角色伤害怎么叠的都不知道就削，削错位置了都不知道，如果它依旧选择不更新内容一味的平衡，最近有两个游戏的结局作参考（杀戮尖塔2，深岩银河：异动核心）",
         "voted_up": false,
-        "votes_up": 28,
-        "weighted_vote_score": "0.760728240013122559"
-      }
-    },
-    {
-      "appid": 1277510,
-      "name": "Re:从零开始的异世界生活　虚假的王选候补",
-      "discount": 90,
-      "original_price": "¥ 365.00",
-      "final_price": "¥ 36.50",
-      "final_price_num": 36.5,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "剩余时间",
-      "description": "因不该存在的第六位国王候补人选的出现， 让爱蜜莉雅参选资格的真伪受到怀疑。 由原作者完全监制的游戏原创剧情， 带来另一个《Re:从零开始的异世界生活》。",
-      "popularity": 1042,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1277510/header_schinese.jpg?t=1715700857",
-      "genres": [
-        "冒险",
-        "策略"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "完全支持控制器",
-        "Steam 集换式卡牌",
-        "Steam 云"
-      ],
-      "metacritic_score": null,
-      "release_date": "2021 年 1 月 27 日",
-      "developers": [
-        "Chime Corporation"
-      ],
-      "publishers": [
-        "Spike Chunsoft Co., Ltd. "
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/1277510",
-      "top_review": {
-        "text": "默认键位是手柄的，选择第二个启动项然后设置把第一项改成keybord就可以了",
-        "voted_up": true,
-        "votes_up": 54,
-        "weighted_vote_score": "0.851701080799102783"
+        "votes_up": 30,
+        "weighted_vote_score": "0.766465723514556885"
       }
     },
     {
@@ -8194,7 +8291,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 23 日截止",
       "description": "\"《幻世录 重制版》是一款以剧情为核心的战略角色扮演游戏，让一款深受玩家珍爱的经典 SRPG 再次苏醒。 万载流转，法鲁西翁大陆于神魔大战的余烬中复苏。在暗潮涌动、和平盟约几近无效的年代，你，将升起动荡这片土地的狼烟。 本作将传统战棋策略的严谨与宏大的史诗叙事熔铸一炉。在这里，你手中的棋子不只是士兵，更是搅动世界命运的关键；每一次落子，都将在权力的漩涡与种族的宿怨中，掀起改变世界走向的狂澜。\"",
-      "popularity": 864,
+      "popularity": 877,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4030150/96f3c10eeb4e5aa7671448cb437d3fd354fa8683/header_schinese.jpg?t=1789392318",
       "genres": [
         "冒险",
@@ -8272,7 +8369,7 @@
         "text": "能做成色情游戏就好了，在来一个邪线可惜可惜不喜欢道貌岸然的主角",
         "voted_up": true,
         "votes_up": 766,
-        "weighted_vote_score": "0.934046328067779541"
+        "weighted_vote_score": "0.934044063091278076"
       }
     },
     {
@@ -8286,7 +8383,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "每日特惠！9 月 30 日截止",
       "description": "“美德传奇f”变得更加绚丽、更加易于游玩后，再次问世！ 同时收录本篇之后的后日谈“迈向未来的系谱篇”！ 闪耀的刀光，即将再次开辟新的未来——",
-      "popularity": 772,
+      "popularity": 773,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2530980/header_schinese.jpg?t=1739758056",
       "genres": [
         "动作",
@@ -8318,6 +8415,98 @@
         "voted_up": true,
         "votes_up": 38,
         "weighted_vote_score": "0.802421808242797852"
+      }
+    },
+    {
+      "appid": 3971950,
+      "name": "In Falsus",
+      "discount": 10,
+      "original_price": "¥ 166.00",
+      "final_price": "¥ 149.40",
+      "final_price_num": 149.4,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "首发优惠！9 月 23 日截止",
+      "description": "在被真实裹挟的世界里，「连接」。《In Falsus》将细致的卡牌系统与层层递进的剧情紧密结合，是一款魅力独特的节奏游戏。通过五位主角的不同视角体验相互交织的故事，享受深刻反映剧情的各式乐曲，纵身沉浸于近未来的鲜艳世界之中。",
+      "popularity": 770,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/d60e71e91ee1e1b3edbdeed13e52e3423727be7a/header.jpg?t=1789039342",
+      "genres": [
+        "动作",
+        "独立"
+      ],
+      "categories": [
+        "单人",
+        "Steam 成就",
+        "自定义音量控制",
+        "可调整难度",
+        "随时保存"
+      ],
+      "metacritic_score": null,
+      "release_date": "2026 年 9 月 9 日",
+      "developers": [
+        "lowiro"
+      ],
+      "publishers": [
+        "lowiro"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/3971950",
+      "top_review": {
+        "text": "勉强过了第一章剧情的ULT11，简单写一下阶段性感想，后期更新可能性微存 音游玩法： 1. 我对玩法倒是没有太大的意见，毕竟iidx dp那种对抗手指的强挫败感游戏也这么一路打过来了。不如说最开始的左3切右3引入给我带来的体验反而还不错。但是从FBD难度开始引入了大小键，本身需要位移手指的4K部分变得更加难读。光从谱面本身看我是觉得很工整，就是我有点读不了 2. 我一直很欣赏lowiro的谱面团队，功底好+表达欲强，但我目前认为问题就出在这个表达欲强上。ULT和FBD的谱面是一种堆料的状态，同屏50万个五颜六色的东西一块掉下来，很难不手忙脚乱。部分谱面肉眼可见的有Arcaea的痕迹，比如说鼠标控制的轨画个弧绕开下面的note（早期SDVX爱写），可以理解成一种照顾可读性的设计，但看到了还是会...",
+        "voted_up": true,
+        "votes_up": 34,
+        "weighted_vote_score": "0.807473659515380859"
+      }
+    },
+    {
+      "appid": 2402680,
+      "name": "迪姆雷斯",
+      "discount": 10,
+      "original_price": "¥ 82.00",
+      "final_price": "¥ 73.80",
+      "final_price_num": 73.8,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "首发优惠！9 月 22 日截止",
+      "description": "一款支持 1–8 人游玩的奇幻像素RPG。 在八大种族与六种职业中塑造你的角色，自由成长并搭配技能。探索古老大陆、精通元素战斗、与伙伴建立羁绊，打造属于你的家园。在 迪姆雷斯的命运之战中，无论独自踏上征程还是与朋友同行，你都能找到属于自己的乐趣。",
+      "popularity": 769,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2402680/8fe3923c10dfda28e5a41c5a501aedc4909966a7/header.jpg?t=1789584092",
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演",
+        "抢先体验"
+      ],
+      "categories": [
+        "单人",
+        "多人",
+        "合作",
+        "在线合作",
+        "Steam 成就"
+      ],
+      "metacritic_score": null,
+      "release_date": "2026 年 9 月 15 日",
+      "developers": [
+        "Mudtek"
+      ],
+      "publishers": [
+        "Mudtek"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/2402680",
+      "top_review": {
+        "text": "游戏内容比较丰富，可玩性也比较不错 但是单人游戏比多人游戏体验差太多了吧 多人游戏主线共享就不说啥了，爆率高了一大截 多人游戏4级就开始爆蓝装了 单人游戏10级没见过蓝色的 POE2这个沟槽的组队游戏还在追我",
+        "voted_up": false,
+        "votes_up": 51,
+        "weighted_vote_score": "0.824449837207794189"
       }
     },
     {
@@ -8365,98 +8554,6 @@
       }
     },
     {
-      "appid": 3971950,
-      "name": "In Falsus",
-      "discount": 10,
-      "original_price": "¥ 166.00",
-      "final_price": "¥ 149.40",
-      "final_price_num": 149.4,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "首发优惠！9 月 23 日截止",
-      "description": "在被真实裹挟的世界里，「连接」。《In Falsus》将细致的卡牌系统与层层递进的剧情紧密结合，是一款魅力独特的节奏游戏。通过五位主角的不同视角体验相互交织的故事，享受深刻反映剧情的各式乐曲，纵身沉浸于近未来的鲜艳世界之中。",
-      "popularity": 759,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3971950/d60e71e91ee1e1b3edbdeed13e52e3423727be7a/header.jpg?t=1789039342",
-      "genres": [
-        "动作",
-        "独立"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "自定义音量控制",
-        "可调整难度",
-        "随时保存"
-      ],
-      "metacritic_score": null,
-      "release_date": "2026 年 9 月 9 日",
-      "developers": [
-        "lowiro"
-      ],
-      "publishers": [
-        "lowiro"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/3971950",
-      "top_review": {
-        "text": "勉强过了第一章剧情的ULT11，简单写一下阶段性感想，后期更新可能性微存 音游玩法： 1. 我对玩法倒是没有太大的意见，毕竟iidx dp那种对抗手指的强挫败感游戏也这么一路打过来了。不如说最开始的左3切右3引入给我带来的体验反而还不错。但是从FBD难度开始引入了大小键，本身需要位移手指的4K部分变得更加难读。光从谱面本身看我是觉得很工整，就是我有点读不了 2. 我一直很欣赏lowiro的谱面团队，功底好+表达欲强，但我目前认为问题就出在这个表达欲强上。ULT和FBD的谱面是一种堆料的状态，同屏50万个五颜六色的东西一块掉下来，很难不手忙脚乱。部分谱面肉眼可见的有Arcaea的痕迹，比如说鼠标控制的轨画个弧绕开下面的note（早期SDVX爱写），可以理解成一种照顾可读性的设计，但看到了还是会...",
-        "voted_up": true,
-        "votes_up": 34,
-        "weighted_vote_score": "0.807473659515380859"
-      }
-    },
-    {
-      "appid": 2402680,
-      "name": "迪姆雷斯",
-      "discount": 10,
-      "original_price": "¥ 82.00",
-      "final_price": "¥ 73.80",
-      "final_price_num": 73.8,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "首发优惠！9 月 22 日截止",
-      "description": "一款支持 1–8 人游玩的奇幻像素RPG。 在八大种族与六种职业中塑造你的角色，自由成长并搭配技能。探索古老大陆、精通元素战斗、与伙伴建立羁绊，打造属于你的家园。在 迪姆雷斯的命运之战中，无论独自踏上征程还是与朋友同行，你都能找到属于自己的乐趣。",
-      "popularity": 675,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2402680/8fe3923c10dfda28e5a41c5a501aedc4909966a7/header.jpg?t=1789584092",
-      "genres": [
-        "动作",
-        "冒险",
-        "角色扮演",
-        "抢先体验"
-      ],
-      "categories": [
-        "单人",
-        "多人",
-        "合作",
-        "在线合作",
-        "Steam 成就"
-      ],
-      "metacritic_score": null,
-      "release_date": "2026 年 9 月 15 日",
-      "developers": [
-        "Mudtek"
-      ],
-      "publishers": [
-        "Mudtek"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/2402680",
-      "top_review": {
-        "text": "游戏内容比较丰富，可玩性也比较不错 但是单人游戏比多人游戏体验差太多了吧 多人游戏主线共享就不说啥了，爆率高了一大截 多人游戏4级就开始爆蓝装了 单人游戏10级没见过蓝色的 POE2这个沟槽的组队游戏还在追我",
-        "voted_up": false,
-        "votes_up": 40,
-        "weighted_vote_score": "0.79707258939743042"
-      }
-    },
-    {
       "appid": 1924170,
       "name": "TT Isle Of Man: Ride on the Edge 3",
       "discount": 95,
@@ -8467,7 +8564,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "每日特惠！9 月 29 日截止",
       "description": "摩托车爱好者的标志性赛道。200公里的开放公路可供练习。充满挑战性的物理效果。一款为最佳车手而生的模拟游戏。",
-      "popularity": 653,
+      "popularity": 658,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1924170/header.jpg?t=1764149285",
       "genres": [
         "竞速",
@@ -8513,7 +8610,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 23 日截止",
       "description": "白天，你是2012年纽约一家DVD店的经营者；夜晚，你则化身为冷酷无情的刺客。《BLACKWOOD》是一款极具电影质感的第三人称射击游戏，融合了写实的近战格斗、残暴的终结技以及灵敏顺畅的射击体验，让你在双重身份间游走博弈。",
-      "popularity": 392,
+      "popularity": 518,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3639070/86eb06cf8dad642dacb7b5c4944515ff48c4cd3a/header.jpg?t=1789583129",
       "genres": [
         "动作",
@@ -8546,8 +8643,8 @@
       "top_review": {
         "text": "做成这样还好意思卖这么贵 也是没谁了 你硬塞做的跟屎一样的近战和刀战还有录像店模拟经营也就算了 枪战还那么屎 我都比男主打的准 都天天枪战的人了 掩体都用不明白 就拿开头的汽车来说 车头车尾的半身掩体一瞄准就非得把整个身体漏出来 这游戏也就值30块钱到头了 舔着脸敢卖那么贵 唯一效果还不错的就是帮助拍电影的片段 模仿的美术馆枪战的片段",
         "voted_up": false,
-        "votes_up": 1,
-        "weighted_vote_score": "0.511278212070465088"
+        "votes_up": 4,
+        "weighted_vote_score": "0.556163191795349121"
       }
     },
     {
@@ -8561,7 +8658,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 29 日截止",
       "description": "在这款宠物收集的自走棋游戏中，收集各种斗灵，组建斗灵梦之队，进化独具特色的“斗灵，探索致命的技能协同，构建最强队伍，在快节奏的爽快对战中，击败其他玩家，成为最强训灵师！",
-      "popularity": 290,
+      "popularity": 313,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4557380/49e014590d388d8c3374cc530bfb4424086cce4b/header_schinese.jpg?t=1789470804",
       "genres": [
         "休闲",
@@ -8592,8 +8689,8 @@
       "top_review": {
         "text": "开发者为了防止卡池臃肿所以选择划分区域，这是可预见的决策。但是这样做约等于砍掉一半策略深度了，我感觉只是多玩一遍demo而已，没有什么惊喜感。我更期待的是在局内可以花钱切换区域，还有把2*3棋盘换成3*3，这样往后加东西也好加。 总的来说，中规中矩吧，顶多算个缩水版小小巴扎。",
         "voted_up": true,
-        "votes_up": 6,
-        "weighted_vote_score": "0.613826632499694824"
+        "votes_up": 9,
+        "weighted_vote_score": "0.653920590877532959"
       }
     },
     {
@@ -8607,7 +8704,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 19 日截止",
       "description": "《地下城竞技场》是一款支持 1–4人游玩 的动作肉鸽游戏。数十位英雄任你选择，自由搭配上百种技能与遗物，构筑属于自己的战斗流派。无论独自闯关，还是叫上好友并肩作战，都能在一波接一波的敌潮中杀出重围，体验丰富的BD玩法，挑战强敌与Boss！",
-      "popularity": 209,
+      "popularity": 221,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4246640/dbb0cf0c8c248f5405a7b92b8f5e06b22ff2e943/header_schinese.jpg?t=1789128531",
       "genres": [
         "动作",
@@ -8637,8 +8734,8 @@
       "top_review": {
         "text": "压力值就是败笔，你怪物出怪点就一个，有boss逃跑，你追压力值就会爆，不打就没奖励，你自己选？？？还有出怪不会去追你，真恶心",
         "voted_up": false,
-        "votes_up": 9,
-        "weighted_vote_score": "0.619630277156829834"
+        "votes_up": 10,
+        "weighted_vote_score": "0.632681548595428467"
       }
     },
     {
@@ -8652,7 +8749,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 28 日截止",
       "description": "不知不觉，生活和房间都变得一团乱？别担心，马上就会焕然一新！在《焕然一新的收纳生活》中，成为一名收纳师。整理房间、收纳物品，让杂乱的空间重现秩序。在轻松沉浸的整理过程中，倾听隐藏在杂乱背后的温情故事；在和解与自我成长中，释放长久累积的压力。体验治愈解压的收纳之旅，让心情与生活一同焕然一新。",
-      "popularity": 203,
+      "popularity": 213,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4300090/5d95d01b5ea3f5a3e2e9020f027465d947055880/header_schinese.jpg?t=1789481635",
       "genres": [
         "休闲",
@@ -8684,8 +8781,8 @@
       "top_review": {
         "text": "收纳逻辑像是没做过家务的人、没有用心布置过周围生活环境的人。 图一一堆植物，你奶奶小心翼翼躲开左脚一堆书，右脚躲开一堆仙人掌下楼。出个门仿佛穿越热带雨林，硕大个冰箱里面只能放6个食物相关物品。画那么大个冰箱是干嘛？？？甚至还是坏冰箱，我直接一个洒水壶塞进去。 图二，一个主播的家，粉粉可爱，你就忘不了你这雷霆大破铜烂铁洒水壶和园艺工具。你多画点女孩的美丽小废物小物件呢？ 图三，我都没打到，为什么呢，主播家93%装饰完成度，死活找不到剩下那个。搞了半天原来是扎了你奶奶脚的仙人球要放卧室！ 非要摆你这个雷霆洒水壶、雷霆粉色臭手套、雷霆营养土袋、就连二次元流浪汉出来流浪都要带着你那园艺铲子。 开庭也带着你这雷霆园艺套装好吧！！ 紧接着你奶奶的麻将杂志又出现在图书馆、一个现代派对非要放茶杯、各种懒得画...",
         "voted_up": false,
-        "votes_up": 25,
-        "weighted_vote_score": "0.767401993274688721"
+        "votes_up": 26,
+        "weighted_vote_score": "0.772689163684844971"
       }
     },
     {
@@ -8699,7 +8796,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 24 日截止",
       "description": "叠加逆天连携，直到你的队伍足以弑神。在这款回合制战术 Roguelite 中，统领一支英雄队伍，构筑强力的连携组合，并在一次次冒险中不断成长。单人或合作挑战诸神，败北只是又一次新的开始。",
-      "popularity": 178,
+      "popularity": 186,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3560360/95afd9e30101e40d544899eb9968d9d02236ae59/header_alt_assets_0.jpg?t=1789055128",
       "genres": [
         "独立",
@@ -8745,7 +8842,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 28 日截止",
       "description": "人类已经消失，只剩忙忙碌碌的米粒！在增量放置点击的过程中壮大族群，采集资源、培育树干、制造设施、扩散分工，并应对各类随机事件，让文明在郁郁葱葱的树冠之间繁衍生息，把桌面变成小家伙们的游乐场。",
-      "popularity": 154,
+      "popularity": 165,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4573090/70a01e25507c30b244a60c939416391a326503a7/header_schinese.jpg?t=1789477558",
       "genres": [
         "休闲",
@@ -8779,53 +8876,7 @@
         "text": "整体是很不错的休闲挂机游戏！推荐！我会成为忠诚的米粒资本家！ 先说好评 1、鼠标放上去就算连点特别好 拯救腱鞘炎了属于是 2、转生系统（微波炉里转生好可爱）虽然前期要重新来，但其实挂1h左右又可以转生了，比较友好，而且技能数越转越多，后期能带资源转生也很棒，狠狠拯救牛马米粒 3、画风很喜欢，大树越来越大，满屏忙碌正反馈很可爱，上头！ 不足： 1、引导需优化。举例子转生系统分支好多，希望针对科技、市场、考古有更详细的解释，不然初期会有点懵逼， 2、转生每次都从头开始，容易刚爽上没多久又要舍弃目前四位数的刺激从0开始，有点消耗热情，不过后面能带资源转生就缓解很多了 3、米粒们能搬砖的事情有限，内容上有点少，希望后续添加",
         "voted_up": true,
         "votes_up": 5,
-        "weighted_vote_score": "0.545828461647033691"
-      }
-    },
-    {
-      "appid": 4821420,
-      "name": "赌石之王",
-      "discount": 10,
-      "original_price": "¥ 32.00",
-      "final_price": "¥ 28.80",
-      "final_price_num": 28.8,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "首发优惠！9 月 25 日截止",
-      "description": "《赌石之王》是一款的休闲模拟经营游戏，在游戏之中玩家将面对各种翡翠的原石，玩家在游戏之中需要不断的刮开翡翠的表面，从中你开出的翡翠都是不同的，制作各个大小的翡翠，进行出售，赚取更多的金币。",
-      "popularity": 147,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4821420/44f2b27b40db79fbd9db20662c7320a0aab88280/header.jpg?t=1789129438",
-      "genres": [
-        "休闲",
-        "独立",
-        "模拟",
-        "策略"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "Steam 排行榜",
-        "家庭共享"
-      ],
-      "metacritic_score": null,
-      "release_date": "2026 年 9 月 11 日",
-      "developers": [
-        "909Game"
-      ],
-      "publishers": [
-        "lvlv"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/4821420",
-      "top_review": {
-        "text": "赌石根本没体现赌的部分，披着模拟经营的皮但是完全可以分类到卡牌肉鸽游戏 ①原石的价钱基本没有波动（对于几回合后几万几万来说） ②成品的价钱基本靠天赋和道具来提高，完全没有赌的成分 ③切石的过程也不合理，没有切片，你的石头就是一个平面？甚至你还能修裂纹 综上所述由于没有赌的成分，区别只在于赚多赚少，所以玩的没意思，我的游戏时长起码证明我认真去玩过了，但我还是不推荐，甚至想做好得大改",
-        "voted_up": false,
-        "votes_up": 42,
-        "weighted_vote_score": "0.824366390705108643"
+        "weighted_vote_score": "0.550927340984344482"
       }
     },
     {
@@ -8839,7 +8890,7 @@
       "discount_expires_at": null,
       "discount_deadline_text": "首发优惠！9 月 29 日截止",
       "description": "想活命？从车尾一路杀到车头！暴风雪正撕裂幽闭的车厢，噤声步入逼仄的死角，直面成群狂暴化嗜血的——“玩具熊”？枪声只会引来更疯狂的扑咬，极寒正舔噬着体温，是哆嗦着将身上仅存的子弹压进弹匣，还是死抠最后的筹码修车防冻。收起多余的同情，在这场血肉狂欢里趟出一条活路！",
-      "popularity": 105,
+      "popularity": 125,
       "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4132890/62b9d4ed0a368abca5eef6d488edac0db1fb7749/header_schinese.jpg?t=1789568688",
       "genres": [
         "动作",
@@ -8871,8 +8922,55 @@
       "top_review": {
         "text": "预期说是生化危机 不如说是老使命召唤的僵尸模式 把主角关在小空间里然后封门放僵尸刷波次 但是生化危机与使命召唤的僵尸模式几乎没有给玩家这么狭小的空间以及随机的刷怪位置 你刷怪至少得合理点吧 从列车通风管道或者列车底部钻上来 直接从空气里随机生成然后把每次周旋的地方缩小到令人发指不是硬核的借口",
         "voted_up": false,
-        "votes_up": 15,
-        "weighted_vote_score": "0.660846710205078125"
+        "votes_up": 19,
+        "weighted_vote_score": "0.686158537864685059"
+      }
+    },
+    {
+      "appid": 4225980,
+      "name": "空之轨迹 the 2nd",
+      "discount": 10,
+      "original_price": "¥ 298.00",
+      "final_price": "¥ 268.20",
+      "final_price_num": 268.2,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "首发优惠！9 月 23 日截止",
+      "description": "《空之轨迹 the 2nd》为故事RPG《空之轨迹 the 1st》的正统续作。本作描绘了少女艾丝蒂尔为了寻找在前作结局中突然不见踪影的少年约书亚，踏上全新旅程的故事。",
+      "popularity": 0,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4225980/7e2f29dcf817ea28698ed1e27f4b86c98ebf1aa3/header_schinese.jpg?t=1789409245",
+      "genres": [
+        "动作",
+        "冒险",
+        "角色扮演"
+      ],
+      "categories": [
+        "单人",
+        "Steam 成就",
+        "完全支持控制器",
+        "推荐使用手柄",
+        "DUALSHOCK 控制器支持"
+      ],
+      "metacritic_score": null,
+      "release_date": "2026 年 9 月 16 日",
+      "developers": [
+        "Nihon Falcom"
+      ],
+      "publishers": [
+        "Nihon Falcom",
+        "GungHo Online Entertainment America, Inc."
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/4225980",
+      "top_review": {
+        "text": "好久不见，SC……不，应该称呼你2nd吧。上次见面，还是十五年之前吧……竟然做到这种程度吗……不，应该说如果是你的话，能做到这种程度才是应该的吧。看来演员们已经到齐了，对于「那件事」，就稍微夸赞你一下吧。 「沒有那個必要！在「台面上的」那家公司更新8.0之前，我是不会回应你的呼唤的！」",
+        "voted_up": true,
+        "votes_up": 54,
+        "weighted_vote_score": "0.854221343994140625"
       }
     },
     {
@@ -8963,7 +9061,54 @@
         "text": "世界上最可爱的游戏之一，当它出现在steam的那一天起我就知道这个游戏我必须狠狠购入。画风萌英配好，小道具的交互也做得特别可爱，光标移动到地上的叶子会吹起叶子、移动到扫把它会开始扫地、移动到茶杯甚至会把茶水喝干净、、、太可爱了太萌了，光影配乐也是很放松的感觉、、、总之给到一个夯！游戏甚至有中配但我还没敢尝试 嗯",
         "voted_up": true,
         "votes_up": 6,
-        "weighted_vote_score": "0.565373539924621582"
+        "weighted_vote_score": "0.542011022567749023"
+      }
+    },
+    {
+      "appid": 3572800,
+      "name": "友尽大冒险",
+      "discount": 20,
+      "original_price": "¥ 46.00",
+      "final_price": "¥ 36.80",
+      "final_price_num": 36.8,
+      "discount_expiration": null,
+      "discount_expires_at": null,
+      "discount_deadline_text": "首发优惠！9 月 30 日截止",
+      "description": "你们的羁绊就是最强大的武器！与朋友组队，通过回答关于彼此的、意外深入的有趣问题来击败怪物，一边构筑卡组，一边探索瞬息万变的世界。你们的关系，能扛过这场终极考验吗？",
+      "popularity": 0,
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3572800/5b1da2ee2f70b150d27f551b22922b328c4155ab/header.jpg?t=1789614642",
+      "genres": [
+        "休闲",
+        "独立",
+        "策略"
+      ],
+      "categories": [
+        "多人",
+        "合作",
+        "同屏/分屏合作",
+        "同屏/分屏",
+        "完全支持控制器"
+      ],
+      "metacritic_score": null,
+      "release_date": "2026 年 9 月 16 日",
+      "developers": [
+        "1+1 Studios"
+      ],
+      "publishers": [
+        "Rising Tide",
+        "Electronic Sheep Games"
+      ],
+      "platforms": {
+        "windows": true,
+        "mac": false,
+        "linux": false
+      },
+      "url": "https://store.steampowered.com/app/3572800",
+      "top_review": {
+        "text": "刚发售就和对象火急火燎通关了。 画风挺可爱的，音乐也不错。本地化翻译也挺好的。 卡组方面，职业比较多样，流派也各有特色，但是我和对象直接战士加法师吸血dot流杀穿了，打怪和卡组构筑方面比塔二体验舒服很多。塔二双人纯坐牢来的（） 但是在走格子的选择方面重复度有点高，感觉分支决策的影响在游戏里不是很关键，有的时候会有两个购物这种，只能只看不买了。 但是本身特色玩法是回答问题，这个做的还是很独特很棒的，各种问题都有分类，有的问题确实能更加了解对方，除了情侣也适合老朋友或者新交的朋友，总之是个很休闲愉快的交友卡牌游戏。 两个人里面只要有一个稍微有一点卡牌游戏经验就能玩的很快，没有经验也很简单易懂。 超级推荐！",
+        "voted_up": true,
+        "votes_up": 2,
+        "weighted_vote_score": "0.523809552192687988"
       }
     },
     {
@@ -9008,146 +9153,10 @@
       },
       "url": "https://store.steampowered.com/app/3891400",
       "top_review": {
-        "text": "动画太浪费时间了，能不能加上店铺设备升级系统，倒酒的动画真的太磨叽了。还有跳过酿酒小游戏，跳过切冰块小游戏，加上葡萄酒啤酒升级以后解锁自动，开葡萄酒无聊摇多了还犯腱鞘炎手腕疼。还有，碎冰和大冰块是不是完全没用啊。和魔药小铺一样画风很好看，但是作为经营游戏玩着体验实在太拉了，忙不起来也爽不起来，作为卖立绘的游戏，顾客拿到酒的评价又没做差分，所有人共用同一套语言系统，只有喝完酒说的一句话不一样，而且还要你再浪费时间多点一次。貌似顾客也没有做偏爱的口味区分，或者这点因为都是乱七八糟的酒随便倒进去点数足够就满意了我没看出来，老爹系列的顾客都有自己喜欢吃的东西",
+        "text": "动画太浪费时间了，能不能加上店铺设备升级系统，倒酒的动画真的太磨叽了。还有跳过酿酒小游戏，跳过切冰块小游戏，加上葡萄酒啤酒升级以后解锁自动，开葡萄酒无聊摇多了还犯腱鞘炎手腕疼。还有，碎冰和大冰块是不是完全没用啊。和魔药小铺一样画风很好看，但是作为经营游戏玩着体验实在太拉了，忙不起来也爽不起来，作为卖立绘的游戏，顾客拿到酒的评价又没做差分，所有人共用同一套语言系统，只有喝完酒说的一句话不一样，而且还要你再浪费时间多点一次。貌似顾客也没有做偏爱的口味区分，或者这点因为都是乱七八糟的酒随便倒进去点数足够就满意了我没看出来，老爹系列的顾客都有自己喜欢吃的东西。建议把顾客拿到酒那句琼浆玉露的评价删了直接改成喝完酒要走的时候说的那句，喝完酒直接走别在那硬杵着等玩家点他们一下，现在不知道是不是想强行点题一...",
         "voted_up": false,
-        "votes_up": 9,
-        "weighted_vote_score": "0.60467153787612915"
-      }
-    },
-    {
-      "appid": 3572800,
-      "name": "友尽大冒险",
-      "discount": 20,
-      "original_price": "¥ 46.00",
-      "final_price": "¥ 36.80",
-      "final_price_num": 36.8,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "首发优惠！9 月 30 日截止",
-      "description": "你们的羁绊就是最强大的武器！与朋友组队，通过回答关于彼此的、意外深入的有趣问题来击败怪物，一边构筑卡组，一边探索瞬息万变的世界。你们的关系，能扛过这场终极考验吗？",
-      "popularity": 0,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3572800/5b1da2ee2f70b150d27f551b22922b328c4155ab/header.jpg?t=1789567227",
-      "genres": [
-        "休闲",
-        "独立",
-        "策略"
-      ],
-      "categories": [
-        "多人",
-        "合作",
-        "同屏/分屏合作",
-        "同屏/分屏",
-        "完全支持控制器"
-      ],
-      "metacritic_score": null,
-      "release_date": "2026 年 9 月 16 日",
-      "developers": [
-        "1+1 Studios"
-      ],
-      "publishers": [
-        "Rising Tide",
-        "Electronic Sheep Games"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/3572800",
-      "top_review": {
-        "text": "挺有新意的的卡牌联机游戏，把怪物打到一定程度后要靠答题才能继续输出。不过题库最好能支持网络导入或者创意工坊，现在题量偏少，第一关打到boss就遇到重复题了。另外有些细节希望还能再打磨一下，比如选好问题组合牌之后，在选择问题的界面看不到羁绊组合技能，只能在选牌的时候看。对我这种第一次玩、记不住羁绊组合技能的人来说，这一点很不友好。",
-        "voted_up": true,
-        "votes_up": 2,
-        "weighted_vote_score": "0.523809552192687988"
-      }
-    },
-    {
-      "appid": 3275400,
-      "name": "PATLABOR the Case Files",
-      "discount": 10,
-      "original_price": "¥ 128.00",
-      "final_price": "¥ 115.20",
-      "final_price_num": 115.2,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "首发优惠！9 月 30 日截止",
-      "description": "在这款家用主机3D动作游戏中，再次体验《Mobile Police PATLABOR》中的经典场景。 从双重视角体验游戏：在主线任务中作为特车二课执行任务，在Another Side任务中则从其对手的视角进行游戏。 在模拟器模式中磨练驾驶技巧，挑战射击训练和Labor之间的对战。",
-      "popularity": 0,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3275400/8ccbb76edf116563e371af0ff0fa12f255c527fd/header_schinese.jpg?t=1789570531",
-      "genres": [
-        "动作"
-      ],
-      "categories": [
-        "单人",
-        "Steam 成就",
-        "完全支持控制器",
-        "推荐使用手柄",
-        "DUALSHOCK 控制器支持"
-      ],
-      "metacritic_score": null,
-      "release_date": "2026 年 9 月 16 日",
-      "developers": [
-        "Chime"
-      ],
-      "publishers": [
-        "GOOD SMILE COMPANY "
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": false
-      },
-      "url": "https://store.steampowered.com/app/3275400",
-      "top_review": {
-        "text": "谢谢你让我在2026年玩到了20年前的游戏，尊敬的gsc株式会社,如果不是为了适应这个天才般的战斗系统和剧场版2这关要找钥匙我甚至能在超出退款时间前打完剧情全流程，有这钱确实不如加点买个moderoid支持",
-        "voted_up": false,
-        "votes_up": 3,
-        "weighted_vote_score": "0.542462766170501709"
-      }
-    },
-    {
-      "appid": 3199470,
-      "name": "炎拳天使",
-      "discount": 10,
-      "original_price": "¥ 59.00",
-      "final_price": "¥ 53.10",
-      "final_price_num": 53.1,
-      "discount_expiration": null,
-      "discount_expires_at": null,
-      "discount_deadline_text": "首发优惠！9 月 22 日截止",
-      "description": "这是什么？一款疯狂且刺激的蒸汽朋克风格平台跳跃游戏，操作炎拳天使在空中横冲直撞，连环弹射吧！由《Teslagrad》（中文译名：特斯拉学徒）系列团队倾情打造！以及与《恋爱从离别开始》的制作人老王联合推出！",
-      "popularity": 0,
-      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3199470/40c7ad4a5734b5a1515140893c8c4d8aa8e0ab21/header.jpg?t=1789455614",
-      "genres": [
-        "动作",
-        "冒险"
-      ],
-      "categories": [
-        "单人",
-        "多人",
-        "玩家对战",
-        "同屏/分屏玩家对战",
-        "合作"
-      ],
-      "metacritic_score": null,
-      "release_date": "2026 年 9 月 15 日",
-      "developers": [
-        "Rain Games"
-      ],
-      "publishers": [
-        "Rain Games"
-      ],
-      "platforms": {
-        "windows": true,
-        "mac": false,
-        "linux": true
-      },
-      "url": "https://store.steampowered.com/app/3199470",
-      "top_review": {
-        "text": "[h1] 总评: 一款匠心之作，还需小修打磨但底子很好 [/h1] （我可能会随着我的游戏进程持续更新这篇评测喵） 优点: 1.画面风格独特，充满怀旧感，足够引人注目 2.音乐很劲，事实证明一个好的音乐和音效对于游戏来讲是非常重要的 3.打击感上佳 4.探索奖励较为丰富，每个关卡都有不小于三个的收藏品，并且大部分都不影响主要的游戏进程 5.关卡数量较多，基本可以保守估计全收集能至少提供二十、三十小时往上的游玩时长，玩法多样 6.故事整体浅显轻松，对话风格幽默，[strike] 梗还挺多 [/strike]，[spoiler]（经过一些了解，该游戏的世界观与《特斯拉学徒》是同一个，嗯~这或许会使得某些内容带有更多的深度与内涵，不过我并不认为这会影响整体的轻松风格）[/spoiler] 缺点: ...",
-        "voted_up": true,
-        "votes_up": 15,
-        "weighted_vote_score": "0.71279376745223999"
+        "votes_up": 10,
+        "weighted_vote_score": "0.617112576961517334"
       }
     }
   ]
